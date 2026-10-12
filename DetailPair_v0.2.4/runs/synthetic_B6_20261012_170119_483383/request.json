@@ -1,0 +1,5 @@
+{
+  "command": "synthetic",
+  "device": "cpu",
+  "variant": "B6"
+}

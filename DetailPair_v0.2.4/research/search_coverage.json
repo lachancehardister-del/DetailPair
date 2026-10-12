@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-10",
+  "web_calls": 11,
+  "returned_reference_occurrences": 220,
+  "unique_returned_references": 220,
+  "direct_requests": 5,
+  "direct_successes": 5,
+  "raw_web_sha256": "428a66938c963bb0fbbf5ad8da43b91e448549e3bda4e43a32f0e3d97aa9e71f",
+  "raw_web_location": "research_cache/v04/web_raw_20261010.json (workspace evidence archive)",
+  "scope": "Targeted narrative novelty audit; ranked and irrelevant search results retained; not exhaustive bibliographic database search; no PRISMA counts or novelty probability"
+}

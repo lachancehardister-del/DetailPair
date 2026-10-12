@@ -1,0 +1,6 @@
+{
+  "status": "completed",
+  "kind": "SYNTHETIC_PLUMBING_ONLY",
+  "weights": "/workspace/DetailPair/DetailPair_v0.2.4/runs/synthetic_B6_20261012_170119_483383/training/weights/best.pt",
+  "data": "/workspace/DetailPair/DetailPair_v0.2.4/runs/synthetic_B6_20261012_170119_483383/synthetic_data/data.yaml"
+}

@@ -1,0 +1,5 @@
+Overriding model.yaml nc=80 with nc=2
+Overriding model.yaml nc=80 with nc=2
+Overriding model.yaml nc=80 with nc=2
+Overriding model.yaml nc=80 with nc=2
+{"haar_projection_equals_stride2_kernel2": true, "allpass_counterexample_losses": [0.8985412120819092, 0.4492706060409546, 0.009983779862523079, 0.0], "sign_ambiguity": true, "shift_control": true, "fft_stop_gradient": true, "paired_perturbation_replay": true, "parameter_match": {"target_parameters": 3696, "actual_parameters": 3624, "mid_channels": 20, "scope": "layer parameters only; measure actual latency separately"}}

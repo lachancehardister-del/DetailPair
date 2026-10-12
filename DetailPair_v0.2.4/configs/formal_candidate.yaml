@@ -1,0 +1,16 @@
+# Do not run formal experiments before data/source audit and pilot decision.
+# This schedule covers implemented B0-B6 and an SPD operator comparator.
+version: 0.2.0
+purpose: proposed_formal_schedule_not_yet_authorized_as_final_protocol
+model: yolo11n.yaml
+replace_layer: 1
+initialization: scratch
+imgsz: 320
+batch: 2
+epochs: 150
+seeds: [0, 1, 2]
+train_limit: 0
+val_limit: 0
+variants: [B0, B1, B2, B3, B4, B5, B6, B7, E_UNIFORM, E_SHIFT, E_SIGNED, E_FFT, SPD]
+noise_std: 0.03
+brightness_offset: 0.05

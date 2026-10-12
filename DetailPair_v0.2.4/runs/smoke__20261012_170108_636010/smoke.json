@@ -1,0 +1,236 @@
+[
+  {
+    "variant": "B0",
+    "loss": 0.3421296179294586,
+    "parameters": 2590230,
+    "aux": {},
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "B1",
+    "loss": 0.3446543216705322,
+    "parameters": 2590230,
+    "aux": {
+      "consistency": 0.0,
+      "detail_amplitude": 0.0,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.0
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "B2",
+    "loss": 0.36320191621780396,
+    "parameters": 2590230,
+    "aux": {
+      "consistency": 0.18547579646110535,
+      "detail_amplitude": 0.0,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.009273789823055267
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "B3",
+    "loss": 0.34260040521621704,
+    "parameters": 2587670,
+    "aux": {
+      "consistency": 0.0,
+      "detail_amplitude": 0.0,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.0,
+      "gate_fg_mean": 1.0,
+      "gate_fg_near_one": 1.0,
+      "gate_bg_mean": 1.0,
+      "gate_bg_near_one": 1.0,
+      "amplitude_retention_ratio": 1.0
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "B4",
+    "loss": 0.348368763923645,
+    "parameters": 2589254,
+    "aux": {
+      "consistency": 0.0,
+      "detail_amplitude": 0.0,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.0,
+      "gate_fg_mean": 0.5561931729316711,
+      "gate_fg_near_one": 0.0,
+      "gate_bg_mean": 0.5547842383384705,
+      "gate_bg_near_one": 0.0,
+      "amplitude_retention_ratio": 0.5537630319595337
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "B5",
+    "loss": 0.3707926273345947,
+    "parameters": 2589254,
+    "aux": {
+      "consistency": 0.22423849999904633,
+      "detail_amplitude": 0.0,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.011211925186216831,
+      "gate_fg_mean": 0.5561931729316711,
+      "gate_fg_near_one": 0.0,
+      "gate_bg_mean": 0.5547842383384705,
+      "gate_bg_near_one": 0.0,
+      "amplitude_retention_ratio": 0.5537630319595337
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "B6",
+    "loss": 0.39043697714805603,
+    "parameters": 2589254,
+    "aux": {
+      "consistency": 0.22423849999904633,
+      "detail_amplitude": 0.49110931158065796,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.021034110337495804,
+      "gate_fg_mean": 0.5561931729316711,
+      "gate_fg_near_one": 0.0,
+      "gate_bg_mean": 0.5547842383384705,
+      "gate_bg_near_one": 0.0,
+      "amplitude_retention_ratio": 0.5537630319595337
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "SPD",
+    "loss": 0.3534655272960663,
+    "parameters": 2604054,
+    "aux": {
+      "consistency": 0.0,
+      "detail_amplitude": 0.0,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.0
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "B7",
+    "loss": 0.36158350110054016,
+    "parameters": 2589182,
+    "aux": {
+      "consistency": 0.1956077665090561,
+      "detail_amplitude": 0.0,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.009780388325452805
+    },
+    "layer_match": {
+      "target_parameters": 3696,
+      "actual_parameters": 3624,
+      "mid_channels": 20,
+      "scope": "layer parameters only; measure actual latency separately"
+    },
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "E_UNIFORM",
+    "loss": 0.3886934816837311,
+    "parameters": 2589254,
+    "aux": {
+      "consistency": 0.22423849999904633,
+      "detail_amplitude": 0.44752150774002075,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.02016235515475273,
+      "gate_fg_mean": 0.5561931729316711,
+      "gate_fg_near_one": 0.0,
+      "gate_bg_mean": 0.5547842383384705,
+      "gate_bg_near_one": 0.0,
+      "amplitude_retention_ratio": 0.5537630319595337
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "E_SHIFT",
+    "loss": 0.3897900879383087,
+    "parameters": 2589254,
+    "aux": {
+      "consistency": 0.22423849999904633,
+      "detail_amplitude": 0.4749365746974945,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.0207106564193964,
+      "gate_fg_mean": 0.5561931729316711,
+      "gate_fg_near_one": 0.0,
+      "gate_bg_mean": 0.5547842383384705,
+      "gate_bg_near_one": 0.0,
+      "amplitude_retention_ratio": 0.5537630319595337
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "E_SIGNED",
+    "loss": 0.39085879921913147,
+    "parameters": 2589254,
+    "aux": {
+      "consistency": 0.22423849999904633,
+      "detail_amplitude": 0.5016549229621887,
+      "fft_amplitude": 0.0,
+      "perturbation_step": 1,
+      "weighted_aux": 0.021245023235678673,
+      "gate_fg_mean": 0.5561931729316711,
+      "gate_fg_near_one": 0.0,
+      "gate_bg_mean": 0.5547842383384705,
+      "gate_bg_near_one": 0.0,
+      "amplitude_retention_ratio": 0.5537630319595337
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  },
+  {
+    "variant": "E_FFT",
+    "loss": 0.37233901023864746,
+    "parameters": 2589254,
+    "aux": {
+      "consistency": 0.22423849999904633,
+      "detail_amplitude": 0.0,
+      "fft_amplitude": 0.03865993022918701,
+      "perturbation_step": 1,
+      "weighted_aux": 0.011985124088823795,
+      "gate_fg_mean": 0.5561931729316711,
+      "gate_fg_near_one": 0.0,
+      "gate_bg_mean": 0.5547842383384705,
+      "gate_bg_near_one": 0.0,
+      "amplitude_retention_ratio": 0.5537630319595337
+    },
+    "layer_match": null,
+    "forward_backward": true,
+    "ema_deepcopy": true
+  }
+]

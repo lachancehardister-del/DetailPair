@@ -1,0 +1,1322 @@
+[
+  {
+    "request_number": 1,
+    "ref": "turn26search0",
+    "heading": "YOLOv11-WBD: A wavelet-bidirectional network with dilated ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC12422516/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search1",
+    "heading": "Railway Track Surface Defect Detection Based on Wavelet ... (https://www.mdpi.com/2079-9292/15/14/3065)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search2",
+    "heading": "ISNet: Shape Matters for Infrared Small Target Detection (https://www.researchgate.net/publication/363906604_ISNet_Shape_Matters_for_Infrared_Small_Target_Detection)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search3",
+    "heading": "SF-YOLO11: a spatial-frequency collaborative network for real- ... (https://www.researchgate.net/publication/402046309_SF-YOLO11_a_spatial-frequency_collaborative_network_for_real-time_steel_surface_defect_detection)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search4",
+    "heading": "YOLOv11-WBD: A wavelet-bidirectional network with dilated ... (https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0331025)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search5",
+    "heading": "Crossed Wavelet Convolution Network for Few-Shot Defect ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC12298282/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search6",
+    "heading": "A Local Contrast Method for Small Infrared Target Detection (https://www.researchgate.net/publication/260623416_A_Local_Contrast_Method_for_Small_Infrared_Target_Detection)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search7",
+    "heading": "Improved YOLOv5 Network for Steel Surface Defect Detection (https://www.semanticscholar.org/paper/Improved-YOLOv5-Network-for-Steel-Surface-Defect-Huang-Liu/b959dc0ae10f024066650fae7b1b75d23cc5910c)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search8",
+    "heading": "An efficient triple-domain YOLOv8 for real-time aluminum ... (https://www.nature.com/articles/s41598-026-58308-1)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search9",
+    "heading": "Visual defect recognition with stationary wavelet transform ... (https://www.sciencedirect.com/science/article/abs/pii/S1051200424005712)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search10",
+    "heading": "Infrared Patch-Image Model for Small Target Detection in a ... (https://www.researchgate.net/publication/256666181_Infrared_Patch-Image_Model_for_Small_Target_Detection_in_a_Single_Image)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search11",
+    "heading": "DGAF-Net: a dynamic gated adaptive fusion network for ... (https://www.researchgate.net/publication/414516870_DGAF-Net_a_dynamic_gated_adaptive_fusion_network_for_real-time_steel_surface_defect_detection)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search12",
+    "heading": "(PDF) YOLOv11-WBD: A wavelet-bidirectional network with ... (https://www.researchgate.net/publication/395399886_YOLOv11-WBD_A_wavelet-bidirectional_network_with_dilated_perception_for_robust_metal_surface_defect_detection)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search14",
+    "heading": "(PDF) A lightweight model for steel surface defect detection ... (https://www.researchgate.net/publication/414859310_A_lightweight_model_for_steel_surface_defect_detection_based_on_EDGI-YOLO)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search15",
+    "heading": "WD-DETR: Wavelet Denoising-Enhanced Real-Time ... (https://arxiv.org/html/2506.09098v1)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search17",
+    "heading": "Steel surface defect detection based on improved YOLOv8 ... (https://www.researchgate.net/publication/392002462_MPA-YOLO_Steel_Surface_Defect_Detection_Based_on_Improved_YOLOv8_Framework)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search20",
+    "heading": "HMA-DETR: a real-time hybrid multi-scale adaptive feature ... (https://www.researchgate.net/publication/411200520_HMA-DETR_a_real-time_hybrid_multi-scale_adaptive_feature_learning_network_for_steel_surface_defect_detection)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search21",
+    "heading": "Morphology-Adaptive YOLO for Parameter-Efficient PCB ... (https://www.mdpi.com/2076-3417/16/13/6828)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search23",
+    "heading": "(PDF) Strip steel surface defect detection based on ... (https://www.researchgate.net/publication/374452765_Strip_steel_surface_defect_detection_based_on_lightweight_YOLOv5)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search24",
+    "heading": "List of Accepted Papers (https://cmsworkshops.com/ICASSP2026/papers/accepted_papers.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search25",
+    "heading": "Dual Attention-Based Industrial Surface Defect Detection ... (https://www.scilit.com/publications/b1440d209c1791135f467f90b1328e24)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search26",
+    "heading": "LEGNet: Lightweight Edge-Gaussian Driven Network for ... (https://www.researchgate.net/publication/389946669_LEGNet_Lightweight_Edge-Gaussian_Driven_Network_for_Low-Quality_Remote_Sensing_Image_Object_Detection)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search28",
+    "heading": "Fabric Defect Detection using Undecimated Wavelet Transform (https://scialert.net/fulltext/?doi=itj.2011.1701.1708)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search29",
+    "heading": "Real-Time Steel Surface Defect Detection with Improved ... (https://www.researchgate.net/publication/370383639_Real-Time_Steel_Surface_Defect_Detection_with_Improved_Multi-Scale_YOLO-v5)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26search30",
+    "heading": "Curvilinear-Guided Wavelet Fusion for Bridge Damage ... (https://ieeexplore.ieee.org/iel8/6287639/11323511/11522799.pdf)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26academia33",
+    "heading": "Unsupervised Denoising for Satellite Imagery using Wavelet Subband CycleGAN (https://arxiv.org/abs/2002.09847)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26academia34",
+    "heading": "Multi-scale Interactive Network for Salient Object Detection (https://arxiv.org/abs/2007.09062)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26academia35",
+    "heading": "WaveCNet: Wavelet Integrated CNNs to Suppress Aliasing Effect for Noise-Robust Image Classification (https://arxiv.org/abs/2107.13335)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 1,
+    "ref": "turn26academia36",
+    "heading": "You Only Look Once: Unified, Real-Time Object Detection (https://arxiv.org/abs/1506.02640)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search0",
+    "heading": "WAMENet: Wavelet attention fusion downsampling and multi-scale edge enhancement network for infrared small target detection - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S0923596526002250)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search1",
+    "heading": "GitHub - google-research/augmix: AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty · GitHub (https://github.com/google-research/augmix)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search2",
+    "heading": "WAMENet: Wavelet attention fusion downsampling and multi-scale edge enhancement network for infrared small target detection (https://eurekamag.com/research/110/330/110330618.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search3",
+    "heading": "Signal Processing: Image Communication (0923-5965) - 期刊 | AMiner (https://www.aminer.cn/academic/journal/signal-processing-image-communication/5ea1ab4eedb6e7d53c00bc4c)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search4",
+    "heading": "Dynamic Cross-Modal Interaction and Multi-Scale Edge Enhancement for RGB-Infrared UAV Detection (https://eurekamag.com/research/110/635/110635411.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search5",
+    "heading": "WDMS-Net: A Wavelet Downsampling and Multi-Scale Convolution Network for Step-Wise mmWave Gait Recognition (https://eurekamag.com/research/110/717/110717328.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search6",
+    "heading": "WAMENet: Wavelet attention fusion downsampling and multi-scale edge enhancement network for infrared small target detection - 科研通 (https://www.ablesci.com/assist/detail?id=y0VAP1)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search7",
+    "heading": "SIGNAL PROCESSING-IMAGE COMMUNICATION - 最快51天录用，查询期刊真实审稿周期、投稿及录用时间、最新论文记录 (https://www.crushsci.com/journal/919)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search8",
+    "heading": "Background-Mixed Augmentation for Weakly Supervised Change Detection | Proceedings of the AAAI Conference on Artificial Intelligence (https://ojs.aaai.org/index.php/AAAI/article/view/25958)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search9",
+    "heading": "Infrared small target detection using multi-scale attention and dilated separable convolution (https://eurekamag.com/research/105/244/105244029.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search10",
+    "heading": "Increasing the Generalization of Supervised Fabric Anomaly Detection Methods to Unseen Fabrics - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC9269532/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27academia48",
+    "heading": "AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty (https://arxiv.org/abs/1912.02781)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search11",
+    "heading": "FSSG: Generative few-shot object detection via style-geometry fusion - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S092523122601146X)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27academia49",
+    "heading": "Background-Mixed Augmentation for Weakly Supervised Change Detection (https://arxiv.org/abs/2211.11478)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search50",
+    "heading": "Background-Mixed Augmentation for Weakly Supervised Change Detection (https://ojs.aaai.org/index.php/AAAI/article/download/25958/25730)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search51",
+    "heading": "Supplementary Material (https://lmb.informatik.uni-freiburg.de/Publications/2021/SB21b/paper.pdf)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search12",
+    "heading": "Texture feature extraction by incomplete tree-structed wavelet based on morphology pre-processing (https://www.joca.cn/EN/abstract/abstract14628.shtml)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search13",
+    "heading": "DFR-Net: Differential-Frequency Reliability Network for Infrared Small Target Detection | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/11664566)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27academia52",
+    "heading": "Background Mixup Data Augmentation for Hand and Object-in-Contact Detection (https://arxiv.org/abs/2202.13941)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search53",
+    "heading": "Data augmentation framework for improved classification in object detectors (https://eprints.whiterose.ac.uk/id/eprint/225123/1/Data_Augmentation_Framework_for_Improved_Classification_in_Object_Detectors.pdf)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search14",
+    "heading": "Explicitly learning augmentation invariance for image classification by Consistent Augmentation - ScienceDirect (https://www.sciencedirect.com/science/article/abs/pii/S0952197623017256)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search15",
+    "heading": "STARGA: Unsupervised spatial–temporal augmentation in surveillance video rare-event detection with generative models - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S1110016826001808)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search16",
+    "heading": "Weather-Robust Foreign Object Detection on Transmission Lines via Physics-Driven Complex Wavelet Unrolling (https://www.mdpi.com/1424-8220/26/10/2942)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search17",
+    "heading": "AugMix: A Simple Data Processing Method to Improve Robustness and   Uncertainty (https://tomesphere.com/paper/1912.02781)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search18",
+    "heading": "🎨 AugMix - Composer (https://docs.mosaicml.com/projects/composer/en/latest/method_cards/augmix.html)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search19",
+    "heading": "A data augmentation approach that ensures the reliability of foregrounds in medical image segmentation - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S0262885624001604)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search20",
+    "heading": "CVPR 2020 Open Access Repository (https://openaccess.thecvf.com/content_CVPR_2020/html/Guo_AugFPN_Improving_Multi-Scale_Feature_Learning_for_Object_Detection_CVPR_2020_paper.html)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search21",
+    "heading": "DFR-Net: Differential-Frequency Reliability Network for Infrared Small Target Detection (https://eurekamag.com/research/110/632/110632055.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search22",
+    "heading": "Weather-Robust Foreign Object Detection on Transmission Lines via Physics-Driven Complex Wavelet Unrolling - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC13210805/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search23",
+    "heading": "ultralytics/docs/en/guides/yolo-data-augmentation.md at main · ultralytics/ultralytics · GitHub (https://github.com/ultralytics/ultralytics/blob/main/docs/en/guides/yolo-data-augmentation.md)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search24",
+    "heading": "YOLO Configuration | Ultralytics (https://docs.ultralytics.com/usage/cfg?h=settings)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search25",
+    "heading": "Ma, Tianlei; Li, Siyu; Miao, Xikui; Zhang, Heng; Wang, Yuan; Ma, Shaocong; Feng, Quanyin; Chen, Liguo (2026) Feature-Enhanced Semi-Supervised Infrared Small Target Detection via Cascaded Pseudo-Label Screening. IEEE Transactions on Geoscience and Remote Sensing, 64. doi:10.1109/tgrs.2026.3707217 (https://zh.mindat.org/reference.php?id=20247726)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search26",
+    "heading": "Signal Processing: Image Communication | 期刊-维普官网 (https://www.cqvip.com/journal/963208X/963208X)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search54",
+    "heading": "FeatMatch: Feature-Based Augmentation (https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630460.pdf)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27academia55",
+    "heading": "Learning Data Augmentation Strategies for Object Detection (https://arxiv.org/abs/1906.11172)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search27",
+    "heading": "WS-DETR: A Wavelet-mamba and shared query attention enhanced DETR for traffic object detection (https://eurekamag.com/research/103/824/103824734.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search56",
+    "heading": "DISSERTATION (https://files.core.ac.uk/download/651994910.pdf)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search28",
+    "heading": "Infrared Small Target Detection with Frequency Guidance and Aliasing Rectification (https://eurekamag.com/research/103/050/103050201.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search29",
+    "heading": "Xiao, Bin; Hu, Yue (2026) Infrared Small Target Detection With Learnable Frequency-Domain Reconstruction and Explicit Redundancy Suppression. IEEE Transactions on Geoscience and Remote Sensing, 64. doi:10.1109/tgrs.2026.3717304 (https://zh.mindat.org/reference.php?id=20421936)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search30",
+    "heading": "BEVFix: Deep feature enhancement for robust 3D object detection - ScienceDirect (https://www.sciencedirect.com/science/article/abs/pii/S0893608025005556)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search31",
+    "heading": "Research on Steel Surface Defect Detection Algorithm Based on YOLOv11-ODF - ScienceDirect (https://www.sciencedirect.com/org/science/article/pii/S1930298326000488)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search32",
+    "heading": "SGW-DETR: A Spectral-Guided Graph-Structured Wavelet Transformer for UAV Infrared Object Detection Under Degradation | MDPI (https://www.mdpi.com/2072-4292/18/15/2519)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search33",
+    "heading": "Lin, Yuhao; Peng, Dongliang; Wang, Liang; Jiang, Lingjie; Nam, Haewoon (2026) MSCK-Net: Multiscale Chinese Knot Convolutional Network for Dim and Small Infrared Ship Detection. IEEE Transactions on Geoscience and Remote Sensing, 64. doi:10.1109/tgrs.2025.3649839 (https://zh.mindat.org/reference.php?id=19514508)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search34",
+    "heading": "Li, Boyuan; Baidi, Tuersunjiang; Ren, Zitong; Ma, Saisai; Ubul, Kurban (2026) DFR-Net: Differential-Frequency Reliability Network for Infrared Small Target Detection. IEEE Transactions on Geoscience and Remote Sensing, 64. doi:10.1109/tgrs.2026.3727002 (https://zh.mindat.org/reference.php?id=20532909)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search35",
+    "heading": "SGW-DETR: A Spectral-Guided Graph-Structured Wavelet Transformer for UAV Infrared Object Detection Under Degradation[v1] | Preprints.org (https://doi.org/10.20944/preprints202605.0956.v1)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search36",
+    "heading": "A Frequency-Gated Decoupled-Synergy Network for SAR target detection (https://eurekamag.com/research/110/980/110980134.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search37",
+    "heading": "Crossed Wavelet Convolution Network for Few-Shot Defect Detection of Industrial Chips - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC12298282/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search38",
+    "heading": "(PDF) MFDAFF-Net:Multiscale Frequency-Aware and Dual Attention-guided Feature Fusion Network for UAV Imagery Object Detection (https://www.researchgate.net/publication/390299234_MFDAFF-NetMultiscale_Frequency-Aware_and_Dual_Attention-guided_Feature_Fusion_Network_for_UAV_Imagery_Object_Detection)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 2,
+    "ref": "turn27search39",
+    "heading": "UTFC-DiffTracker: Short- and Long-Range Temporal Feature Consistency Diffusion for Underwater Object Tracking — Lacuna (https://lacuna.tiptreesystems.com/work/utfc-difftracker-short-and-long-range-temporal-feature-consistency-diffusion-for/wrk_7328906ee61ed6c8e443007e3a1fb07c)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 3,
+    "ref": "turn28view0",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 3,
+    "ref": "turn28view1",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 3,
+    "ref": "turn28view2",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 3,
+    "ref": "turn28view3",
+    "heading": "WD-FQDet: Multispectral Detection Transformer via Wavelet Decomposition and Frequency-aware Query Learning (https://arxiv.org/html/2605.13621v1)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 3,
+    "ref": "turn28view4",
+    "heading": "YOLOv11-WBD: A wavelet-bidirectional network with dilated perception for robust metal surface defect detection | PLOS One (https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0331025)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 3,
+    "ref": "turn28view5",
+    "heading": "[2609.00065] Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents (https://arxiv.org/abs/2609.00065)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search0",
+    "heading": "DFR : Design for Reliability - Super Engineer (https://www.superengineer.net/blog/dfx-dfr-design-for-reliability)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search1",
+    "heading": "Signal Processing: Image Communication | Vol 149, In ... (https://www.sciencedirect.com/journal/signal-processing-image-communication/vol/149/suppl/C)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search2",
+    "heading": "Weather-Robust Foreign Object Detection on Transmission ... (https://www.mdpi.com/1424-8220/26/10/2942)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search3",
+    "heading": "Design for Reliability (DfR): A Practical Case Study (https://reliabilityweb.com/videos/article/design-for-reliability-dfr-a-practical-case-study)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search4",
+    "heading": "Weather-Robust Foreign Object Detection on Transmission ... (https://pubmed.ncbi.nlm.nih.gov/42197751/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search5",
+    "heading": "DFR Design for Reliability Guide & Implementation Secrets (https://www.agiliantech.com/blog/dfr-design-for-reliability-implementation-secrets/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search6",
+    "heading": "Weather-Robust Foreign Object Detection on Transmission ... (https://www.scilit.com/publications/48bd1c3ac21304246467f833732c0b36)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search7",
+    "heading": "What Is Design for Reliability (DfR)? | Ansys Blog - Synopsys (https://ansys.synopsys.com/blog/the-what-why-when-who-and-how-of-design-for-reliability)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search8",
+    "heading": "Weather-Robust Foreign Object Detection on Transmission ... (https://www.researchgate.net/publication/404751172_Weather-Robust_Foreign_Object_Detection_on_Transmission_Lines_via_Physics-Driven_Complex_Wavelet_Unrolling)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search9",
+    "heading": "Design for Reliability (DFR): Engineering Quality Products ... (https://www.fictiv.com/articles/dfr-design-for-reliability)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search10",
+    "heading": "Weather-Robust Foreign Object Detection on Transmission ... (https://www.semanticscholar.org/paper/Weather-Robust-Foreign-Object-Detection-on-Lines-Zhou-He/0fc5d0673285ce99d3ecd57a30de720a062fcedb)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search11",
+    "heading": "2024-01-3777: NEW DESIGN FOR RELIABILITY (DfR) ... (https://saemobilus.sae.org/papers/new-design-reliability-dfr-needs-strategies-emerging-autonomous-ground-vehicles-2024-01-3777)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search12",
+    "heading": "Robust object detection in adverse weather with feature ... (https://ouci.dntb.gov.ua/en/works/4NkkvXEK/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search13",
+    "heading": "DfR - who are you? (https://accendoreliability.com/dfr-who-are-you/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search14",
+    "heading": "Robust object detection in adverse weather with feature ... (https://www.semanticscholar.org/paper/Robust-object-detection-in-adverse-weather-with-via-Zhang-Xuan/69fce0e002e951a0629ecc56a91ea6f2b24438f3)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search15",
+    "heading": "Design For Reliability (DfR) - Topic page (https://www.hbkworld.com/en/products/software/reliability/design-for-reliability-dfr)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search16",
+    "heading": "CAWM-Mamba: A unified model for infrared-visible image ... (https://www.sciencedirect.com/science/article/abs/pii/S0957417426005786)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search17",
+    "heading": "What is Design for Reliability? (https://pdsvision.com/blog/what-is-design-for-reliability/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29search18",
+    "heading": "Degradation Modeling for Restoration-Enhanced Object ... (https://www.researchgate.net/publication/383141544_Degradation_Modeling_for_Restoration-enhanced_Object_Detection_in_Adverse_Weather_Scenes)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 4,
+    "ref": "turn29view0",
+    "heading": "Checking your browser - reCAPTCHA (https://pmc.ncbi.nlm.nih.gov/articles/PMC13210805/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search0",
+    "heading": "CVPR 2022 Open Access Repository (https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Focal_and_Global_Knowledge_Distillation_for_Detectors_CVPR_2022_paper.html)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search27",
+    "heading": "Focal and Global Knowledge Distillation for Detectors (https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Focal_and_Global_Knowledge_Distillation_for_Detectors_CVPR_2022_paper.pdf)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search1",
+    "heading": "CVPR 2022 Open Access Repository (https://openaccess.thecvf.com/CVPR2022?day=2022-06-21)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search2",
+    "heading": "CVPR 2022 Open Access Repository (https://openaccess.thecvf.com/CVPR2022?day=all)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search3",
+    "heading": "Focal and Global Knowledge Distillation for Detectors (https://doi.org/10.1109/CVPR52688.2022.00460)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search4",
+    "heading": "DFR-Net: Differential-Frequency Reliability Network for Infrared Small Target Detection | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/11664566)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search5",
+    "heading": "Focal and Global Knowledge Distillation for Detectors | IEEE Conference Publication | IEEE Xplore (https://ieeexplore.ieee.org/document/9879869/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search6",
+    "heading": "Focal and Global Knowledge Distillation for Detectors | ML Anthology (https://mlanthology.org/cvpr/2022/yang2022cvpr-focal/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search7",
+    "heading": "dblp: Focal and Global Knowledge Distillation for Detectors. (https://dblp.org/rec/conf/cvpr/YangLJGYZY22.html)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search8",
+    "heading": "Focal and Global Knowledge Distillation for Detectors | Request PDF (https://www.researchgate.net/publication/363915818_Focal_and_Global_Knowledge_Distillation_for_Detectors)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search9",
+    "heading": "CVPR 2022 开源访问库 - 计算机视觉基金会开放获取 (https://openaccess.thecvf.com.cn/content/CVPR2022/html/Yang_Focal_and_Global_Knowledge_Distillation_for_Detectors_CVPR_2022_paper.html)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search10",
+    "heading": "Rankless | Focal and Global Knowledge Distillation for Detectors (https://www.rankless.org/hit-papers/10.1109/cvpr52688.2022.00460)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search11",
+    "heading": "GitHub - yzd-v/FGD: Focal and Global Knowledge Distillation for Detectors (CVPR 2022) · GitHub (https://github.com/yzd-v/FGD)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search12",
+    "heading": "GitHub - lhyfst/knowledge-distillation-papers: knowledge distillation papers · GitHub (https://github.com/lhyfst/knowledge-distillation-papers)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search13",
+    "heading": "DFR-Net: Differential-Frequency Reliability Network for Infrared Small Target Detection (https://eurekamag.com/research/110/632/110632055.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search14",
+    "heading": "WAMENet: Wavelet attention fusion downsampling and multi-scale edge enhancement network for infrared small target detection - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S0923596526002250)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search15",
+    "heading": "Ma, Tianlei; Li, Siyu; Miao, Xikui; Zhang, Heng; Wang, Yuan; Ma, Shaocong; Feng, Quanyin; Chen, Liguo (2026) Feature-Enhanced Semi-Supervised Infrared Small Target Detection via Cascaded Pseudo-Label Screening. IEEE Transactions on Geoscience and Remote Sensing, 64. doi:10.1109/tgrs.2026.3707217 (https://zh.mindat.org/reference.php?id=20247726)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search16",
+    "heading": "Li, Boyuan; Baidi, Tuersunjiang; Ren, Zitong; Ma, Saisai; Ubul, Kurban (2026) DFR-Net: Differential-Frequency Reliability Network for Infrared Small Target Detection. IEEE Transactions on Geoscience and Remote Sensing, 64. doi:10.1109/tgrs.2026.3727002 (https://zh.mindat.org/reference.php?id=20532909)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search17",
+    "heading": "EurekaMag Full Text Articles Chapter 110633 (https://eurekamag.com/research/110/632/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search18",
+    "heading": "Xiao, Bin; Hu, Yue (2026) Infrared Small Target Detection With Learnable Frequency-Domain Reconstruction and Explicit Redundancy Suppression. IEEE Transactions on Geoscience and Remote Sensing, 64. doi:10.1109/tgrs.2026.3717304 (https://zh.mindat.org/reference.php?id=20421936)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30academia28",
+    "heading": "Focal and Global Knowledge Distillation for Detectors (https://arxiv.org/abs/2111.11837)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search19",
+    "heading": "Infrared Small Target Detection with Frequency Guidance and Aliasing Rectification (https://eurekamag.com/research/103/050/103050201.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search20",
+    "heading": "Lin, Yuhao; Peng, Dongliang; Wang, Liang; Jiang, Lingjie; Nam, Haewoon (2026) MSCK-Net: Multiscale Chinese Knot Convolutional Network for Dim and Small Infrared Ship Detection. IEEE Transactions on Geoscience and Remote Sensing, 64. doi:10.1109/tgrs.2025.3649839 (https://zh.mindat.org/reference.php?id=19514508)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search21",
+    "heading": "Chen, Riyao; Tang, Wenxiao; Yang, Mingchao; Kang, Wenxiong (2026) FSFNet: Frequency–Spatial-Domain Fusion Network for Infrared Small Target Detection. IEEE Transactions on Geoscience and Remote Sensing, 64. doi:10.1109/tgrs.2025.3650074 (https://zh.mindat.org/reference.php?id=19514694)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search22",
+    "heading": "A Frequency-Gated Decoupled-Synergy Network for SAR target detection (https://eurekamag.com/research/110/980/110980134.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30search23",
+    "heading": "HDPNet: High-frequency dense dynamic perception network for infrared small target detection (https://eurekamag.com/research/110/984/110984069.php)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30view0",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30view1",
+    "heading": "WaveMamba-YOLO: Combining frequency awareness and state-space modeling for defect localization | PLOS One (https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0344940)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30view2",
+    "heading": "CoLR-Det: Collaborative Latent Restoration for Small Object Detection in Low-Resolution Remote Sensing Images (https://arxiv.org/html/2601.12507v2)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 5,
+    "ref": "turn30view3",
+    "heading": "SF-YOLO11: a spatial-frequency collaborative network for real-time steel surface defect detection | Journal of Real-Time Image Processing | Springer Nature Link (https://link.springer.com/article/10.1007/s11554-026-01866-4)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 6,
+    "ref": "turn31view0",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 6,
+    "ref": "turn31view1",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 6,
+    "ref": "turn31view2",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 6,
+    "ref": "turn31view3",
+    "heading": "SF-YOLO11: a spatial-frequency collaborative network for real-time steel surface defect detection | Journal of Real-Time Image Processing | Springer Nature Link (https://link.springer.com/article/10.1007/s11554-026-01866-4)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 6,
+    "ref": "turn31view4",
+    "heading": "[2609.00065] Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents (https://arxiv.org/abs/2609.00065)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search0",
+    "heading": "Weather-Robust Foreign Object Detection on Transmission Lines via Physics-Driven Complex Wavelet Unrolling (https://www.mdpi.com/1424-8220/26/10/2942)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search1",
+    "heading": "DFR-Net: Differential-Frequency Reliability Network for Infrared Small Target Detection | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/11664566)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search2",
+    "heading": "Thalamocortical burst gating enables event-locked memory - ScienceDirect (https://www.sciencedirect.com/science/article/abs/pii/S0950705125019859)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search3",
+    "heading": "Motion-salience gating shapes information passability in self-propelled collectives - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S0960077926012324)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search4",
+    "heading": "Thalamocortical burst gating enables event-locked memory - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S0950705125019859)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search5",
+    "heading": "Reliability-Aware Satellite Edge Computing: From Latency Modeling to System Design | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/11670511)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search6",
+    "heading": "ICA-105574 Interacts with a Common Binding Site to Elicit Opposite Effects on Inactivation Gating of EAG and ERG Potassium Channels - ScienceDirect (https://www.sciencedirect.com/science/article/abs/pii/S0026895X24036848)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search7",
+    "heading": "Cyber-Attack Resilient Load Frequency Control of Multi-Area Power Systems Using Nonlinear Active Disturbance Rejection Control | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/11651563)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search8",
+    "heading": "A Comprehensive Data Driven Outage Analysis for Assessing Reliability of the Bulk Power System | IEEE Conference Publication | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/8974110)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search9",
+    "heading": "Event Tree Reliability Analysis of Safety-Critical Systems Using Theorem Proving | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/9444708)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search10",
+    "heading": "The Role of Monitoring Frequency in Optimizing Digital Twin Networks | IEEE Conference Publication | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/11073664/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search11",
+    "heading": "A Consistent Analytical Method to Assess Reliability of Redundant Safety Instrumented Systems | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/9843913)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search12",
+    "heading": "Mission Profile-Based Reliability Assessment for Modular MVAC-LVDC Solid-State Transformers | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/11141796)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search13",
+    "heading": "Simultaneous Management of Peak-Power and Reliability in Heterogeneous Multicore Embedded Systems | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/8827950)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search14",
+    "heading": "Monte Carlo-Based Reliability Assessment for Power Systems with High Penetration of Photovoltaic Systems from Inverter-Based Resources | IEEE Conference Publication | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/10971628/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search15",
+    "heading": "Data Aggregation in Regular Large-Scale IoT Networks: Granularity, Reliability, and Delay Tradeoffs | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/9738803)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search16",
+    "heading": "On the Reliability of Clock Monitoring Units for Safety Critical Applications’ Microcontrollers* | IEEE Conference Publication | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/10616093)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search17",
+    "heading": "Core Loss Modeling of Magnetic Components Using a Data-Driven Method (https://www.mdpi.com/1424-8220/26/10/2919)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search18",
+    "heading": "Real-Time ECG Artifact Removal for Adaptive Deep Brain Stimulation: A Comparative Study (https://www.mdpi.com/1424-8220/26/9/2673)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search19",
+    "heading": "An Operating-Consistency and Evidence-Refinement Framework for Sensor-Data-Driven Photovoltaic Panel Risk Assessment and Maintenance Prioritization (https://www.mdpi.com/1424-8220/26/14/4487)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search20",
+    "heading": "A Hybrid Two-Axis Force Sensor for the Mesoscopic Structural Superlubricity Studies (https://www.mdpi.com/1424-8220/19/15/3431)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search21",
+    "heading": "Real-Time Physiological Fatigue Prediction for Human–Robot Collaborative Manufacturing Using Wearable Sensor Fusion and Hybrid Deep Learning: An In Silico Digital Twin Study (https://www.mdpi.com/1424-8220/26/17/5556)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search48",
+    "heading": "untitled (https://ieeexplore.ieee.org/ielaam/6687318/7352384/7339424-aam.pdf)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search49",
+    "heading": "untitled (https://ieeexplore.ieee.org/ielaam/8784343/8889549/9218953-aam.pdf)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search22",
+    "heading": "Deep Denoising of Wavefront Sensor Signals via Physics-Aware Dual-Channel Decoupled Network (PRISM) | MDPI (https://www.mdpi.com/1424-8220/26/12/3831)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search23",
+    "heading": "Research on the Defect Detection Method of Steel-Reinforced Concrete Based on Piezoelectric Technology and Weight Analysis (https://www.mdpi.com/1424-8220/25/13/3844)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search24",
+    "heading": "Inertial Sensor Reliability and Validity Across a Five-Level Surface Instability Gradation During Single-Leg Standing (https://www.mdpi.com/1424-8220/26/11/3575)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search25",
+    "heading": "Demagnetization Severity Detection in Permanent Magnet Synchronous Motors Based on Temperature Signal and Convolutional Neural Network (https://www.mdpi.com/1424-8220/26/9/2631)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search26",
+    "heading": "Superhydrophobic Soot Coated Quartz Crystal Microbalances: A Novel Platform for Human Spermatozoa Quality Assessment | MDPI (https://www.mdpi.com/1424-8220/19/1/123)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search27",
+    "heading": "Verification Plan - an overview | ScienceDirect Topics (https://www.sciencedirect.com/topics/computer-science/verification-plan)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search28",
+    "heading": "Reconstruction Experiment - an overview | ScienceDirect Topics (https://www.sciencedirect.com/topics/engineering/reconstruction-experiment)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search50",
+    "heading": "untitled (https://ieeexplore.ieee.org/ielaam/6287639/8600701/8861147-aam.pdf)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search51",
+    "heading": "CMSY8 (https://ieeexplore.ieee.org/ielaam/5165411/8075182/7961200-aam.pdf)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search29",
+    "heading": "Sensing the Action: Rethinking Sensor Modalities and Multi-Modal Fusion in Vision–Language–Action Models for Robotic Manipulation (https://www.mdpi.com/1424-8220/26/11/3541)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search30",
+    "heading": "A Promising Wearable Solution for the Practical and Accurate Monitoring of Low Back Loading in Manual Material Handling (https://www.mdpi.com/1424-8220/21/2/340)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search31",
+    "heading": "Sensors | September-2 2026 - Browse Articles (https://www.mdpi.com/1424-8220/26/18?page=2)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search32",
+    "heading": "Binaural Modelling and Spatial Auditory Cue Analysis of 3D-Printed Ears | MDPI (https://www.mdpi.com/1424-8220/21/1/227)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search33",
+    "heading": "Emotion Recognition from Single-Trial EEG Based on Kernel Fisher’s Emotion Pattern and Imbalanced Quasiconformal Kernel Support Vector Machine (https://www.mdpi.com/1424-8220/14/8/13361)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search34",
+    "heading": "Traditional Machine Learning Outperforms EEGNet for Consumer-Grade EEG Emotion Recognition: A Comprehensive Evaluation with Cross-Dataset Validation (https://www.mdpi.com/1424-8220/25/23/7262)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search35",
+    "heading": "Verification Space - an overview | ScienceDirect Topics (https://www.sciencedirect.com/topics/computer-science/verification-space)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search36",
+    "heading": "A Physics-Guided Quantitative GPR Framework for Detecting Hanging Sleepers in Ballasted Railway Tracks (https://www.mdpi.com/1424-8220/26/6/1905)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search37",
+    "heading": "A Novel Method for Motion Blur Detection and Quantification Using Signal Analysis on a Controlled Empirical Image Dataset | MDPI (https://www.mdpi.com/1424-8220/26/8/2360)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search38",
+    "heading": "Place Identity - an overview | ScienceDirect Topics (https://www.sciencedirect.com/topics/psychology/place-identity)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search39",
+    "heading": "Implications for a Wireless, External Device System to Study Electrocorticography | MDPI (https://www.mdpi.com/1424-8220/17/4/761)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search40",
+    "heading": "A Center-of-Pressure Guided Finger-Press Sensor for Cuffless Blood Pressure Estimation (https://www.mdpi.com/1424-8220/26/17/5563)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search41",
+    "heading": "Property Market - an overview | ScienceDirect Topics (https://www.sciencedirect.com/topics/earth-and-planetary-sciences/property-market)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search42",
+    "heading": "Clocking Scheme - an overview | ScienceDirect Topics (https://www.sciencedirect.com/topics/computer-science/clocking-scheme)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search43",
+    "heading": "Active Clock Edge - an overview | ScienceDirect Topics (https://www.sciencedirect.com/topics/computer-science/active-clock-edge)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 7,
+    "ref": "turn32search44",
+    "heading": "Guanosine Nucleotide Dissociation Inhibitors - an overview | ScienceDirect Topics (https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/guanosine-nucleotide-dissociation-inhibitors)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 8,
+    "ref": "turn33view0",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 8,
+    "ref": "turn33view1",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 8,
+    "ref": "turn33view2",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 8,
+    "ref": "turn33view3",
+    "heading": "Internal Error ()",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search0",
+    "heading": "DETECTION Definition & Meaning (https://www.merriam-webster.com/dictionary/detection)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search2",
+    "heading": "Impact of Contact Gating on Scaling of Monolayer 2D ... (https://pubs.acs.org/ancac3/article/20/8/7127/5151821/Impact-of-Contact-Gating-on-Scaling-of-Monolayer)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search3",
+    "heading": "Early Detection of Dangerous Pathogens (https://securebio.org/detection/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search5",
+    "heading": "Gating Strategy Web Designer (https://www.biolegend.com/en-us/gating-strategy)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search6",
+    "heading": "Gene-Specific Detection Rate of Adenomas and Advanced ... (https://pubmed.ncbi.nlm.nih.gov/40315961/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search8",
+    "heading": "Ligand Recognition and Molecular Gating (https://www.grc.org/ligand-recognition-and-molecular-gating-conference/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search9",
+    "heading": "Bird and Drone Detection Radar Systems | DeTect, Inc. (https://detect-inc.com/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search11",
+    "heading": "Neurobiological studies of sensory gating in schizophrenia (https://pubmed.ncbi.nlm.nih.gov/2894074/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search12",
+    "heading": "Early Hearing Detection and Intervention (https://www.vdh.virginia.gov/early-hearing-detection-and-intervention/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search13",
+    "heading": "Energy | Journal | ScienceDirect.com by Elsevier (https://www.sciencedirect.com/journal/energy)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search14",
+    "heading": "Gating (https://en.wikipedia.org/wiki/Gating)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search15",
+    "heading": "Early Detection Saves Lives: Screening and PSA Test (https://zerocancer.org/about-prostate-cancer/early-detection)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search16",
+    "heading": "Entergy - We power life. (https://www.entergy.com/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search17",
+    "heading": "Adult Bellows Assembly for MRI Respiratory/Cardiac Gating (https://services.gehealthcare.com/gehcstorefront/p/E8811ED)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search18",
+    "heading": "Detection of 2019 novel coronavirus (2019-nCoV) by real- ... (https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.3.2000045)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search19",
+    "heading": "Energy (https://en.wikipedia.org/wiki/Energy)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search20",
+    "heading": "Brand Gating / Approval for Brands I have a Relationship ... (https://sellercentral.amazon.com/seller-forums/discussions/t/10117c5d-308b-4cb5-a0ad-36d658fbb00e)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search21",
+    "heading": "Sensitive and specific multi-cancer detection and ... (https://www.annalsofoncology.org/article/S0923-7534%2820%2936058-0/fulltext)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search22",
+    "heading": "U.S. Department of Energy (https://x.com/ENERGY)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34search23",
+    "heading": "Rescue of DeltaF508-CFTR trafficking and gating in human ... (https://pubmed.ncbi.nlm.nih.gov/16443646/)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 9,
+    "ref": "turn34view0",
+    "heading": "SFEDet: edge-guided spatial-frequency fusion network for steel surface defect detection | Scientific Reports | Springer Nature Link (https://link.springer.com/article/10.1038/s41598-026-64588-4)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 10,
+    "ref": "turn35view0",
+    "heading": "SFEDet: edge-guided spatial-frequency fusion network for steel surface defect detection | Scientific Reports | Springer Nature Link (https://link.springer.com/article/10.1038/s41598-026-64588-4)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 10,
+    "ref": "turn35view1",
+    "heading": "YOLOv11-WBD: A wavelet-bidirectional network with dilated perception for robust metal surface defect detection | PLOS One (https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0331025)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 10,
+    "ref": "turn35view2",
+    "heading": "WaveMamba-YOLO: Combining frequency awareness and state-space modeling for defect localization | PLOS One (https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0344940)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 11,
+    "ref": "turn36search0",
+    "heading": "DFR-Net: Differential-Frequency Reliability Network for Infrared Small Target Detection | IEEE Journals & Magazine | IEEE Xplore (https://ieeexplore.ieee.org/abstract/document/11664566)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 11,
+    "ref": "turn36search1",
+    "heading": "WAMENet: Wavelet attention fusion downsampling and multi-scale edge enhancement network for infrared small target detection - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S0923596526002250)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 11,
+    "ref": "turn36search2",
+    "heading": "Weather-Robust Foreign Object Detection on Transmission Lines via Physics-Driven Complex Wavelet Unrolling (https://www.mdpi.com/1424-8220/26/10/2942)",
+    "scope": "returned record; inclusion requires assessment"
+  },
+  {
+    "request_number": 11,
+    "ref": "turn36search3",
+    "heading": "Weather-Robust Foreign Object Detection on Transmission Lines via Physics-Driven Complex Wavelet Unrolling - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC13210805/)",
+    "scope": "returned record; inclusion requires assessment"
+  }
+]
