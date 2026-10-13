@@ -1,0 +1,115 @@
+{
+  "records": [
+    {
+      "image_id": "000000",
+      "source_image": "/tmp/DetailPair CPU check ocqzbaze/input data/images/val/0.png",
+      "source_label": "/tmp/DetailPair CPU check ocqzbaze/input data/labels/val/0.txt",
+      "image_sha256": "f9fd62d1acde9b613129f93c6dcb91ac6c1d394821568fdd66ce3cf27609e52e",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043405_645549/datasets/gaussian_0.06/images/val/000000.png",
+      "derived_image_sha256": "ea3a317e7bdf4e102b33da2e90658d7b16bb08afb050db570ec37810e1d9c18a",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 15.721456964988267,
+      "mse": 0.0029432151996828144
+    },
+    {
+      "image_id": "000001",
+      "source_image": "/tmp/DetailPair CPU check ocqzbaze/input data/images/val/1.png",
+      "source_label": "/tmp/DetailPair CPU check ocqzbaze/input data/labels/val/1.txt",
+      "image_sha256": "a2944b1c4914e9367691bb05ab5872173d1b7136d5ea4c2cc1ee41f2c093f21d",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043405_645549/datasets/gaussian_0.06/images/val/000001.png",
+      "derived_image_sha256": "ea15424b4c81cde5c9a1308e42fd4e201cf0a0707f12de8eb2c66e89fb53eab5",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 15.779256756307182,
+      "mse": 0.002903972480536332
+    },
+    {
+      "image_id": "000002",
+      "source_image": "/tmp/DetailPair CPU check ocqzbaze/input data/images/val/2.png",
+      "source_label": "/tmp/DetailPair CPU check ocqzbaze/input data/labels/val/2.txt",
+      "image_sha256": "dc9c6bed1f688b2b807a23362853b5cfe4028a9f12117deb685978aeb20c9102",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043405_645549/datasets/gaussian_0.06/images/val/000002.png",
+      "derived_image_sha256": "e1c8bcefb193fd4747361f73e0a81d020ca6a25832794ecdfb0ae01d2078f60c",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 15.771036059288079,
+      "mse": 0.002908734521177752
+    },
+    {
+      "image_id": "000003",
+      "source_image": "/tmp/DetailPair CPU check ocqzbaze/input data/images/val/3.png",
+      "source_label": "/tmp/DetailPair CPU check ocqzbaze/input data/labels/val/3.txt",
+      "image_sha256": "991b6d4e0651fe3b4473819630b5dcf23502a2a4dca9656a3f36fae2e9f2caaf",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043405_645549/datasets/gaussian_0.06/images/val/000003.png",
+      "derived_image_sha256": "dc7a381525deba2f8d55e356d8d9992da4c4356f8a65117dc0448c52c6d0145a",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 15.790738892865729,
+      "mse": 0.0028962693635460716
+    }
+  ],
+  "shared_by": [
+    "B2",
+    "B6"
+  ],
+  "seed": 178,
+  "corruption": {
+    "kind": "gaussian",
+    "value": 0.06
+  },
+  "rng_reset_each_severity": true,
+  "quantization": "RGB [0,1], clip, numpy.round -> uint8 PNG"
+}

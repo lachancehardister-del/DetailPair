@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "failures": [],
+  "expected_latency_samples": 24,
+  "actual_latency_samples": 24,
+  "successful_evaluations": 10,
+  "expected_evaluations": 10,
+  "synthetic_check": true,
+  "weights_read_only": true,
+  "no_training": true
+}

@@ -1,0 +1,25 @@
+{
+  "version": "0.2.5",
+  "python_compile": "passed",
+  "core_source_identical": true,
+  "legacy_benchmark_AST_identical": true,
+  "unit_tests": 5,
+  "CPU_integration": {
+    "status": "passed",
+    "scope": "random checkpoint CPU synthetic plumbing only",
+    "run": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043405_645549",
+    "failed_run": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043420_429861",
+    "models": 2,
+    "scenarios": 5,
+    "latency_samples": 24,
+    "ap_prediction_records": 40,
+    "weights_and_sources_unchanged": true
+  },
+  "expected_failure": "missing config returns1 and emits failure/status/ZIP",
+  "Windows": "pending",
+  "CUDA": "pending",
+  "real_weights": "pending",
+  "real_val_and_latency": "pending",
+  "FLOPs": "not measured",
+  "historical_source": "Work review ZIP, not original 133-item result ZIP"
+}

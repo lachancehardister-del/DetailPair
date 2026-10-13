@@ -1,0 +1,7 @@
+{
+  "config": "/tmp/DetailPair CPU check ltuo0svg/CPU config.yaml",
+  "pack_only": false,
+  "synthetic_check": true,
+  "final_test": false,
+  "freeze_record": null
+}

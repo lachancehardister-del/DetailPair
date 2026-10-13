@@ -1,0 +1,16 @@
+{
+  "variant": "B2",
+  "seed": 0,
+  "run_name": "synthetic_fixture",
+  "weights": "/tmp/DetailPair CPU check ltuo0svg/B2 random check.pt",
+  "weights_sha256": "c3212fe73c3cee6fe5f2cd8069594bcb0430690d030a14f657a70121b6fea847",
+  "checkpoint_epoch": -1,
+  "optimizer_present": false,
+  "train_args": {
+    "seed": 0,
+    "project": "synthetic_fixture/B2_s0",
+    "name": "training"
+  },
+  "read_only": true,
+  "loaded_parameters": 2590035
+}

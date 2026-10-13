@@ -1,0 +1,4 @@
+{"image_id": "000000", "predictions": [], "gt": [{"class_id": 0, "xyxy": [16.0, 20.0, 40.0, 44.0]}], "matches": [{"status": "FN", "gt_index": 0, "class_id": 0}]}
+{"image_id": "000001", "predictions": [], "gt": [{"class_id": 0, "xyxy": [16.0, 20.0, 40.0, 44.0]}], "matches": [{"status": "FN", "gt_index": 0, "class_id": 0}]}
+{"image_id": "000002", "predictions": [], "gt": [{"class_id": 0, "xyxy": [16.0, 20.0, 40.0, 44.0]}], "matches": [{"status": "FN", "gt_index": 0, "class_id": 0}]}
+{"image_id": "000003", "predictions": [], "gt": [{"class_id": 0, "xyxy": [16.0, 20.0, 40.0, 44.0]}], "matches": [{"status": "FN", "gt_index": 0, "class_id": 0}]}

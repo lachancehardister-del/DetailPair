@@ -1,0 +1,13 @@
+﻿variant,name,images,gt,precision,recall,ap50,ap5095,source
+B6,crazing,30,71,0.357,0.141,0.229,0.0808,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B6,inclusion,37,106,0.706,0.689,0.741,0.382,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B6,patches,34,89,0.824,0.736,0.822,0.514,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B6,pitted_surface,30,43,0.558,0.581,0.636,0.331,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B6,rolled-in_scale,30,63,0.596,0.683,0.694,0.319,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B6,scratches,30,57,0.766,0.789,0.867,0.456,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B2,crazing,30,71,0.382,0.113,0.204,0.0727,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B2,inclusion,37,106,0.812,0.67,0.759,0.366,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B2,patches,34,89,0.781,0.82,0.853,0.507,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B2,pitted_surface,30,43,0.713,0.558,0.678,0.395,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B2,rolled-in_scale,30,63,0.534,0.635,0.576,0.27,"Final console table; rounded, official validator working point, not fixed conf=0.25"
+B2,scratches,30,57,0.782,0.816,0.854,0.478,"Final console table; rounded, official validator working point, not fixed conf=0.25"

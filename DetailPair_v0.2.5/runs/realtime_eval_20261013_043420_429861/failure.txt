@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/DetailPair/DetailPair_v0.2.5/realtime_eval.py", line 219, in main
+    raw=Path(args.config).read_bytes();config=yaml.safe_load(raw)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/DetailPair CPU check ocqzbaze/missing.yaml'

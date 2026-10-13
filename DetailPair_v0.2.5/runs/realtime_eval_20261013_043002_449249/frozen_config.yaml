@@ -1,0 +1,46 @@
+protocol_version: DetailPair-reuse-eval-1.0
+synthetic_check: true
+data: /tmp/DetailPair CPU check ltuo0svg/input data/data.yaml
+split: val
+device: cpu
+imgsz: 320
+batch: 1
+precision: FP32
+fuse: true
+conf: 0.25
+ap_conf: 0.001
+nms_iou: 0.7
+match_iou: 0.5
+max_det: 300
+warmup: 2
+repeats: 3
+seed: 178
+cpu_threads: 2
+expected_images: 4
+expected_gt: 4
+hardware_notes:
+  machine: unknown
+  power_mode: unknown
+  plugged_in: unknown
+variants:
+- variant: B2
+  seed: 0
+  run_name: synthetic_fixture
+  weights: /tmp/DetailPair CPU check ltuo0svg/B2 random check.pt
+  selection: /tmp/DetailPair CPU check ltuo0svg/selection.json
+  prior_metrics: /tmp/DetailPair CPU check ltuo0svg/absent_old_metrics.json
+- variant: B6
+  seed: 0
+  run_name: synthetic_fixture
+  weights: /tmp/DetailPair CPU check ltuo0svg/B6 random check.pt
+  selection: /tmp/DetailPair CPU check ltuo0svg/selection.json
+  prior_metrics: /tmp/DetailPair CPU check ltuo0svg/absent_old_metrics.json
+corruptions:
+- kind: gaussian
+  value: 0.01
+- kind: gaussian
+  value: 0.03
+- kind: gaussian
+  value: 0.06
+- kind: impulse
+  value: 0.01

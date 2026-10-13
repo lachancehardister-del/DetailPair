@@ -7,3 +7,5 @@ local_settings/
 .env.*
 !.env.example
 *.cache
+# v0.2.5 local derived image copies; exported reports retain their manifests.
+DetailPair_v0.2.5/runs/**/datasets/

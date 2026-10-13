@@ -1,0 +1,15 @@
+version: 0.2.4
+purpose: single_seed_long_budget_B2_B6_comparison
+model: yolo11n.yaml
+replace_layer: 1
+initialization: scratch
+imgsz: 320
+batch: 2
+epochs: 200
+patience: 50
+seeds: [0]
+train_limit: 0
+val_limit: 0
+variants: [B2, B6]
+noise_std: 0.03
+brightness_offset: 0.05

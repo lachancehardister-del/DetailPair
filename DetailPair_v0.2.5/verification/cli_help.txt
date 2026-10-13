@@ -1,0 +1,14 @@
+usage: realtime_eval.py [-h] [--config CONFIG] [--pack-only]
+                        [--synthetic-check] [--final-test]
+                        [--freeze-record FREEZE_RECORD]
+
+Frozen-weight evaluation only. No training, resume or optimizer operations.
+
+options:
+  -h, --help            show this help message and exit
+  --config CONFIG
+  --pack-only
+  --synthetic-check     explicit CPU plumbing tests only; never use on real
+                        experiments
+  --final-test
+  --freeze-record FREEZE_RECORD

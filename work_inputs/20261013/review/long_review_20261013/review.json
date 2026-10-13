@@ -1,0 +1,198 @@
+{
+  "source": "/workspace/scratch/e8c8063d0290/ModelImprovement/received/DetailPair_results_20261013_054850_726320",
+  "zip_sha256": "5d65fa0e74691994f2efd6332f4c0e28bf53614395a136065bf3db685a8d8a99",
+  "conditions": {
+    "B6": {
+      "pilot": "pilot__20261012_125741_680519",
+      "metrics": {
+        "split": "val",
+        "metrics/precision(B)": 0.6346024648699108,
+        "metrics/recall(B)": 0.6031851899238415,
+        "metrics/mAP50(B)": 0.6648733122946194,
+        "metrics/mAP50-95(B)": 0.34699430729089614,
+        "fitness": 0.34699430729089614
+      },
+      "actual_epochs": 200,
+      "csv_best_epoch": 152,
+      "csv_best_ap5095": 0.34687,
+      "csv_elapsed_hours": 10.126083333333334,
+      "aux_count": 143800,
+      "aux_nonfinite_rows": 0,
+      "console_speed_ms": [
+        0.6,
+        12.2,
+        0.0,
+        2.5
+      ]
+    },
+    "B2": {
+      "pilot": "pilot__20261012_230632_329133",
+      "metrics": {
+        "split": "val",
+        "metrics/precision(B)": 0.6672817852296528,
+        "metrics/recall(B)": 0.6019546101620092,
+        "metrics/mAP50(B)": 0.6538617284224965,
+        "metrics/mAP50-95(B)": 0.3483627550635304,
+        "fitness": 0.3483627550635304
+      },
+      "actual_epochs": 162,
+      "csv_best_epoch": 112,
+      "csv_best_ap5095": 0.34873,
+      "csv_elapsed_hours": 6.692638888888889,
+      "aux_count": 116478,
+      "aux_nonfinite_rows": 0,
+      "console_speed_ms": [
+        0.6,
+        10.6,
+        0.0,
+        2.4
+      ]
+    }
+  },
+  "classes": [
+    {
+      "variant": "B6",
+      "name": "crazing",
+      "images": 30,
+      "gt": 71,
+      "precision": 0.357,
+      "recall": 0.141,
+      "ap50": 0.229,
+      "ap5095": 0.0808,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B6",
+      "name": "inclusion",
+      "images": 37,
+      "gt": 106,
+      "precision": 0.706,
+      "recall": 0.689,
+      "ap50": 0.741,
+      "ap5095": 0.382,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B6",
+      "name": "patches",
+      "images": 34,
+      "gt": 89,
+      "precision": 0.824,
+      "recall": 0.736,
+      "ap50": 0.822,
+      "ap5095": 0.514,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B6",
+      "name": "pitted_surface",
+      "images": 30,
+      "gt": 43,
+      "precision": 0.558,
+      "recall": 0.581,
+      "ap50": 0.636,
+      "ap5095": 0.331,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B6",
+      "name": "rolled-in_scale",
+      "images": 30,
+      "gt": 63,
+      "precision": 0.596,
+      "recall": 0.683,
+      "ap50": 0.694,
+      "ap5095": 0.319,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B6",
+      "name": "scratches",
+      "images": 30,
+      "gt": 57,
+      "precision": 0.766,
+      "recall": 0.789,
+      "ap50": 0.867,
+      "ap5095": 0.456,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B2",
+      "name": "crazing",
+      "images": 30,
+      "gt": 71,
+      "precision": 0.382,
+      "recall": 0.113,
+      "ap50": 0.204,
+      "ap5095": 0.0727,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B2",
+      "name": "inclusion",
+      "images": 37,
+      "gt": 106,
+      "precision": 0.812,
+      "recall": 0.67,
+      "ap50": 0.759,
+      "ap5095": 0.366,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B2",
+      "name": "patches",
+      "images": 34,
+      "gt": 89,
+      "precision": 0.781,
+      "recall": 0.82,
+      "ap50": 0.853,
+      "ap5095": 0.507,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B2",
+      "name": "pitted_surface",
+      "images": 30,
+      "gt": 43,
+      "precision": 0.713,
+      "recall": 0.558,
+      "ap50": 0.678,
+      "ap5095": 0.395,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B2",
+      "name": "rolled-in_scale",
+      "images": 30,
+      "gt": 63,
+      "precision": 0.534,
+      "recall": 0.635,
+      "ap50": 0.576,
+      "ap5095": 0.27,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    },
+    {
+      "variant": "B2",
+      "name": "scratches",
+      "images": 30,
+      "gt": 57,
+      "precision": 0.782,
+      "recall": 0.816,
+      "ap50": 0.854,
+      "ap5095": 0.478,
+      "source": "Final console table; rounded, official validator working point, not fixed conf=0.25"
+    }
+  ],
+  "scope": "Returned Windows real-data validation; descriptive single training seed, not a significance test",
+  "same_source_selection_and_order": true,
+  "counts": {
+    "train": 1438,
+    "val": 180
+  },
+  "deltas_pp_B6_minus_B2": {
+    "metrics/precision(B)": -3.267932035974197,
+    "metrics/recall(B)": 0.12305797618322734,
+    "metrics/mAP50(B)": 1.1011583872122976,
+    "metrics/mAP50-95(B)": -0.13684477726342847
+  }
+}

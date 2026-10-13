@@ -1,0 +1,15 @@
+version: 0.2.0
+purpose: exploratory_novelty_diagnostic_not_publication_results
+model: yolo11n.yaml
+initialization: scratch
+imgsz: 320
+batch: 2
+epochs: 3
+seeds: [0]
+train_limit: 64
+val_limit: 32
+variants: [B1, B2, B3, B4, B5, B6, B7, E_UNIFORM, E_SHIFT, E_SIGNED, E_FFT, SPD]
+noise_std: 0.03
+brightness_offset: 0.05
+# Exact objective weights/normalizations in implemented_objectives.json.
+# First use standard pilot.yaml. Run this schedule after environment/data checks.

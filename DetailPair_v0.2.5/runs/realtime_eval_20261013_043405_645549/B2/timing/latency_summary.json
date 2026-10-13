@@ -1,0 +1,54 @@
+{
+  "scope": "decoded host BGR -> host xyxy/conf/class; letterbox, normalize, H2D, FP32 inference, class-aware NMS, D2H; excludes disk/decode/load/warmup/plot/write",
+  "warmup_excluded": 2,
+  "expected_samples": 12,
+  "actual_shape": [
+    1,
+    3,
+    320,
+    320
+  ],
+  "overall": {
+    "n": 12,
+    "mean_ms": 34.69336583333333,
+    "p50_ms": 34.7292185,
+    "p95_ms": 37.27123045,
+    "serial_fps": 28.823954550964945,
+    "total_ms": 416.32039
+  },
+  "rounds": {
+    "0": {
+      "n": 4,
+      "mean_ms": 34.186547250000004,
+      "p50_ms": 34.8092365,
+      "p95_ms": 35.27255735,
+      "serial_fps": 29.25127222375462,
+      "total_ms": 136.74618900000002
+    },
+    "1": {
+      "n": 4,
+      "mean_ms": 35.230838,
+      "p50_ms": 35.0036025,
+      "p95_ms": 37.971322550000004,
+      "serial_fps": 28.384224070968735,
+      "total_ms": 140.923352
+    },
+    "2": {
+      "n": 4,
+      "mean_ms": 34.66271225,
+      "p50_ms": 34.626061,
+      "p95_ms": 36.1224259,
+      "serial_fps": 28.849444693988136,
+      "total_ms": 138.650849
+    }
+  },
+  "model": {
+    "parameters": 2582347,
+    "requested_fuse": true,
+    "batchnorm_modules": 0,
+    "dtype": "torch.float32",
+    "flops": null,
+    "flops_status": "not measured; pre-replacement YOLO summary is not used"
+  },
+  "repeated_images_are_not_training_seeds": true
+}

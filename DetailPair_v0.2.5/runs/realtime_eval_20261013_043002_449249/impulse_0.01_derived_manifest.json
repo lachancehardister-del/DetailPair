@@ -1,0 +1,115 @@
+{
+  "records": [
+    {
+      "image_id": "000000",
+      "source_image": "/tmp/DetailPair CPU check ltuo0svg/input data/images/val/0.png",
+      "source_label": "/tmp/DetailPair CPU check ltuo0svg/input data/labels/val/0.txt",
+      "image_sha256": "f9fd62d1acde9b613129f93c6dcb91ac6c1d394821568fdd66ce3cf27609e52e",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/impulse_0.01/images/val/000000.png",
+      "derived_image_sha256": "cf6c747663af8c9ee08ce7505dd41d17cfaa664e5a777c4f5f2625357a38d3d2",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 14.85547368604027,
+      "mse": 0.003592694967079969
+    },
+    {
+      "image_id": "000001",
+      "source_image": "/tmp/DetailPair CPU check ltuo0svg/input data/images/val/1.png",
+      "source_label": "/tmp/DetailPair CPU check ltuo0svg/input data/labels/val/1.txt",
+      "image_sha256": "a2944b1c4914e9367691bb05ab5872173d1b7136d5ea4c2cc1ee41f2c093f21d",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/impulse_0.01/images/val/000001.png",
+      "derived_image_sha256": "518b9dbe2ca4c67eb5ad85cf42515072c71b3c61bc6e6f95ad841c224060b964",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 13.408963008095164,
+      "mse": 0.005012124743688325
+    },
+    {
+      "image_id": "000002",
+      "source_image": "/tmp/DetailPair CPU check ltuo0svg/input data/images/val/2.png",
+      "source_label": "/tmp/DetailPair CPU check ltuo0svg/input data/labels/val/2.txt",
+      "image_sha256": "dc9c6bed1f688b2b807a23362853b5cfe4028a9f12117deb685978aeb20c9102",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/impulse_0.01/images/val/000002.png",
+      "derived_image_sha256": "ff93fdfb0b18ee89f0d0e7a903a0da6abe07fe8e980a36723243b6d11dbfed39",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 13.396590435348447,
+      "mse": 0.005025145577021659
+    },
+    {
+      "image_id": "000003",
+      "source_image": "/tmp/DetailPair CPU check ltuo0svg/input data/images/val/3.png",
+      "source_label": "/tmp/DetailPair CPU check ltuo0svg/input data/labels/val/3.txt",
+      "image_sha256": "991b6d4e0651fe3b4473819630b5dcf23502a2a4dca9656a3f36fae2e9f2caaf",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/impulse_0.01/images/val/000003.png",
+      "derived_image_sha256": "e06179c524a6d6bc47b9fef5fc2c98e8d78bf126948802744ca0944f84201c52",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 14.588244216631924,
+      "mse": 0.0038202203879917976
+    }
+  ],
+  "shared_by": [
+    "B2",
+    "B6"
+  ],
+  "seed": 178,
+  "corruption": {
+    "kind": "impulse",
+    "value": 0.01
+  },
+  "rng_reset_each_severity": true,
+  "quantization": "RGB [0,1], clip, numpy.round -> uint8 PNG"
+}

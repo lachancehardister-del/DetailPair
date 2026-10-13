@@ -1,0 +1,11 @@
+scenario,variant,class_id,name,TP,FP,FN,GT,Precision,Recall,AP50,AP50_95,Recall_drop_from_own_clean,Precision_drop_from_own_clean,AP50_drop_from_own_clean,AP50_95_drop_from_own_clean,B6_minus_B2_Recall,B6_minus_B2_Precision,B6_minus_B2_AP50,B6_minus_B2_AP50_95
+clean,B2,0,synthetic_rectangle,0,0,4,4,,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,0.0,0.0
+clean,B6,0,synthetic_rectangle,0,0,4,4,,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,0.0,0.0
+gaussian_0.01,B2,0,synthetic_rectangle,0,0,4,4,,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,0.0,0.0
+gaussian_0.01,B6,0,synthetic_rectangle,0,0,4,4,,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,0.0,0.0
+gaussian_0.03,B2,0,synthetic_rectangle,0,0,4,4,,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,0.0,0.0
+gaussian_0.03,B6,0,synthetic_rectangle,0,0,4,4,,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,0.0,0.0
+gaussian_0.06,B2,0,synthetic_rectangle,0,0,4,4,,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,0.0,0.0
+gaussian_0.06,B6,0,synthetic_rectangle,0,0,4,4,,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,0.0,0.0
+impulse_0.01,B2,0,synthetic_rectangle,0,0,4,4,,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,0.0,0.0
+impulse_0.01,B6,0,synthetic_rectangle,0,0,4,4,,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,0.0,0.0

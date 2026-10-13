@@ -9,3 +9,9 @@ User authorization recorded on 2026-10-13 (Asia/Shanghai): automatically synchro
 - Use Git LFS for large data or weights when supported; do not silently omit artifacts that cannot be uploaded. Report exact blockers.
 - Use this existing isolated checkout; do not create a Git worktree unless requested.
 - The v0.2.5 task document is background until the user asks for implementation. Do not launch long training or change experiment protocols merely because attached documents mention them.
+
+## Work / Codex / local iteration
+
+Work reviews local experiment results and provides a research plan. Codex implements the user-approved plan, runs available engineering checks, writes logs, synchronizes changes, and delivers a full Windows-ready code ZIP. The user runs locally and returns the results to Work. Do not initiate long training, extend budgets or research scope without the approved plan.
+
+The 2026-10-13 reuse-evaluation release is DetailPair_v0.2.5. Its approved plan keeps real trained weights/data local and excludes them from return ZIPs; synchronize supplied review materials and reports, not unavailable or explicitly excluded real weights. Preserve v0.2.4. CPU random-checkpoint checks are synthetic and do not establish real detection performance.
