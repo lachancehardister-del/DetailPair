@@ -29,3 +29,8 @@
 - 发布包：releases/DetailPair_v0.2.5_Experiment_Package.zip；SHA256：5bf6ae2dcf8860c789da47a7e91255d6e29420272736789f536367153084fa49
 - 下一步用户Windows复用已有环境与B2/B6 best.pt，执行windows/15_evaluate_existing.cmd，回传完整DetailPair_eval_results ZIP给Work。是否多种子/消融/停止组合由Work决定。
 - 主体提交推送后通过git ls-remote核验远端main，并另记同步结果。
+
+### v0.2.5同步结果
+
+- 主体提交 `d00f0ab6c84041accd5d835406f66eab8d8f29b1` 已推送main，远端SHA独立核验一致。完整发布ZIP、Work输入、源码与实际工程验证日志同步成功。
+- 本次同步无真实权重/原图/派生全图；本地真实GPU评价留待用户执行。该同步记录通过后续日志提交保存并再次核验远端HEAD。
