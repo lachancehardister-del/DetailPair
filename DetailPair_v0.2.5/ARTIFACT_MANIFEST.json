@@ -677,77 +677,77 @@
       "sha256": "b07d968cf46762b47518ee0748ee5b798ecd49633d32dd7b76754c9eec1725b0"
     },
     {
-      "path": "onboarding/CODEX_TASK_DetailPair_B2_B6_v0.2.5.md",
+      "path": "DetailPair_v0.2.4/onboarding/CODEX_TASK_DetailPair_B2_B6_v0.2.5.md",
       "bytes": 15554,
       "sha256": "e9cfd4e0d8f9d49dc71906595846c051069bba4aaedc002e46bc02d4149b2511"
     },
     {
-      "path": "onboarding/PROJECT_STATUS.md",
+      "path": "DetailPair_v0.2.4/onboarding/PROJECT_STATUS.md",
       "bytes": 64184,
       "sha256": "8e95bba2c6ca2078c2ce9feb8a274c50be65e7dca61dd57e1581859ddb947aae"
     },
     {
-      "path": "onboarding/PROJECT_STATUS_uploaded.md",
+      "path": "DetailPair_v0.2.4/onboarding/PROJECT_STATUS_uploaded.md",
       "bytes": 63270,
       "sha256": "f772b486f310cc0f80d06cc78e5ed2feec503df4d5f286ae0185ba72f00c7e41"
     },
     {
-      "path": "onboarding/REVIEW.md",
+      "path": "DetailPair_v0.2.4/onboarding/REVIEW.md",
       "bytes": 3183,
       "sha256": "60b3923b9e79a6467ea6b1477d1f31bdb7f3fea4dbe65a0fd88da1afb515279a"
     },
     {
-      "path": "onboarding/VALIDATION.md",
+      "path": "DetailPair_v0.2.4/onboarding/VALIDATION.md",
       "bytes": 1413,
       "sha256": "581372c6cf825d4b5a1858fefea8fd0eec0bc3dd6a2f612d566b76151940db2c"
     },
     {
-      "path": "onboarding/install.sh",
+      "path": "DetailPair_v0.2.4/onboarding/install.sh",
       "bytes": 557,
       "sha256": "73cd38dc854a4c46bf241885860dfcbde015f35c52c9c45d05b4e098747ea743"
     },
     {
-      "path": "onboarding/logs/install.log",
+      "path": "DetailPair_v0.2.4/onboarding/logs/install.log",
       "bytes": 12115,
       "sha256": "bcb5d44f0251377d3271518349448c2a57909be2307e6ac0e112814cd14c51c9"
     },
     {
-      "path": "onboarding/logs/install_repeat.log",
+      "path": "DetailPair_v0.2.4/onboarding/logs/install_repeat.log",
       "bytes": 8061,
       "sha256": "03140d0e1897316d2bdc1854fae8e31a810b784ddbae415a52d6906addbb41c1"
     },
     {
-      "path": "onboarding/logs/invariants.log",
+      "path": "DetailPair_v0.2.4/onboarding/logs/invariants.log",
       "bytes": 751,
       "sha256": "4c42291e0059ac673364a492b904b2e8ae64e2c283a082f4b6570b0c62c59c53"
     },
     {
-      "path": "onboarding/logs/novelty_controls.log",
+      "path": "DetailPair_v0.2.4/onboarding/logs/novelty_controls.log",
       "bytes": 577,
       "sha256": "9969948d33cd8c83332dcc0dd1ec368a1918db79437089b79acc2fea0f47858c"
     },
     {
-      "path": "onboarding/logs/pack.log",
+      "path": "DetailPair_v0.2.4/onboarding/logs/pack.log",
       "bytes": 94,
       "sha256": "92ed266265435d36d896b9ddf9fbff145d75604fd304100832d8cfec67074fa9"
     },
     {
-      "path": "onboarding/logs/smoke.log",
+      "path": "DetailPair_v0.2.4/onboarding/logs/smoke.log",
       "bytes": 5592,
       "sha256": "21b0aa6b10d05859e117e5d089977f7d808e3566a0f780b9b33eaf8d3c246442"
     },
     {
-      "path": "onboarding/logs/synthetic_B6.log",
+      "path": "DetailPair_v0.2.4/onboarding/logs/synthetic_B6.log",
       "bytes": 12200,
       "sha256": "caa34313fc58c26b69b89fdfabb2cf62a4b3002b037d1a29dc52ae9dadc1b7d1"
     },
     {
-      "path": "onboarding/requirements_cpu_resolved.txt",
+      "path": "DetailPair_v0.2.4/onboarding/requirements_cpu_resolved.txt",
       "bytes": 623,
       "sha256": "64b8739b1d3104f895cb9faf9e5bab6a6e59bec4e91fb58a473fb8c4fbea797f"
     },
     {
-      "path": "onboarding/start.md",
+      "path": "DetailPair_v0.2.4/onboarding/start.md",
       "bytes": 1824,
       "sha256": "34aa02bd0c5d2e106bfac81c2cc432e30d3f5a4808000c12bb28789ba2c98e52"
     },
@@ -2202,64 +2202,64 @@
       "sha256": "b07d968cf46762b47518ee0748ee5b798ecd49633d32dd7b76754c9eec1725b0"
     },
     {
-      "path": "work_inputs/20261013/CODEX_NEXT_EVAL_20261013.md",
+      "path": "DetailPair_v0.2.5/work_inputs/20261013/CODEX_NEXT_EVAL_20261013.md",
       "bytes": 6129,
       "sha256": "26f1711ced2c52ccc35efe23a63986533b9230826c8f195dc515a8b9d650e3f4"
     },
     {
-      "path": "work_inputs/20261013/DetailPair_LongReview_20261013.zip",
+      "path": "DetailPair_v0.2.5/work_inputs/20261013/DetailPair_LongReview_20261013.zip",
       "bytes": 44355,
       "sha256": "22c63c6fa69eecbef82a9174fc41319f63eb07fb0b5ba3c497610a5e9e6c95fb"
     },
     {
-      "path": "work_inputs/20261013/review/CODEX_NEXT_EVAL_20261013.md",
+      "path": "DetailPair_v0.2.5/work_inputs/20261013/review/CODEX_NEXT_EVAL_20261013.md",
       "bytes": 6129,
       "sha256": "26f1711ced2c52ccc35efe23a63986533b9230826c8f195dc515a8b9d650e3f4"
     },
     {
-      "path": "work_inputs/20261013/review/LONG_RESULT_REVIEW_20261013.md",
+      "path": "DetailPair_v0.2.5/work_inputs/20261013/review/LONG_RESULT_REVIEW_20261013.md",
       "bytes": 8502,
       "sha256": "525822082ebac1bd3c5c6d01d00838a87aa492d94dc4a0ac3bbb13e262dfe677"
     },
     {
-      "path": "work_inputs/20261013/review/PROJECT_STATUS.md",
+      "path": "DetailPair_v0.2.5/work_inputs/20261013/review/PROJECT_STATUS.md",
       "bytes": 65333,
       "sha256": "613f1687436cc3d668ecdb88129716c39b3fcd57bffa039086a2ab540ae19c79"
     },
     {
-      "path": "work_inputs/20261013/review/long_review_20261013/class_metrics_from_console.csv",
+      "path": "DetailPair_v0.2.5/work_inputs/20261013/review/long_review_20261013/class_metrics_from_console.csv",
       "bytes": 1638,
       "sha256": "e3036ac54e276d7731e244835e691ee1f1daa279cbfb15d411b0b58b7bb18db3"
     },
     {
-      "path": "work_inputs/20261013/review/long_review_20261013/review.json",
+      "path": "DetailPair_v0.2.5/work_inputs/20261013/review/long_review_20261013/review.json",
       "bytes": 5495,
       "sha256": "adbd28a1cc086ba7f29e2b4a790da439a7758e1a179ea83733f6934818a0cd01"
     },
     {
-      "path": "work_inputs/20261013/review/long_review_20261013/training_curves.csv",
+      "path": "DetailPair_v0.2.5/work_inputs/20261013/review/long_review_20261013/training_curves.csv",
       "bytes": 11269,
       "sha256": "a5896883e9aeb60e60820f79ed9b70cf5d282cb554237c28c6f551f790aeea70"
     },
     {
-      "path": "work_inputs/20261013/review/review_long_20261013.py",
+      "path": "DetailPair_v0.2.5/work_inputs/20261013/review/review_long_20261013.py",
       "bytes": 4018,
       "sha256": "cae8fcee487513b97b94ed4b8d521635548a6564764a5a0726820ca0be04376d"
     },
     {
-      "path": "releases/DetailPair_v0.2.5_Experiment_Package.zip",
+      "path": "DetailPair_v0.2.5/releases/DetailPair_v0.2.5_Experiment_Package.zip",
       "bytes": 175966,
       "sha256": "5bf6ae2dcf8860c789da47a7e91255d6e29420272736789f536367153084fa49"
     },
     {
-      "path": "releases/DetailPair_v0.2.5_Experiment_Package.zip.sha256",
+      "path": "DetailPair_v0.2.5/releases/DetailPair_v0.2.5_Experiment_Package.zip.sha256",
       "bytes": 107,
       "sha256": "4cb8ea915594b07fa7e073ed4f18d6aeb8b1d1b995a03591eb51a9590663e104"
     },
     {
-      "path": "tools/build_detailpair_package.py",
-      "bytes": 1553,
-      "sha256": "b734a811b33ff515ed1c33f3bfe852c40a6e04ed0397aedabb875e79af2cc962"
+      "path": "DetailPair_v0.2.5/tools/build_detailpair_package.py",
+      "bytes": 1628,
+      "sha256": "d6a9143b4641681d6c2ed4847e17d13cfe65b3c6a679eed515b7d9c89f8d9945"
     }
   ]
 }

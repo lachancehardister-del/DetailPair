@@ -1,15 +1,14 @@
 """Build a source/verification-only release ZIP; runtime results stay separate."""
 import hashlib,json,zipfile
 from pathlib import Path
-REPO=Path(__file__).resolve().parents[1]
-ROOT=REPO/'DetailPair_v0.2.5'
-EXCLUDED={'runs','exports','local_settings','__pycache__'}
-files=[p for p in sorted(ROOT.rglob('*')) if p.is_file() and not (EXCLUDED&set(p.relative_to(ROOT).parts)) and p.suffix not in {'.pyc','.pt','.cache'} and p.name!='verification_manifest.json']
+ROOT=Path(__file__).resolve().parents[1]
+EXCLUDED={'runs','exports','local_settings','__pycache__','releases','work_inputs','tools','onboarding'}
+files=[p for p in sorted(ROOT.rglob('*')) if p.is_file() and not (EXCLUDED&set(p.relative_to(ROOT).parts)) and p.suffix not in {'.pyc','.pt','.cache'} and p.name not in {'verification_manifest.json','ARTIFACT_MANIFEST.json','WORK_LOG.md','AGENTS.md'}]
 manifest=dict(version='0.2.5',scope='source, protocol, dependencies, Windows entries, actual CPU verification; no original data or weights',
  files={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in files})
 m=ROOT/'verification_manifest.json';m.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 files.append(m)
-out=REPO/'releases';out.mkdir(exist_ok=True)
+out=ROOT/'releases';out.mkdir(exist_ok=True)
 zip_path=out/'DetailPair_v0.2.5_Experiment_Package.zip'
 with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
  for p in files:z.write(p,Path(ROOT.name)/p.relative_to(ROOT))
