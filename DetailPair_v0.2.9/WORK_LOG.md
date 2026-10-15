@@ -17,3 +17,7 @@
 首轮发布校验器错误期望requirements_cpu.txt（项目实际为requirements.txt），更正检查器后重验，未改依赖声明以迎合检查；失败日志保留verification/release_check_initial.log。
 
 最终完整归档包源码CRC/逐文件SHA256、必要文件、解包6项离线测试与仅pack入口检查通过；本地源/解包目录均未创建runs，无模型执行。包SHA256：ea3a1b5b6a9b71b376f29f899e9402d0aa2f753a5da6a79e202ed4d26ce02cd2；大小289185 bytes。
+
+## GitHub同步验证
+
+2026-10-15T16:56:34.804387+08:00：完整源码归档包、报告口径修正、原Work审阅材料和实际离线检查已推送origin/main，远端commit `28269dfc23bd05533a886f9b043938c48d4a6080` 与本地HEAD一致。本轮无真实原图/权重上传及新实验；后续仅追加本同步记录，不改发布包。v0.2.4/onboarding九项既有删除未暂存。
