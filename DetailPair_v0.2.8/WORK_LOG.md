@@ -21,3 +21,7 @@ Git同步结果在验证远端后追加。
 提交前补充实际tensor设备/FP32记录与守卫，以及官方validator有效阈值、rect/half/batch/imgsz和增强/类别NMS配置核验；最终复检见verification/matched_cpu_release.log。
 
 最终设备/官方设置增强后，11项+四组CPU合成CLI复检通过；最终发布包SHA256：20e627b17a19625cc2578714aa6972f8654fc45bddf08afa75a35a4eb5f3210d，259514 bytes。先前包校验值仅是构建中间件，交付以此值及releases/*.sha256为准。
+
+## GitHub 同步验证
+
+2026-10-15T06:45:57.533501+00:00：实现与完整代码ZIP已推送origin/main；远端实查commit `1fab332f56d88f640b0c0c8e8047387f0eaa1ea2` 与本地HEAD一致。上传材料/原始结果及工程日志均在v0.2.8目录内，无真实原图/标签文件/权重上传。最后仅追加本同步记录并同步，不改代码包；v0.2.4用户已有九项删除仍未暂存。
