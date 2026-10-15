@@ -1,0 +1,463 @@
+{
+  "expected_batches": 32,
+  "recorded_batches": 32,
+  "successful_batches": 32,
+  "failed_batches": 0,
+  "not_run_batches": 0,
+  "distributions": {
+    "unweighted.D": {
+      "valid_batches": 32,
+      "mean": 8.19054751098156,
+      "median": 8.118518352508545,
+      "min": 4.421193599700928,
+      "max": 13.450790405273438,
+      "p05": 5.069368743896485,
+      "p95": 12.54318971633911
+    },
+    "unweighted.clean_detection_sum": {
+      "valid_batches": 32,
+      "mean": 8.059820652008057,
+      "median": 8.045738697052002,
+      "min": 4.351775646209717,
+      "max": 13.551021575927734,
+      "p05": 5.0582081317901615,
+      "p95": 12.073938226699829
+    },
+    "unweighted.noisy_detection_sum": {
+      "valid_batches": 32,
+      "mean": 8.321274504065514,
+      "median": 8.038786888122559,
+      "min": 4.490611553192139,
+      "max": 13.350560188293457,
+      "p05": 5.080529356002808,
+      "p95": 12.998446893692016
+    },
+    "unweighted.C": {
+      "valid_batches": 32,
+      "mean": 0.12453915341757238,
+      "median": 0.12472645938396454,
+      "min": 0.0781565010547638,
+      "max": 0.22206120193004608,
+      "p05": 0.0834442749619484,
+      "p95": 0.16399909406900406
+    },
+    "unweighted.C_fg": {
+      "valid_batches": 32,
+      "mean": 0.11365170986391604,
+      "median": 0.1140662208199501,
+      "min": 0.0731126144528389,
+      "max": 0.20220354199409485,
+      "p05": 0.07661970667541027,
+      "p95": 0.14922919049859046
+    },
+    "unweighted.C_bg": {
+      "valid_batches": 32,
+      "mean": 0.01088744355365634,
+      "median": 0.010680581908673048,
+      "min": 0.005043886601924896,
+      "max": 0.019857654348015785,
+      "p05": 0.005268312152475118,
+      "p95": 0.015591625729575752
+    },
+    "weighted.D": {
+      "valid_batches": 32,
+      "mean": 8.19054751098156,
+      "median": 8.118518352508545,
+      "min": 4.421193599700928,
+      "max": 13.450790405273438,
+      "p05": 5.069368743896485,
+      "p95": 12.54318971633911
+    },
+    "weighted.C": {
+      "valid_batches": 32,
+      "mean": 0.012453915522200987,
+      "median": 0.012472646310925484,
+      "min": 0.007815650664269924,
+      "max": 0.022206120193004608,
+      "p05": 0.00834442749619484,
+      "p95": 0.01639991011470556
+    },
+    "weighted.C_fg": {
+      "valid_batches": 32,
+      "mean": 0.011365171129000373,
+      "median": 0.011406622361391783,
+      "min": 0.007311261724680662,
+      "max": 0.020220354199409485,
+      "p05": 0.007661970658227801,
+      "p95": 0.01492291921749711
+    },
+    "weighted.C_bg": {
+      "valid_batches": 32,
+      "mean": 0.0010887443804676877,
+      "median": 0.0010680581908673048,
+      "min": 0.0005043886485509574,
+      "max": 0.001985765527933836,
+      "p05": 0.0005268312292173505,
+      "p95": 0.0015591625939123332
+    },
+    "weighted.total": {
+      "valid_batches": 32,
+      "mean": 8.203001454472542,
+      "median": 8.127326965332031,
+      "min": 4.429931640625,
+      "max": 13.461282730102539,
+      "p05": 5.079846668243408,
+      "p95": 12.562619400024413
+    },
+    "gradient_groups.whole_layer.losses.D.connected_tensors": {
+      "valid_batches": 32,
+      "mean": 3.0,
+      "median": 3.0,
+      "min": 3.0,
+      "max": 3.0,
+      "p05": 3.0,
+      "p95": 3.0
+    },
+    "gradient_groups.whole_layer.losses.D.disconnected_tensors": {
+      "valid_batches": 32,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "gradient_groups.whole_layer.losses.D.L2_norm": {
+      "valid_batches": 32,
+      "mean": 52.63323688773764,
+      "median": 34.558388731189154,
+      "min": 17.467985019649607,
+      "max": 231.61963181952285,
+      "p05": 19.846746042864655,
+      "p95": 103.7380649963215
+    },
+    "gradient_groups.whole_layer.losses.D.relative_to_detection_norm": {
+      "valid_batches": 32,
+      "mean": 1.0,
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "p05": 1.0,
+      "p95": 1.0
+    },
+    "gradient_groups.whole_layer.losses.C.connected_tensors": {
+      "valid_batches": 32,
+      "mean": 3.0,
+      "median": 3.0,
+      "min": 3.0,
+      "max": 3.0,
+      "p05": 3.0,
+      "p95": 3.0
+    },
+    "gradient_groups.whole_layer.losses.C.disconnected_tensors": {
+      "valid_batches": 32,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "gradient_groups.whole_layer.losses.C.L2_norm": {
+      "valid_batches": 32,
+      "mean": 0.14919811816241232,
+      "median": 0.12371656853790525,
+      "min": 0.04462914939421869,
+      "max": 0.49261618469169643,
+      "p05": 0.056286287155417246,
+      "p95": 0.26743551043792313
+    },
+    "gradient_groups.whole_layer.losses.C.relative_to_detection_norm": {
+      "valid_batches": 32,
+      "mean": 0.004108565584239365,
+      "median": 0.0038514987564880997,
+      "min": 0.0007787769816386267,
+      "max": 0.014905397798890281,
+      "p05": 0.0008844863963798137,
+      "p95": 0.009109792231541397
+    },
+    "gradient_groups.whole_layer.losses.C_fg.connected_tensors": {
+      "valid_batches": 32,
+      "mean": 3.0,
+      "median": 3.0,
+      "min": 3.0,
+      "max": 3.0,
+      "p05": 3.0,
+      "p95": 3.0
+    },
+    "gradient_groups.whole_layer.losses.C_fg.disconnected_tensors": {
+      "valid_batches": 32,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "gradient_groups.whole_layer.losses.C_fg.L2_norm": {
+      "valid_batches": 32,
+      "mean": 0.13789654799486223,
+      "median": 0.11486059000672498,
+      "min": 0.040597687396171124,
+      "max": 0.4470400880317759,
+      "p05": 0.05293154606009371,
+      "p95": 0.2514502074419497
+    },
+    "gradient_groups.whole_layer.losses.C_fg.relative_to_detection_norm": {
+      "valid_batches": 32,
+      "mean": 0.003821503213124169,
+      "median": 0.0034091863611135074,
+      "min": 0.0007145960277612065,
+      "max": 0.01359298765735839,
+      "p05": 0.0008601303756176971,
+      "p95": 0.008555703443969371
+    },
+    "gradient_groups.whole_layer.losses.C_bg.connected_tensors": {
+      "valid_batches": 32,
+      "mean": 3.0,
+      "median": 3.0,
+      "min": 3.0,
+      "max": 3.0,
+      "p05": 3.0,
+      "p95": 3.0
+    },
+    "gradient_groups.whole_layer.losses.C_bg.disconnected_tensors": {
+      "valid_batches": 32,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "gradient_groups.whole_layer.losses.C_bg.L2_norm": {
+      "valid_batches": 32,
+      "mean": 0.013132603824517811,
+      "median": 0.010118504961023518,
+      "min": 0.00194564334538968,
+      "max": 0.045855062847999464,
+      "p05": 0.0043472648195322676,
+      "p95": 0.024644248412682083
+    },
+    "gradient_groups.whole_layer.losses.C_bg.relative_to_detection_norm": {
+      "valid_batches": 32,
+      "mean": 0.0003431351424545018,
+      "median": 0.00023207824178184038,
+      "min": 6.529143091303963e-05,
+      "max": 0.0013143058494319267,
+      "p05": 7.704630384018421e-05,
+      "p95": 0.0007860164538796137
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C.cos": {
+      "valid_batches": 32,
+      "mean": 0.06186913210957969,
+      "median": 0.057813280719547194,
+      "min": -0.20510334019542198,
+      "max": 0.3273620760548217,
+      "p05": -0.14534237654868737,
+      "p95": 0.26591231023152107
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C.dot": {
+      "valid_batches": 32,
+      "mean": 0.22154670052168912,
+      "median": 0.2915711121727237,
+      "min": -3.376817023966608,
+      "max": 2.991178432021101,
+      "p05": -1.668055199257323,
+      "p95": 1.8311428562183887
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C_fg.cos": {
+      "valid_batches": 32,
+      "mean": 0.06123082999400548,
+      "median": 0.05869407844589922,
+      "min": -0.19241753893957259,
+      "max": 0.3296913281806522,
+      "p05": -0.1447714927073956,
+      "p95": 0.26484937402797115
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C_fg.dot": {
+      "valid_batches": 32,
+      "mean": 0.21331894684481334,
+      "median": 0.23493323234392438,
+      "min": -3.0888442926931043,
+      "max": 2.81107708990772,
+      "p05": -1.4536423048923457,
+      "p95": 1.6727531866386376
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C_bg.cos": {
+      "valid_batches": 32,
+      "mean": 0.04575243891023416,
+      "median": 0.033115151005985666,
+      "min": -0.271428885375525,
+      "max": 0.3051067679401701,
+      "p05": -0.13724950091054156,
+      "p95": 0.2459502684936396
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C_bg.dot": {
+      "valid_batches": 32,
+      "mean": 0.008227630639768203,
+      "median": 0.01522642540886052,
+      "min": -0.30821958402691846,
+      "max": 0.18585469720203662,
+      "p05": -0.23951841264000684,
+      "p95": 0.1558000861328299
+    },
+    "proxy_regions.fg_pixels_per_image[0]": {
+      "valid_batches": 32,
+      "mean": 3080.28125,
+      "median": 2706.0,
+      "min": 630.0,
+      "max": 6400.0,
+      "p05": 807.2,
+      "p95": 6400.0
+    },
+    "proxy_regions.fg_pixels_per_image[1]": {
+      "valid_batches": 32,
+      "mean": 2748.71875,
+      "median": 2430.5,
+      "min": 308.0,
+      "max": 6004.0,
+      "p05": 993.35,
+      "p95": 5527.049999999999
+    },
+    "proxy_regions.bg_pixels_per_image[0]": {
+      "valid_batches": 32,
+      "mean": 3319.71875,
+      "median": 3694.0,
+      "min": 0.0,
+      "max": 5770.0,
+      "p05": 0.0,
+      "p95": 5592.8
+    },
+    "proxy_regions.bg_pixels_per_image[1]": {
+      "valid_batches": 32,
+      "mean": 3651.28125,
+      "median": 3969.5,
+      "min": 396.0,
+      "max": 6092.0,
+      "p05": 872.95,
+      "p95": 5406.65
+    },
+    "proxy_regions.mask_shape[0]": {
+      "valid_batches": 32,
+      "mean": 2.0,
+      "median": 2.0,
+      "min": 2.0,
+      "max": 2.0,
+      "p05": 2.0,
+      "p95": 2.0
+    },
+    "proxy_regions.mask_shape[1]": {
+      "valid_batches": 32,
+      "mean": 1.0,
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "p05": 1.0,
+      "p95": 1.0
+    },
+    "proxy_regions.mask_shape[2]": {
+      "valid_batches": 32,
+      "mean": 80.0,
+      "median": 80.0,
+      "min": 80.0,
+      "max": 80.0,
+      "p05": 80.0,
+      "p95": 80.0
+    },
+    "proxy_regions.mask_shape[3]": {
+      "valid_batches": 32,
+      "mean": 80.0,
+      "median": 80.0,
+      "min": 80.0,
+      "max": 80.0,
+      "p05": 80.0,
+      "p95": 80.0
+    }
+  },
+  "gradient_and_region_status_counts": {
+    "gradient_groups.whole_layer.losses.D.status": {
+      "ok": 32
+    },
+    "gradient_groups.whole_layer.losses.C.status": {
+      "ok": 32
+    },
+    "gradient_groups.whole_layer.losses.C_fg.status": {
+      "ok": 32
+    },
+    "gradient_groups.whole_layer.losses.C_bg.status": {
+      "ok": 32
+    },
+    "gradient_groups.whole_layer.losses.A.status": {
+      "not_applicable": 32
+    },
+    "gradient_groups.whole_layer.losses.A_fg.status": {
+      "not_applicable": 32
+    },
+    "gradient_groups.whole_layer.losses.A_bg.status": {
+      "not_applicable": 32
+    },
+    "gradient_groups.whole_layer.losses.C_plus_A.status": {
+      "not_applicable": 32
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C.status": {
+      "ok": 32
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_A.status": {
+      "not_applicable": 32
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C_plus_A.status": {
+      "not_applicable": 32
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C_fg.status": {
+      "ok": 32
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C_bg.status": {
+      "ok": 32
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_A_fg.status": {
+      "not_applicable": 32
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_A_bg.status": {
+      "not_applicable": 32
+    }
+  },
+  "undefined_counts": {
+    "gradient_groups.whole_layer.losses.A.L2_norm": 32,
+    "gradient_groups.whole_layer.losses.A.relative_to_detection_norm": 32,
+    "gradient_groups.whole_layer.losses.A_fg.L2_norm": 32,
+    "gradient_groups.whole_layer.losses.A_fg.relative_to_detection_norm": 32,
+    "gradient_groups.whole_layer.losses.A_bg.L2_norm": 32,
+    "gradient_groups.whole_layer.losses.A_bg.relative_to_detection_norm": 32,
+    "gradient_groups.whole_layer.losses.C_plus_A.L2_norm": 32,
+    "gradient_groups.whole_layer.losses.C_plus_A.relative_to_detection_norm": 32,
+    "gradient_groups.whole_layer.comparisons.D_vs_A.cos": 32,
+    "gradient_groups.whole_layer.comparisons.D_vs_A.dot": 32,
+    "gradient_groups.whole_layer.comparisons.D_vs_C_plus_A.cos": 32,
+    "gradient_groups.whole_layer.comparisons.D_vs_C_plus_A.dot": 32,
+    "gradient_groups.whole_layer.comparisons.D_vs_A_fg.cos": 32,
+    "gradient_groups.whole_layer.comparisons.D_vs_A_fg.dot": 32,
+    "gradient_groups.whole_layer.comparisons.D_vs_A_bg.cos": 32,
+    "gradient_groups.whole_layer.comparisons.D_vs_A_bg.dot": 32
+  },
+  "negative_cosine_fractions": {
+    "gradient_groups.whole_layer.comparisons.D_vs_C.cos": {
+      "valid_batches": 32,
+      "negative_batches": 11,
+      "negative_fraction": 0.34375
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C_fg.cos": {
+      "valid_batches": 32,
+      "negative_batches": 11,
+      "negative_fraction": 0.34375
+    },
+    "gradient_groups.whole_layer.comparisons.D_vs_C_bg.cos": {
+      "valid_batches": 32,
+      "negative_batches": 10,
+      "negative_fraction": 0.3125
+    }
+  },
+  "empty_foreground_images": 0,
+  "empty_background_images": 3,
+  "scope": "All planned batches retained. Correlated local observations, not independent training seeds or a significance test."
+}

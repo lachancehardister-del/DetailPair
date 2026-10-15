@@ -1,0 +1,1268 @@
+{
+  "checkpoint": {
+    "path": "/tmp/DetailPair old40 CPU vz6qjufr/B6/epoch37.pt",
+    "bytes": 5435190,
+    "sha256": "56275ec8fa4e30a3752f1e29e44e8ae77eeeee1e5896fd14dfebf52064358943",
+    "status": "eligible",
+    "variant": "B6",
+    "selected_role": "ema",
+    "model_and_ema": {
+      "model": null,
+      "ema": {
+        "type": "detailpair.model.PairDetectionModel",
+        "variant": "B6",
+        "pair_config": {
+          "module": "gate",
+          "pair": true,
+          "cons": 0.05,
+          "energy": 0.02
+        },
+        "names": [
+          "synthetic_rectangle"
+        ],
+        "parameters": 2589059,
+        "parameter_shapes": {
+          "model.0.conv.weight": [
+            16,
+            3,
+            3,
+            3
+          ],
+          "model.0.bn.weight": [
+            16
+          ],
+          "model.0.bn.bias": [
+            16
+          ],
+          "model.1.gates.0.weight": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "model.1.gates.0.bias": [
+            16
+          ],
+          "model.1.gates.1.weight": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "model.1.gates.1.bias": [
+            16
+          ],
+          "model.1.gates.2.weight": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "model.1.gates.2.bias": [
+            16
+          ],
+          "model.1.low.weight": [
+            32,
+            16,
+            1,
+            1
+          ],
+          "model.1.detail.weight": [
+            32,
+            48,
+            1,
+            1
+          ],
+          "model.1.bn.weight": [
+            32
+          ],
+          "model.1.bn.bias": [
+            32
+          ],
+          "model.2.cv1.conv.weight": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "model.2.cv1.bn.weight": [
+            32
+          ],
+          "model.2.cv1.bn.bias": [
+            32
+          ],
+          "model.2.cv2.conv.weight": [
+            64,
+            48,
+            1,
+            1
+          ],
+          "model.2.cv2.bn.weight": [
+            64
+          ],
+          "model.2.cv2.bn.bias": [
+            64
+          ],
+          "model.2.m.0.cv1.conv.weight": [
+            8,
+            16,
+            3,
+            3
+          ],
+          "model.2.m.0.cv1.bn.weight": [
+            8
+          ],
+          "model.2.m.0.cv1.bn.bias": [
+            8
+          ],
+          "model.2.m.0.cv2.conv.weight": [
+            16,
+            8,
+            3,
+            3
+          ],
+          "model.2.m.0.cv2.bn.weight": [
+            16
+          ],
+          "model.2.m.0.cv2.bn.bias": [
+            16
+          ],
+          "model.3.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.3.bn.weight": [
+            64
+          ],
+          "model.3.bn.bias": [
+            64
+          ],
+          "model.4.cv1.conv.weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "model.4.cv1.bn.weight": [
+            64
+          ],
+          "model.4.cv1.bn.bias": [
+            64
+          ],
+          "model.4.cv2.conv.weight": [
+            128,
+            96,
+            1,
+            1
+          ],
+          "model.4.cv2.bn.weight": [
+            128
+          ],
+          "model.4.cv2.bn.bias": [
+            128
+          ],
+          "model.4.m.0.cv1.conv.weight": [
+            16,
+            32,
+            3,
+            3
+          ],
+          "model.4.m.0.cv1.bn.weight": [
+            16
+          ],
+          "model.4.m.0.cv1.bn.bias": [
+            16
+          ],
+          "model.4.m.0.cv2.conv.weight": [
+            32,
+            16,
+            3,
+            3
+          ],
+          "model.4.m.0.cv2.bn.weight": [
+            32
+          ],
+          "model.4.m.0.cv2.bn.bias": [
+            32
+          ],
+          "model.5.conv.weight": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "model.5.bn.weight": [
+            128
+          ],
+          "model.5.bn.bias": [
+            128
+          ],
+          "model.6.cv1.conv.weight": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "model.6.cv1.bn.weight": [
+            128
+          ],
+          "model.6.cv1.bn.bias": [
+            128
+          ],
+          "model.6.cv2.conv.weight": [
+            128,
+            192,
+            1,
+            1
+          ],
+          "model.6.cv2.bn.weight": [
+            128
+          ],
+          "model.6.cv2.bn.bias": [
+            128
+          ],
+          "model.6.m.0.cv1.conv.weight": [
+            32,
+            64,
+            1,
+            1
+          ],
+          "model.6.m.0.cv1.bn.weight": [
+            32
+          ],
+          "model.6.m.0.cv1.bn.bias": [
+            32
+          ],
+          "model.6.m.0.cv2.conv.weight": [
+            32,
+            64,
+            1,
+            1
+          ],
+          "model.6.m.0.cv2.bn.weight": [
+            32
+          ],
+          "model.6.m.0.cv2.bn.bias": [
+            32
+          ],
+          "model.6.m.0.cv3.conv.weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "model.6.m.0.cv3.bn.weight": [
+            64
+          ],
+          "model.6.m.0.cv3.bn.bias": [
+            64
+          ],
+          "model.6.m.0.m.0.cv1.conv.weight": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "model.6.m.0.m.0.cv1.bn.weight": [
+            32
+          ],
+          "model.6.m.0.m.0.cv1.bn.bias": [
+            32
+          ],
+          "model.6.m.0.m.0.cv2.conv.weight": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "model.6.m.0.m.0.cv2.bn.weight": [
+            32
+          ],
+          "model.6.m.0.m.0.cv2.bn.bias": [
+            32
+          ],
+          "model.6.m.0.m.1.cv1.conv.weight": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "model.6.m.0.m.1.cv1.bn.weight": [
+            32
+          ],
+          "model.6.m.0.m.1.cv1.bn.bias": [
+            32
+          ],
+          "model.6.m.0.m.1.cv2.conv.weight": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "model.6.m.0.m.1.cv2.bn.weight": [
+            32
+          ],
+          "model.6.m.0.m.1.cv2.bn.bias": [
+            32
+          ],
+          "model.7.conv.weight": [
+            256,
+            128,
+            3,
+            3
+          ],
+          "model.7.bn.weight": [
+            256
+          ],
+          "model.7.bn.bias": [
+            256
+          ],
+          "model.8.cv1.conv.weight": [
+            256,
+            256,
+            1,
+            1
+          ],
+          "model.8.cv1.bn.weight": [
+            256
+          ],
+          "model.8.cv1.bn.bias": [
+            256
+          ],
+          "model.8.cv2.conv.weight": [
+            256,
+            384,
+            1,
+            1
+          ],
+          "model.8.cv2.bn.weight": [
+            256
+          ],
+          "model.8.cv2.bn.bias": [
+            256
+          ],
+          "model.8.m.0.cv1.conv.weight": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "model.8.m.0.cv1.bn.weight": [
+            64
+          ],
+          "model.8.m.0.cv1.bn.bias": [
+            64
+          ],
+          "model.8.m.0.cv2.conv.weight": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "model.8.m.0.cv2.bn.weight": [
+            64
+          ],
+          "model.8.m.0.cv2.bn.bias": [
+            64
+          ],
+          "model.8.m.0.cv3.conv.weight": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "model.8.m.0.cv3.bn.weight": [
+            128
+          ],
+          "model.8.m.0.cv3.bn.bias": [
+            128
+          ],
+          "model.8.m.0.m.0.cv1.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.8.m.0.m.0.cv1.bn.weight": [
+            64
+          ],
+          "model.8.m.0.m.0.cv1.bn.bias": [
+            64
+          ],
+          "model.8.m.0.m.0.cv2.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.8.m.0.m.0.cv2.bn.weight": [
+            64
+          ],
+          "model.8.m.0.m.0.cv2.bn.bias": [
+            64
+          ],
+          "model.8.m.0.m.1.cv1.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.8.m.0.m.1.cv1.bn.weight": [
+            64
+          ],
+          "model.8.m.0.m.1.cv1.bn.bias": [
+            64
+          ],
+          "model.8.m.0.m.1.cv2.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.8.m.0.m.1.cv2.bn.weight": [
+            64
+          ],
+          "model.8.m.0.m.1.cv2.bn.bias": [
+            64
+          ],
+          "model.9.cv1.conv.weight": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "model.9.cv1.bn.weight": [
+            128
+          ],
+          "model.9.cv1.bn.bias": [
+            128
+          ],
+          "model.9.cv2.conv.weight": [
+            256,
+            512,
+            1,
+            1
+          ],
+          "model.9.cv2.bn.weight": [
+            256
+          ],
+          "model.9.cv2.bn.bias": [
+            256
+          ],
+          "model.10.cv1.conv.weight": [
+            256,
+            256,
+            1,
+            1
+          ],
+          "model.10.cv1.bn.weight": [
+            256
+          ],
+          "model.10.cv1.bn.bias": [
+            256
+          ],
+          "model.10.cv2.conv.weight": [
+            256,
+            256,
+            1,
+            1
+          ],
+          "model.10.cv2.bn.weight": [
+            256
+          ],
+          "model.10.cv2.bn.bias": [
+            256
+          ],
+          "model.10.m.0.attn.qkv.conv.weight": [
+            256,
+            128,
+            1,
+            1
+          ],
+          "model.10.m.0.attn.qkv.bn.weight": [
+            256
+          ],
+          "model.10.m.0.attn.qkv.bn.bias": [
+            256
+          ],
+          "model.10.m.0.attn.proj.conv.weight": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "model.10.m.0.attn.proj.bn.weight": [
+            128
+          ],
+          "model.10.m.0.attn.proj.bn.bias": [
+            128
+          ],
+          "model.10.m.0.attn.pe.conv.weight": [
+            128,
+            1,
+            3,
+            3
+          ],
+          "model.10.m.0.attn.pe.bn.weight": [
+            128
+          ],
+          "model.10.m.0.attn.pe.bn.bias": [
+            128
+          ],
+          "model.10.m.0.ffn.0.conv.weight": [
+            256,
+            128,
+            1,
+            1
+          ],
+          "model.10.m.0.ffn.0.bn.weight": [
+            256
+          ],
+          "model.10.m.0.ffn.0.bn.bias": [
+            256
+          ],
+          "model.10.m.0.ffn.1.conv.weight": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "model.10.m.0.ffn.1.bn.weight": [
+            128
+          ],
+          "model.10.m.0.ffn.1.bn.bias": [
+            128
+          ],
+          "model.13.cv1.conv.weight": [
+            128,
+            384,
+            1,
+            1
+          ],
+          "model.13.cv1.bn.weight": [
+            128
+          ],
+          "model.13.cv1.bn.bias": [
+            128
+          ],
+          "model.13.cv2.conv.weight": [
+            128,
+            192,
+            1,
+            1
+          ],
+          "model.13.cv2.bn.weight": [
+            128
+          ],
+          "model.13.cv2.bn.bias": [
+            128
+          ],
+          "model.13.m.0.cv1.conv.weight": [
+            32,
+            64,
+            3,
+            3
+          ],
+          "model.13.m.0.cv1.bn.weight": [
+            32
+          ],
+          "model.13.m.0.cv1.bn.bias": [
+            32
+          ],
+          "model.13.m.0.cv2.conv.weight": [
+            64,
+            32,
+            3,
+            3
+          ],
+          "model.13.m.0.cv2.bn.weight": [
+            64
+          ],
+          "model.13.m.0.cv2.bn.bias": [
+            64
+          ],
+          "model.16.cv1.conv.weight": [
+            64,
+            256,
+            1,
+            1
+          ],
+          "model.16.cv1.bn.weight": [
+            64
+          ],
+          "model.16.cv1.bn.bias": [
+            64
+          ],
+          "model.16.cv2.conv.weight": [
+            64,
+            96,
+            1,
+            1
+          ],
+          "model.16.cv2.bn.weight": [
+            64
+          ],
+          "model.16.cv2.bn.bias": [
+            64
+          ],
+          "model.16.m.0.cv1.conv.weight": [
+            16,
+            32,
+            3,
+            3
+          ],
+          "model.16.m.0.cv1.bn.weight": [
+            16
+          ],
+          "model.16.m.0.cv1.bn.bias": [
+            16
+          ],
+          "model.16.m.0.cv2.conv.weight": [
+            32,
+            16,
+            3,
+            3
+          ],
+          "model.16.m.0.cv2.bn.weight": [
+            32
+          ],
+          "model.16.m.0.cv2.bn.bias": [
+            32
+          ],
+          "model.17.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.17.bn.weight": [
+            64
+          ],
+          "model.17.bn.bias": [
+            64
+          ],
+          "model.19.cv1.conv.weight": [
+            128,
+            192,
+            1,
+            1
+          ],
+          "model.19.cv1.bn.weight": [
+            128
+          ],
+          "model.19.cv1.bn.bias": [
+            128
+          ],
+          "model.19.cv2.conv.weight": [
+            128,
+            192,
+            1,
+            1
+          ],
+          "model.19.cv2.bn.weight": [
+            128
+          ],
+          "model.19.cv2.bn.bias": [
+            128
+          ],
+          "model.19.m.0.cv1.conv.weight": [
+            32,
+            64,
+            3,
+            3
+          ],
+          "model.19.m.0.cv1.bn.weight": [
+            32
+          ],
+          "model.19.m.0.cv1.bn.bias": [
+            32
+          ],
+          "model.19.m.0.cv2.conv.weight": [
+            64,
+            32,
+            3,
+            3
+          ],
+          "model.19.m.0.cv2.bn.weight": [
+            64
+          ],
+          "model.19.m.0.cv2.bn.bias": [
+            64
+          ],
+          "model.20.conv.weight": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "model.20.bn.weight": [
+            128
+          ],
+          "model.20.bn.bias": [
+            128
+          ],
+          "model.22.cv1.conv.weight": [
+            256,
+            384,
+            1,
+            1
+          ],
+          "model.22.cv1.bn.weight": [
+            256
+          ],
+          "model.22.cv1.bn.bias": [
+            256
+          ],
+          "model.22.cv2.conv.weight": [
+            256,
+            384,
+            1,
+            1
+          ],
+          "model.22.cv2.bn.weight": [
+            256
+          ],
+          "model.22.cv2.bn.bias": [
+            256
+          ],
+          "model.22.m.0.cv1.conv.weight": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "model.22.m.0.cv1.bn.weight": [
+            64
+          ],
+          "model.22.m.0.cv1.bn.bias": [
+            64
+          ],
+          "model.22.m.0.cv2.conv.weight": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "model.22.m.0.cv2.bn.weight": [
+            64
+          ],
+          "model.22.m.0.cv2.bn.bias": [
+            64
+          ],
+          "model.22.m.0.cv3.conv.weight": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "model.22.m.0.cv3.bn.weight": [
+            128
+          ],
+          "model.22.m.0.cv3.bn.bias": [
+            128
+          ],
+          "model.22.m.0.m.0.cv1.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.22.m.0.m.0.cv1.bn.weight": [
+            64
+          ],
+          "model.22.m.0.m.0.cv1.bn.bias": [
+            64
+          ],
+          "model.22.m.0.m.0.cv2.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.22.m.0.m.0.cv2.bn.weight": [
+            64
+          ],
+          "model.22.m.0.m.0.cv2.bn.bias": [
+            64
+          ],
+          "model.22.m.0.m.1.cv1.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.22.m.0.m.1.cv1.bn.weight": [
+            64
+          ],
+          "model.22.m.0.m.1.cv1.bn.bias": [
+            64
+          ],
+          "model.22.m.0.m.1.cv2.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.22.m.0.m.1.cv2.bn.weight": [
+            64
+          ],
+          "model.22.m.0.m.1.cv2.bn.bias": [
+            64
+          ],
+          "model.23.cv2.0.0.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.23.cv2.0.0.bn.weight": [
+            64
+          ],
+          "model.23.cv2.0.0.bn.bias": [
+            64
+          ],
+          "model.23.cv2.0.1.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.23.cv2.0.1.bn.weight": [
+            64
+          ],
+          "model.23.cv2.0.1.bn.bias": [
+            64
+          ],
+          "model.23.cv2.0.2.weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "model.23.cv2.0.2.bias": [
+            64
+          ],
+          "model.23.cv2.1.0.conv.weight": [
+            64,
+            128,
+            3,
+            3
+          ],
+          "model.23.cv2.1.0.bn.weight": [
+            64
+          ],
+          "model.23.cv2.1.0.bn.bias": [
+            64
+          ],
+          "model.23.cv2.1.1.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.23.cv2.1.1.bn.weight": [
+            64
+          ],
+          "model.23.cv2.1.1.bn.bias": [
+            64
+          ],
+          "model.23.cv2.1.2.weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "model.23.cv2.1.2.bias": [
+            64
+          ],
+          "model.23.cv2.2.0.conv.weight": [
+            64,
+            256,
+            3,
+            3
+          ],
+          "model.23.cv2.2.0.bn.weight": [
+            64
+          ],
+          "model.23.cv2.2.0.bn.bias": [
+            64
+          ],
+          "model.23.cv2.2.1.conv.weight": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "model.23.cv2.2.1.bn.weight": [
+            64
+          ],
+          "model.23.cv2.2.1.bn.bias": [
+            64
+          ],
+          "model.23.cv2.2.2.weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "model.23.cv2.2.2.bias": [
+            64
+          ],
+          "model.23.cv3.0.0.0.conv.weight": [
+            64,
+            1,
+            3,
+            3
+          ],
+          "model.23.cv3.0.0.0.bn.weight": [
+            64
+          ],
+          "model.23.cv3.0.0.0.bn.bias": [
+            64
+          ],
+          "model.23.cv3.0.0.1.conv.weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "model.23.cv3.0.0.1.bn.weight": [
+            64
+          ],
+          "model.23.cv3.0.0.1.bn.bias": [
+            64
+          ],
+          "model.23.cv3.0.1.0.conv.weight": [
+            64,
+            1,
+            3,
+            3
+          ],
+          "model.23.cv3.0.1.0.bn.weight": [
+            64
+          ],
+          "model.23.cv3.0.1.0.bn.bias": [
+            64
+          ],
+          "model.23.cv3.0.1.1.conv.weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "model.23.cv3.0.1.1.bn.weight": [
+            64
+          ],
+          "model.23.cv3.0.1.1.bn.bias": [
+            64
+          ],
+          "model.23.cv3.0.2.weight": [
+            1,
+            64,
+            1,
+            1
+          ],
+          "model.23.cv3.0.2.bias": [
+            1
+          ],
+          "model.23.cv3.1.0.0.conv.weight": [
+            128,
+            1,
+            3,
+            3
+          ],
+          "model.23.cv3.1.0.0.bn.weight": [
+            128
+          ],
+          "model.23.cv3.1.0.0.bn.bias": [
+            128
+          ],
+          "model.23.cv3.1.0.1.conv.weight": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "model.23.cv3.1.0.1.bn.weight": [
+            64
+          ],
+          "model.23.cv3.1.0.1.bn.bias": [
+            64
+          ],
+          "model.23.cv3.1.1.0.conv.weight": [
+            64,
+            1,
+            3,
+            3
+          ],
+          "model.23.cv3.1.1.0.bn.weight": [
+            64
+          ],
+          "model.23.cv3.1.1.0.bn.bias": [
+            64
+          ],
+          "model.23.cv3.1.1.1.conv.weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "model.23.cv3.1.1.1.bn.weight": [
+            64
+          ],
+          "model.23.cv3.1.1.1.bn.bias": [
+            64
+          ],
+          "model.23.cv3.1.2.weight": [
+            1,
+            64,
+            1,
+            1
+          ],
+          "model.23.cv3.1.2.bias": [
+            1
+          ],
+          "model.23.cv3.2.0.0.conv.weight": [
+            256,
+            1,
+            3,
+            3
+          ],
+          "model.23.cv3.2.0.0.bn.weight": [
+            256
+          ],
+          "model.23.cv3.2.0.0.bn.bias": [
+            256
+          ],
+          "model.23.cv3.2.0.1.conv.weight": [
+            64,
+            256,
+            1,
+            1
+          ],
+          "model.23.cv3.2.0.1.bn.weight": [
+            64
+          ],
+          "model.23.cv3.2.0.1.bn.bias": [
+            64
+          ],
+          "model.23.cv3.2.1.0.conv.weight": [
+            64,
+            1,
+            3,
+            3
+          ],
+          "model.23.cv3.2.1.0.bn.weight": [
+            64
+          ],
+          "model.23.cv3.2.1.0.bn.bias": [
+            64
+          ],
+          "model.23.cv3.2.1.1.conv.weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "model.23.cv3.2.1.1.bn.weight": [
+            64
+          ],
+          "model.23.cv3.2.1.1.bn.bias": [
+            64
+          ],
+          "model.23.cv3.2.2.weight": [
+            1,
+            64,
+            1,
+            1
+          ],
+          "model.23.cv3.2.2.bias": [
+            1
+          ],
+          "model.23.dfl.conv.weight": [
+            1,
+            16,
+            1,
+            1
+          ]
+        },
+        "parameters_and_buffers_finite": true
+      }
+    },
+    "train_args": {
+      "task": "detect",
+      "mode": "train",
+      "model": null,
+      "data": null,
+      "epochs": 40,
+      "time": null,
+      "patience": 50,
+      "batch": 2,
+      "imgsz": 320,
+      "save": true,
+      "save_period": 1,
+      "cache": false,
+      "device": null,
+      "workers": 8,
+      "project": "D:/old/pilot__20261011_112235_644745/B6_s0",
+      "name": "training",
+      "exist_ok": false,
+      "pretrained": false,
+      "optimizer": "AdamW",
+      "verbose": true,
+      "seed": 0,
+      "deterministic": true,
+      "single_cls": false,
+      "rect": false,
+      "cos_lr": false,
+      "close_mosaic": 0,
+      "resume": false,
+      "amp": false,
+      "fraction": 1.0,
+      "profile": false,
+      "freeze": null,
+      "multi_scale": false,
+      "compile": false,
+      "overlap_mask": true,
+      "mask_ratio": 4,
+      "dropout": 0.0,
+      "val": true,
+      "split": "val",
+      "save_json": false,
+      "conf": null,
+      "iou": 0.7,
+      "max_det": 300,
+      "half": false,
+      "dnn": false,
+      "plots": true,
+      "source": null,
+      "vid_stride": 1,
+      "stream_buffer": false,
+      "visualize": false,
+      "augment": false,
+      "agnostic_nms": false,
+      "classes": null,
+      "retina_masks": false,
+      "embed": null,
+      "show": false,
+      "save_frames": false,
+      "save_txt": false,
+      "save_conf": false,
+      "save_crop": false,
+      "show_labels": true,
+      "show_conf": true,
+      "show_boxes": true,
+      "line_width": null,
+      "format": "torchscript",
+      "keras": false,
+      "optimize": false,
+      "int8": false,
+      "dynamic": false,
+      "simplify": true,
+      "opset": null,
+      "workspace": null,
+      "nms": false,
+      "lr0": 0.001,
+      "lrf": 0.01,
+      "momentum": 0.937,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 3.0,
+      "warmup_momentum": 0.8,
+      "warmup_bias_lr": 0.1,
+      "box": 7.5,
+      "cls": 0.5,
+      "dfl": 1.5,
+      "pose": 12.0,
+      "kobj": 1.0,
+      "nbs": 64,
+      "hsv_h": 0.0,
+      "hsv_s": 0.0,
+      "hsv_v": 0.0,
+      "degrees": 0.0,
+      "translate": 0.1,
+      "scale": 0.1,
+      "shear": 0.0,
+      "perspective": 0.0,
+      "flipud": 0.0,
+      "fliplr": 0.5,
+      "bgr": 0.0,
+      "mosaic": 0.0,
+      "mixup": 0.0,
+      "cutmix": 0.0,
+      "copy_paste": 0.0,
+      "copy_paste_mode": "flip",
+      "auto_augment": "randaugment",
+      "erasing": 0.4,
+      "cfg": null,
+      "tracker": "botsort.yaml",
+      "save_dir": "D:/old/pilot__20261011_112235_644745/B6_s0/training"
+    },
+    "saved_original_run": "D:/old/pilot__20261011_112235_644745/B6_s0/training",
+    "checkpoint_epoch": 37,
+    "completed_epoch": 38,
+    "original_budget": 40,
+    "csv_row": {
+      "epoch": 38.0,
+      "time": 1.0,
+      "metrics/mAP50(B)": 0.3,
+      "metrics/mAP50-95(B)": 0.2
+    },
+    "checkpoint_version": "8.3.221",
+    "optimizer_present": false,
+    "provenance_limits": [
+      "historical initialization tensor hash unavailable; equal seed does not prove identical trajectory"
+    ]
+  },
+  "completed_epoch": 38,
+  "original_budget": 40,
+  "scenario": "gaussian_0.03",
+  "data_config_sha256": "3c52be889b1918dc01679b1a36c90ba39aeadbd3a4480abe87328ae8a8e7d001",
+  "derived_manifest_sha256": "7d6c424dd8a19f70a17209f61478a37e0799b48afce2b13e5e61cf8026cfbe38",
+  "settings": {
+    "ap_conf": 0.001,
+    "batch": 1,
+    "conf": 0.25,
+    "corruptions": [
+      {
+        "kind": "gaussian",
+        "value": 0.03
+      }
+    ],
+    "cpu_threads": 2,
+    "data": "/tmp/DetailPair old40 CPU vz6qjufr/synthetic_data/data.yaml",
+    "device": "cpu",
+    "expected_gt": 4,
+    "expected_images": 4,
+    "expected_train_images": 8,
+    "fuse": true,
+    "imgsz": 320,
+    "match_iou": 0.5,
+    "max_det": 300,
+    "nms_iou": 0.7,
+    "precision": "FP32",
+    "protocol_version": "DetailPair-old40-matched-1.0",
+    "seed": 178,
+    "split": "val",
+    "synthetic_check": true,
+    "variants": [
+      {
+        "csv": "/tmp/DetailPair old40 CPU vz6qjufr/B5/results.csv",
+        "selection": "/tmp/DetailPair old40 CPU vz6qjufr/selection.json",
+        "variant": "B5",
+        "weight_dirs": [
+          "/tmp/DetailPair old40 CPU vz6qjufr/B5"
+        ]
+      },
+      {
+        "csv": "/tmp/DetailPair old40 CPU vz6qjufr/B6/results.csv",
+        "selection": "/tmp/DetailPair old40 CPU vz6qjufr/selection.json",
+        "variant": "B6",
+        "weight_dirs": [
+          "/tmp/DetailPair old40 CPU vz6qjufr/B6"
+        ]
+      }
+    ]
+  }
+}

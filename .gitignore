@@ -15,3 +15,9 @@ DetailPair_v0.2.6/runs/**/*.png
 DetailPair_v0.2.6/runs/**/*.jpg
 DetailPair_v0.2.6/runs/**/*.jpeg
 DetailPair_v0.2.6/runs/**/*.npy
+
+# v0.2.8 shared evaluation copies remain local; scalar manifests are tracked.
+DetailPair_v0.2.8/runs/**/datasets/
+DetailPair_v0.2.8/runs/**/*.png
+DetailPair_v0.2.8/runs/**/*.jpg
+DetailPair_v0.2.8/runs/**/*.npy

@@ -1,0 +1,22 @@
+{
+  "unit_tests": 11,
+  "CPU_synthetic_four_evaluations": "passed",
+  "input_shape": [
+    1,
+    3,
+    320,
+    320
+  ],
+  "missing_config_exit": 1,
+  "blocked_missing_pair_exit": 2,
+  "source_and_weight_hashes_unchanged": true,
+  "core_unchanged_sha256": {
+    "model.py": "366e6756f9246ddbfe410530351811f7d728a97d05765110d9e25b460a47ed52",
+    "engine.py": "706f16c92331fb0ec880f89e7dc4ebccc8cf395962c9fb30c0d49f0df4e92fd1",
+    "data.py": "9afa208fee48ced29619df5b20b03df40a4accaee91fd6103fc1510e5e123706",
+    "evaluation.py": "9dacd9bf7feab924c8003f55ed94127c6ff86608dd8320fba08ff4df81cb4da0"
+  },
+  "python_AST_files": 27,
+  "real_Windows_GPU_old_weights_NEU_evaluation": "pending",
+  "uploaded_mechanism_raw_record_recomputation": "passed"
+}

@@ -1,0 +1,17 @@
+scenario,class_id,name,metric,B5,B6,B5_minus_B6
+clean,0,synthetic_rectangle,AP50,0.0,0.0,0.0
+clean,0,synthetic_rectangle,AP50_95,0.0,0.0,0.0
+clean,0,synthetic_rectangle,TP,0,0,0
+clean,0,synthetic_rectangle,FP,0,0,0
+clean,0,synthetic_rectangle,FN,4,4,0
+clean,0,synthetic_rectangle,GT,4,4,0
+clean,0,synthetic_rectangle,Precision,,,
+clean,0,synthetic_rectangle,Recall,0.0,0.0,0.0
+gaussian_0.03,0,synthetic_rectangle,AP50,0.0,0.0,0.0
+gaussian_0.03,0,synthetic_rectangle,AP50_95,0.0,0.0,0.0
+gaussian_0.03,0,synthetic_rectangle,TP,0,0,0
+gaussian_0.03,0,synthetic_rectangle,FP,0,0,0
+gaussian_0.03,0,synthetic_rectangle,FN,4,4,0
+gaussian_0.03,0,synthetic_rectangle,GT,4,4,0
+gaussian_0.03,0,synthetic_rectangle,Precision,,,
+gaussian_0.03,0,synthetic_rectangle,Recall,0.0,0.0,0.0

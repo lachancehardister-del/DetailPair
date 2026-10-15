@@ -1,0 +1,11 @@
+scenario,metric,B5,B6,B5_minus_B6
+clean,metrics/mAP50-95(B),0.0,0.0,0.0
+clean,metrics/mAP50(B),0.0,0.0,0.0
+clean,macro_Precision,,,
+clean,macro_Recall,0.0,0.0,0.0
+clean,FPPI,0.0,0.0,0.0
+gaussian_0.03,metrics/mAP50-95(B),0.0,0.0,0.0
+gaussian_0.03,metrics/mAP50(B),0.0,0.0,0.0
+gaussian_0.03,macro_Precision,,,
+gaussian_0.03,macro_Recall,0.0,0.0,0.0
+gaussian_0.03,FPPI,0.0,0.0,0.0

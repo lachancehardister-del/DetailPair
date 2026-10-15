@@ -1,0 +1,47 @@
+Creating new Ultralytics Settings v0.0.6 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/workspace/DetailPair/DetailPair_v0.2.7/local_settings/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+test_frozen_protocol_and_nonindependent_summary (__main__.MechanismTests.test_frozen_protocol_and_nonindependent_summary) ... ok
+test_hook_cleanup_on_exception (__main__.MechanismTests.test_hook_cleanup_on_exception) ... Overriding model.yaml nc=80 with nc=1
+ok
+test_letterbox_targets_train_only_and_seed_selection (__main__.MechanismTests.test_letterbox_targets_train_only_and_seed_selection) ... ok
+test_original_total_gradients_batch_scaling_and_state (__main__.MechanismTests.test_original_total_gradients_batch_scaling_and_state) ... Overriding model.yaml nc=80 with nc=1
+Overriding model.yaml nc=80 with nc=1
+ok
+test_region_empty_and_zero_amplitude (__main__.MechanismTests.test_region_empty_and_zero_amplitude) ... ok
+test_scalar_gate_derivative_and_stop_gradient (__main__.MechanismTests.test_scalar_gate_derivative_and_stop_gradient) ... ok
+test_zero_norm_and_disconnected_are_distinct (__main__.MechanismTests.test_zero_norm_and_disconnected_are_distinct) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.044s
+
+OK
+Overriding model.yaml nc=80 with nc=1
+Overriding model.yaml nc=80 with nc=1
+Traceback (most recent call last):
+  File "/workspace/DetailPair/DetailPair_v0.2.7/mechanism_diagnose.py", line 115, in run
+    named,groups,mode=prepare_loss_mode(model);initial=state_identity(model)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/DetailPair/DetailPair_v0.2.7/detailpair/mechanism.py", line 33, in prepare_loss_mode
+    if not hasattr(model.args,key):raise ValueError('Missing resolved loss hyperparameter '+key)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Missing resolved loss hyperparameter box
+
+Traceback (most recent call last):
+  File "/workspace/DetailPair/DetailPair_v0.2.7/mechanism_diagnose.py", line 115, in run
+    named,groups,mode=prepare_loss_mode(model);initial=state_identity(model)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/DetailPair/DetailPair_v0.2.7/detailpair/mechanism.py", line 33, in prepare_loss_mode
+    if not hasattr(model.args,key):raise ValueError('Missing resolved loss hyperparameter '+key)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Missing resolved loss hyperparameter box
+
+Result ZIP: /workspace/DetailPair/DetailPair_v0.2.7/exports/DetailPair_mechanism_results_20261015_055630_697705.zip
+Mechanism directory: /workspace/DetailPair/DetailPair_v0.2.7/runs/mechanism_20261015_055623_030574
+Traceback (most recent call last):
+  File "/workspace/DetailPair/DetailPair_v0.2.7/tests/check_mechanism.py", line 151, in <module>
+    integration()
+  File "/workspace/DetailPair/DetailPair_v0.2.7/tests/check_mechanism.py", line 127, in integration
+    run=(set((ROOT/'runs').glob('mechanism_*'))-before).pop();assert r.returncode==0,'Integration failed: '+str(run)
+                                                                     ^^^^^^^^^^^^^^^
+AssertionError: Integration failed: /workspace/DetailPair/DetailPair_v0.2.7/runs/mechanism_20261015_055623_030574

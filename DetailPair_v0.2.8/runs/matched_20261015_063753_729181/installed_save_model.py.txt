@@ -1,0 +1,40 @@
+    def save_model(self):
+        """Save model training checkpoints with additional metadata."""
+        import io
+
+        # Serialize ckpt to a byte buffer once (faster than repeated torch.save() calls)
+        buffer = io.BytesIO()
+        torch.save(
+            {
+                "epoch": self.epoch,
+                "best_fitness": self.best_fitness,
+                "model": None,  # resume and final checkpoints derive from EMA
+                "ema": deepcopy(unwrap_model(self.ema.ema)).half(),
+                "updates": self.ema.updates,
+                "optimizer": convert_optimizer_state_dict_to_fp16(deepcopy(self.optimizer.state_dict())),
+                "scaler": self.scaler.state_dict(),
+                "train_args": vars(self.args),  # save as dict
+                "train_metrics": {**self.metrics, **{"fitness": self.fitness}},
+                "train_results": self.read_results_csv(),
+                "date": datetime.now().isoformat(),
+                "version": __version__,
+                "git": {
+                    "root": str(GIT.root),
+                    "branch": GIT.branch,
+                    "commit": GIT.commit,
+                    "origin": GIT.origin,
+                },
+                "license": "AGPL-3.0 (https://ultralytics.com/license)",
+                "docs": "https://docs.ultralytics.com",
+            },
+            buffer,
+        )
+        serialized_ckpt = buffer.getvalue()  # get the serialized content to save
+
+        # Save checkpoints
+        self.wdir.mkdir(parents=True, exist_ok=True)  # ensure weights directory exists
+        self.last.write_bytes(serialized_ckpt)  # save last.pt
+        if self.best_fitness == self.fitness:
+            self.best.write_bytes(serialized_ckpt)  # save best.pt
+        if (self.save_period > 0) and (self.epoch % self.save_period == 0):
+            (self.wdir / f"epoch{self.epoch}.pt").write_bytes(serialized_ckpt)  # save epoch, i.e. 'epoch3.pt'

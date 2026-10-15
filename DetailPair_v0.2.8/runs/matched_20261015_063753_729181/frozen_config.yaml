@@ -1,0 +1,29 @@
+protocol_version: DetailPair-old40-matched-1.0
+synthetic_check: false
+data: 'D:\datasets\NEU-DET_DetailPair_s0_20261011_104211_157196\data.yaml'
+device: '0'
+split: val
+imgsz: 320
+batch: 1
+precision: FP32
+fuse: true
+conf: 0.25
+ap_conf: 0.001
+nms_iou: 0.7
+match_iou: 0.5
+max_det: 300
+seed: 178
+cpu_threads: 2
+expected_images: 180
+expected_gt: 429
+expected_train_images: 1438
+corruptions: [{kind: gaussian, value: 0.03}]
+variants:
+  - variant: B5
+    weight_dirs: ['D:\ModelImprovement\DetailPair_v0.2.2\runs\pilot__20261011_112235_644745\B5_s0\training\weights']
+    csv: 'D:\ModelImprovement\DetailPair_v0.2.2\runs\pilot__20261011_112235_644745\B5_s0\training\results.csv'
+    selection: 'D:\ModelImprovement\DetailPair_v0.2.2\runs\pilot__20261011_112235_644745\subset_s0\selection.json'
+  - variant: B6
+    weight_dirs: ['D:\ModelImprovement\DetailPair_v0.2.2\runs\pilot__20261011_112235_644745\B6_s0\training\weights']
+    csv: 'D:\ModelImprovement\DetailPair_v0.2.2\runs\pilot__20261011_112235_644745\B6_s0\training\results.csv'
+    selection: 'D:\ModelImprovement\DetailPair_v0.2.2\runs\pilot__20261011_112235_644745\subset_s0\selection.json'

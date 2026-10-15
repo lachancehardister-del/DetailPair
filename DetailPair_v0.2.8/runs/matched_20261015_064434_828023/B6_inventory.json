@@ -1,0 +1,14 @@
+{
+  "directories": [
+    {
+      "path": "D:\\ModelImprovement\\DetailPair_v0.2.2\\runs\\pilot__20261011_112235_644745\\B6_s0\\training\\weights",
+      "exists": false
+    }
+  ],
+  "csv": {
+    "path": "D:\\ModelImprovement\\DetailPair_v0.2.2\\runs\\pilot__20261011_112235_644745\\B6_s0\\training\\results.csv",
+    "status": "missing",
+    "issues": []
+  },
+  "checkpoints": []
+}

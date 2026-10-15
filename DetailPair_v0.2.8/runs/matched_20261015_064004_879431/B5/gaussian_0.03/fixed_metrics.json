@@ -1,0 +1,29 @@
+{
+  "classes": [
+    {
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "TP": 0,
+      "FP": 0,
+      "FN": 4,
+      "GT": 4,
+      "Precision": null,
+      "Recall": 0.0
+    }
+  ],
+  "macro": {
+    "Precision": null,
+    "Precision_classes_with_denominator": 0,
+    "Recall": 0.0,
+    "Recall_classes_with_denominator": 1
+  },
+  "undefined": "null when denominator is zero; macro excludes undefined classes",
+  "conf": 0.25,
+  "nms_iou": 0.7,
+  "match_iou": 0.5,
+  "max_det": 300,
+  "multi_label": false,
+  "matching": "per class score-descending greedy highest IoU unmatched GT, stable index tie-break, one-to-one; duplicate and wrong-class predictions FP",
+  "FPPI": 0.0,
+  "images": 4
+}

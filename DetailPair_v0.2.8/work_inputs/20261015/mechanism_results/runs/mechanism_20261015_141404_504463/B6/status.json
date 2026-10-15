@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "parameters_and_BN_unchanged": true,
+  "disk_weight_unchanged": true,
+  "batches_success": 32,
+  "batches_expected": 32,
+  "scope": "Frozen-BN endpoint local gradients, not B5 ablation or historical training"
+}

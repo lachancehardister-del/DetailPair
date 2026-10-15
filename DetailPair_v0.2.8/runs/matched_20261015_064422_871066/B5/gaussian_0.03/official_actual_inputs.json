@@ -1,0 +1,82 @@
+[
+  {
+    "image_id": "000000",
+    "actual_shape": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "actual_device": "cpu",
+    "dtype": "torch.float32",
+    "input": {
+      "shape": [
+        3,
+        320,
+        320
+      ],
+      "dtype": "float32",
+      "sha256": "2ecda2338c7c17e73ada087dbc915b7e5f06a7b75daf3e9cd881ebf7e555b8d7"
+    }
+  },
+  {
+    "image_id": "000001",
+    "actual_shape": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "actual_device": "cpu",
+    "dtype": "torch.float32",
+    "input": {
+      "shape": [
+        3,
+        320,
+        320
+      ],
+      "dtype": "float32",
+      "sha256": "78646001cb79a698aecfab49b7ef78b4696e55e1aa30adfa4e390ab68fb4a437"
+    }
+  },
+  {
+    "image_id": "000002",
+    "actual_shape": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "actual_device": "cpu",
+    "dtype": "torch.float32",
+    "input": {
+      "shape": [
+        3,
+        320,
+        320
+      ],
+      "dtype": "float32",
+      "sha256": "f4d59089899a597b601e528e8df1b833c6938b75df508bb176772a9783058f05"
+    }
+  },
+  {
+    "image_id": "000003",
+    "actual_shape": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "actual_device": "cpu",
+    "dtype": "torch.float32",
+    "input": {
+      "shape": [
+        3,
+        320,
+        320
+      ],
+      "dtype": "float32",
+      "sha256": "2a3ebcee017f9bc4c9ac06a1fa55dd1e071559d0e7b86ab3b671a83d19fdb11b"
+    }
+  }
+]

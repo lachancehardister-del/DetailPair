@@ -1,0 +1,6 @@
+{
+  "config": "/workspace/DetailPair/DetailPair_v0.2.8/configs/matched_checkpoint_eval.yaml",
+  "pack_only": false,
+  "inventory_only": false,
+  "synthetic_check": false
+}

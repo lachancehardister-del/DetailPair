@@ -1,0 +1,11 @@
+{
+  "version": "0.2.8",
+  "status": "passed",
+  "source_payload_crc_and_manifest_sha256": "passed",
+  "unpacked_AST": "passed",
+  "required_full_engineering_files": "passed",
+  "unpacked_help_pack_only_and_legacy_pack": "passed",
+  "result_pack_crc": "passed",
+  "original_data_weights_and_runs_excluded": true,
+  "Windows_GPU_real_evaluation": "pending"
+}

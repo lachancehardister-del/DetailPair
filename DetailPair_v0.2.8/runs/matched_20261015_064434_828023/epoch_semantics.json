@@ -1,0 +1,7 @@
+{
+  "checkpoint_zero_based": true,
+  "csv_epoch": "checkpoint epoch + 1",
+  "filename_is_not_evidence": true,
+  "save_source_sha256": "5f2b57d19a7b7ea4441ff2a7f922a59e202c38a86141c4c4aa907f5b709eec71",
+  "csv_source_sha256": "5edab165bfc6030aa5cf1ef51cd29e02448da298122874700957d3ec2958f723"
+}

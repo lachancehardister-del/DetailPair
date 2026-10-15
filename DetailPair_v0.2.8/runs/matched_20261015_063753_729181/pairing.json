@@ -1,0 +1,5 @@
+{
+  "status": "blocked_missing_matched_checkpoint",
+  "reason": "No metadata/CSV-confirmed common completed epoch <=38. No training authorized.",
+  "selected": {}
+}

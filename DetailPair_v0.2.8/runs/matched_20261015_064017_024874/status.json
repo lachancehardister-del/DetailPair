@@ -1,0 +1,12 @@
+{
+  "no_training": true,
+  "no_optimizer": true,
+  "no_resume": true,
+  "timing_performed": false,
+  "test_evaluated": false,
+  "synthetic_check": false,
+  "successful_evaluations": 0,
+  "expected_evaluations": 4,
+  "weights_and_sources_verified_unchanged": null,
+  "status": "blocked_missing_matched_checkpoint"
+}

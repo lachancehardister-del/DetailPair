@@ -1,0 +1,114 @@
+{
+  "records": [
+    {
+      "image_id": "000000",
+      "source_image": "/tmp/DetailPair old40 CPU 9zd8i8en/synthetic_data/images/val/0.png",
+      "source_label": "/tmp/DetailPair old40 CPU 9zd8i8en/synthetic_data/labels/val/0.txt",
+      "image_sha256": "f9fd62d1acde9b613129f93c6dcb91ac6c1d394821568fdd66ce3cf27609e52e",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.8/runs/matched_20261015_063737_767910/datasets/gaussian_0.03/images/val/000000.png",
+      "derived_image_sha256": "2b7fdbb402305a5ca24dd28281b15f642bb8e8768fd66571de0655e046550d75",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 21.20638411667459,
+      "mse": 0.0008323946919454057
+    },
+    {
+      "image_id": "000001",
+      "source_image": "/tmp/DetailPair old40 CPU 9zd8i8en/synthetic_data/images/val/1.png",
+      "source_label": "/tmp/DetailPair old40 CPU 9zd8i8en/synthetic_data/labels/val/1.txt",
+      "image_sha256": "a2944b1c4914e9367691bb05ab5872173d1b7136d5ea4c2cc1ee41f2c093f21d",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.8/runs/matched_20261015_063737_767910/datasets/gaussian_0.03/images/val/000001.png",
+      "derived_image_sha256": "68a138f6aa60dc5eea80d62cb9aae6f87eaa7a15276ea26708468dcbbcf9b778",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 21.28454170725771,
+      "mse": 0.0008174552756151481
+    },
+    {
+      "image_id": "000002",
+      "source_image": "/tmp/DetailPair old40 CPU 9zd8i8en/synthetic_data/images/val/2.png",
+      "source_label": "/tmp/DetailPair old40 CPU 9zd8i8en/synthetic_data/labels/val/2.txt",
+      "image_sha256": "dc9c6bed1f688b2b807a23362853b5cfe4028a9f12117deb685978aeb20c9102",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.8/runs/matched_20261015_063737_767910/datasets/gaussian_0.03/images/val/000002.png",
+      "derived_image_sha256": "749a5f22d45a3e85c8c24b75c5e8847d657239c01142a8b9481ee1cac1df66f7",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 21.28424150567119,
+      "mse": 0.0008173038414712291
+    },
+    {
+      "image_id": "000003",
+      "source_image": "/tmp/DetailPair old40 CPU 9zd8i8en/synthetic_data/images/val/3.png",
+      "source_label": "/tmp/DetailPair old40 CPU 9zd8i8en/synthetic_data/labels/val/3.txt",
+      "image_sha256": "991b6d4e0651fe3b4473819630b5dcf23502a2a4dca9656a3f36fae2e9f2caaf",
+      "label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "width": 64,
+      "height": 64,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            16.0,
+            20.0,
+            40.0,
+            44.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.8/runs/matched_20261015_063737_767910/datasets/gaussian_0.03/images/val/000003.png",
+      "derived_image_sha256": "b8963af6aabefdd82eb98e10957bfa80090063030d962a9805b185334523c594",
+      "derived_label_sha256": "7fe94ec38e43ed256cbd789152a40678a6f3a8c8fcff9ad3e5e9bb006293d410",
+      "snr_db": 21.30616505784706,
+      "mse": 0.0008133853265570933
+    }
+  ],
+  "shared_by": [
+    "B5",
+    "B6"
+  ],
+  "corruption": {
+    "kind": "gaussian",
+    "value": 0.03
+  },
+  "seed": 178,
+  "decoding": "PIL RGB float64 /255; clip + numpy.round *255 -> shared uint8 lossless PNG; native GT coordinates unchanged"
+}

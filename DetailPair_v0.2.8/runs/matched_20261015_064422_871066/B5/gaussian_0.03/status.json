@@ -1,0 +1,6 @@
+{
+  "status": "success",
+  "checkpoint_sha256": "f348e28a09f4a88130e1a14f7e0999547c143dc620938011e20b55e9be36928e",
+  "completed_epoch": 38,
+  "actual_images": 4
+}

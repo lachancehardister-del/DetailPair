@@ -1,0 +1,29 @@
+Overriding model.yaml nc=80 with nc=1
+Overriding model.yaml nc=80 with nc=1
+test_corrupt_inventory_recorded_and_no_recursive_search (__main__.MatchedTests.test_corrupt_inventory_recorded_and_no_recursive_search) ... ok
+test_different_epochs_block_and_latest_not_AP (__main__.MatchedTests.test_different_epochs_block_and_latest_not_AP) ... ok
+test_hand_check_prediction_matching (__main__.MatchedTests.test_hand_check_prediction_matching) ... ok
+test_incomplete_csv_and_missing_round_rejected (__main__.MatchedTests.test_incomplete_csv_and_missing_round_rejected) ... ok
+test_protocol_frozen (__main__.MatchedTests.test_protocol_frozen) ... ok
+test_real_epoch_semantics_and_no_filename_inference (__main__.MatchedTests.test_real_epoch_semantics_and_no_filename_inference) ... ok
+test_training_policy_mismatch_and_role_mismatch (__main__.MatchedTests.test_training_policy_mismatch_and_role_mismatch) ... ok
+test_wrong_run_and_budget_refused (__main__.MatchedTests.test_wrong_run_and_budget_refused) ... ok
+test_wrong_variant_and_names_refused (__main__.MatchedTests.test_wrong_variant_and_names_refused) ... FAIL
+
+======================================================================
+FAIL: test_wrong_variant_and_names_refused (__main__.MatchedTests.test_wrong_variant_and_names_refused)
+----------------------------------------------------------------------
+ValueError: wrong saved original run/condition
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/DetailPair/DetailPair_v0.2.8/tests/check_matched.py", line 44, in test_wrong_variant_and_names_refused
+    with self.assertRaisesRegex(ValueError,'variant'):inspect_checkpoint(self.root/'B5.pt','B6',self.rows)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "variant" does not match "wrong saved original run/condition"
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.951s
+
+FAILED (failures=1)

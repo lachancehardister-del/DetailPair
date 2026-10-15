@@ -1,0 +1,74 @@
+[
+  {
+    "image_id": "000000",
+    "actual_shape": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "input": {
+      "shape": [
+        3,
+        320,
+        320
+      ],
+      "dtype": "float32",
+      "sha256": "9b325bd19d628e68f912c490838858a0c8324828c7201ecf883cbc9e54b11c2a"
+    }
+  },
+  {
+    "image_id": "000001",
+    "actual_shape": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "input": {
+      "shape": [
+        3,
+        320,
+        320
+      ],
+      "dtype": "float32",
+      "sha256": "42899fb48815e7e03ee8fbb233ad8ff90c29c27ef9afa7a2e26703a55daef2f8"
+    }
+  },
+  {
+    "image_id": "000002",
+    "actual_shape": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "input": {
+      "shape": [
+        3,
+        320,
+        320
+      ],
+      "dtype": "float32",
+      "sha256": "2cd2698c8f9df965108295ab1ebe2a4d98ba10a5684d3093a3f74d6ddbea4b6a"
+    }
+  },
+  {
+    "image_id": "000003",
+    "actual_shape": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "input": {
+      "shape": [
+        3,
+        320,
+        320
+      ],
+      "dtype": "float32",
+      "sha256": "dbd875977511798425e7766321911e20f48f063e10b891353f8a24200ce7701c"
+    }
+  }
+]

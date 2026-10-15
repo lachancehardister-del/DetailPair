@@ -1,0 +1,10 @@
+{
+  "torch": "2.5.1+cpu",
+  "torchvision": "0.20.1+cpu",
+  "ultralytics": "8.3.221",
+  "cuda": null,
+  "cuda_available": false,
+  "synthetic_check": true,
+  "evaluation_device_requested": "cpu",
+  "gpu_required_now": false
+}

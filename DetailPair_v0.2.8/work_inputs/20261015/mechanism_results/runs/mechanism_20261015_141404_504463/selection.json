@@ -1,0 +1,624 @@
+{
+  "seed": 178,
+  "rule": "sort normalized resolved source path (casefold, POSIX separators); independent random.Random(178).shuffle then first64, no re-draw",
+  "train_membership": 1438,
+  "selected_images": 64,
+  "selection_identities": [
+    {
+      "variant": "B2",
+      "path": "D:\\ModelImprovement\\DetailPair_v0.2.4\\runs\\pilot__20261012_230632_329133\\subset_s0\\selection.json",
+      "sha256": "569e760277e1c454a9316650465591bbba4ab47e2b962aed235c104cb7e97b1b"
+    },
+    {
+      "variant": "B6",
+      "path": "D:\\ModelImprovement\\DetailPair_v0.2.4\\runs\\pilot__20261012_125741_680519\\subset_s0\\selection.json",
+      "sha256": "6d3cd907e56d7ac34c717390e7ec9b89ee5555088f888f4f58d8485036fad518"
+    }
+  ],
+  "class_box_counts": {
+    "0": {
+      "name": "crazing",
+      "boxes": 27
+    },
+    "1": {
+      "name": "inclusion",
+      "boxes": 44
+    },
+    "2": {
+      "name": "patches",
+      "boxes": 27
+    },
+    "3": {
+      "name": "pitted_surface",
+      "boxes": 19
+    },
+    "4": {
+      "name": "rolled-in_scale",
+      "boxes": 23
+    },
+    "5": {
+      "name": "scratches",
+      "boxes": 11
+    }
+  },
+  "missing_classes": [],
+  "content_verification": "Selected images/labels checked against both historical selections; unselected train membership only. No val/test paths or labels loaded.",
+  "records": [
+    {
+      "image_id": "train_0000",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\patches_90.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\patches_90.txt",
+      "image_sha256": "65704f810f46a2dd58e1ff24c78f75e2c46678266e1f76b927da7a340f24eff8",
+      "label_sha256": "31a0239df4078e75ad5ed17fd94d4233ef9f3814fe8f173f5cfa4c59a39dee11",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0001",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_177.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_177.txt",
+      "image_sha256": "bfe34c1cf0883fb91bbb6c8f91c39f0fa174e3f3f566b6ddee04786764f546d2",
+      "label_sha256": "74312a02b1d6c72de7ea13cb8f81ef113a8b1640ce22ffed84b83884b7a4a789",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0002",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\scratches_47.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\scratches_47.txt",
+      "image_sha256": "ab7f194af65ec63adeed6df943a63393c334f88246170651321e6626629b40a0",
+      "label_sha256": "f0cc39fe7ee1040ff9b7ab4ec9e5f9b91b79306f1bd4619628e7ccb3814d704d",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0003",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_217.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_217.txt",
+      "image_sha256": "dd0e2f8a2c6901cc540c53aa7194af40fa2e8ed38a0825608e1b56c846fcf01e",
+      "label_sha256": "8752d0cd9103325534da31ef4f009bb9bcaa8337cdc6de421f6ef4fba7d2b30b",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0004",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_53.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_53.txt",
+      "image_sha256": "4e8dd9c0a12898861a575108b45acddfdfc342f3d346c089f9eb9d56f3c4281f",
+      "label_sha256": "7e5ad1deb7b6910ef8b1c55bdfa3c3093921569065b7e50fcc1a1e4472840eed",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0005",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\scratches_259.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\scratches_259.txt",
+      "image_sha256": "3d9f70b84f17226fb5791ebfccef99ca7bd17c6a1e340f972ab21cedd5de2663",
+      "label_sha256": "9185bf3b0755bcd43d76e783a1a776f70a7e9f39ae998f412ea102ba8eca3ec6",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0006",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_39.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_39.txt",
+      "image_sha256": "8045c0220b70504345d02c81c69845e48bac0417e3472d3703027c96965004fc",
+      "label_sha256": "6954e4bd1a6039242f602309d5d305b1dd414ff44291a2727e053f92bcb42f9a",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0007",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\scratches_118.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\scratches_118.txt",
+      "image_sha256": "11597fa66f475888f1b4bde318a741339467c1d074942361d0a391a61770f93e",
+      "label_sha256": "315aa91eac8f9e011152055c4de76cde8d4463fac287935a0edc37d090058967",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0008",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\patches_32.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\patches_32.txt",
+      "image_sha256": "f1cc2da29bceb16f3845896cbfb025a48bbf86e14b38773042a8f3355cbf9ee0",
+      "label_sha256": "1e8781fc0af00a68d86f8f0421bc1ac4749826657563c0da37823ce174e3ed3c",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0009",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_217.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_217.txt",
+      "image_sha256": "6518cd1259ee169a39dd98f755a3dbb11175cf30bd346e2974d709362961824c",
+      "label_sha256": "26de0b12b2e68ee0f004ecd100f1cbc572aba01cc327ac18bac59909be729a3a",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0010",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\patches_181.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\patches_181.txt",
+      "image_sha256": "fcebed354c17ff4339ab57196c75f7e7d12c77f03a38f0819e22aa2656083634",
+      "label_sha256": "7e733d3691d74c0bfdea7c1a59a763f56d2388be750e16d9953e0c5bf1ac596f",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0011",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_247.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_247.txt",
+      "image_sha256": "4f0eadd40ba77606ab30299d77f301d20899892f0770fd46abd2005e72aab867",
+      "label_sha256": "ff687bc16bcc1b2e8a8de7361b2ba7b90ac263f00bddd34554b94ed7ba206373",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0012",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_120.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_120.txt",
+      "image_sha256": "9deed64441fc84ee4d040cc532076cb2b68f2c227cf011c10f3ce43b9ee57ff6",
+      "label_sha256": "007600c7096247485e8e355742ee58aac8cb6f02d7b2ba01197fe8f4b64c5ade",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0013",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_34.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_34.txt",
+      "image_sha256": "82b8711bbdbd0339337db43a5964b53a522ba31c8b766941dca9299755c8f190",
+      "label_sha256": "fce017a39e747ed87794451fd701bdb43847ba817475227c50208a1ba2254dc0",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0014",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_43.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_43.txt",
+      "image_sha256": "d13a0906ba9e34d170ca9d2309b7e713664b1da1c814a7aad16513f6a9ab9f60",
+      "label_sha256": "b6af4af1acf88836af5c7b3bd067beeafea885c987693fa5b590c1c1cc383e13",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0015",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_241.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_241.txt",
+      "image_sha256": "3ae0c8e0b0ddab539bcb0ab86e04909543015fbbd4b0bf5eb12232e2274dea2b",
+      "label_sha256": "3bbac9e6b41df12a802c13ad961fe22fb521d38b16eda7594052c2832c35fc6d",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0016",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_107.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_107.txt",
+      "image_sha256": "a1f9797208b18976c3ac2d9c80c9783dc747a812c47a40f1b6d72d92d78abf8c",
+      "label_sha256": "cc51c6af84f2d248d9bf4880d3e34ea385ba776f8e07509d8890fc3eaf609db3",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0017",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\scratches_133.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\scratches_133.txt",
+      "image_sha256": "21b5fa723bad108189e9da4101ade52ff3085d75e5cfecd6fa7b429cbd07fe43",
+      "label_sha256": "64a33efd5935bd5473be265e97b0b419fdd9e08dc7dc081d2e8d63d73f4fc1f0",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0018",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_62.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_62.txt",
+      "image_sha256": "f2746e85b8590550ac82838e6539dcda6a0bfa68c95acfc98ba8281de62e963f",
+      "label_sha256": "d76f9e2ccefbb5f3c0857a5f25ee5c5f26ba729b639666d9879faae6456d61cc",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0019",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_101.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_101.txt",
+      "image_sha256": "7df40e532413e8125e874e0d93467862e9b2aeba436d7e78f9fb93419e68a6eb",
+      "label_sha256": "786150ac2121a81977f8fe9d4ce727663574dba3708e0ec787b1161450ae64be",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0020",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_227.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_227.txt",
+      "image_sha256": "67bc72dc62f6bfbcf417b731fab4a3dc6b4eb54079bd17195abfceae02a38454",
+      "label_sha256": "5c86ceb712278901608808e6da4fb9801ebd57c347966aa0f6127952bc21ef7f",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0021",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_269.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_269.txt",
+      "image_sha256": "4cac3f7a6ef724ab817f6e4c0fe8f80117880efb5a80fdbae565a5edc70b32d4",
+      "label_sha256": "1a079f98ea57230939f348de20c5a287e6179085b207249e2492c8240758d23e",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0022",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\patches_177.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\patches_177.txt",
+      "image_sha256": "8296704a80a15a59e806394db76485fbaf9160ac55f745dcda03da054edb1bb7",
+      "label_sha256": "69e624b7ade66d8e7b7c3fd81eeaa8b668e41f7a1c0a56cac25e7186491b5581",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0023",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_15.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_15.txt",
+      "image_sha256": "466fc481bd3e6d378058b4aa9a4a4612e27da31a6a1844fe9d863e85ab47a5e8",
+      "label_sha256": "7344153c6ebfca32c0542ff856a33237bd27880412b31e726efdcb114f32f490",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0024",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_61.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_61.txt",
+      "image_sha256": "064eb68a6d22169cc6816daaab8b4cafdecd9c2cb82b5b4fb6318fad99e5c3a4",
+      "label_sha256": "6c6f623c3c9c6eda0d98d95094d590505042d1ec708cfd208ebe2338754a56a9",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0025",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_114.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_114.txt",
+      "image_sha256": "ee015e8ee7dd90a4436050ba07d4559c082ec6b1fae8f246c919f2895bb8efb4",
+      "label_sha256": "0f3215f8e07519384e471bd6605a46a517a7d4114a123a612a73d0a330ba6bfe",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0026",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_99.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_99.txt",
+      "image_sha256": "8ecbe05c11b7b043b5766f531a98ec31c41c5c615f8144ec671f61393e0961fa",
+      "label_sha256": "673131ad023003dcbf98b38171b7e741d7dc019d82a1e640b812b379254476c8",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0027",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_20.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_20.txt",
+      "image_sha256": "410585853745afbb7ef092bb290f3d5c971d455c02f00080868e302d113837f2",
+      "label_sha256": "96369402441f488ed78e780ce0050997fc7c0b937d2271d61c02aefdc2b2b37c",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0028",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_24.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_24.txt",
+      "image_sha256": "cb8db299c4721fe71c11b8e12b8cff93eb0ff2bf4581d3db218f4b2226a18166",
+      "label_sha256": "12633f1e6819140cc05200caa823a452f35669894390259c66f9f58cf2669b59",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0029",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_199.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_199.txt",
+      "image_sha256": "045dd7295bb1c32e3d180ab5092618fd4015852c747a667a67c5b53048c0fd2a",
+      "label_sha256": "200d0b196d1d3838958222a88ae76e5f870ddbeb709fc98c15c63663441cb5dd",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0030",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_41.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_41.txt",
+      "image_sha256": "28612ab5241da32535d450c8f68a632551f8c26e391e8766e592a288ebd3507e",
+      "label_sha256": "656b813219d1409f7de149a1f0ae66ab7c3d8e82ccfa8181fc50f62bbb16f589",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0031",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_243.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_243.txt",
+      "image_sha256": "0ff5b95f2010a0ab272018255023c9aac1018ec23243759e4d9eab1dafbff718",
+      "label_sha256": "73ac9d6290ac52a4fa058c433789ad32fd57c571f429a03e63ad15c35d59252c",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0032",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_263.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_263.txt",
+      "image_sha256": "f3c2363177cccfc7bce51d78484f54ae42db54a2ad878b1479c5d0d0e2960872",
+      "label_sha256": "a0c955d847f6aa7ff00a420b5ee61eb33cad030d2c126aac4f06f348aab0c9c0",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0033",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_119.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_119.txt",
+      "image_sha256": "f4562ead6fe00c0051cee44830c0c654dbb48b9f198e24d1baf26429aa814256",
+      "label_sha256": "8c96d51e44b400dd0e7110a299ccbaadbad52a3dc6aaf601b7207baba614e860",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0034",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_242.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_242.txt",
+      "image_sha256": "dc6698c721ce47ee32e523bda7d745ebe5f956adcdd3668f4333b2dc68678d54",
+      "label_sha256": "21dc1c94c461fc6d91e85e82167aeffbdeb9460ee6b157d7488c115dc7bcbb53",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0035",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\scratches_30.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\scratches_30.txt",
+      "image_sha256": "fb713f67c2e5a92c14645272f257cc3ef80c1bef743c7a27d19f26ba3b3870b1",
+      "label_sha256": "4e6d784b2351f02705b7464af95565d8b54034973154e14f2bb40e83fdca70fd",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0036",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_86.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_86.txt",
+      "image_sha256": "f85cf375f7bdb7c8e448f8ee1515507a4b13336f1a5cdf455b9a3d769c6c4d04",
+      "label_sha256": "d5e0a741e6128c75455bed940530b9050fcd1083596a454254006d75694db550",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0037",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\patches_131.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\patches_131.txt",
+      "image_sha256": "6c4bb69ad9a47caef8712455c5b63b6a4096b1134e5d5898f09cf1a482d14dc6",
+      "label_sha256": "afe98b16218bf35d528f008c644727089773f4b401d6c7d8693c8555cb196767",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0038",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\patches_240.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\patches_240.txt",
+      "image_sha256": "98ed6658cdb71e6b6fee8de73e6c203633be44162a80bad806c0092f3f029ef5",
+      "label_sha256": "9759ba42ad58020ebca3632012469c146043c27162627d1f1150132337ae58db",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0039",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_274.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_274.txt",
+      "image_sha256": "7666107c448d2234f43fcf14541e7bf958d41583e7ca38449f59547e030a5f6c",
+      "label_sha256": "70f30c23d34ec9c100544bc804786c73bfe5130766df998396706748bddcd7a3",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0040",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\patches_43.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\patches_43.txt",
+      "image_sha256": "f39a7c42ad27fbeb5d7b5bc1bcf9db36b63eabdbeecae52aa5e30b8e17d43558",
+      "label_sha256": "b74fb814ced93af8ac9fcb91ed52120f422bc274a8716ea8c66ebe6e8a537bbd",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0041",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_228.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_228.txt",
+      "image_sha256": "47e47f02b1c9091211ec85cd5722832878bf5e1221268bf3bea5920541ff2fa0",
+      "label_sha256": "ae415ce18c83527d59a3008ae6ff214f04241cd2bbd82086b80530c349f8c9ef",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0042",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_271.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_271.txt",
+      "image_sha256": "48487d8742cb496db2f311a7e71f64c295977a62f329faa9720e7a73d5585375",
+      "label_sha256": "d28b669f7df370785d1b66e10d3f5fa410085b94de2c3d948b051a054b78cd79",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0043",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_200.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_200.txt",
+      "image_sha256": "862f59073f2cc237b7602df726d08128bac6cff58971ae7adf7becaab354c197",
+      "label_sha256": "01179838b6e08166ddb1b197db4f2704ee702a531ae2c8c2cb68391c820bbec9",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0044",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\patches_113.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\patches_113.txt",
+      "image_sha256": "96512debedaa44f6fc462336bc99c9eb082da86cdb149331a8880beff8aa60b1",
+      "label_sha256": "62ea1b30152c4174ceb7e3fe35b3dc9276ab05426595e544e7456da624060e19",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0045",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_162.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_162.txt",
+      "image_sha256": "91da27038e46931779bd62a50210ae239a8ee0f0b70725c0d5777414663a294c",
+      "label_sha256": "6f753b5f53d4337253153fd9cfdb9e558cf34a8f2b7142082a5136b1744977ba",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0046",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_275.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_275.txt",
+      "image_sha256": "58594a1b490b1918d0ac3a039550ce46634b19ca12602ce36c470af0b57b4f28",
+      "label_sha256": "948795d5a9757545d44de339d2fa062eb3a898a773492f62b2868d6ef2f44fe2",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0047",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_124.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_124.txt",
+      "image_sha256": "25e1b0b087e53166451ae14ea9f8c46959c156f0560cdb253abddf6c9eedace7",
+      "label_sha256": "ad0530cb4a2f03870ee04b1f3e192d9bd5cb6d2b3f803b9b815605d3b3a10f57",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0048",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_264.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_264.txt",
+      "image_sha256": "b8f33836036497d5b83075b2bf5a093601ecf13c4c81d35a1f3af008dfe52dc3",
+      "label_sha256": "e0f2a13ee682668286468532d32002268a381ba68f622ae4f7e9f759478b138c",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0049",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_208.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_208.txt",
+      "image_sha256": "9b48f38d6793c1be07470511f8dad09506c006bb491212c74da5d52e9ab3a06c",
+      "label_sha256": "1e18d5a895e43644510229cbcdd32f88c4a013d7d6814f367403dc545d463cf0",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0050",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_211.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_211.txt",
+      "image_sha256": "6b67ec8c1e1ac58c71e316738504b32867dda9d020009c6be8f52cd1fb083933",
+      "label_sha256": "44bd56ae6c12ddf9e4d91180a96c3385feff72747955cf9873bcbd68a7d4aa37",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0051",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_250.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_250.txt",
+      "image_sha256": "811d2e1f215e2d4eecba1dff15b08f138187626e34f57b3c1bb334f45e25e4a2",
+      "label_sha256": "a8a0013da997f0cfb3e54400ad128bfef3e3db0d886ba929bf427429db8fabcf",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0052",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_156.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_156.txt",
+      "image_sha256": "ce6c5cb055c2710fc0169e3ac58c54985b176f0da300b60c00e08ae8f3a9dd1b",
+      "label_sha256": "c52146c3855b515e1cdf7df64f6fb58125202d353c5551e5185df28e8a36b0ed",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0053",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\patches_212.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\patches_212.txt",
+      "image_sha256": "856463e6892bdd866ea1d73e5a95d2a0423df43e16fb57f40d078f59d824794c",
+      "label_sha256": "11562e8ddeade9a623132d46cf65dd54daafa28d34997dd9412481579bfcfa65",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0054",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_194.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_194.txt",
+      "image_sha256": "abdec7a1f84a30c28709f0e373a165c912a18f15aa8e7c992d4b5b0314fc0038",
+      "label_sha256": "eb1923046e330285b3824675866591b3e023cb57f69c4b5f1921819ad1313c5b",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0055",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\patches_94.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\patches_94.txt",
+      "image_sha256": "be4e2ca0cad95d9dc7effb02b1a10318235767391674217a8b59437730708ea6",
+      "label_sha256": "f7a8f4455acd563469011b8fa2f33b22bb3c8ec19ac88af43cda7f4eff2dc090",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0056",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\rolled-in_scale_206.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\rolled-in_scale_206.txt",
+      "image_sha256": "dad964a1298e0e8550c652c2f6cd3dacda7096290117e4f96c499fc62f7e425a",
+      "label_sha256": "53523ecb64ff4fb8c51630cd68d284ec31f488c0109163e04dad1d1d57dffe4f",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0057",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_255.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_255.txt",
+      "image_sha256": "a96b1fd4135862349a69a761e76dfbb3af6faccdc3efb97e0d4e52a1f605076d",
+      "label_sha256": "ae495eccc569fc3578702529339c82ab63d416fb054781d41dbbfacf822e1fcf",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0058",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\scratches_178.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\scratches_178.txt",
+      "image_sha256": "e4bcb2a80023991c71e22dd292b0b159ace79d9bd3f19532085f85fcd47629be",
+      "label_sha256": "f278ee358ce0bfbbdf2f5307e15dfce6adf9ec22b6f569c161cd59435b9d903f",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0059",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_134.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_134.txt",
+      "image_sha256": "4e77b73c0c3869eb8b9a94495c6296374f79976bfc68c2c83874e19371558831",
+      "label_sha256": "b5dadc69fbca45526f6aa3ab459719ecbea8cdccc58e97f0b802d26ca8bdf40e",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0060",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\pitted_surface_201.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\pitted_surface_201.txt",
+      "image_sha256": "568bb30a2536d70ce4be156e2a98825eea9e20c45bd603c06678a07f5c5dfd04",
+      "label_sha256": "62fa224bd18905aef1bb22ebab142141f3786d94a6d4b774a89f8cdda39f7463",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0061",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\crazing_31.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\crazing_31.txt",
+      "image_sha256": "11811c52e18ce0f75735982d56a593e8c7d55ce91acbbb276e716d921de03c6c",
+      "label_sha256": "54b405ece098e6f6d9ad8fced114a843075e7755ea13a8ce6bd829539f78df0e",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0062",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_85.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_85.txt",
+      "image_sha256": "c4fae55bfccaab43a3abf47d43f6fbc70c564c90430ec5e9754621082b43429a",
+      "label_sha256": "3fcc14dad33d5c137d9508ef81e3704be60aa03edb17b6b999b2c602f8b1fd19",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "image_id": "train_0063",
+      "source_image": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\images\\train\\inclusion_220.jpg",
+      "source_label": "D:\\datasets\\NEU-DET_DetailPair_s0_20261011_104211_157196\\labels\\train\\inclusion_220.txt",
+      "image_sha256": "d84460af1a06a7ecf8761192044de1ec0723dee2143bc5dd9a1e64171b2d14f8",
+      "label_sha256": "0dc49c2cf019dc23c00dbf6d71a81c1dfe01abf190bc00d09656ed3a302c3a36",
+      "width": 200,
+      "height": 200
+    }
+  ]
+}

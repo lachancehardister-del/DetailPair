@@ -1,0 +1,5 @@
+names:
+- synthetic_rectangle
+path: /tmp/DetailPair old40 CPU vz6qjufr/synthetic_data
+train: images/train
+val: images/val

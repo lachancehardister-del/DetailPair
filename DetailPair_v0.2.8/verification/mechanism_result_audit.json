@@ -1,0 +1,55 @@
+{
+  "scope": "Codex recomputation of uploaded raw scalar records; no original weights/data provided, no GPU rerun",
+  "models": {
+    "B2": {
+      "raw_batches": 32,
+      "unique_images": 64,
+      "recomputed_summary_matches": true,
+      "largest_total_difference": 0.0,
+      "parameters_and_BN_equal_each_batch": true
+    },
+    "B6": {
+      "raw_batches": 32,
+      "unique_images": 64,
+      "recomputed_summary_matches": true,
+      "largest_total_difference": 0.0,
+      "parameters_and_BN_equal_each_batch": true
+    }
+  },
+  "paired_input_and_perturbation_records_equal": true,
+  "B6_gate_D_vs_A_negative_batches": 21,
+  "B6_gate_batches": 32,
+  "B6_gate_A_to_D_norm_mean": 0.020302569495002264,
+  "B6_gate_D_vs_A_cos_mean": -0.15554514895161028,
+  "supplied_source_manifest": {
+    "present_matching": 69,
+    "absent": [
+      "research/CONVERGENCE_REVIEW_v0.2.3.md",
+      "research/CUDA_DEBUG_RETRIEVAL.json",
+      "research/CUDA_DEPENDENCY_RETRIEVAL.json",
+      "research/EARLY_STOP_RETRIEVAL.json",
+      "research/GPU_REVIEW_v0.2.2.md",
+      "research/LONG_COMPARISON_PROTOCOL_v0.2.4.md",
+      "research/NEAREST_METHODS.md",
+      "research/NOVELTY_AUDIT.md",
+      "research/PILOT_REVIEW_v0.2.md",
+      "research/README_v0.2_archive.md",
+      "research/dfr_metadata.json",
+      "research/direct_retrieval_v02.json",
+      "research/pcw_formula_mapping.json",
+      "research/pilot_evidence.json",
+      "research/retrieval_index_v02.json",
+      "research/search_coverage.json",
+      "research/search_requests.json",
+      "research/search_requests_v02.json",
+      "research/source_records.json",
+      "research/wam_metadata.json",
+      "research/wbd_equations.xml",
+      "research/zenodo_metadata.json",
+      "tools/build_detailpair_package.py"
+    ],
+    "different": []
+  },
+  "missing_requested_document": "MECHANISM_RESULT_REVIEW_20261015.md was not attached; task document supplies the current boundary",
+  "interpretation": "Endpoint local conflict in 21/32 batches; A norm averages 2.03% of D. Does not prove removing A improves AP. No new training authorized."
+}

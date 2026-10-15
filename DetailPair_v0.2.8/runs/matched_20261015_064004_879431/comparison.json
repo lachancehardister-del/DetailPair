@@ -1,0 +1,221 @@
+{
+  "rows": [
+    {
+      "scenario": "clean",
+      "metric": "metrics/mAP50-95(B)",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "clean",
+      "metric": "metrics/mAP50(B)",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "clean",
+      "metric": "macro_Precision",
+      "B5": null,
+      "B6": null,
+      "B5_minus_B6": null
+    },
+    {
+      "scenario": "clean",
+      "metric": "macro_Recall",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "clean",
+      "metric": "FPPI",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "metrics/mAP50-95(B)",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "metrics/mAP50(B)",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "macro_Precision",
+      "B5": null,
+      "B6": null,
+      "B5_minus_B6": null
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "macro_Recall",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "FPPI",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    }
+  ],
+  "classes": [
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "AP50",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "AP50_95",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "TP",
+      "B5": 0,
+      "B6": 0,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "FP",
+      "B5": 0,
+      "B6": 0,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "FN",
+      "B5": 4,
+      "B6": 4,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "GT",
+      "B5": 4,
+      "B6": 4,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "Precision",
+      "B5": null,
+      "B6": null,
+      "B5_minus_B6": null
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "Recall",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "AP50",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "AP50_95",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "TP",
+      "B5": 0,
+      "B6": 0,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "FP",
+      "B5": 0,
+      "B6": 0,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "FN",
+      "B5": 4,
+      "B6": 4,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "GT",
+      "B5": 4,
+      "B6": 4,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "Precision",
+      "B5": null,
+      "B6": null,
+      "B5_minus_B6": null
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "metric": "Recall",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    }
+  ],
+  "scope": "Existing short-budget single seed only; no causal proof, speed claim, significance, automatic training or final method claim"
+}

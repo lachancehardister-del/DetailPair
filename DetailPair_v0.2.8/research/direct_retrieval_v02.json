@@ -1,0 +1,67 @@
+[
+  {
+    "name": "pcw_html",
+    "url": "https://www.mdpi.com/1424-8220/26/10/2942",
+    "resolved": "https://www.mdpi.com/1424-8220/26/10/2942",
+    "status": "retrieved",
+    "bytes": 815650,
+    "content_type": "text/html;charset=utf-8",
+    "sha256": "1aa423134402eedc8b8b356fafddf48a41eba9511e7bb86fb16b38ed70eb8d63",
+    "path": "research_cache/v04/pcw_html.txt",
+    "retrieval_date": "2026-10-10",
+    "platform": "Python urllib; public primary endpoint",
+    "actual_full_query": "https://www.mdpi.com/1424-8220/26/10/2942"
+  },
+  {
+    "name": "pcw_xml",
+    "url": "https://www.mdpi.com/1424-8220/26/10/2942/xml",
+    "resolved": "https://www.mdpi.com/1424-8220/26/10/2942/xml",
+    "status": "retrieved",
+    "bytes": 72128,
+    "content_type": "text/html;charset=utf-8",
+    "sha256": "d236b99f995ed46ddfa26574548a4117a4e59b619619a9e5736f0b58195c370f",
+    "path": "research_cache/v04/pcw_xml.txt",
+    "retrieval_date": "2026-10-10",
+    "platform": "Python urllib; public primary endpoint",
+    "actual_full_query": "https://www.mdpi.com/1424-8220/26/10/2942/xml"
+  },
+  {
+    "name": "pcw_europepmc",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13210805/fullTextXML",
+    "resolved": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13210805/fullTextXML",
+    "status": "retrieved",
+    "bytes": 222956,
+    "content_type": "application/xml",
+    "sha256": "47676cd73ae9c3383e0642a8bfbd68802172252390479e5363ce33c81e8eee39",
+    "path": "research_cache/v04/pcw_europepmc.txt",
+    "retrieval_date": "2026-10-10",
+    "platform": "Python urllib; public primary endpoint",
+    "actual_full_query": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13210805/fullTextXML"
+  },
+  {
+    "name": "wam_metadata",
+    "url": "https://api.crossref.org/works?query.title=WAMENet%20Wavelet%20attention%20fusion%20downsampling&rows=2",
+    "resolved": "https://api.crossref.org/works?query.title=WAMENet%20Wavelet%20attention%20fusion%20downsampling&rows=2",
+    "status": "retrieved",
+    "bytes": 23639,
+    "content_type": "application/json",
+    "sha256": "8e1a0de9c2979ab7a99972f1a0289cb0dcab0f89df5206a0c9b8b73ccfee6afd",
+    "path": "research_cache/v04/wam_metadata.json",
+    "retrieval_date": "2026-10-10",
+    "platform": "Python urllib; public primary endpoint",
+    "actual_full_query": "https://api.crossref.org/works?query.title=WAMENet%20Wavelet%20attention%20fusion%20downsampling&rows=2"
+  },
+  {
+    "name": "dfr_metadata",
+    "url": "https://api.crossref.org/works/10.1109/TGRS.2026.3727002",
+    "resolved": "https://api.crossref.org/works/10.1109/TGRS.2026.3727002",
+    "status": "retrieved",
+    "bytes": 8887,
+    "content_type": "application/json",
+    "sha256": "fb9b27b4f9f4b1575b8cac5891df0bdc55b92c95911a2ab6f65c0830723bda25",
+    "path": "research_cache/v04/dfr_metadata.json",
+    "retrieval_date": "2026-10-10",
+    "platform": "Python urllib; public primary endpoint",
+    "actual_full_query": "https://api.crossref.org/works/10.1109/TGRS.2026.3727002"
+  }
+]

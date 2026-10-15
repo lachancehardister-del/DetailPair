@@ -1,0 +1,17 @@
+{
+  "arguments": {
+    "rect": false,
+    "half": false,
+    "augment": false,
+    "single_cls": false,
+    "agnostic_nms": false,
+    "classes": null,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "batch": 1,
+    "imgsz": 320
+  },
+  "device": "cpu",
+  "backend_fp16": false
+}

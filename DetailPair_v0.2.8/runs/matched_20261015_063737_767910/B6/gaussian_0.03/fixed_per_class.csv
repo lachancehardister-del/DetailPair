@@ -1,0 +1,2 @@
+class_id,name,TP,FP,FN,GT,Precision,Recall
+0,synthetic_rectangle,0,0,4,4,,0.0

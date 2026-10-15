@@ -1,0 +1,25 @@
+{
+  "version": "0.2.7",
+  "core_source_identical": true,
+  "unit_tests": 8,
+  "CPU_integration": {
+    "status": "passed",
+    "scope": "CPU random checkpoint synthetic train-only engineering, not NEU/GPU",
+    "run": "/workspace/DetailPair/DetailPair_v0.2.7/runs/mechanism_20261015_060250_355035",
+    "failure_run": "/workspace/DetailPair/DetailPair_v0.2.7/runs/mechanism_20261015_060301_041428",
+    "images": 4,
+    "batches_per_variant": 2,
+    "original_total_and_gradients": "matched",
+    "parameters_and_BN_unchanged": true,
+    "same_paired_noise": true
+  },
+  "gradient_max_abs_errors_CPU": {
+    "B2": 0.0,
+    "B6": 0.0
+  },
+  "code_parse": "passed",
+  "first_development_failure": "Ultralytics reset model.args; fixed by exact checkpoint train_args restoration, failure kept",
+  "toolkit_original_resources": "unavailable; not represented as read",
+  "Windows_GPU_real64train": "pending",
+  "scientific_hypothesis": "not decided by CPU tests"
+}
