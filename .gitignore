@@ -9,3 +9,9 @@ local_settings/
 *.cache
 # v0.2.5 local derived image copies; exported reports retain their manifests.
 DetailPair_v0.2.5/runs/**/datasets/
+# v0.2.6 local private copies and source-image visualizations stay on the execution machine.
+DetailPair_v0.2.6/runs/**/datasets/
+DetailPair_v0.2.6/runs/**/*.png
+DetailPair_v0.2.6/runs/**/*.jpg
+DetailPair_v0.2.6/runs/**/*.jpeg
+DetailPair_v0.2.6/runs/**/*.npy

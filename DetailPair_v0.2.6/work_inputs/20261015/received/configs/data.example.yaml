@@ -1,0 +1,7 @@
+# Edit to your existing YOLO dataset; images/labels folders must correspond.
+path: D:/ModelImprovement/data/NEU_YOLO
+train: images/train
+val: images/val
+test: images/test
+names: [crazing, inclusion, patches, pitted_surface, rolled_in_scale, scratches]
+# Names MUST match existing class IDs; example ordering is not evidence of your labels.

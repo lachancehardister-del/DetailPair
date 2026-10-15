@@ -1,0 +1,13 @@
+{
+  "source_compile": "passed",
+  "budget_and_order": "passed",
+  "order": [
+    "B6",
+    "B2"
+  ],
+  "unexpected_budget_rejected": "passed",
+  "core_source_identical": true,
+  "torch_available": false,
+  "Windows_or_model_training": "not executed",
+  "native_early_stopping_execution": "not executed; installed implementation saved during Windows run"
+}

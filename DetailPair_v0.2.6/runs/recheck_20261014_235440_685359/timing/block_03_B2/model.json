@@ -1,0 +1,8 @@
+{
+  "parameters": 2582347,
+  "requested_fuse": true,
+  "batchnorm_modules": 0,
+  "dtype": "torch.float32",
+  "flops": null,
+  "flops_status": "not measured; pre-replacement YOLO summary is not used"
+}

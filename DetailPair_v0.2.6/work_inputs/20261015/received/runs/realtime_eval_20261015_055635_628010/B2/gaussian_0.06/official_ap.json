@@ -1,0 +1,66 @@
+{
+  "metrics": {
+    "metrics/precision(B)": 0.6686841378729835,
+    "metrics/recall(B)": 0.5803642977595304,
+    "metrics/mAP50(B)": 0.6347589214531372,
+    "metrics/mAP50-95(B)": 0.34599163168205666,
+    "fitness": 0.34599163168205666
+  },
+  "classes": [
+    {
+      "class_id": 0,
+      "name": "crazing",
+      "AP50": 0.18908617102699085,
+      "AP50_95": 0.05568833462298552,
+      "official_best_F1_P": 0.3560346741764558,
+      "official_best_F1_R": 0.1869628825657845
+    },
+    {
+      "class_id": 1,
+      "name": "inclusion",
+      "AP50": 0.6374696546551878,
+      "AP50_95": 0.30040963093571194,
+      "official_best_F1_P": 0.8842732166216423,
+      "official_best_F1_R": 0.432535488177037
+    },
+    {
+      "class_id": 2,
+      "name": "patches",
+      "AP50": 0.8375626574332781,
+      "AP50_95": 0.48966139427096184,
+      "official_best_F1_P": 0.686312570908956,
+      "official_best_F1_R": 0.8112560143740825
+    },
+    {
+      "class_id": 3,
+      "name": "pitted_surface",
+      "AP50": 0.688473496294858,
+      "AP50_95": 0.44116035227123784,
+      "official_best_F1_P": 0.6371597084954682,
+      "official_best_F1_R": 0.6976744186046512
+    },
+    {
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "AP50": 0.5664716309861547,
+      "AP50_95": 0.2822948979094957,
+      "official_best_F1_P": 0.5473492033981944,
+      "official_best_F1_R": 0.5555555555555556
+    },
+    {
+      "class_id": 5,
+      "name": "scratches",
+      "AP50": 0.8894899183223537,
+      "AP50_95": 0.5067351800819473,
+      "official_best_F1_P": 0.9009754536371845,
+      "official_best_F1_R": 0.7982014272800716
+    }
+  ],
+  "conf": 0.001,
+  "nms_iou": 0.7,
+  "max_det": 300,
+  "multi_label": true,
+  "match": "Ultralytics official validator IoU 0.50:0.05:0.95",
+  "split": "val",
+  "warning": "official best-F1 P/R are not fixed conf=.25 P/R"
+}

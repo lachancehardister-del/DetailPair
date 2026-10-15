@@ -1,0 +1,36 @@
+{
+  "arm": "new_png",
+  "identity": {
+    "variant": "B6",
+    "seed": 0,
+    "run_name": "fixture_run",
+    "weights": "/tmp/DetailPair v026 CPU mtxth96e/B6 random.pt",
+    "weights_sha256": "45312989df41047158755a02c1fd6e06166e26debf4cd549db255776c457d36d",
+    "checkpoint_epoch": -1,
+    "optimizer_present": false,
+    "train_args": {
+      "seed": 0,
+      "project": "fixture_run/B6_s0",
+      "name": "training"
+    },
+    "read_only": true,
+    "loaded_parameters": 2589059
+  },
+  "metrics": {
+    "metrics/precision(B)": 0.0,
+    "metrics/recall(B)": 0.0,
+    "metrics/mAP50(B)": 0.0,
+    "metrics/mAP50-95(B)": 0.0,
+    "fitness": 0.0
+  },
+  "classes": [
+    {
+      "class_id": 0,
+      "name": "synthetic_rectangle",
+      "official_best_F1_P": 0.0,
+      "official_best_F1_R": 0.0,
+      "AP50": 0.0,
+      "AP50_95": 0.0
+    }
+  ]
+}

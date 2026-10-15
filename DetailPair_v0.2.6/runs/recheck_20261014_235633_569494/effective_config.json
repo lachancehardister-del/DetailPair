@@ -1,0 +1,60 @@
+{
+  "protocol_version": "DetailPair-timing-recheck-2.0",
+  "synthetic_check": true,
+  "data": "/tmp/DetailPair v026 CPU lon__45r/original inputs/data.yaml",
+  "split": "val",
+  "device": "cpu",
+  "imgsz": 320,
+  "batch": 1,
+  "precision": "FP32",
+  "fuse": true,
+  "conf": 0.25,
+  "ap_conf": 0.001,
+  "nms_iou": 0.7,
+  "match_iou": 0.5,
+  "max_det": 300,
+  "seed": 178,
+  "cpu_threads": 2,
+  "expected_images": 6,
+  "expected_gt": 6,
+  "hardware_notes": {
+    "machine": "unknown",
+    "power_mode": "unknown",
+    "plugged_in": "unknown"
+  },
+  "variants": [
+    {
+      "variant": "B2",
+      "seed": 0,
+      "run_name": "fixture_run",
+      "weights": "/tmp/DetailPair v026 CPU lon__45r/B2 random.pt",
+      "selection": "/tmp/DetailPair v026 CPU lon__45r/selection.json",
+      "prior_metrics": "/tmp/DetailPair v026 CPU lon__45r/absent_old_metrics.json",
+      "expected_sha256": "c8a2f17cfa898e19139a59090ab54a41d5ef78f53d35c10681c3d815725351bd"
+    },
+    {
+      "variant": "B6",
+      "seed": 0,
+      "run_name": "fixture_run",
+      "weights": "/tmp/DetailPair v026 CPU lon__45r/B6 random.pt",
+      "selection": "/tmp/DetailPair v026 CPU lon__45r/selection.json",
+      "prior_metrics": "/tmp/DetailPair v026 CPU lon__45r/absent_old_metrics.json",
+      "expected_sha256": "d4347d1bc47e23e09034f80ff73a2eb1dd2601b2fd57fe7309671fc3613304bf"
+    }
+  ],
+  "common_warmup_seconds": 0.001,
+  "block_warmup_iterations": 2,
+  "block_order": [
+    "B2",
+    "B6",
+    "B6",
+    "B2",
+    "B6",
+    "B2",
+    "B2",
+    "B6"
+  ],
+  "drift_threshold": 1.1,
+  "single_factor": "rect_if_multiple_differences",
+  "expected_gpu_substring": "RTX 4060 Laptop GPU"
+}

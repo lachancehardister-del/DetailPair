@@ -1,0 +1,10 @@
+{
+  "target_seconds": 0.001,
+  "actual_seconds": 0.06269723500008695,
+  "counts": {
+    "B2": 1,
+    "B6": 1
+  },
+  "equal_counts": true,
+  "rule": "paired alternating B2,B6; includes transport gaps; all warmup excluded from measurement"
+}

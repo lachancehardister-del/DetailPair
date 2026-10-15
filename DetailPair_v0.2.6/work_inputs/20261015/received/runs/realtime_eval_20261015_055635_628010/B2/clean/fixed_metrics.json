@@ -1,0 +1,77 @@
+{
+  "classes": [
+    {
+      "class_id": 0,
+      "name": "crazing",
+      "TP": 5,
+      "FP": 18,
+      "FN": 66,
+      "GT": 71,
+      "Precision": 0.21739130434782608,
+      "Recall": 0.07042253521126761
+    },
+    {
+      "class_id": 1,
+      "name": "inclusion",
+      "TP": 70,
+      "FP": 19,
+      "FN": 36,
+      "GT": 106,
+      "Precision": 0.7865168539325843,
+      "Recall": 0.660377358490566
+    },
+    {
+      "class_id": 2,
+      "name": "patches",
+      "TP": 74,
+      "FP": 31,
+      "FN": 15,
+      "GT": 89,
+      "Precision": 0.7047619047619048,
+      "Recall": 0.8314606741573034
+    },
+    {
+      "class_id": 3,
+      "name": "pitted_surface",
+      "TP": 26,
+      "FP": 12,
+      "FN": 17,
+      "GT": 43,
+      "Precision": 0.6842105263157895,
+      "Recall": 0.6046511627906976
+    },
+    {
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "TP": 39,
+      "FP": 28,
+      "FN": 24,
+      "GT": 63,
+      "Precision": 0.582089552238806,
+      "Recall": 0.6190476190476191
+    },
+    {
+      "class_id": 5,
+      "name": "scratches",
+      "TP": 47,
+      "FP": 9,
+      "FN": 10,
+      "GT": 57,
+      "Precision": 0.8392857142857143,
+      "Recall": 0.8245614035087719
+    }
+  ],
+  "macro": {
+    "Precision": 0.6357093093137708,
+    "Precision_classes_with_denominator": 6,
+    "Recall": 0.6017534588677043,
+    "Recall_classes_with_denominator": 6
+  },
+  "undefined": "null when denominator is zero; macro excludes undefined classes",
+  "conf": 0.25,
+  "nms_iou": 0.7,
+  "match_iou": 0.5,
+  "max_det": 300,
+  "multi_label": false,
+  "matching": "per class score-descending greedy highest IoU unmatched GT, stable index tie-break, one-to-one; duplicate and wrong-class predictions FP"
+}

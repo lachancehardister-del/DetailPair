@@ -1,0 +1,106 @@
+test_child_exit_and_gpu_conflict (__main__.MetricChecks.test_child_exit_and_gpu_conflict) ... ok
+test_duplicate_wrong_class_and_empty (__main__.MetricChecks.test_duplicate_wrong_class_and_empty) ... ok
+test_score_order_and_threshold (__main__.MetricChecks.test_score_order_and_threshold) ... ok
+test_statistics_recompute (__main__.MetricChecks.test_statistics_recompute) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 5.933s
+
+OK
+Overriding model.yaml nc=80 with nc=1
+Overriding model.yaml nc=80 with nc=1
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,582,347 parameters, 12,675 gradients, 6.3 GFLOPs
+Fontconfig error: No writable cache directories
+[KDownloading https://ultralytics.com/assets/Arial.ttf to '/tmp/Ultralytics/Arial.ttf': 6% ╸─────────── 48.0/755.1KB 91.7KB/s 0.2s<7.7s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/tmp/Ultralytics/Arial.ttf': 10% ━─────────── 72.0/755.1KB 127.0KB/s 0.3s<5.4s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/tmp/Ultralytics/Arial.ttf': 26% ━━━───────── 200.0/755.1KB 1.0MB/s 0.4s<0.5s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/tmp/Ultralytics/Arial.ttf': 52% ━━━━━━────── 392.0/755.1KB 1.8MB/s 0.5s<0.2s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/tmp/Ultralytics/Arial.ttf': 89% ━━━━━━━━━━╸─ 672.0/755.1KB 2.7MB/s 0.6s<0.0s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/tmp/Ultralytics/Arial.ttf': 100% ━━━━━━━━━━━━ 755.1KB 1.2MB/s 0.6s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/tmp/Ultralytics/Arial.ttf': 100% ━━━━━━━━━━━━ 755.1KB 1.2MB/s 0.6s
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 882.7±391.4 MB/s, size: 7.8 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/clean/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.9Kit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/clean/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/clean/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 38.4it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 38.3it/s 0.1s
+                   all          4          4          0          0          0          0
+Speed: 0.2ms preprocess, 22.1ms inference, 0.0ms loss, 1.2ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 106 layers, 2,581,403 parameters, 16,371 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 957.8±247.3 MB/s, size: 7.8 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/clean/labels/val.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.9Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/clean/labels/val.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 127.1Kit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 36.8it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 36.8it/s 0.1s
+                   all          4          4          0          0          0          0
+Speed: 0.2ms preprocess, 24.7ms inference, 0.0ms loss, 0.4ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,582,347 parameters, 12,675 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1022.6±217.2 MB/s, size: 8.8 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.01/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 4.9Kit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.01/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 4.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.01/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 39.0it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 39.0it/s 0.1s
+                   all          4          4          0          0          0          0
+Speed: 0.2ms preprocess, 22.8ms inference, 0.0ms loss, 0.8ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 106 layers, 2,581,403 parameters, 16,371 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 866.3±215.7 MB/s, size: 8.8 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.01/labels/val.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.9Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.01/labels/val.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 121.6Kit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 3/4 8.9it/s 0.1s<0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 31.2it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 31.1it/s 0.1s
+                   all          4          4          0          0          0          0
+Speed: 0.2ms preprocess, 29.3ms inference, 0.0ms loss, 0.5ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,582,347 parameters, 12,675 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1109.8±365.7 MB/s, size: 9.3 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.03/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 3.5Kit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.03/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 3.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.03/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 37.6it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 37.6it/s 0.1s
+                   all          4          4          0          0          0          0
+Speed: 0.2ms preprocess, 24.1ms inference, 0.0ms loss, 0.4ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 106 layers, 2,581,403 parameters, 16,371 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 915.4±249.6 MB/s, size: 9.3 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.03/labels/val.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.9Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.03/labels/val.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 97.0Kit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 34.0it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 34.0it/s 0.1s
+                   all          4          4          0          0          0          0
+Speed: 0.1ms preprocess, 26.9ms inference, 0.0ms loss, 0.4ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,582,347 parameters, 12,675 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1140.0±377.9 MB/s, size: 9.9 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.06/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 3.3Kit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.06/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 3.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.06/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 33.6it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 33.6it/s 0.1s
+                   all          4          4          0          0          0          0
+Speed: 0.1ms preprocess, 27.0ms inference, 0.0ms loss, 0.6ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 106 layers, 2,581,403 parameters, 16,371 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1233.5±370.2 MB/s, size: 9.9 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.06/labels/val.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 2.4Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/gaussian_0.06/labels/val.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 135.3Kit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 31.2it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 31.2it/s 0.1s
+                   all          4          4          0          0          0          0
+Speed: 0.1ms preprocess, 29.1ms inference, 0.0ms loss, 0.5ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,582,347 parameters, 12,675 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 927.1±245.1 MB/s, size: 7.9 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/impulse_0.01/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 4.4Kit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/impulse_0.01/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 4.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/impulse_0.01/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 31.9it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 31.9it/s 0.1s
+                   all          4          4          0          0          0          0
+Speed: 0.1ms preprocess, 28.5ms inference, 0.0ms loss, 0.7ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 106 layers, 2,581,403 parameters, 16,371 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 950.1±291.5 MB/s, size: 7.9 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/impulse_0.01/labels/val.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.7Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249/datasets/impulse_0.01/labels/val.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 129.1Kit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 36.1it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 36.1it/s 0.1s
+                   all          4          4          0          0          0          0
+Speed: 0.1ms preprocess, 25.2ms inference, 0.0ms loss, 0.5ms postprocess per image
+Result ZIP: /workspace/DetailPair/DetailPair_v0.2.5/exports/DetailPair_eval_results_20261013_043019_259069.zip
+Evaluation directory: /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249
+Traceback (most recent call last):
+  File "/workspace/DetailPair/DetailPair_v0.2.5/realtime_eval.py", line 213, in main
+    raw=Path(args.config).read_bytes();config=yaml.safe_load(raw)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/DetailPair CPU check ltuo0svg/missing.yaml'
+
+Result ZIP: /workspace/DetailPair/DetailPair_v0.2.5/exports/DetailPair_eval_results_20261013_043021_088626.zip
+Evaluation directory: /workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043019_997014
+Result ZIP: /workspace/DetailPair/DetailPair_v0.2.5/exports/DetailPair_eval_results_20261013_043021_390565.zip
+{"status": "passed", "scope": "random checkpoint CPU synthetic plumbing only", "run": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043002_449249", "failed_run": "/workspace/DetailPair/DetailPair_v0.2.5/runs/realtime_eval_20261013_043019_997014", "models": 2, "scenarios": 5, "latency_samples": 24, "ap_prediction_records": 40, "weights_and_sources_unchanged": true}

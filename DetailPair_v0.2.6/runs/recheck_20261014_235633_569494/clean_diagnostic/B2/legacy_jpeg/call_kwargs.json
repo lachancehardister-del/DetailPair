@@ -1,0 +1,12 @@
+{
+  "data": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/legacy_B2/data.yaml",
+  "split": "val",
+  "imgsz": 320,
+  "batch": 1,
+  "device": "cpu",
+  "workers": 0,
+  "plots": true,
+  "project": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/clean_diagnostic/B2/legacy_jpeg",
+  "name": "official",
+  "exist_ok": true
+}

@@ -1,0 +1,14 @@
+version: 0.2.2
+purpose: real_data_convergence_diagnostic_not_formal_ablation
+model: yolo11n.yaml
+replace_layer: 1
+initialization: scratch
+imgsz: 320
+batch: 2
+epochs: 40
+seeds: [0]
+train_limit: 0
+val_limit: 0
+variants: [B1, B2, B5, B6]
+noise_std: 0.03
+brightness_offset: 0.05

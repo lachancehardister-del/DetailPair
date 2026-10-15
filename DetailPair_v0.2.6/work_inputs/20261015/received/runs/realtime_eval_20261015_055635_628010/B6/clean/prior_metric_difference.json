@@ -1,0 +1,27 @@
+{
+  "path": "D:\\ModelImprovement\\DetailPair_v0.2.4\\runs\\pilot__20261012_125741_680519\\B6_s0\\metrics.json",
+  "status": "compared",
+  "old": {
+    "split": "val",
+    "metrics/precision(B)": 0.6346024648699108,
+    "metrics/recall(B)": 0.6031851899238415,
+    "metrics/mAP50(B)": 0.6648733122946194,
+    "metrics/mAP50-95(B)": 0.34699430729089614,
+    "fitness": 0.34699430729089614
+  },
+  "new": {
+    "metrics/precision(B)": 0.6560449671547252,
+    "metrics/recall(B)": 0.6036022505035401,
+    "metrics/mAP50(B)": 0.6603905886540433,
+    "metrics/mAP50-95(B)": 0.34265072754442644,
+    "fitness": 0.34265072754442644
+  },
+  "new_minus_old": {
+    "metrics/precision(B)": 0.02144250228481437,
+    "metrics/recall(B)": 0.00041706057969859156,
+    "metrics/mAP50(B)": -0.004482723640576114,
+    "metrics/mAP50-95(B)": -0.004343579746469706,
+    "fitness": -0.004343579746469706
+  },
+  "warning": "AP uses frozen new validator settings; differences retained without replacing results"
+}

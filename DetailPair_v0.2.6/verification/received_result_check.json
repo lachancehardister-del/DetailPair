@@ -1,0 +1,53 @@
+{
+  "source_zip_sha256": "51c5dc11ef2e4c85af7a0bf1d34496fd623bedb8d84f367a4c86a300949b7bfc",
+  "runs": {
+    "realtime_eval_20261015_055448_486893": {
+      "status": {
+        "status": "failed",
+        "no_training": true
+      },
+      "failure": "Traceback (most recent call last):\n  File \"D:\\ModelImprovement\\DetailPair_v0.2.5\\realtime_eval.py\", line 222, in main\n    code=run(config,out,config_sha,args)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\ModelImprovement\\DetailPair_v0.2.5\\realtime_eval.py\", line 102, in run\n    gpu_guard(device,out/'gpu_processes_start.json')\n  File \"D:\\ModelImprovement\\DetailPair_v0.2.5\\detailpair\\benchmark.py\", line 26, in gpu_guard\n    if other: raise RuntimeError('Other GPU compute processes found; stop them yourself before benchmarking: '+'; '.join(other))\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Other GPU compute processes found; stop them yourself before benchmarking: GPU-b6badbd9-3db1-57ee-5373-b0000310e181, 17720, C:\\Program Files\\Tencent\\QQNT\\QQ.exe, [N/A]\n"
+    },
+    "realtime_eval_20261015_055635_628010": {
+      "status": {
+        "status": "success",
+        "failures": [],
+        "expected_latency_samples": 1080,
+        "actual_latency_samples": 1080,
+        "successful_evaluations": 10,
+        "expected_evaluations": 10,
+        "synthetic_check": false,
+        "weights_read_only": true,
+        "no_training": true
+      },
+      "B2": {
+        "timing": {
+          "n": 540,
+          "mean_ms": 21.517981851851854,
+          "round_mean_ms": {
+            "0": 31.75185222222222,
+            "1": 24.540461666666666,
+            "2": 8.261631666666668
+          }
+        },
+        "AP50_95": 0.35127902654350557,
+        "TP": 261,
+        "FP": 117
+      },
+      "B6": {
+        "timing": {
+          "n": 540,
+          "mean_ms": 7.5177525925925925,
+          "round_mean_ms": {
+            "0": 7.687433333333332,
+            "1": 7.266639444444445,
+            "2": 7.599185
+          }
+        },
+        "AP50_95": 0.34265072754442644,
+        "TP": 274,
+        "FP": 177
+      }
+    }
+  }
+}

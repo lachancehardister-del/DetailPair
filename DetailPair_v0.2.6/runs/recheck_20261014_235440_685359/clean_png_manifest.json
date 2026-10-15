@@ -1,0 +1,155 @@
+{
+  "records": [
+    {
+      "image_id": "000000",
+      "source_image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/0.jpg",
+      "source_label": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/labels/val/0.txt",
+      "image_sha256": "0a73dd6a3dd5c99a6c37b3b6fd6248b2275c9eb25cea8e6908a9983a1a2f9e11",
+      "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "width": 80,
+      "height": 60,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.0,
+            18.0,
+            52.0,
+            42.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235440_685359/datasets/new_png/images/val/000000.png",
+      "derived_image_sha256": "ef6aa2fb7b4f18ed61ec60ab566c0ea7f130ae3d6a131de025f37baf3fee4a78",
+      "derived_label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "snr_db": 114.63865345902035,
+      "mse": 0.0
+    },
+    {
+      "image_id": "000001",
+      "source_image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/1.jpg",
+      "source_label": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/labels/val/1.txt",
+      "image_sha256": "06493e2128fb98f8c26d8c780b6d4ad45ed31c372c0986a523d7e73a8614bcd3",
+      "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "width": 80,
+      "height": 68,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.0,
+            20.4,
+            52.0,
+            47.599999999999994
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235440_685359/datasets/new_png/images/val/000001.png",
+      "derived_image_sha256": "4789e285284c7a5d3c70cfde627010175dd096b837ace33e5f08777044fe2ae2",
+      "derived_label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "snr_db": 114.63827568083195,
+      "mse": 0.0
+    },
+    {
+      "image_id": "000002",
+      "source_image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/2.jpg",
+      "source_label": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/labels/val/2.txt",
+      "image_sha256": "149a9ba5a4012e7b5ecd6211354eaa85378819700cd9ce3f80f0a777dffc4c22",
+      "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "width": 80,
+      "height": 60,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.0,
+            18.0,
+            52.0,
+            42.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235440_685359/datasets/new_png/images/val/000002.png",
+      "derived_image_sha256": "c19aa0bceee49d0251e69814cff9216d1d48b17e5353d25dd622bfde26c2990d",
+      "derived_label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "snr_db": 114.6196828639064,
+      "mse": 0.0
+    },
+    {
+      "image_id": "000003",
+      "source_image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/3.jpg",
+      "source_label": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/labels/val/3.txt",
+      "image_sha256": "f10e1960314f7a8c1aa349064aefa18c6144c879acce686323d94ea396422632",
+      "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "width": 80,
+      "height": 68,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.0,
+            20.4,
+            52.0,
+            47.599999999999994
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235440_685359/datasets/new_png/images/val/000003.png",
+      "derived_image_sha256": "6ce7a924dc28e55f89c3ec2c5f259c78064db4adb360836726e689498ce7a741",
+      "derived_label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "snr_db": 114.65625887809625,
+      "mse": 0.0
+    },
+    {
+      "image_id": "000004",
+      "source_image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/4.jpg",
+      "source_label": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/labels/val/4.txt",
+      "image_sha256": "3a7ba7b0057eb7876eb8a0e27f53a8247cc518d09932b38e0fd15c90f2ac902d",
+      "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "width": 80,
+      "height": 60,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.0,
+            18.0,
+            52.0,
+            42.0
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235440_685359/datasets/new_png/images/val/000004.png",
+      "derived_image_sha256": "4ea801c6dad449a00d4023640b6dc564e2f365e27150161f6038241b943101de",
+      "derived_label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "snr_db": 114.65068591297657,
+      "mse": 0.0
+    },
+    {
+      "image_id": "000005",
+      "source_image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/5.jpg",
+      "source_label": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/labels/val/5.txt",
+      "image_sha256": "0e7e7350936e09351ed36f18741914cb234150f758101648a389de6102472be2",
+      "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "width": 80,
+      "height": 68,
+      "gt": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.0,
+            20.4,
+            52.0,
+            47.599999999999994
+          ]
+        }
+      ],
+      "working_image": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235440_685359/datasets/new_png/images/val/000005.png",
+      "derived_image_sha256": "86648382fa995223e17fa174327cf57c8e6118b6f7ad678b415dc73a13f13b47",
+      "derived_label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c",
+      "snr_db": 114.57687324705338,
+      "mse": 0.0
+    }
+  ],
+  "derivation": "v0.2.5 PIL RGB -> quantized lossless PNG, clean only"
+}

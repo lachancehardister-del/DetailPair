@@ -1,0 +1,10 @@
+{
+  "command": [
+    "nvidia-smi",
+    "--query-compute-apps=gpu_uuid,pid,process_name,used_gpu_memory",
+    "--format=csv,noheader,nounits"
+  ],
+  "exit_code": 0,
+  "stdout": "GPU-b6badbd9-3db1-57ee-5373-b0000310e181, 17720, C:\\Program Files\\Tencent\\QQNT\\QQ.exe, [N/A]\n",
+  "stderr": ""
+}

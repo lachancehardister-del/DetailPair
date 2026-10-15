@@ -1,0 +1,26 @@
+..Common paired warmup target seconds: 1e-09
+Common warmup complete; counts: {'B2': 1, 'B6': 1}
+Starting block 1 of 8: B2 ; excluded warmup 2
+Completed block 1 samples 6
+Starting block 2 of 8: B6 ; excluded warmup 2
+Completed block 2 samples 6
+Starting block 3 of 8: B6 ; excluded warmup 2
+Completed block 3 samples 6
+Starting block 4 of 8: B2 ; excluded warmup 2
+Completed block 4 samples 6
+Starting block 5 of 8: B6 ; excluded warmup 2
+Completed block 5 samples 6
+Starting block 6 of 8: B2 ; excluded warmup 2
+Completed block 6 samples 6
+Starting block 7 of 8: B2 ; excluded warmup 2
+Completed block 7 samples 6
+Starting block 8 of 8: B6 ; excluded warmup 2
+Completed block 8 samples 6
+Common paired warmup target seconds: 1e-09
+Common warmup complete; counts: {'B2': 1, 'B6': 1}
+Starting block 1 of 8: B2 ; excluded warmup 2
+....
+----------------------------------------------------------------------
+Ran 6 tests in 6.623s
+
+OK

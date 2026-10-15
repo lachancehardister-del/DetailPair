@@ -1,0 +1,5 @@
+variant,arm,class_id,name,official_best_F1_P,official_best_F1_R,AP50,AP50_95
+B2,legacy_jpeg,0,synthetic_rectangle,0.0,0.0,0.0,0.0
+B2,new_png,0,synthetic_rectangle,0.0,0.0,0.0,0.0
+B6,legacy_jpeg,0,synthetic_rectangle,0.0,0.0,0.0,0.0
+B6,new_png,0,synthetic_rectangle,0.0,0.0,0.0,0.0

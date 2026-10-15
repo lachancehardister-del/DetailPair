@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\ModelImprovement\DetailPair_v0.2.5\realtime_eval.py", line 222, in main
+    code=run(config,out,config_sha,args)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ModelImprovement\DetailPair_v0.2.5\realtime_eval.py", line 102, in run
+    gpu_guard(device,out/'gpu_processes_start.json')
+  File "D:\ModelImprovement\DetailPair_v0.2.5\detailpair\benchmark.py", line 26, in gpu_guard
+    if other: raise RuntimeError('Other GPU compute processes found; stop them yourself before benchmarking: '+'; '.join(other))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Other GPU compute processes found; stop them yourself before benchmarking: GPU-b6badbd9-3db1-57ee-5373-b0000310e181, 17720, C:\Program Files\Tencent\QQNT\QQ.exe, [N/A]

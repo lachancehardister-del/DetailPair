@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "mode": "all",
+  "failures": [],
+  "synthetic_check": true,
+  "weights_read_only": true,
+  "test_evaluated": false,
+  "no_training": true,
+  "timing_data_complete": true,
+  "timing_status": "timing_unstable",
+  "comparison_credible": false,
+  "distinction": "Execution success, data completeness and speed credibility are separate. Unstable timing is retained, not automatically retried."
+}

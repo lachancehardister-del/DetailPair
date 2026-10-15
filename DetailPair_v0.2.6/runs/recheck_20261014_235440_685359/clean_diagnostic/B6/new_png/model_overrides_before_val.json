@@ -1,0 +1,7 @@
+{
+  "task": "detect",
+  "data": null,
+  "imgsz": 640,
+  "single_cls": false,
+  "model": "/tmp/DetailPair v026 CPU mtxth96e/B6 random.pt"
+}

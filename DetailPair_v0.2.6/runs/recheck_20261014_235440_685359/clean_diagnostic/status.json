@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "failures": [],
+  "no_fixed_conf_re_evaluation": true,
+  "no_corruptions": true,
+  "no_training": true,
+  "test_evaluated": false
+}

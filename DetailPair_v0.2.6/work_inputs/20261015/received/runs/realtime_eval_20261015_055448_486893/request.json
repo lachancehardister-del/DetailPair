@@ -1,0 +1,7 @@
+{
+  "config": "D:\\ModelImprovement\\DetailPair_v0.2.5\\windows\\..\\configs\\realtime_comparison.yaml",
+  "pack_only": false,
+  "synthetic_check": false,
+  "final_test": false,
+  "freeze_record": null
+}

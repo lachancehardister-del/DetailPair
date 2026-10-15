@@ -1,0 +1,3 @@
+variant,decoded_RGB_changed,input_tensor_changed,shape_changed,dtype_changed,predictions_changed
+B2,0,6,6,0,6
+B6,0,6,6,0,6

@@ -1,0 +1,70 @@
+test_balanced_windows_and_positions (__main__.RecheckTests.test_balanced_windows_and_positions) ... ok
+test_buffered_schedule_and_partial (__main__.RecheckTests.test_buffered_schedule_and_partial) ... ok
+test_drift_and_incomplete_preserve_samples (__main__.RecheckTests.test_drift_and_incomplete_preserve_samples) ... ok
+test_new_protocol_does_not_relax_old (__main__.RecheckTests.test_new_protocol_does_not_relax_old) ... ok
+test_torchvision_bootstrap_geometry (__main__.RecheckTests.test_torchvision_bootstrap_geometry) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 6.640s
+
+OK
+Overriding model.yaml nc=80 with nc=1
+Overriding model.yaml nc=80 with nc=1
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,582,347 parameters, 12,675 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 617.2±181.6 MB/s, size: 5.3 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/legacy_B2/labels/val... 6 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6/6 2.1Kit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/legacy_B2/labels/val... 6 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6/6 2.0Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/legacy_B2/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 2/6 5.7it/s 0.1s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 83% ━━━━━━━━━━── 5/6 11.4it/s 0.2s<0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 23.8it/s 0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 23.8it/s 0.3s
+                   all          6          6          0          0          0          0
+Speed: 1.5ms preprocess, 33.3ms inference, 0.0ms loss, 0.7ms postprocess per image
+Results saved to [1m/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/clean_diagnostic/B2/legacy_jpeg/official[0m
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,582,347 parameters, 12,675 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1254.9±198.1 MB/s, size: 15.3 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/new_png/labels/val... 6 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6/6 5.2Kit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/new_png/labels/val... 6 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6/6 5.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/new_png/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 83% ━━━━━━━━━━── 5/6 12.4it/s 0.1s<0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 41.2it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 41.2it/s 0.1s
+                   all          6          6          0          0          0          0
+Speed: 1.2ms preprocess, 19.9ms inference, 0.0ms loss, 0.5ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 106 layers, 2,581,403 parameters, 16,371 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 657.8±144.3 MB/s, size: 5.3 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/legacy_B6/labels/val... 6 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6/6 5.2Kit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/legacy_B6/labels/val... 6 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6/6 5.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/legacy_B6/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 3/6 8.9it/s 0.1s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 35.3it/s 0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 35.3it/s 0.2s
+                   all          6          6          0          0          0          0
+Speed: 1.8ms preprocess, 20.6ms inference, 0.0ms loss, 0.4ms postprocess per image
+Results saved to [1m/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/clean_diagnostic/B6/legacy_jpeg/official[0m
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 106 layers, 2,581,403 parameters, 16,371 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1385.8±566.8 MB/s, size: 14.9 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/new_png/labels/val.cache... 6 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6/6 2.5Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/new_png/labels/val.cache... 6 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6/6 45.3Kit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 67% ━━━━━━━━──── 4/6 9.2it/s 0.1s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 32.4it/s 0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 32.4it/s 0.2s
+                   all          6          6          0          0          0          0
+Speed: 1.5ms preprocess, 25.7ms inference, 0.0ms loss, 0.6ms postprocess per image
+Result ZIP: /workspace/DetailPair/DetailPair_v0.2.6/exports/DetailPair_recheck_results_20261014_235647_018637.zip
+Recheck directory: /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,582,347 parameters, 12,675 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1555.9±430.1 MB/s, size: 14.9 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/new_png/labels/val.cache... 6 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6/6 1.7Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494/datasets/new_png/labels/val.cache... 6 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6/6 192.1Kit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 67% ━━━━━━━━──── 4/6 8.5it/s 0.1s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 31.2it/s 0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 31.2it/s 0.2s
+                   all          6          6          0          0          0          0
+Speed: 1.3ms preprocess, 27.0ms inference, 0.0ms loss, 0.5ms postprocess per image
+Result ZIP: /workspace/DetailPair/DetailPair_v0.2.6/exports/DetailPair_recheck_results_20261014_235648_262788.zip
+Traceback (most recent call last):
+  File "/workspace/DetailPair/DetailPair_v0.2.6/timing_recheck.py", line 188, in main
+    raw=Path(args.config).read_bytes();c=yaml.safe_load(raw);(out/'frozen_config.yaml').write_bytes(raw)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/DetailPair v026 CPU lon__45r/missing.yaml'
+
+Result ZIP: /workspace/DetailPair/DetailPair_v0.2.6/exports/DetailPair_recheck_results_20261014_235649_588694.zip
+Recheck directory: /workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235648_401269
+{"status": "passed", "scope": "CPU random checkpoints/synthetic JPEG engineering only", "run": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494", "expected_failure": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235648_401269", "timing_samples": 48, "balanced_blocks": 8, "diagnostic_images_per_arm": 6, "read_only_sources": true, "Windows_GPU": "pending"}

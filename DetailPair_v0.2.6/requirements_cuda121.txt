@@ -1,0 +1,6 @@
+# Supplement to requirements.txt. Setup clones the already-working CPU env first.
+# --no-deps is used only for replacing these two wheels in that Windows clone.
+# GPU verification and pip check must pass; this is not an environment lock file.
+--index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+torchvision==0.20.1

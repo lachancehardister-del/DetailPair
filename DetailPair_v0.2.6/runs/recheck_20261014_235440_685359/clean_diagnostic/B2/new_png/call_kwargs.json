@@ -1,0 +1,19 @@
+{
+  "data": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235440_685359/datasets/new_png/data.yaml",
+  "split": "val",
+  "imgsz": 320,
+  "batch": 1,
+  "device": "cpu",
+  "workers": 0,
+  "plots": false,
+  "project": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235440_685359/clean_diagnostic/B2/new_png",
+  "name": "official",
+  "exist_ok": true,
+  "half": false,
+  "rect": false,
+  "conf": 0.001,
+  "iou": 0.7,
+  "max_det": 300,
+  "save_json": false,
+  "save_txt": false
+}

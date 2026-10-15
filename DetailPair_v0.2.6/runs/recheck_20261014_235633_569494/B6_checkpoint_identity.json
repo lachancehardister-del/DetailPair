@@ -1,0 +1,16 @@
+{
+  "variant": "B6",
+  "seed": 0,
+  "run_name": "fixture_run",
+  "weights": "/tmp/DetailPair v026 CPU lon__45r/B6 random.pt",
+  "weights_sha256": "d4347d1bc47e23e09034f80ff73a2eb1dd2601b2fd57fe7309671fc3613304bf",
+  "checkpoint_epoch": -1,
+  "optimizer_present": false,
+  "train_args": {
+    "seed": 0,
+    "project": "fixture_run/B6_s0",
+    "name": "training"
+  },
+  "read_only": true,
+  "loaded_parameters": 2589059
+}

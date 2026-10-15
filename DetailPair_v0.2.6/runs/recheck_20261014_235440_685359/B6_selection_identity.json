@@ -1,0 +1,55 @@
+{
+  "selection_path": "/tmp/DetailPair v026 CPU mtxth96e/selection.json",
+  "selection_sha256": "41a374e3f71bfc691e165452026882357d754c238e33fa5248a5b7d60766f8a7",
+  "source_identity": {
+    "train": [
+      {
+        "image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/train/0.jpg",
+        "image_sha256": "a9d71783e9b239ee2d22e1199792195227ebb7410eebe5d61ca5b081065b844e",
+        "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c"
+      },
+      {
+        "image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/train/1.jpg",
+        "image_sha256": "f3c4d170fd7afdbca978e82613a50cd831abbc3485fc3ba09eae3e55a8a76f2a",
+        "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c"
+      },
+      {
+        "image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/train/2.jpg",
+        "image_sha256": "3b4e9bbbb8aca0fbb230d5458b3cdd8e1224f267c2c32ddce17702cdcdcf5d09",
+        "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c"
+      }
+    ],
+    "val": [
+      {
+        "image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/0.jpg",
+        "image_sha256": "0a73dd6a3dd5c99a6c37b3b6fd6248b2275c9eb25cea8e6908a9983a1a2f9e11",
+        "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c"
+      },
+      {
+        "image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/1.jpg",
+        "image_sha256": "06493e2128fb98f8c26d8c780b6d4ad45ed31c372c0986a523d7e73a8614bcd3",
+        "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c"
+      },
+      {
+        "image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/2.jpg",
+        "image_sha256": "149a9ba5a4012e7b5ecd6211354eaa85378819700cd9ce3f80f0a777dffc4c22",
+        "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c"
+      },
+      {
+        "image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/3.jpg",
+        "image_sha256": "f10e1960314f7a8c1aa349064aefa18c6144c879acce686323d94ea396422632",
+        "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c"
+      },
+      {
+        "image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/4.jpg",
+        "image_sha256": "3a7ba7b0057eb7876eb8a0e27f53a8247cc518d09932b38e0fd15c90f2ac902d",
+        "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c"
+      },
+      {
+        "image": "/tmp/DetailPair v026 CPU mtxth96e/original inputs/images/val/5.jpg",
+        "image_sha256": "0e7e7350936e09351ed36f18741914cb234150f758101648a389de6102472be2",
+        "label_sha256": "802d568a14841ed20ca77c4c2c61b38652dd3753dc47c84dd13c608a55a88c9c"
+      }
+    ]
+  }
+}

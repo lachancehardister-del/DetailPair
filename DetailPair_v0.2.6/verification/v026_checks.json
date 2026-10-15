@@ -1,0 +1,25 @@
+{
+  "version": "0.2.6",
+  "core_source_identical": true,
+  "HostDetector_AST_identical": true,
+  "legacy_realtime_1_0_and_config_identical": true,
+  "CPU_integration": {
+    "status": "passed",
+    "scope": "CPU random checkpoints/synthetic JPEG engineering only",
+    "run": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235633_569494",
+    "expected_failure": "/workspace/DetailPair/DetailPair_v0.2.6/runs/recheck_20261014_235648_401269",
+    "timing_samples": 48,
+    "balanced_blocks": 8,
+    "diagnostic_images_per_arm": 6,
+    "read_only_sources": true,
+    "Windows_GPU": "pending"
+  },
+  "unit_tests": 7,
+  "expected_failure_paths": [
+    "simulated mid-block partial retention",
+    "missing config nonzero and ZIP"
+  ],
+  "Windows": "pending",
+  "CUDA_and_real_GPU_timing_1440_samples": "pending",
+  "real_clean_AP_cause": "undetermined; local diagnostics pending"
+}

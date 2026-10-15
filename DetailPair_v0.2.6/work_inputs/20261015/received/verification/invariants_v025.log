@@ -1,0 +1,3 @@
+Overriding model.yaml nc=80 with nc=2
+Overriding model.yaml nc=80 with nc=2
+{"haar_energy": true, "haar_inverse": true, "bounded_gate": true, "empty_regions_finite": true, "reference_stop_gradient": true, "box_mask": true, "shared_initialization_identical": true}
