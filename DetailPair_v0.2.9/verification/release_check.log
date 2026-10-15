@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "version": "0.2.9",
+  "CRC_and_source_manifest": "passed",
+  "unpacked_full_source_dependencies_configuration_Windows_entries": "passed",
+  "offline_tests": 6,
+  "archive_result_pack": "passed",
+  "no_runs_or_models_created": true,
+  "commands": [
+    {
+      "args": [
+        "tests/check_reporting_archive.py"
+      ],
+      "exit_code": 0,
+      "output": "test_FP_without_TP_is_defined_zero (__main__.ReportingChecks.test_FP_without_TP_is_defined_zero) ... ok\ntest_all_classes_have_predictions_macro_differs_from_micro (__main__.ReportingChecks.test_all_classes_have_predictions_macro_differs_from_micro) ... ok\ntest_comparison_preserves_AP_counts_legacy_values_and_inputs (__main__.ReportingChecks.test_comparison_preserves_AP_counts_legacy_values_and_inputs) ... ok\ntest_empty_denominators_and_mapping_guard (__main__.ReportingChecks.test_empty_denominators_and_mapping_guard) ... ok\ntest_no_predictions_with_GT_keeps_null (__main__.ReportingChecks.test_no_predictions_with_GT_keeps_null) ... ok\ntest_same_support_count_different_class_sets_not_comparable (__main__.ReportingChecks.test_same_support_count_different_class_sets_not_comparable) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "args": [
+        "matched_checkpoint_eval.py",
+        "--pack-only"
+      ],
+      "exit_code": 0,
+      "output": "Result ZIP: /tmp/DetailPair v029 archive 1116xczj/DetailPair_v0.2.9/exports/DetailPair_matched_results_20261015_085524_743768.zip\n"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+scenario,metric,B5,B6,B5_minus_B6,comparable,reason,B5_support_class_ids,B6_support_class_ids,B5_support_count,B6_support_count,definition
+clean,metrics/mAP50-95(B),0.28443241190089985,0.298228124411472,-0.013795712510572156,True,,,,,,Unchanged official AP output
+clean,metrics/mAP50(B),0.5682033415440103,0.612186094396994,-0.0439827528529837,True,,,,,,Unchanged official AP output
+clean,macro_Precision,0.5709717355678566,0.7259590823316313,,False,different_class_support; available-class macro difference is not directly comparable,"[0, 1, 2, 3, 4, 5]","[1, 2, 3, 4, 5]",6,5,Available-class macro; exclude null; subtract only when actual support class sets agree
+clean,macro_Recall,0.5218327662304875,0.545665962544131,-0.023833196313643557,True,,"[0, 1, 2, 3, 4, 5]","[0, 1, 2, 3, 4, 5]",6,6,Available-class macro; exclude null; subtract only when actual support class sets agree
+clean,micro_Precision,0.6529411764705882,0.6882352941176471,-0.03529411764705881,True,,,,,,Pooled counts across the full class mapping; null if pooled denominator is zero
+clean,micro_Recall,0.5174825174825175,0.5454545454545454,-0.027972027972027913,True,,,,,,Pooled counts across the full class mapping; null if pooled denominator is zero
+clean,macro_Precision_zero_no_predictions,0.5709717355678566,0.6049659019430261,-0.0339941663751695,True,,"[0, 1, 2, 3, 4, 5]","[0, 1, 2, 3, 4, 5]",6,6,Explicit fixed-class reporting convention: classes with no predictions contribute zero to this macro only; original undefined per-class precision remains null.
+clean,FPPI,0.6555555555555556,0.5888888888888889,0.06666666666666665,True,,,,,,Total FP / evaluated images
+gaussian_0.03,metrics/mAP50-95(B),0.2786560559028578,0.2915642715169359,-0.012908215614078122,True,,,,,,Unchanged official AP output
+gaussian_0.03,metrics/mAP50(B),0.5607508414195971,0.6047702698657577,-0.04401942844616058,True,,,,,,Unchanged official AP output
+gaussian_0.03,macro_Precision,0.5715236077471993,0.7371322304948292,,False,different_class_support; available-class macro difference is not directly comparable,"[0, 1, 2, 3, 4, 5]","[1, 2, 3, 4, 5]",6,5,Available-class macro; exclude null; subtract only when actual support class sets agree
+gaussian_0.03,macro_Recall,0.5091385569126436,0.5161630128867567,-0.007024455974113053,True,,"[0, 1, 2, 3, 4, 5]","[0, 1, 2, 3, 4, 5]",6,6,Available-class macro; exclude null; subtract only when actual support class sets agree
+gaussian_0.03,micro_Precision,0.6447761194029851,0.6962025316455697,-0.051426412242584596,True,,,,,,Pooled counts across the full class mapping; null if pooled denominator is zero
+gaussian_0.03,micro_Recall,0.5034965034965035,0.5128205128205128,-0.00932400932400923,True,,,,,,Pooled counts across the full class mapping; null if pooled denominator is zero
+gaussian_0.03,macro_Precision_zero_no_predictions,0.5715236077471993,0.614276858745691,-0.0427532509984917,True,,"[0, 1, 2, 3, 4, 5]","[0, 1, 2, 3, 4, 5]",6,6,Explicit fixed-class reporting convention: classes with no predictions contribute zero to this macro only; original undefined per-class precision remains null.
+gaussian_0.03,FPPI,0.6611111111111111,0.5333333333333333,0.12777777777777777,True,,,,,,Total FP / evaluated images

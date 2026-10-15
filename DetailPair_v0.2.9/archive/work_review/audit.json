@@ -1,0 +1,115 @@
+{
+  "zip_sha256": "9b050970447a1f997d48011840d57246c5c825af1a72bf0b5b76a9a597574c6f",
+  "zip_entries": 154,
+  "run": "matched_20261015_152226_359125",
+  "completed_epoch": 38,
+  "checkpoint_epoch": 37,
+  "weights": {
+    "B5": "63f50038b92bd765557e9d3200b93f14d5b15215d01f62a364ae8014748741fa",
+    "B6": "b1ee52e5a744b4b233568e8ad921a54a241868979a47a3c633090f9cd34ebc54"
+  },
+  "source_code_equal_v024": {
+    "model.py": true,
+    "engine.py": true,
+    "data.py": true
+  },
+  "deps": {
+    "numpy": true,
+    "yaml": true,
+    "torch": false
+  },
+  "scenarios": [
+    {
+      "scenario": "clean",
+      "variant": "B5",
+      "AP50": 0.5682033415440103,
+      "AP50_95": 0.28443241190089985,
+      "macro_recall": 0.5218327662304875,
+      "macro_precision_available": 0.5709717355678566,
+      "precision_support": 6,
+      "macro_precision_six_zero": 0.5709717355678566,
+      "TP": 222,
+      "FP": 118,
+      "FN": 207,
+      "GT": 429,
+      "micro_precision": 0.6529411764705882,
+      "FPPI": 0.6555555555555556
+    },
+    {
+      "scenario": "clean",
+      "variant": "B6",
+      "AP50": 0.612186094396994,
+      "AP50_95": 0.298228124411472,
+      "macro_recall": 0.545665962544131,
+      "macro_precision_available": 0.7259590823316313,
+      "precision_support": 5,
+      "macro_precision_six_zero": 0.6049659019430261,
+      "TP": 234,
+      "FP": 106,
+      "FN": 195,
+      "GT": 429,
+      "micro_precision": 0.6882352941176471,
+      "FPPI": 0.5888888888888889
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "variant": "B5",
+      "AP50": 0.5607508414195971,
+      "AP50_95": 0.2786560559028578,
+      "macro_recall": 0.5091385569126436,
+      "macro_precision_available": 0.5715236077471993,
+      "precision_support": 6,
+      "macro_precision_six_zero": 0.5715236077471993,
+      "TP": 216,
+      "FP": 119,
+      "FN": 213,
+      "GT": 429,
+      "micro_precision": 0.6447761194029851,
+      "FPPI": 0.6611111111111111
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "variant": "B6",
+      "AP50": 0.6047702698657577,
+      "AP50_95": 0.2915642715169359,
+      "macro_recall": 0.5161630128867567,
+      "macro_precision_available": 0.7371322304948292,
+      "precision_support": 5,
+      "macro_precision_six_zero": 0.614276858745691,
+      "TP": 220,
+      "FP": 96,
+      "FN": 209,
+      "GT": 429,
+      "micro_precision": 0.6962025316455697,
+      "FPPI": 0.5333333333333333
+    }
+  ],
+  "source_newline_checks": {
+    "installed_save_model.py.txt": {
+      "raw_file_sha256": "1ffe5029b846f76cb01327c6776c36d4110f881209c5ea8e04d65475ec31166e",
+      "normalized_source_sha256": "5f2b57d19a7b7ea4441ff2a7f922a59e202c38a86141c4c4aa907f5b709eec71",
+      "CRLF_count": 40
+    },
+    "installed_save_metrics.py.txt": {
+      "raw_file_sha256": "26506d2469fb52fba019180c16f746485afb73f8991ec7c79a89b6587cb186b8",
+      "normalized_source_sha256": "5edab165bfc6030aa5cf1ef51cd29e02448da298122874700957d3ec2958f723",
+      "CRLF_count": 9
+    }
+  },
+  "checks": {
+    "all_assertions_passed": true,
+    "fixed_rows_independently_rematched": 720,
+    "official_prediction_rows_cardinality_checked": 720,
+    "actual_input_records_checked": 1440,
+    "read_only_files_reported": 3242,
+    "old_csv_hash_and_epoch38_rechecked": true,
+    "official_AP_recomputed_from_predictions": false,
+    "model_or_gradients_rerun": false,
+    "windows_cuda_executed_here": false
+  },
+  "issues": [
+    "Original available-class macro precision compares B5 six classes to B6 five; retain original, disclose support, add explicit zero-convention six-class and micro precision.",
+    "Checkpoint/data bytes stay in Windows; audit verifies returned evidence, not fresh on-disk hashes.",
+    "Historical initialization tensor hashes unavailable; matching seed does not establish identical trajectories."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed_review_table_arithmetic_only",
+  "branch_status": "archived_no_consistent_benefit",
+  "source": {
+    "name": "DetailPair_MatchedReview_20261015.zip",
+    "sha256": "2a66880863a96919613868aa6a636be797916f4b3e9feb017dd5e0625fc487e0",
+    "bytes": 91292,
+    "entries": 12,
+    "CRC": "passed",
+    "raw_matched_result_zip_available": false,
+    "raw_matched_result_sha256_reported_by_Work": "9b050970447a1f997d48011840d57246c5c825af1a72bf0b5b76a9a597574c6f"
+  },
+  "Work_manifest_files_verified": 11,
+  "raw_matched_results_available": false,
+  "independent_prediction_rematch": false,
+  "official_AP_recomputed": false,
+  "model_execution": false,
+  "GPU_evaluation": false,
+  "training": false,
+  "test_accessed": false,
+  "conditions_checked": 4,
+  "class_count_rows_checked": 24,
+  "AP_and_TP_FP_FN_GT": "preserved from Work-derived tables",
+  "limitation": "Raw 154-entry matched ZIP and 720 image predictions are absent. Work reported their verification; this process only verifies supplied review bytes and aggregate table arithmetic. No new experimental evidence."
+}

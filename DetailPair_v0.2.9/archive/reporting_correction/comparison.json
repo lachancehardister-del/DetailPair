@@ -1,0 +1,1185 @@
+{
+  "rows": [
+    {
+      "scenario": "clean",
+      "metric": "metrics/mAP50-95(B)",
+      "B5": 0.28443241190089985,
+      "B6": 0.298228124411472,
+      "B5_minus_B6": -0.013795712510572156,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": null,
+      "B6_support_class_ids": null,
+      "B5_support_count": null,
+      "B6_support_count": null,
+      "definition": "Unchanged official AP output"
+    },
+    {
+      "scenario": "clean",
+      "metric": "metrics/mAP50(B)",
+      "B5": 0.5682033415440103,
+      "B6": 0.612186094396994,
+      "B5_minus_B6": -0.0439827528529837,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": null,
+      "B6_support_class_ids": null,
+      "B5_support_count": null,
+      "B6_support_count": null,
+      "definition": "Unchanged official AP output"
+    },
+    {
+      "scenario": "clean",
+      "metric": "macro_Precision",
+      "B5": 0.5709717355678566,
+      "B6": 0.7259590823316313,
+      "B5_minus_B6": null,
+      "comparable": false,
+      "reason": "different_class_support; available-class macro difference is not directly comparable",
+      "B5_support_class_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B6_support_class_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B5_support_count": 6,
+      "B6_support_count": 5,
+      "definition": "Available-class macro; exclude null; subtract only when actual support class sets agree"
+    },
+    {
+      "scenario": "clean",
+      "metric": "macro_Recall",
+      "B5": 0.5218327662304875,
+      "B6": 0.545665962544131,
+      "B5_minus_B6": -0.023833196313643557,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B6_support_class_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B5_support_count": 6,
+      "B6_support_count": 6,
+      "definition": "Available-class macro; exclude null; subtract only when actual support class sets agree"
+    },
+    {
+      "scenario": "clean",
+      "metric": "micro_Precision",
+      "B5": 0.6529411764705882,
+      "B6": 0.6882352941176471,
+      "B5_minus_B6": -0.03529411764705881,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": null,
+      "B6_support_class_ids": null,
+      "B5_support_count": null,
+      "B6_support_count": null,
+      "definition": "Pooled counts across the full class mapping; null if pooled denominator is zero"
+    },
+    {
+      "scenario": "clean",
+      "metric": "micro_Recall",
+      "B5": 0.5174825174825175,
+      "B6": 0.5454545454545454,
+      "B5_minus_B6": -0.027972027972027913,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": null,
+      "B6_support_class_ids": null,
+      "B5_support_count": null,
+      "B6_support_count": null,
+      "definition": "Pooled counts across the full class mapping; null if pooled denominator is zero"
+    },
+    {
+      "scenario": "clean",
+      "metric": "macro_Precision_zero_no_predictions",
+      "B5": 0.5709717355678566,
+      "B6": 0.6049659019430261,
+      "B5_minus_B6": -0.0339941663751695,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B6_support_class_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B5_support_count": 6,
+      "B6_support_count": 6,
+      "definition": "Explicit fixed-class reporting convention: classes with no predictions contribute zero to this macro only; original undefined per-class precision remains null."
+    },
+    {
+      "scenario": "clean",
+      "metric": "FPPI",
+      "B5": 0.6555555555555556,
+      "B6": 0.5888888888888889,
+      "B5_minus_B6": 0.06666666666666665,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": null,
+      "B6_support_class_ids": null,
+      "B5_support_count": null,
+      "B6_support_count": null,
+      "definition": "Total FP / evaluated images"
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "metrics/mAP50-95(B)",
+      "B5": 0.2786560559028578,
+      "B6": 0.2915642715169359,
+      "B5_minus_B6": -0.012908215614078122,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": null,
+      "B6_support_class_ids": null,
+      "B5_support_count": null,
+      "B6_support_count": null,
+      "definition": "Unchanged official AP output"
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "metrics/mAP50(B)",
+      "B5": 0.5607508414195971,
+      "B6": 0.6047702698657577,
+      "B5_minus_B6": -0.04401942844616058,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": null,
+      "B6_support_class_ids": null,
+      "B5_support_count": null,
+      "B6_support_count": null,
+      "definition": "Unchanged official AP output"
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "macro_Precision",
+      "B5": 0.5715236077471993,
+      "B6": 0.7371322304948292,
+      "B5_minus_B6": null,
+      "comparable": false,
+      "reason": "different_class_support; available-class macro difference is not directly comparable",
+      "B5_support_class_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B6_support_class_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B5_support_count": 6,
+      "B6_support_count": 5,
+      "definition": "Available-class macro; exclude null; subtract only when actual support class sets agree"
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "macro_Recall",
+      "B5": 0.5091385569126436,
+      "B6": 0.5161630128867567,
+      "B5_minus_B6": -0.007024455974113053,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B6_support_class_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B5_support_count": 6,
+      "B6_support_count": 6,
+      "definition": "Available-class macro; exclude null; subtract only when actual support class sets agree"
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "micro_Precision",
+      "B5": 0.6447761194029851,
+      "B6": 0.6962025316455697,
+      "B5_minus_B6": -0.051426412242584596,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": null,
+      "B6_support_class_ids": null,
+      "B5_support_count": null,
+      "B6_support_count": null,
+      "definition": "Pooled counts across the full class mapping; null if pooled denominator is zero"
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "micro_Recall",
+      "B5": 0.5034965034965035,
+      "B6": 0.5128205128205128,
+      "B5_minus_B6": -0.00932400932400923,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": null,
+      "B6_support_class_ids": null,
+      "B5_support_count": null,
+      "B6_support_count": null,
+      "definition": "Pooled counts across the full class mapping; null if pooled denominator is zero"
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "macro_Precision_zero_no_predictions",
+      "B5": 0.5715236077471993,
+      "B6": 0.614276858745691,
+      "B5_minus_B6": -0.0427532509984917,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B6_support_class_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "B5_support_count": 6,
+      "B6_support_count": 6,
+      "definition": "Explicit fixed-class reporting convention: classes with no predictions contribute zero to this macro only; original undefined per-class precision remains null."
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "metric": "FPPI",
+      "B5": 0.6611111111111111,
+      "B6": 0.5333333333333333,
+      "B5_minus_B6": 0.12777777777777777,
+      "comparable": true,
+      "reason": null,
+      "B5_support_class_ids": null,
+      "B6_support_class_ids": null,
+      "B5_support_count": null,
+      "B6_support_count": null,
+      "definition": "Total FP / evaluated images"
+    }
+  ],
+  "classes": [
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "AP50",
+      "B5": 0.09435755492785014,
+      "B6": 0.06358017660111435,
+      "B5_minus_B6": 0.030777378326735785
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "AP50_95",
+      "B5": 0.028257050660833734,
+      "B6": 0.022033128496916153,
+      "B5_minus_B6": 0.006223922163917581
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "TP",
+      "B5": 0,
+      "B6": 0,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "FP",
+      "B5": 1,
+      "B6": 0,
+      "B5_minus_B6": 1
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "FN",
+      "B5": 71,
+      "B6": 71,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "GT",
+      "B5": 71,
+      "B6": 71,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "Precision",
+      "B5": 0.0,
+      "B6": null,
+      "B5_minus_B6": null
+    },
+    {
+      "scenario": "clean",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "Recall",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "AP50",
+      "B5": 0.6418230716642573,
+      "B6": 0.662914246852209,
+      "B5_minus_B6": -0.021091175187951672
+    },
+    {
+      "scenario": "clean",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "AP50_95",
+      "B5": 0.2781338693250777,
+      "B6": 0.29125561776900866,
+      "B5_minus_B6": -0.013121748443930936
+    },
+    {
+      "scenario": "clean",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "TP",
+      "B5": 59,
+      "B6": 62,
+      "B5_minus_B6": -3
+    },
+    {
+      "scenario": "clean",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "FP",
+      "B5": 27,
+      "B6": 19,
+      "B5_minus_B6": 8
+    },
+    {
+      "scenario": "clean",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "FN",
+      "B5": 47,
+      "B6": 44,
+      "B5_minus_B6": 3
+    },
+    {
+      "scenario": "clean",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "GT",
+      "B5": 106,
+      "B6": 106,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "Precision",
+      "B5": 0.686046511627907,
+      "B6": 0.7654320987654321,
+      "B5_minus_B6": -0.07938558713752508
+    },
+    {
+      "scenario": "clean",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "Recall",
+      "B5": 0.5566037735849056,
+      "B6": 0.5849056603773585,
+      "B5_minus_B6": -0.028301886792452824
+    },
+    {
+      "scenario": "clean",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "AP50",
+      "B5": 0.7603047574019177,
+      "B6": 0.7510544506164845,
+      "B5_minus_B6": 0.00925030678543326
+    },
+    {
+      "scenario": "clean",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "AP50_95",
+      "B5": 0.43981924349310353,
+      "B6": 0.4390690054328676,
+      "B5_minus_B6": 0.0007502380602359415
+    },
+    {
+      "scenario": "clean",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "TP",
+      "B5": 57,
+      "B6": 68,
+      "B5_minus_B6": -11
+    },
+    {
+      "scenario": "clean",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "FP",
+      "B5": 14,
+      "B6": 43,
+      "B5_minus_B6": -29
+    },
+    {
+      "scenario": "clean",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "FN",
+      "B5": 32,
+      "B6": 21,
+      "B5_minus_B6": 11
+    },
+    {
+      "scenario": "clean",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "GT",
+      "B5": 89,
+      "B6": 89,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "Precision",
+      "B5": 0.8028169014084507,
+      "B6": 0.6126126126126126,
+      "B5_minus_B6": 0.19020428879583817
+    },
+    {
+      "scenario": "clean",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "Recall",
+      "B5": 0.6404494382022472,
+      "B6": 0.7640449438202247,
+      "B5_minus_B6": -0.1235955056179775
+    },
+    {
+      "scenario": "clean",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "AP50",
+      "B5": 0.6783075679675967,
+      "B6": 0.7610129032272573,
+      "B5_minus_B6": -0.08270533525966062
+    },
+    {
+      "scenario": "clean",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "AP50_95",
+      "B5": 0.3922409070108635,
+      "B6": 0.4038259437221162,
+      "B5_minus_B6": -0.011585036711252716
+    },
+    {
+      "scenario": "clean",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "TP",
+      "B5": 25,
+      "B6": 29,
+      "B5_minus_B6": -4
+    },
+    {
+      "scenario": "clean",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "FP",
+      "B5": 6,
+      "B6": 5,
+      "B5_minus_B6": 1
+    },
+    {
+      "scenario": "clean",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "FN",
+      "B5": 18,
+      "B6": 14,
+      "B5_minus_B6": 4
+    },
+    {
+      "scenario": "clean",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "GT",
+      "B5": 43,
+      "B6": 43,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "Precision",
+      "B5": 0.8064516129032258,
+      "B6": 0.8529411764705882,
+      "B5_minus_B6": -0.046489563567362446
+    },
+    {
+      "scenario": "clean",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "Recall",
+      "B5": 0.5813953488372093,
+      "B6": 0.6744186046511628,
+      "B5_minus_B6": -0.09302325581395343
+    },
+    {
+      "scenario": "clean",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "AP50",
+      "B5": 0.4941192719473017,
+      "B6": 0.6095170980996425,
+      "B5_minus_B6": -0.11539782615234079
+    },
+    {
+      "scenario": "clean",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "AP50_95",
+      "B5": 0.22199916505650652,
+      "B6": 0.2595904249118088,
+      "B5_minus_B6": -0.03759125985530226
+    },
+    {
+      "scenario": "clean",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "TP",
+      "B5": 41,
+      "B6": 39,
+      "B5_minus_B6": 2
+    },
+    {
+      "scenario": "clean",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "FP",
+      "B5": 52,
+      "B6": 33,
+      "B5_minus_B6": 19
+    },
+    {
+      "scenario": "clean",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "FN",
+      "B5": 22,
+      "B6": 24,
+      "B5_minus_B6": -2
+    },
+    {
+      "scenario": "clean",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "GT",
+      "B5": 63,
+      "B6": 63,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "Precision",
+      "B5": 0.44086021505376344,
+      "B6": 0.5416666666666666,
+      "B5_minus_B6": -0.10080645161290319
+    },
+    {
+      "scenario": "clean",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "Recall",
+      "B5": 0.6507936507936508,
+      "B6": 0.6190476190476191,
+      "B5_minus_B6": 0.031746031746031744
+    },
+    {
+      "scenario": "clean",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "AP50",
+      "B5": 0.7403078253551382,
+      "B6": 0.825037690985256,
+      "B5_minus_B6": -0.08472986563011786
+    },
+    {
+      "scenario": "clean",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "AP50_95",
+      "B5": 0.3461442358590143,
+      "B6": 0.37359462613611455,
+      "B5_minus_B6": -0.027450390277100223
+    },
+    {
+      "scenario": "clean",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "TP",
+      "B5": 40,
+      "B6": 36,
+      "B5_minus_B6": 4
+    },
+    {
+      "scenario": "clean",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "FP",
+      "B5": 18,
+      "B6": 6,
+      "B5_minus_B6": 12
+    },
+    {
+      "scenario": "clean",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "FN",
+      "B5": 17,
+      "B6": 21,
+      "B5_minus_B6": -4
+    },
+    {
+      "scenario": "clean",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "GT",
+      "B5": 57,
+      "B6": 57,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "clean",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "Precision",
+      "B5": 0.6896551724137931,
+      "B6": 0.8571428571428571,
+      "B5_minus_B6": -0.16748768472906395
+    },
+    {
+      "scenario": "clean",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "Recall",
+      "B5": 0.7017543859649122,
+      "B6": 0.631578947368421,
+      "B5_minus_B6": 0.07017543859649122
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "AP50",
+      "B5": 0.09576079591741483,
+      "B6": 0.05989744062273025,
+      "B5_minus_B6": 0.03586335529468458
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "AP50_95",
+      "B5": 0.027685579622052776,
+      "B6": 0.02032187242722077,
+      "B5_minus_B6": 0.007363707194832005
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "TP",
+      "B5": 0,
+      "B6": 0,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "FP",
+      "B5": 1,
+      "B6": 0,
+      "B5_minus_B6": 1
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "FN",
+      "B5": 71,
+      "B6": 71,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "GT",
+      "B5": 71,
+      "B6": 71,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "Precision",
+      "B5": 0.0,
+      "B6": null,
+      "B5_minus_B6": null
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 0,
+      "name": "crazing",
+      "metric": "Recall",
+      "B5": 0.0,
+      "B6": 0.0,
+      "B5_minus_B6": 0.0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "AP50",
+      "B5": 0.6134562458197449,
+      "B6": 0.6572555557314277,
+      "B5_minus_B6": -0.04379930991168279
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "AP50_95",
+      "B5": 0.2685759237285793,
+      "B6": 0.2879089329195862,
+      "B5_minus_B6": -0.01933300919100689
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "TP",
+      "B5": 55,
+      "B6": 54,
+      "B5_minus_B6": 1
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "FP",
+      "B5": 19,
+      "B6": 13,
+      "B5_minus_B6": 6
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "FN",
+      "B5": 51,
+      "B6": 52,
+      "B5_minus_B6": -1
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "GT",
+      "B5": 106,
+      "B6": 106,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "Precision",
+      "B5": 0.7432432432432432,
+      "B6": 0.8059701492537313,
+      "B5_minus_B6": -0.06272690601048814
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 1,
+      "name": "inclusion",
+      "metric": "Recall",
+      "B5": 0.5188679245283019,
+      "B6": 0.5094339622641509,
+      "B5_minus_B6": 0.009433962264150941
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "AP50",
+      "B5": 0.7585352029528382,
+      "B6": 0.7449324678863763,
+      "B5_minus_B6": 0.013602735066461813
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "AP50_95",
+      "B5": 0.4417172842618441,
+      "B6": 0.4337629900017393,
+      "B5_minus_B6": 0.0079542942601048
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "TP",
+      "B5": 57,
+      "B6": 69,
+      "B5_minus_B6": -12
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "FP",
+      "B5": 14,
+      "B6": 42,
+      "B5_minus_B6": -28
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "FN",
+      "B5": 32,
+      "B6": 20,
+      "B5_minus_B6": 12
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "GT",
+      "B5": 89,
+      "B6": 89,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "Precision",
+      "B5": 0.8028169014084507,
+      "B6": 0.6216216216216216,
+      "B5_minus_B6": 0.18119527978682914
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 2,
+      "name": "patches",
+      "metric": "Recall",
+      "B5": 0.6404494382022472,
+      "B6": 0.7752808988764045,
+      "B5_minus_B6": -0.1348314606741573
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "AP50",
+      "B5": 0.6742900960181779,
+      "B6": 0.74924308535455,
+      "B5_minus_B6": -0.07495298933637207
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "AP50_95",
+      "B5": 0.38398007617414953,
+      "B6": 0.39841536058291455,
+      "B5_minus_B6": -0.014435284408765015
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "TP",
+      "B5": 25,
+      "B6": 29,
+      "B5_minus_B6": -4
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "FP",
+      "B5": 7,
+      "B6": 5,
+      "B5_minus_B6": 2
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "FN",
+      "B5": 18,
+      "B6": 14,
+      "B5_minus_B6": 4
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "GT",
+      "B5": 43,
+      "B6": 43,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "Precision",
+      "B5": 0.78125,
+      "B6": 0.8529411764705882,
+      "B5_minus_B6": -0.0716911764705882
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 3,
+      "name": "pitted_surface",
+      "metric": "Recall",
+      "B5": 0.5813953488372093,
+      "B6": 0.6744186046511628,
+      "B5_minus_B6": -0.09302325581395343
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "AP50",
+      "B5": 0.48872593243779083,
+      "B6": 0.593087383085126,
+      "B5_minus_B6": -0.10436145064733515
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "AP50_95",
+      "B5": 0.21322791638390698,
+      "B6": 0.24503183459236982,
+      "B5_minus_B6": -0.031803918208462845
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "TP",
+      "B5": 43,
+      "B6": 33,
+      "B5_minus_B6": 10
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "FP",
+      "B5": 62,
+      "B6": 32,
+      "B5_minus_B6": 30
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "FN",
+      "B5": 20,
+      "B6": 30,
+      "B5_minus_B6": -10
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "GT",
+      "B5": 63,
+      "B6": 63,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "Precision",
+      "B5": 0.4095238095238095,
+      "B6": 0.5076923076923077,
+      "B5_minus_B6": -0.09816849816849815
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 4,
+      "name": "rolled-in_scale",
+      "metric": "Recall",
+      "B5": 0.6825396825396826,
+      "B6": 0.5238095238095238,
+      "B5_minus_B6": 0.15873015873015872
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "AP50",
+      "B5": 0.7337367753716155,
+      "B6": 0.8242056865143356,
+      "B5_minus_B6": -0.09046891114272004
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "AP50_95",
+      "B5": 0.33674955524661354,
+      "B6": 0.36394463857778436,
+      "B5_minus_B6": -0.027195083331170822
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "TP",
+      "B5": 36,
+      "B6": 35,
+      "B5_minus_B6": 1
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "FP",
+      "B5": 16,
+      "B6": 4,
+      "B5_minus_B6": 12
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "FN",
+      "B5": 21,
+      "B6": 22,
+      "B5_minus_B6": -1
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "GT",
+      "B5": 57,
+      "B6": 57,
+      "B5_minus_B6": 0
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "Precision",
+      "B5": 0.6923076923076923,
+      "B6": 0.8974358974358975,
+      "B5_minus_B6": -0.20512820512820518
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "class_id": 5,
+      "name": "scratches",
+      "metric": "Recall",
+      "B5": 0.631578947368421,
+      "B6": 0.6140350877192983,
+      "B5_minus_B6": 0.01754385964912275
+    }
+  ],
+  "reporting_schema": "DetailPair-fixed-operating-point-2.0",
+  "scope": "Existing short-budget single seed only; available-class macro differences require equal actual support sets. No causal proof, speed claim, significance, automatic training or final method claim",
+  "provenance": {
+    "source": "Work-derived class and scenario CSV tables",
+    "raw_matched_result_zip_available": false,
+    "independent_prediction_rematch": false,
+    "official_AP_recomputed": false,
+    "new_experiment": false
+  }
+}

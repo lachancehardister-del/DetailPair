@@ -1,0 +1,451 @@
+{
+  "source": "Work-derived classes_recomputed.csv; aggregate arithmetic only",
+  "conditions": [
+    {
+      "scenario": "clean",
+      "variant": "B5",
+      "classes": [
+        {
+          "class_id": 0,
+          "name": "crazing",
+          "TP": 0,
+          "FP": 1,
+          "FN": 71,
+          "GT": 71,
+          "Precision": 0.0,
+          "Recall": 0.0
+        },
+        {
+          "class_id": 1,
+          "name": "inclusion",
+          "TP": 59,
+          "FP": 27,
+          "FN": 47,
+          "GT": 106,
+          "Precision": 0.686046511627907,
+          "Recall": 0.5566037735849056
+        },
+        {
+          "class_id": 2,
+          "name": "patches",
+          "TP": 57,
+          "FP": 14,
+          "FN": 32,
+          "GT": 89,
+          "Precision": 0.8028169014084507,
+          "Recall": 0.6404494382022472
+        },
+        {
+          "class_id": 3,
+          "name": "pitted_surface",
+          "TP": 25,
+          "FP": 6,
+          "FN": 18,
+          "GT": 43,
+          "Precision": 0.8064516129032258,
+          "Recall": 0.5813953488372093
+        },
+        {
+          "class_id": 4,
+          "name": "rolled-in_scale",
+          "TP": 41,
+          "FP": 52,
+          "FN": 22,
+          "GT": 63,
+          "Precision": 0.44086021505376344,
+          "Recall": 0.6507936507936508
+        },
+        {
+          "class_id": 5,
+          "name": "scratches",
+          "TP": 40,
+          "FP": 18,
+          "FN": 17,
+          "GT": 57,
+          "Precision": 0.6896551724137931,
+          "Recall": 0.7017543859649122
+        }
+      ],
+      "macro": {
+        "Precision": 0.5709717355678566,
+        "Precision_classes_with_denominator": 6,
+        "Precision_class_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "Recall": 0.5218327662304875,
+        "Recall_classes_with_denominator": 6,
+        "Recall_class_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "micro": {
+        "TP": 222,
+        "FP": 118,
+        "FN": 207,
+        "GT": 429,
+        "Precision": 0.6529411764705882,
+        "Recall": 0.5174825174825175
+      },
+      "macro_fixed_class_zero_no_predictions": {
+        "Precision": 0.5709717355678566,
+        "classes_count": 6,
+        "class_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "definition": "Explicit fixed-class reporting convention: classes with no predictions contribute zero to this macro only; original undefined per-class precision remains null."
+      },
+      "reporting_schema": "DetailPair-fixed-operating-point-2.0",
+      "undefined": "null when denominator is zero; available-class macro excludes undefined classes",
+      "FPPI": 0.6555555555555556
+    },
+    {
+      "scenario": "clean",
+      "variant": "B6",
+      "classes": [
+        {
+          "class_id": 0,
+          "name": "crazing",
+          "TP": 0,
+          "FP": 0,
+          "FN": 71,
+          "GT": 71,
+          "Precision": null,
+          "Recall": 0.0
+        },
+        {
+          "class_id": 1,
+          "name": "inclusion",
+          "TP": 62,
+          "FP": 19,
+          "FN": 44,
+          "GT": 106,
+          "Precision": 0.7654320987654321,
+          "Recall": 0.5849056603773585
+        },
+        {
+          "class_id": 2,
+          "name": "patches",
+          "TP": 68,
+          "FP": 43,
+          "FN": 21,
+          "GT": 89,
+          "Precision": 0.6126126126126126,
+          "Recall": 0.7640449438202247
+        },
+        {
+          "class_id": 3,
+          "name": "pitted_surface",
+          "TP": 29,
+          "FP": 5,
+          "FN": 14,
+          "GT": 43,
+          "Precision": 0.8529411764705882,
+          "Recall": 0.6744186046511628
+        },
+        {
+          "class_id": 4,
+          "name": "rolled-in_scale",
+          "TP": 39,
+          "FP": 33,
+          "FN": 24,
+          "GT": 63,
+          "Precision": 0.5416666666666666,
+          "Recall": 0.6190476190476191
+        },
+        {
+          "class_id": 5,
+          "name": "scratches",
+          "TP": 36,
+          "FP": 6,
+          "FN": 21,
+          "GT": 57,
+          "Precision": 0.8571428571428571,
+          "Recall": 0.631578947368421
+        }
+      ],
+      "macro": {
+        "Precision": 0.7259590823316313,
+        "Precision_classes_with_denominator": 5,
+        "Precision_class_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "Recall": 0.545665962544131,
+        "Recall_classes_with_denominator": 6,
+        "Recall_class_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "micro": {
+        "TP": 234,
+        "FP": 106,
+        "FN": 195,
+        "GT": 429,
+        "Precision": 0.6882352941176471,
+        "Recall": 0.5454545454545454
+      },
+      "macro_fixed_class_zero_no_predictions": {
+        "Precision": 0.6049659019430261,
+        "classes_count": 6,
+        "class_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "definition": "Explicit fixed-class reporting convention: classes with no predictions contribute zero to this macro only; original undefined per-class precision remains null."
+      },
+      "reporting_schema": "DetailPair-fixed-operating-point-2.0",
+      "undefined": "null when denominator is zero; available-class macro excludes undefined classes",
+      "FPPI": 0.5888888888888889
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "variant": "B5",
+      "classes": [
+        {
+          "class_id": 0,
+          "name": "crazing",
+          "TP": 0,
+          "FP": 1,
+          "FN": 71,
+          "GT": 71,
+          "Precision": 0.0,
+          "Recall": 0.0
+        },
+        {
+          "class_id": 1,
+          "name": "inclusion",
+          "TP": 55,
+          "FP": 19,
+          "FN": 51,
+          "GT": 106,
+          "Precision": 0.7432432432432432,
+          "Recall": 0.5188679245283019
+        },
+        {
+          "class_id": 2,
+          "name": "patches",
+          "TP": 57,
+          "FP": 14,
+          "FN": 32,
+          "GT": 89,
+          "Precision": 0.8028169014084507,
+          "Recall": 0.6404494382022472
+        },
+        {
+          "class_id": 3,
+          "name": "pitted_surface",
+          "TP": 25,
+          "FP": 7,
+          "FN": 18,
+          "GT": 43,
+          "Precision": 0.78125,
+          "Recall": 0.5813953488372093
+        },
+        {
+          "class_id": 4,
+          "name": "rolled-in_scale",
+          "TP": 43,
+          "FP": 62,
+          "FN": 20,
+          "GT": 63,
+          "Precision": 0.4095238095238095,
+          "Recall": 0.6825396825396826
+        },
+        {
+          "class_id": 5,
+          "name": "scratches",
+          "TP": 36,
+          "FP": 16,
+          "FN": 21,
+          "GT": 57,
+          "Precision": 0.6923076923076923,
+          "Recall": 0.631578947368421
+        }
+      ],
+      "macro": {
+        "Precision": 0.5715236077471993,
+        "Precision_classes_with_denominator": 6,
+        "Precision_class_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "Recall": 0.5091385569126436,
+        "Recall_classes_with_denominator": 6,
+        "Recall_class_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "micro": {
+        "TP": 216,
+        "FP": 119,
+        "FN": 213,
+        "GT": 429,
+        "Precision": 0.6447761194029851,
+        "Recall": 0.5034965034965035
+      },
+      "macro_fixed_class_zero_no_predictions": {
+        "Precision": 0.5715236077471993,
+        "classes_count": 6,
+        "class_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "definition": "Explicit fixed-class reporting convention: classes with no predictions contribute zero to this macro only; original undefined per-class precision remains null."
+      },
+      "reporting_schema": "DetailPair-fixed-operating-point-2.0",
+      "undefined": "null when denominator is zero; available-class macro excludes undefined classes",
+      "FPPI": 0.6611111111111111
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "variant": "B6",
+      "classes": [
+        {
+          "class_id": 0,
+          "name": "crazing",
+          "TP": 0,
+          "FP": 0,
+          "FN": 71,
+          "GT": 71,
+          "Precision": null,
+          "Recall": 0.0
+        },
+        {
+          "class_id": 1,
+          "name": "inclusion",
+          "TP": 54,
+          "FP": 13,
+          "FN": 52,
+          "GT": 106,
+          "Precision": 0.8059701492537313,
+          "Recall": 0.5094339622641509
+        },
+        {
+          "class_id": 2,
+          "name": "patches",
+          "TP": 69,
+          "FP": 42,
+          "FN": 20,
+          "GT": 89,
+          "Precision": 0.6216216216216216,
+          "Recall": 0.7752808988764045
+        },
+        {
+          "class_id": 3,
+          "name": "pitted_surface",
+          "TP": 29,
+          "FP": 5,
+          "FN": 14,
+          "GT": 43,
+          "Precision": 0.8529411764705882,
+          "Recall": 0.6744186046511628
+        },
+        {
+          "class_id": 4,
+          "name": "rolled-in_scale",
+          "TP": 33,
+          "FP": 32,
+          "FN": 30,
+          "GT": 63,
+          "Precision": 0.5076923076923077,
+          "Recall": 0.5238095238095238
+        },
+        {
+          "class_id": 5,
+          "name": "scratches",
+          "TP": 35,
+          "FP": 4,
+          "FN": 22,
+          "GT": 57,
+          "Precision": 0.8974358974358975,
+          "Recall": 0.6140350877192983
+        }
+      ],
+      "macro": {
+        "Precision": 0.7371322304948292,
+        "Precision_classes_with_denominator": 5,
+        "Precision_class_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "Recall": 0.5161630128867567,
+        "Recall_classes_with_denominator": 6,
+        "Recall_class_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "micro": {
+        "TP": 220,
+        "FP": 96,
+        "FN": 209,
+        "GT": 429,
+        "Precision": 0.6962025316455697,
+        "Recall": 0.5128205128205128
+      },
+      "macro_fixed_class_zero_no_predictions": {
+        "Precision": 0.614276858745691,
+        "classes_count": 6,
+        "class_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "definition": "Explicit fixed-class reporting convention: classes with no predictions contribute zero to this macro only; original undefined per-class precision remains null."
+      },
+      "reporting_schema": "DetailPair-fixed-operating-point-2.0",
+      "undefined": "null when denominator is zero; available-class macro excludes undefined classes",
+      "FPPI": 0.5333333333333333
+    }
+  ]
+}

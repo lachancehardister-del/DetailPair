@@ -1,0 +1,161 @@
+{
+  "source_run": "ModelImprovement/received/DetailPair_results_20261011_105355_100502/runs/pilot__20261011_105032_073737",
+  "conditions": {
+    "B1": {
+      "metrics": {
+        "split": "val",
+        "metrics/precision(B)": 0.0002752546105147261,
+        "metrics/recall(B)": 0.1111111111111111,
+        "metrics/mAP50(B)": 0.00042065642795994124,
+        "metrics/mAP50-95(B)": 0.00024980737795522403,
+        "fitness": 0.00024980737795522403
+      },
+      "auxiliary_records": 96,
+      "epoch_rows": 3,
+      "first_aux": {
+        "epoch": 0,
+        "batch": -1,
+        "consistency": 0.0,
+        "detail_amplitude": 0.0,
+        "fft_amplitude": 0.0,
+        "perturbation_step": 1,
+        "weighted_aux": 0.0
+      },
+      "last_aux": {
+        "epoch": 2,
+        "batch": -1,
+        "consistency": 0.0,
+        "detail_amplitude": 0.0,
+        "fft_amplitude": 0.0,
+        "perturbation_step": 96,
+        "weighted_aux": 0.0
+      },
+      "status": {
+        "status": "success",
+        "kind": "EXPLORATORY_PILOT"
+      }
+    },
+    "B2": {
+      "metrics": {
+        "split": "val",
+        "metrics/precision(B)": 0.00027199782401740786,
+        "metrics/recall(B)": 0.1111111111111111,
+        "metrics/mAP50(B)": 0.0003850809460184253,
+        "metrics/mAP50-95(B)": 0.00017784881461371105,
+        "fitness": 0.00017784881461371105
+      },
+      "auxiliary_records": 96,
+      "epoch_rows": 3,
+      "first_aux": {
+        "epoch": 0,
+        "batch": -1,
+        "consistency": 0.7361322045326233,
+        "detail_amplitude": 0.0,
+        "fft_amplitude": 0.0,
+        "perturbation_step": 1,
+        "weighted_aux": 0.036806609481573105
+      },
+      "last_aux": {
+        "epoch": 2,
+        "batch": -1,
+        "consistency": 0.6803370714187622,
+        "detail_amplitude": 0.0,
+        "fft_amplitude": 0.0,
+        "perturbation_step": 96,
+        "weighted_aux": 0.03401685506105423
+      },
+      "status": {
+        "status": "success",
+        "kind": "EXPLORATORY_PILOT"
+      }
+    },
+    "B5": {
+      "metrics": {
+        "split": "val",
+        "metrics/precision(B)": 0.0016953552731014492,
+        "metrics/recall(B)": 0.1527777777777778,
+        "metrics/mAP50(B)": 0.0014350992340624435,
+        "metrics/mAP50-95(B)": 0.0004478068654753954,
+        "fitness": 0.0004478068654753954
+      },
+      "auxiliary_records": 96,
+      "epoch_rows": 3,
+      "first_aux": {
+        "epoch": 0,
+        "batch": -1,
+        "consistency": 0.5930352210998535,
+        "detail_amplitude": 0.0,
+        "fft_amplitude": 0.0,
+        "perturbation_step": 1,
+        "weighted_aux": 0.029651761054992676,
+        "gate_fg_mean": 0.5518636107444763,
+        "gate_fg_near_one": 0.0,
+        "gate_bg_mean": 0.550632894039154,
+        "gate_bg_near_one": 0.0,
+        "amplitude_retention_ratio": 0.5538639426231384
+      },
+      "last_aux": {
+        "epoch": 2,
+        "batch": -1,
+        "consistency": 0.42581433057785034,
+        "detail_amplitude": 0.0,
+        "fft_amplitude": 0.0,
+        "perturbation_step": 96,
+        "weighted_aux": 0.021290717646479607,
+        "gate_fg_mean": 0.5575515031814575,
+        "gate_fg_near_one": 0.0,
+        "gate_bg_mean": 0.5561872124671936,
+        "gate_bg_near_one": 0.0,
+        "amplitude_retention_ratio": 0.5592771172523499
+      },
+      "status": {
+        "status": "success",
+        "kind": "EXPLORATORY_PILOT"
+      }
+    },
+    "B6": {
+      "metrics": {
+        "split": "val",
+        "metrics/precision(B)": 0.00033656435110393106,
+        "metrics/recall(B)": 0.1388888888888889,
+        "metrics/mAP50(B)": 0.0013724371249552387,
+        "metrics/mAP50-95(B)": 0.00026450362992363476,
+        "fitness": 0.00026450362992363476
+      },
+      "auxiliary_records": 96,
+      "epoch_rows": 3,
+      "first_aux": {
+        "epoch": 0,
+        "batch": -1,
+        "consistency": 0.5930352210998535,
+        "detail_amplitude": 0.7879132032394409,
+        "fft_amplitude": 0.0,
+        "perturbation_step": 1,
+        "weighted_aux": 0.045410022139549255,
+        "gate_fg_mean": 0.5518636107444763,
+        "gate_fg_near_one": 0.0,
+        "gate_bg_mean": 0.550632894039154,
+        "gate_bg_near_one": 0.0,
+        "amplitude_retention_ratio": 0.5538639426231384
+      },
+      "last_aux": {
+        "epoch": 2,
+        "batch": -1,
+        "consistency": 0.44599005579948425,
+        "detail_amplitude": 0.5556498169898987,
+        "fft_amplitude": 0.0,
+        "perturbation_step": 96,
+        "weighted_aux": 0.03341250121593475,
+        "gate_fg_mean": 0.5495466589927673,
+        "gate_fg_near_one": 0.0,
+        "gate_bg_mean": 0.5485045313835144,
+        "gate_bg_near_one": 0.0,
+        "amplitude_retention_ratio": 0.5518080592155457
+      },
+      "status": {
+        "status": "success",
+        "kind": "EXPLORATORY_PILOT"
+      }
+    }
+  }
+}

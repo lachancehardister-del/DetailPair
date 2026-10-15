@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/check_detailpair_v029_release.py", line 13, in <module>
+    assert all((root/n).is_file() for n in required),[n for n in required if not (root/n).exists()]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ['requirements_cpu.txt']

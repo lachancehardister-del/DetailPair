@@ -1,0 +1,12 @@
+{
+  "status": "archived_no_consistent_benefit",
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "user_local_run_required": false,
+  "new_experiments_authorized": false,
+  "closed_scope": [
+    "current full B6 combination",
+    "direct amplitude-loss deletion B5 route"
+  ],
+  "next_stage": "Work hypothesis and nearest-neighbor formula/objective/cost audit; not yet executed"
+}

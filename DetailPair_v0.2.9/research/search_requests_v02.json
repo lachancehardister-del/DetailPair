@@ -1,0 +1,274 @@
+[
+  {
+    "date": "2026-10-10",
+    "platform": "web system1",
+    "request": {
+      "system1_search_query": [
+        {
+          "q": "object detection wavelet subband gating paired noise consistency loss defect detection 2025 2026"
+        },
+        {
+          "q": "\"wavelet\" \"consistency\" \"defect detection\" loss"
+        },
+        {
+          "q": "\"WAMENet\" \"DFR-Net\" defect detection"
+        },
+        {
+          "q": "\"SF-YOLO11\" pdf loss"
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 1
+  },
+  {
+    "date": "2026-10-10",
+    "platform": "web system2",
+    "request": {
+      "system2_search_query": [
+        {
+          "q": "\"wavelet\" \"feature consistency\" object detection noise"
+        },
+        {
+          "q": "\"DFR-Net\" \"Differential-Frequency\" github"
+        },
+        {
+          "q": "\"WAMENet\" wavelet attention fusion downsampling"
+        },
+        {
+          "q": "object detection augmentation consistency feature loss foreground background FGD AugMix"
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 2
+  },
+  {
+    "date": "2026-10-10",
+    "platform": "primary fulltext open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.mdpi.com/1424-8220/26/10/2942"
+        },
+        {
+          "ref_id": "https://www.sciencedirect.com/science/article/pii/S0923596526002250"
+        },
+        {
+          "ref_id": "https://ieeexplore.ieee.org/abstract/document/11664566"
+        },
+        {
+          "ref_id": "https://arxiv.org/html/2605.13621v1"
+        },
+        {
+          "ref_id": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0331025"
+        },
+        {
+          "ref_id": "https://arxiv.org/abs/2609.00065"
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 3
+  },
+  {
+    "date": "2026-10-10",
+    "platform": "primary open + system1",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13210805/"
+        }
+      ],
+      "system1_search_query": [
+        {
+          "q": "\"DFR-Net\" \"reliability\" \"3727002\""
+        },
+        {
+          "q": "\"WAMENet\" \"117702\" DOI"
+        },
+        {
+          "q": "\"SF-YOLO11\" \"pdf\" site:link.springer.com"
+        },
+        {
+          "q": "\"Weather-Robust Foreign Object Detection\" \"loss\""
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 4
+  },
+  {
+    "date": "2026-10-10",
+    "platform": "primary open + system2",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.mdpi.com/1424-8220/26/10/2942/htm"
+        },
+        {
+          "ref_id": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344940"
+        },
+        {
+          "ref_id": "https://arxiv.org/html/2601.12507v2"
+        },
+        {
+          "ref_id": "https://link.springer.com/article/10.1007/s11554-026-01866-4"
+        }
+      ],
+      "system2_search_query": [
+        {
+          "q": "\"Focal and Global Knowledge Distillation\" CVPR 2022"
+        },
+        {
+          "q": "\"DFR-Net: Differential-Frequency\" abstract"
+        },
+        {
+          "q": "\"WAMENet\" \"loss\""
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 5
+  },
+  {
+    "date": "2026-10-10",
+    "platform": "primary open/find",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.mdpi.com/1424-8220/26/10/2942",
+          "lineno": 1
+        },
+        {
+          "ref_id": "https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Focal_and_Global_Knowledge_Distillation_for_Detectors_CVPR_2022_paper.html"
+        },
+        {
+          "ref_id": "https://arxiv.org/html/1912.02781"
+        }
+      ],
+      "find": [
+        {
+          "ref_id": "turn30view3",
+          "pattern": "Abstract"
+        },
+        {
+          "ref_id": "turn28view5",
+          "pattern": "Authors"
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 6
+  },
+  {
+    "date": "2026-10-10",
+    "platform": "primary indexed targeted search",
+    "request": {
+      "system2_search_query": [
+        {
+          "q": "site:mdpi.com/1424-8220/26/10/2942 \"3.3\" \"frequency\" \"consistency\""
+        },
+        {
+          "q": "site:mdpi.com/1424-8220/26/10/2942 \"clean\" \"amplitude\" \"loss\""
+        },
+        {
+          "q": "site:sciencedirect.com/science/article/pii/S0923596526002250 \"bounded\" \"gating\""
+        },
+        {
+          "q": "site:ieeexplore.ieee.org/abstract/document/11664566 \"reliability\" \"frequency\""
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 7
+  },
+  {
+    "date": "2026-10-10",
+    "platform": "primary fulltext endpoints open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.mdpi.com/1424-8220/26/10/2942/xml"
+        },
+        {
+          "ref_id": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13210805/fullTextXML"
+        },
+        {
+          "ref_id": "https://www.sciencedirect.com/science/article/abs/pii/S0923596526002250"
+        },
+        {
+          "ref_id": "https://ieeexplore.ieee.org/document/11664566"
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 8
+  },
+  {
+    "date": "2026-10-10",
+    "platform": "primary citation chaining + system1",
+    "request": {
+      "click": [
+        {
+          "ref_id": "turn30view3",
+          "id": 34
+        }
+      ],
+      "system1_search_query": [
+        {
+          "q": "\"wavelet\" \"paired\" \"foreground\" \"consistency\" detection loss"
+        },
+        {
+          "q": "\"subband\" \"energy\" \"consistency\" object detection"
+        },
+        {
+          "q": "\"WAMENet\" \"WAFD\" \"gating\""
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 9
+  },
+  {
+    "date": "2026-10-10",
+    "platform": "primary method find",
+    "request": {
+      "find": [
+        {
+          "ref_id": "turn34view0",
+          "pattern": "Loss"
+        },
+        {
+          "ref_id": "turn28view4",
+          "pattern": "Wavelet"
+        },
+        {
+          "ref_id": "turn30view1",
+          "pattern": "CHDWT"
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 10
+  },
+  {
+    "date": "2026-10-10",
+    "platform": "primary abstract detail search",
+    "request": {
+      "system2_search_query": [
+        {
+          "q": "\"WAMENet\" \"constraining\" \"responses\""
+        },
+        {
+          "q": "\"DFR-Net\" \"differential-frequency\" \"abstract\" site:ieeexplore.ieee.org"
+        },
+        {
+          "q": "\"Weather-Robust Foreign Object Detection\" \"frozen teacher\""
+        }
+      ],
+      "response_length": "long"
+    },
+    "request_number": 11
+  }
+]

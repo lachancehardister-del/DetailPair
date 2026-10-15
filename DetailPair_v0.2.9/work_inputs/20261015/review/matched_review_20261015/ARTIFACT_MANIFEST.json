@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "path": "MATCHED_RESULT_REVIEW_20261015.md",
+      "bytes": 8728,
+      "sha256": "cc62159a767ca289af2024b03f007be1b459eb10b5e10b4a86ebe9d92d011e46"
+    },
+    {
+      "path": "CODEX_ARCHIVE_CURRENT_BRANCH_20261015.md",
+      "bytes": 4585,
+      "sha256": "9a3906748e75970fff85cb16b0c15834dc9932bbd6f23e7ff9153cb4edd2519a"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 84754,
+      "sha256": "eb5cd7aa802ada220983c7bbb2486c993de1c3a527186b2eafc57c941eb662ab"
+    },
+    {
+      "path": "review_matched_20261015.py",
+      "bytes": 11720,
+      "sha256": "d30e227fc1e90cf4c7bc40f129a1fd456b70ca43a263c385423e64c0ad194a10"
+    },
+    {
+      "path": "matched_review_20261015/PROJECT_STATUS_before_v027.md",
+      "bytes": 78858,
+      "sha256": "463db70445968eec9345fa4d13a9bd6005361f6b6bd0f6a03b53c74299f9a2ef"
+    },
+    {
+      "path": "matched_review_20261015/README.md",
+      "bytes": 1150,
+      "sha256": "ceeb685c00b3117044dba06214583b6ee7ab9142bf28ab69e53ffff12e87f604"
+    },
+    {
+      "path": "matched_review_20261015/audit.json",
+      "bytes": 3824,
+      "sha256": "31ccfaa1ae286a96747f6ed176b573b1b48dfe23e0625af7bed065a35083b357"
+    },
+    {
+      "path": "matched_review_20261015/classes_recomputed.csv",
+      "bytes": 2709,
+      "sha256": "91644946a14d5baaa132924235ca3087c1187b380285fe7c23c30aee179a3297"
+    },
+    {
+      "path": "matched_review_20261015/failure_003247_283618.txt",
+      "bytes": 457,
+      "sha256": "a051c7c5655fe65a4a06e8309c10789cd65b0c243925170f04abf5c51a2c39f4"
+    },
+    {
+      "path": "matched_review_20261015/review_matched_before_newline_fix.py",
+      "bytes": 11236,
+      "sha256": "68103f5b83e76b9396ddc9e4b01a04fa92864779b10d8fbd25b795397d2f1598"
+    },
+    {
+      "path": "matched_review_20261015/scenarios_recomputed.csv",
+      "bytes": 805,
+      "sha256": "19120fb6ea6507d2860d83b8c4ef6d9b1db268bc56359a821decb2b4c8ba92b1"
+    }
+  ]
+}

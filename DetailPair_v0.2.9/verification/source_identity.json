@@ -1,0 +1,13 @@
+{
+  "core_unchanged_sha256": {
+    "model.py": "366e6756f9246ddbfe410530351811f7d728a97d05765110d9e25b460a47ed52",
+    "engine.py": "706f16c92331fb0ec880f89e7dc4ebccc8cf395962c9fb30c0d49f0df4e92fd1",
+    "data.py": "9afa208fee48ced29619df5b20b03df40a4accaee91fd6103fc1510e5e123706"
+  },
+  "modified_logic": [
+    "detailpair/reporting.py",
+    "detailpair/evaluation.py::fixed_evaluate reporting fields",
+    "matched_checkpoint_eval.py::comparison and result packing"
+  ],
+  "no_inference_or_training_executed": true
+}
