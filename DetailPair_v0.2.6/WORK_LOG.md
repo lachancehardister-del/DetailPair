@@ -13,3 +13,8 @@
 - 本轮开始时v0.2.4/onboarding若干旧安装文件/日志已在工作区缺失；未修改或提交这些既存删除。
 - 完整发布包SHA256：7683640dae441f6aa2eb0e977fd901e46765b839578367fad583f6d7d446ce3b
 - 用户下一步解压到D:\ModelImprovement\DetailPair_v0.2.6，既有CUDA环境下运行windows\18_recheck_all.cmd，把完整DetailPair_recheck_results ZIP交Work。主体同步及远端核验另记。
+
+## 同步结果
+
+- 主体提交 `0fcdca105e36d7126e44022cecc3028d41f41984` 已推送main，git ls-remote独立核验远端一致。代码、完整发布包、原输入/失败/漂移记录和实际工程检查结果同步成功。
+- 仅提交本轮v0.2.6和根介绍/隐藏忽略规则；未提交旧onboarding已存在的删除。真实GPU运行仍由用户本地执行。本同步记录另提交并再次核验远端。
