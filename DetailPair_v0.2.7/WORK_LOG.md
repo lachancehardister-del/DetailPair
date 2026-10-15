@@ -14,3 +14,8 @@
 - Windows/GPU/真实64train、每条件32批机制结果pending；不能归因FP/AP或称B5消融/监督收益。本地GPU环境不升级、不CPU回退，下一步windows\22_mechanism_diagnosis.cmd，完整结果ZIP交Work判断。
 - 发布包SHA256：1b3f57e02221ae01c16d7d14d3abfd1ce07a6e0ccceca261f4ebfadd881508d6
 - 保留原各版本及工作区原有v0.2.4/onboarding删除，不将这些已有删除纳入提交；所有新材料和日志在本版目录，根只更新介绍。主体推送后另记远端核验。
+
+## 同步核验
+
+- 主体提交 `93fb5aaf0e185f458b3615ded3c2728ca3a49371` 已推送main，远端SHA独立核验一致；代码/协议/发布ZIP/Work原包与工程结果同步成功，未上传原图/标签文件或权重。
+- 仅提交v0.2.7及根README；未提交旧onboarding已有删除。本日志另提交并再次核验远端。真实GPU机制诊断仍由用户本地执行。
