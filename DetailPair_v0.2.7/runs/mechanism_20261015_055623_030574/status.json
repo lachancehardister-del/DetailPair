@@ -1,0 +1,14 @@
+{
+  "status": "partial_or_failed",
+  "failures": [
+    "B2",
+    "B6"
+  ],
+  "synthetic_check": true,
+  "expected_batches_per_model": 2,
+  "selected_train_images": 4,
+  "no_optimizer": true,
+  "no_parameter_updates": true,
+  "test_evaluated": false,
+  "interpretation": "Local endpoint/frozen-BN evidence only; no causal AP attribution, no automatic training or new mechanism"
+}

@@ -1,0 +1,10 @@
+{
+  "parameters": {
+    "sha256": "9b8ed4e05d392de78b1babb2ff0954aafb4a825ed33457c226c236d092217ce4",
+    "elements": 2589059
+  },
+  "batchnorm_buffers": {
+    "sha256": "c480e7fcbb97c50afa58b4ab0a981ed1d8f93a80aa12aac911fbcf954092073c",
+    "elements": 15457
+  }
+}

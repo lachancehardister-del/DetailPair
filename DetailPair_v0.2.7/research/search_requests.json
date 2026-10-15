@@ -1,0 +1,172 @@
+[
+  {
+    "number": 1,
+    "date": "2026-10-10",
+    "platform": "web system1 and primary pages",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0331025"
+        },
+        {
+          "ref_id": "https://arxiv.org/html/2601.12507v2"
+        },
+        {
+          "ref_id": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/nn/tasks.py"
+        },
+        {
+          "ref_id": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/models/yolo/detect/train.py"
+        }
+      ],
+      "system1_search_query": [
+        {
+          "q": "\"object detection\" \"wavelet\" \"consistency loss\" noise"
+        },
+        {
+          "q": "\"SF-YOLO11\" loss function training"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "number": 2,
+    "date": "2026-10-10",
+    "platform": "primary full text and equation image",
+    "request": {
+      "click": [
+        {
+          "ref_id": "turn19view0",
+          "id": 111
+        },
+        {
+          "ref_id": "turn19view0",
+          "id": 123
+        },
+        {
+          "ref_id": "turn19view0",
+          "id": 124
+        }
+      ],
+      "open": [
+        {
+          "ref_id": "turn19view0",
+          "lineno": 490
+        },
+        {
+          "ref_id": "turn19view1",
+          "lineno": 115
+        },
+        {
+          "ref_id": "https://arxiv.org/html/2605.13621v1"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "number": 3,
+    "date": "2026-10-10",
+    "platform": "primary docs and full text",
+    "request": {
+      "find": [
+        {
+          "ref_id": "turn20view2",
+          "pattern": "loss"
+        },
+        {
+          "ref_id": "turn19view1",
+          "pattern": "III-E"
+        }
+      ],
+      "open": [
+        {
+          "ref_id": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0331025&type=manuscript"
+        },
+        {
+          "ref_id": "https://docs.ultralytics.com/reference/nn/tasks/"
+        },
+        {
+          "ref_id": "https://docs.ultralytics.com/reference/models/yolo/detect/train/"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "number": 4,
+    "date": "2026-10-10",
+    "platform": "publisher equations and supplement",
+    "request": {
+      "open": [
+        {
+          "ref_id": "turn19view0",
+          "lineno": 259
+        },
+        {
+          "ref_id": "https://journals.plos.org/plosone/article/asset?id=10.1371/journal.pone.0331025.e002"
+        },
+        {
+          "ref_id": "https://journals.plos.org/plosone/article/asset?id=10.1371/journal.pone.0331025.e003"
+        },
+        {
+          "ref_id": "https://doi.org/10.5281/zenodo.16882077"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "number": 5,
+    "date": "2026-10-10",
+    "platform": "publisher full-text verification",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344940"
+        },
+        {
+          "ref_id": "https://link.springer.com/article/10.1007/s11554-026-01866-4"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "number": 6,
+    "date": "2026-10-10",
+    "platform": "primary article text checking",
+    "request": {
+      "find": [
+        {
+          "ref_id": "turn23view0",
+          "pattern": "loss"
+        },
+        {
+          "ref_id": "turn23view1",
+          "pattern": "Access this article"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "number": 7,
+    "date": "2026-10-10",
+    "platform": "web system2 open-version search",
+    "request": {
+      "system2_search_query": [
+        {
+          "q": "\"10.1007/s11554-026-01866-4\" filetype:pdf"
+        },
+        {
+          "q": "\"SF-YOLO11\" \"loss\" \"SFFA\" PDF"
+        },
+        {
+          "q": "\"SF-YOLO11\" site:arxiv.org"
+        }
+      ],
+      "response_length": "long"
+    }
+  }
+]

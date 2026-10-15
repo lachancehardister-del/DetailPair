@@ -1,0 +1,17 @@
+{
+  "source": "https://doi.org/10.3390/s26102942",
+  "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13210805/fullTextXML",
+  "section": "3.4 Joint Loss Function",
+  "equations": {
+    "15": "Ldet + lambda1 Lspatial + lambda2 Lfreq",
+    "16": "mean squared spatial feature error against frozen clean teacher",
+    "17-18": "log(1 + abs(FFT(feature)))",
+    "19": "mean absolute log FFT amplitude difference",
+    "20": "classification + regression"
+  },
+  "weights": {
+    "spatial": 0.2,
+    "frequency": 0.05
+  },
+  "scope": "Formula checked in full JATS; complete model not reproduced"
+}

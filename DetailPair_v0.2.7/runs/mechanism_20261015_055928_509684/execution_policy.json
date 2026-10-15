@@ -1,0 +1,10 @@
+{
+  "device": "cpu",
+  "precision": "FP32",
+  "deterministic_algorithms": true,
+  "TF32": false,
+  "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+  "graph_policy": "One batch graph at a time; autograd.grad, no .backward or optimizer; original and rebuilt routes compare each batch",
+  "perturbation_policy": "seed100003+batch_index, both models same images and exact local generator replay; not historical batch replay",
+  "state_policy": "Unfused endpoint weights, training loss path, all BN/random modules eval, layer1 only requires_grad"
+}

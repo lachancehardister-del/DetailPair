@@ -1,0 +1,14 @@
+{
+  "expected_batches": 2,
+  "recorded_batches": 2,
+  "successful_batches": 0,
+  "failed_batches": 0,
+  "not_run_batches": 2,
+  "distributions": {},
+  "gradient_and_region_status_counts": {},
+  "undefined_counts": {},
+  "negative_cosine_fractions": {},
+  "empty_foreground_images": 0,
+  "empty_background_images": 0,
+  "scope": "All planned batches retained. Correlated local observations, not independent training seeds or a significance test."
+}

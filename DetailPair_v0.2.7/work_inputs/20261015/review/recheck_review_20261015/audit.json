@@ -1,0 +1,269 @@
+{
+  "zip_sha256": "157b585abd6b86f4ac5b6110961248240905e3e40b9db0ef3a32b9339338189d",
+  "timing": {
+    "B2": {
+      "n": 720,
+      "mean_ms": 6.468524027777777,
+      "p50_ms": 6.3688,
+      "p95_ms": 7.2026699999999995,
+      "serial_fps": 154.59477242500776,
+      "total_ms": 4657.337299999999
+    },
+    "B6": {
+      "n": 720,
+      "mean_ms": 7.197817222222223,
+      "p50_ms": 7.0961,
+      "p95_ms": 7.9453949999999995,
+      "serial_fps": 138.93100771059372,
+      "total_ms": 5182.428400000001
+    }
+  },
+  "blocks": [
+    {
+      "block_id": 0,
+      "variant": "B2",
+      "n": 180,
+      "mean_ms": 6.392237222222222,
+      "p50_ms": 6.27175,
+      "p95_ms": 7.07074,
+      "serial_fps": 156.43975109740313,
+      "total_ms": 1150.6027,
+      "window_max_min_ratio": 1.0730839429139813
+    },
+    {
+      "block_id": 1,
+      "variant": "B6",
+      "n": 180,
+      "mean_ms": 7.107390555555556,
+      "p50_ms": 7.0471,
+      "p95_ms": 7.649544999999999,
+      "serial_fps": 140.69861395450417,
+      "total_ms": 1279.3303,
+      "window_max_min_ratio": 1.0653626923456445
+    },
+    {
+      "block_id": 2,
+      "variant": "B6",
+      "n": 180,
+      "mean_ms": 7.440036666666667,
+      "p50_ms": 7.3052,
+      "p95_ms": 8.913030000000001,
+      "serial_fps": 134.40793974581666,
+      "total_ms": 1339.2066,
+      "window_max_min_ratio": 1.0711469745481477
+    },
+    {
+      "block_id": 3,
+      "variant": "B2",
+      "n": 180,
+      "mean_ms": 6.355358333333333,
+      "p50_ms": 6.25845,
+      "p95_ms": 7.08007,
+      "serial_fps": 157.34754006789547,
+      "total_ms": 1143.9645,
+      "window_max_min_ratio": 1.0659783361460933
+    },
+    {
+      "block_id": 4,
+      "variant": "B6",
+      "n": 180,
+      "mean_ms": 7.148446111111111,
+      "p50_ms": 7.06545,
+      "p95_ms": 7.78137,
+      "serial_fps": 139.89054186834545,
+      "total_ms": 1286.7203,
+      "window_max_min_ratio": 1.0614652940822347
+    },
+    {
+      "block_id": 5,
+      "variant": "B2",
+      "n": 180,
+      "mean_ms": 6.352408888888888,
+      "p50_ms": 6.2965,
+      "p95_ms": 6.816114999999999,
+      "serial_fps": 157.42059705084756,
+      "total_ms": 1143.4335999999998,
+      "window_max_min_ratio": 1.039853696485593
+    },
+    {
+      "block_id": 6,
+      "variant": "B2",
+      "n": 180,
+      "mean_ms": 6.774091666666667,
+      "p50_ms": 6.68845,
+      "p95_ms": 7.773764999999998,
+      "serial_fps": 147.62126779605137,
+      "total_ms": 1219.3365000000001,
+      "window_max_min_ratio": 1.0279069209283902
+    },
+    {
+      "block_id": 7,
+      "variant": "B6",
+      "n": 180,
+      "mean_ms": 7.095395555555554,
+      "p50_ms": 6.9849,
+      "p95_ms": 7.7511399999999995,
+      "serial_fps": 140.9364695978112,
+      "total_ms": 1277.1711999999998,
+      "window_max_min_ratio": 1.0367039983466884
+    }
+  ],
+  "diagnostics": {
+    "B2": {
+      "images": 180,
+      "decoded_RGB_equal": true,
+      "legacy_shape": [
+        1,
+        3,
+        352,
+        352
+      ],
+      "new_shape": [
+        1,
+        3,
+        320,
+        320
+      ],
+      "legacy_metrics": {
+        "metrics/precision(B)": 0.6672817852296528,
+        "metrics/recall(B)": 0.6019546101620092,
+        "metrics/mAP50(B)": 0.6538617284224965,
+        "metrics/mAP50-95(B)": 0.3483627550635304,
+        "fitness": 0.3483627550635304
+      },
+      "new_metrics": {
+        "metrics/precision(B)": 0.617591549984495,
+        "metrics/recall(B)": 0.618461838114632,
+        "metrics/mAP50(B)": 0.6466006520541628,
+        "metrics/mAP50-95(B)": 0.35127902654350557,
+        "fitness": 0.35127902654350557
+      },
+      "effective_differences": {
+        "rect": {
+          "legacy": true,
+          "new": false
+        },
+        "plots": {
+          "legacy": true,
+          "new": false
+        }
+      },
+      "single_factor": {
+        "executed": false,
+        "reason": "Predeclared rect plus additional measured-difference criterion not met; no alternate factor search"
+      }
+    },
+    "B6": {
+      "images": 180,
+      "decoded_RGB_equal": true,
+      "legacy_shape": [
+        1,
+        3,
+        352,
+        352
+      ],
+      "new_shape": [
+        1,
+        3,
+        320,
+        320
+      ],
+      "legacy_metrics": {
+        "metrics/precision(B)": 0.6346024648699108,
+        "metrics/recall(B)": 0.6031851899238415,
+        "metrics/mAP50(B)": 0.6648733122946194,
+        "metrics/mAP50-95(B)": 0.34699430729089614,
+        "fitness": 0.34699430729089614
+      },
+      "new_metrics": {
+        "metrics/precision(B)": 0.6560449671547252,
+        "metrics/recall(B)": 0.6036022505035401,
+        "metrics/mAP50(B)": 0.6603905886540433,
+        "metrics/mAP50-95(B)": 0.34265072754442644,
+        "fitness": 0.34265072754442644
+      },
+      "effective_differences": {
+        "rect": {
+          "legacy": true,
+          "new": false
+        },
+        "plots": {
+          "legacy": true,
+          "new": false
+        }
+      },
+      "single_factor": {
+        "executed": false,
+        "reason": "Predeclared rect plus additional measured-difference criterion not met; no alternate factor search"
+      }
+    }
+  },
+  "latency_B6_increase_percent": 11.27449154262461,
+  "fixed_screen_passed": true,
+  "conditional_toy": [
+    {
+      "A": 0.2,
+      "g": 0.2,
+      "loss": 0.7960199004975124,
+      "analytic_gradient": -0.9950248756218906,
+      "finite_difference": -0.9950248756607216
+    },
+    {
+      "A": 0.2,
+      "g": 0.5,
+      "loss": 0.4975124378109453,
+      "analytic_gradient": -0.9950248756218906,
+      "finite_difference": -0.9950248756052105
+    },
+    {
+      "A": 0.2,
+      "g": 0.8,
+      "loss": 0.199004975124378,
+      "analytic_gradient": -0.9950248756218906,
+      "finite_difference": -0.9950248756468438
+    },
+    {
+      "A": 1.0,
+      "g": 0.2,
+      "loss": 0.7992007992007993,
+      "analytic_gradient": -0.9990009990009991,
+      "finite_difference": -0.999000998980204
+    },
+    {
+      "A": 1.0,
+      "g": 0.5,
+      "loss": 0.4995004995004996,
+      "analytic_gradient": -0.9990009990009991,
+      "finite_difference": -0.999000998980204
+    },
+    {
+      "A": 1.0,
+      "g": 0.8,
+      "loss": 0.19980019980019978,
+      "analytic_gradient": -0.9990009990009991,
+      "finite_difference": -0.9990009990357152
+    },
+    {
+      "A": 3.0,
+      "g": 0.2,
+      "loss": 0.7997334221926025,
+      "analytic_gradient": -0.9996667777407531,
+      "finite_difference": -0.9996667776901447
+    },
+    {
+      "A": 3.0,
+      "g": 0.5,
+      "loss": 0.49983338887037654,
+      "analytic_gradient": -0.9996667777407531,
+      "finite_difference": -0.9996667777179002
+    },
+    {
+      "A": 3.0,
+      "g": 0.8,
+      "loss": 0.1999333555481505,
+      "analytic_gradient": -0.9996667777407531,
+      "finite_difference": -0.999666777801167
+    }
+  ],
+  "scope": "Returned Windows records audited offline. No GPU/model execution, no independent AP recomputation; toy is conditional numerical illustration, not empirical cause of false positives."
+}

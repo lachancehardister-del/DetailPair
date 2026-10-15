@@ -1,0 +1,19 @@
+version: 0.2.0
+purpose: mechanism_and_pipeline_validation
+model: yolo11n.yaml
+replace_layer: 1
+initialization: scratch
+imgsz: 320
+batch: 2
+epochs: 3
+seeds: [0]
+train_limit: 64
+val_limit: 32
+variants: [B1, B2, B5, B6]
+noise_std: 0.03
+brightness_offset: 0.05
+consistency_weight: 0.05
+energy_weight: 0.02
+gate_floor: 0.1
+# run.py pilot loads scale, seeds, variants and perturbation settings.
+# Loss coefficients and layer are fixed in detailpair/model.py; changes require a new version.

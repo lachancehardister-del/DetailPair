@@ -1,0 +1,35 @@
+protocol_version: DetailPair-mechanism-local-1.0
+synthetic_check: true
+data: /tmp/DetailPair mechanism CPU 36zogg4v/data.yaml
+device: cpu
+expected_gpu_substring: RTX 4060 Laptop GPU
+expected_train_images: 6
+selected_images: 4
+selection_seed: 178
+batch: 2
+imgsz: 320
+precision: FP32
+cpu_threads: 2
+perturbation_seed: 100003
+noise_std: 0.03
+brightness: 0.05
+consistency_weight: 0.05
+amplitude_weight: 0.02
+background_weight: 0.1
+consistency_rtol: 0.0001
+consistency_atol: 1.0e-05
+variants:
+- variant: B2
+  seed: 0
+  run_name: fixture
+  weights: /tmp/DetailPair mechanism CPU 36zogg4v/B2 random.pt
+  selection: /tmp/DetailPair mechanism CPU 36zogg4v/selection.json
+  prior_metrics: D:\ModelImprovement\DetailPair_v0.2.4\runs\pilot__20261012_230632_329133\B2_s0\metrics.json
+  expected_sha256: 3da176118b846053f470c438ba349bfc414cf0316c5e934d4be135e88766ff39
+- variant: B6
+  seed: 0
+  run_name: fixture
+  weights: /tmp/DetailPair mechanism CPU 36zogg4v/B6 random.pt
+  selection: /tmp/DetailPair mechanism CPU 36zogg4v/selection.json
+  prior_metrics: D:\ModelImprovement\DetailPair_v0.2.4\runs\pilot__20261012_125741_680519\B6_s0\metrics.json
+  expected_sha256: dcab9d8868232c0ba3b07bfd86d0535383704d2ec6f385fdc27885eeba5dd6ee

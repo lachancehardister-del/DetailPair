@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/DetailPair/DetailPair_v0.2.7/mechanism_diagnose.py", line 115, in run
+    named,groups,mode=prepare_loss_mode(model);initial=state_identity(model)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/DetailPair/DetailPair_v0.2.7/detailpair/mechanism.py", line 33, in prepare_loss_mode
+    if not hasattr(model.args,key):raise ValueError('Missing resolved loss hyperparameter '+key)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Missing resolved loss hyperparameter box

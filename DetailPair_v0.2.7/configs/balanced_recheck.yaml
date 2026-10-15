@@ -1,0 +1,51 @@
+protocol_version: DetailPair-timing-recheck-2.0
+synthetic_check: false
+data: D:\datasets\NEU-DET_DetailPair_s0_20261011_104211_157196\data.yaml
+split: val
+device: '0'
+imgsz: 320
+batch: 1
+precision: FP32
+fuse: true
+conf: 0.25
+ap_conf: 0.001
+nms_iou: 0.7
+match_iou: 0.5
+max_det: 300
+seed: 178
+cpu_threads: 2
+expected_images: 180
+expected_gt: 429
+hardware_notes:
+  machine: unknown
+  power_mode: unknown
+  plugged_in: unknown
+variants:
+- variant: B2
+  seed: 0
+  run_name: pilot__20261012_230632_329133
+  weights: D:\ModelImprovement\DetailPair_v0.2.4\runs\pilot__20261012_230632_329133\B2_s0\training\weights\best.pt
+  selection: D:\ModelImprovement\DetailPair_v0.2.4\runs\pilot__20261012_230632_329133\subset_s0\selection.json
+  prior_metrics: D:\ModelImprovement\DetailPair_v0.2.4\runs\pilot__20261012_230632_329133\B2_s0\metrics.json
+  expected_sha256: c234ae47e6d8257543a038abc3ea0714d0f081abf2ce5e9dbe0dcd9c73a2c21b
+- variant: B6
+  seed: 0
+  run_name: pilot__20261012_125741_680519
+  weights: D:\ModelImprovement\DetailPair_v0.2.4\runs\pilot__20261012_125741_680519\B6_s0\training\weights\best.pt
+  selection: D:\ModelImprovement\DetailPair_v0.2.4\runs\pilot__20261012_125741_680519\subset_s0\selection.json
+  prior_metrics: D:\ModelImprovement\DetailPair_v0.2.4\runs\pilot__20261012_125741_680519\B6_s0\metrics.json
+  expected_sha256: 2a5f5dd7152b28a3a3952f96fbeca409e231e07de2a06a6b5686d7a01c6bc324
+common_warmup_seconds: 30.0
+block_warmup_iterations: 200
+block_order:
+- B2
+- B6
+- B6
+- B2
+- B6
+- B2
+- B2
+- B6
+drift_threshold: 1.1
+single_factor: rect_if_multiple_differences
+expected_gpu_substring: RTX 4060 Laptop GPU

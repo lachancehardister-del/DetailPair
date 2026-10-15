@@ -1,0 +1,679 @@
+{
+  "disabled_or_fixed_modules": [
+    {
+      "name": "model.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.2.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.2.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.2.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.2.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.3.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.4.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.4.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.4.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.4.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.5.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.6.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.6.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.6.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.6.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.6.m.0.cv3.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.6.m.0.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.6.m.0.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.6.m.0.m.1.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.6.m.0.m.1.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.7.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.8.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.8.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.8.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.8.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.8.m.0.cv3.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.8.m.0.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.8.m.0.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.8.m.0.m.1.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.8.m.0.m.1.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.9.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.9.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.10.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.10.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.10.m.0.attn.qkv.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.10.m.0.attn.proj.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.10.m.0.attn.pe.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.10.m.0.ffn.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.10.m.0.ffn.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.13.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.13.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.13.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.13.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.16.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.16.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.16.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.16.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.17.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.19.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.19.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.19.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.19.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.20.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.22.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.22.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.22.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.22.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.22.m.0.cv3.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.22.m.0.m.0.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.22.m.0.m.0.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.22.m.0.m.1.cv1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.22.m.0.m.1.cv2.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv2.0.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv2.0.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv2.1.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv2.1.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv2.2.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv2.2.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.0.0.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.0.0.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.0.1.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.0.1.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.1.0.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.1.0.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.1.1.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.1.1.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.2.0.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.2.0.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.2.1.0.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    },
+    {
+      "name": "model.23.cv3.2.1.1.bn",
+      "type": "BatchNorm2d",
+      "training": false
+    }
+  ],
+  "original_requires_grad": {
+    "model.0.conv.weight": false,
+    "model.0.bn.weight": false,
+    "model.0.bn.bias": false,
+    "model.1.conv.weight": false,
+    "model.1.bn.weight": false,
+    "model.1.bn.bias": false,
+    "model.2.cv1.conv.weight": false,
+    "model.2.cv1.bn.weight": false,
+    "model.2.cv1.bn.bias": false,
+    "model.2.cv2.conv.weight": false,
+    "model.2.cv2.bn.weight": false,
+    "model.2.cv2.bn.bias": false,
+    "model.2.m.0.cv1.conv.weight": false,
+    "model.2.m.0.cv1.bn.weight": false,
+    "model.2.m.0.cv1.bn.bias": false,
+    "model.2.m.0.cv2.conv.weight": false,
+    "model.2.m.0.cv2.bn.weight": false,
+    "model.2.m.0.cv2.bn.bias": false,
+    "model.3.conv.weight": false,
+    "model.3.bn.weight": false,
+    "model.3.bn.bias": false,
+    "model.4.cv1.conv.weight": false,
+    "model.4.cv1.bn.weight": false,
+    "model.4.cv1.bn.bias": false,
+    "model.4.cv2.conv.weight": false,
+    "model.4.cv2.bn.weight": false,
+    "model.4.cv2.bn.bias": false,
+    "model.4.m.0.cv1.conv.weight": false,
+    "model.4.m.0.cv1.bn.weight": false,
+    "model.4.m.0.cv1.bn.bias": false,
+    "model.4.m.0.cv2.conv.weight": false,
+    "model.4.m.0.cv2.bn.weight": false,
+    "model.4.m.0.cv2.bn.bias": false,
+    "model.5.conv.weight": false,
+    "model.5.bn.weight": false,
+    "model.5.bn.bias": false,
+    "model.6.cv1.conv.weight": false,
+    "model.6.cv1.bn.weight": false,
+    "model.6.cv1.bn.bias": false,
+    "model.6.cv2.conv.weight": false,
+    "model.6.cv2.bn.weight": false,
+    "model.6.cv2.bn.bias": false,
+    "model.6.m.0.cv1.conv.weight": false,
+    "model.6.m.0.cv1.bn.weight": false,
+    "model.6.m.0.cv1.bn.bias": false,
+    "model.6.m.0.cv2.conv.weight": false,
+    "model.6.m.0.cv2.bn.weight": false,
+    "model.6.m.0.cv2.bn.bias": false,
+    "model.6.m.0.cv3.conv.weight": false,
+    "model.6.m.0.cv3.bn.weight": false,
+    "model.6.m.0.cv3.bn.bias": false,
+    "model.6.m.0.m.0.cv1.conv.weight": false,
+    "model.6.m.0.m.0.cv1.bn.weight": false,
+    "model.6.m.0.m.0.cv1.bn.bias": false,
+    "model.6.m.0.m.0.cv2.conv.weight": false,
+    "model.6.m.0.m.0.cv2.bn.weight": false,
+    "model.6.m.0.m.0.cv2.bn.bias": false,
+    "model.6.m.0.m.1.cv1.conv.weight": false,
+    "model.6.m.0.m.1.cv1.bn.weight": false,
+    "model.6.m.0.m.1.cv1.bn.bias": false,
+    "model.6.m.0.m.1.cv2.conv.weight": false,
+    "model.6.m.0.m.1.cv2.bn.weight": false,
+    "model.6.m.0.m.1.cv2.bn.bias": false,
+    "model.7.conv.weight": false,
+    "model.7.bn.weight": false,
+    "model.7.bn.bias": false,
+    "model.8.cv1.conv.weight": false,
+    "model.8.cv1.bn.weight": false,
+    "model.8.cv1.bn.bias": false,
+    "model.8.cv2.conv.weight": false,
+    "model.8.cv2.bn.weight": false,
+    "model.8.cv2.bn.bias": false,
+    "model.8.m.0.cv1.conv.weight": false,
+    "model.8.m.0.cv1.bn.weight": false,
+    "model.8.m.0.cv1.bn.bias": false,
+    "model.8.m.0.cv2.conv.weight": false,
+    "model.8.m.0.cv2.bn.weight": false,
+    "model.8.m.0.cv2.bn.bias": false,
+    "model.8.m.0.cv3.conv.weight": false,
+    "model.8.m.0.cv3.bn.weight": false,
+    "model.8.m.0.cv3.bn.bias": false,
+    "model.8.m.0.m.0.cv1.conv.weight": false,
+    "model.8.m.0.m.0.cv1.bn.weight": false,
+    "model.8.m.0.m.0.cv1.bn.bias": false,
+    "model.8.m.0.m.0.cv2.conv.weight": false,
+    "model.8.m.0.m.0.cv2.bn.weight": false,
+    "model.8.m.0.m.0.cv2.bn.bias": false,
+    "model.8.m.0.m.1.cv1.conv.weight": false,
+    "model.8.m.0.m.1.cv1.bn.weight": false,
+    "model.8.m.0.m.1.cv1.bn.bias": false,
+    "model.8.m.0.m.1.cv2.conv.weight": false,
+    "model.8.m.0.m.1.cv2.bn.weight": false,
+    "model.8.m.0.m.1.cv2.bn.bias": false,
+    "model.9.cv1.conv.weight": false,
+    "model.9.cv1.bn.weight": false,
+    "model.9.cv1.bn.bias": false,
+    "model.9.cv2.conv.weight": false,
+    "model.9.cv2.bn.weight": false,
+    "model.9.cv2.bn.bias": false,
+    "model.10.cv1.conv.weight": false,
+    "model.10.cv1.bn.weight": false,
+    "model.10.cv1.bn.bias": false,
+    "model.10.cv2.conv.weight": false,
+    "model.10.cv2.bn.weight": false,
+    "model.10.cv2.bn.bias": false,
+    "model.10.m.0.attn.qkv.conv.weight": false,
+    "model.10.m.0.attn.qkv.bn.weight": false,
+    "model.10.m.0.attn.qkv.bn.bias": false,
+    "model.10.m.0.attn.proj.conv.weight": false,
+    "model.10.m.0.attn.proj.bn.weight": false,
+    "model.10.m.0.attn.proj.bn.bias": false,
+    "model.10.m.0.attn.pe.conv.weight": false,
+    "model.10.m.0.attn.pe.bn.weight": false,
+    "model.10.m.0.attn.pe.bn.bias": false,
+    "model.10.m.0.ffn.0.conv.weight": false,
+    "model.10.m.0.ffn.0.bn.weight": false,
+    "model.10.m.0.ffn.0.bn.bias": false,
+    "model.10.m.0.ffn.1.conv.weight": false,
+    "model.10.m.0.ffn.1.bn.weight": false,
+    "model.10.m.0.ffn.1.bn.bias": false,
+    "model.13.cv1.conv.weight": false,
+    "model.13.cv1.bn.weight": false,
+    "model.13.cv1.bn.bias": false,
+    "model.13.cv2.conv.weight": false,
+    "model.13.cv2.bn.weight": false,
+    "model.13.cv2.bn.bias": false,
+    "model.13.m.0.cv1.conv.weight": false,
+    "model.13.m.0.cv1.bn.weight": false,
+    "model.13.m.0.cv1.bn.bias": false,
+    "model.13.m.0.cv2.conv.weight": false,
+    "model.13.m.0.cv2.bn.weight": false,
+    "model.13.m.0.cv2.bn.bias": false,
+    "model.16.cv1.conv.weight": false,
+    "model.16.cv1.bn.weight": false,
+    "model.16.cv1.bn.bias": false,
+    "model.16.cv2.conv.weight": false,
+    "model.16.cv2.bn.weight": false,
+    "model.16.cv2.bn.bias": false,
+    "model.16.m.0.cv1.conv.weight": false,
+    "model.16.m.0.cv1.bn.weight": false,
+    "model.16.m.0.cv1.bn.bias": false,
+    "model.16.m.0.cv2.conv.weight": false,
+    "model.16.m.0.cv2.bn.weight": false,
+    "model.16.m.0.cv2.bn.bias": false,
+    "model.17.conv.weight": false,
+    "model.17.bn.weight": false,
+    "model.17.bn.bias": false,
+    "model.19.cv1.conv.weight": false,
+    "model.19.cv1.bn.weight": false,
+    "model.19.cv1.bn.bias": false,
+    "model.19.cv2.conv.weight": false,
+    "model.19.cv2.bn.weight": false,
+    "model.19.cv2.bn.bias": false,
+    "model.19.m.0.cv1.conv.weight": false,
+    "model.19.m.0.cv1.bn.weight": false,
+    "model.19.m.0.cv1.bn.bias": false,
+    "model.19.m.0.cv2.conv.weight": false,
+    "model.19.m.0.cv2.bn.weight": false,
+    "model.19.m.0.cv2.bn.bias": false,
+    "model.20.conv.weight": false,
+    "model.20.bn.weight": false,
+    "model.20.bn.bias": false,
+    "model.22.cv1.conv.weight": false,
+    "model.22.cv1.bn.weight": false,
+    "model.22.cv1.bn.bias": false,
+    "model.22.cv2.conv.weight": false,
+    "model.22.cv2.bn.weight": false,
+    "model.22.cv2.bn.bias": false,
+    "model.22.m.0.cv1.conv.weight": false,
+    "model.22.m.0.cv1.bn.weight": false,
+    "model.22.m.0.cv1.bn.bias": false,
+    "model.22.m.0.cv2.conv.weight": false,
+    "model.22.m.0.cv2.bn.weight": false,
+    "model.22.m.0.cv2.bn.bias": false,
+    "model.22.m.0.cv3.conv.weight": false,
+    "model.22.m.0.cv3.bn.weight": false,
+    "model.22.m.0.cv3.bn.bias": false,
+    "model.22.m.0.m.0.cv1.conv.weight": false,
+    "model.22.m.0.m.0.cv1.bn.weight": false,
+    "model.22.m.0.m.0.cv1.bn.bias": false,
+    "model.22.m.0.m.0.cv2.conv.weight": false,
+    "model.22.m.0.m.0.cv2.bn.weight": false,
+    "model.22.m.0.m.0.cv2.bn.bias": false,
+    "model.22.m.0.m.1.cv1.conv.weight": false,
+    "model.22.m.0.m.1.cv1.bn.weight": false,
+    "model.22.m.0.m.1.cv1.bn.bias": false,
+    "model.22.m.0.m.1.cv2.conv.weight": false,
+    "model.22.m.0.m.1.cv2.bn.weight": false,
+    "model.22.m.0.m.1.cv2.bn.bias": false,
+    "model.23.cv2.0.0.conv.weight": false,
+    "model.23.cv2.0.0.bn.weight": false,
+    "model.23.cv2.0.0.bn.bias": false,
+    "model.23.cv2.0.1.conv.weight": false,
+    "model.23.cv2.0.1.bn.weight": false,
+    "model.23.cv2.0.1.bn.bias": false,
+    "model.23.cv2.0.2.weight": false,
+    "model.23.cv2.0.2.bias": false,
+    "model.23.cv2.1.0.conv.weight": false,
+    "model.23.cv2.1.0.bn.weight": false,
+    "model.23.cv2.1.0.bn.bias": false,
+    "model.23.cv2.1.1.conv.weight": false,
+    "model.23.cv2.1.1.bn.weight": false,
+    "model.23.cv2.1.1.bn.bias": false,
+    "model.23.cv2.1.2.weight": false,
+    "model.23.cv2.1.2.bias": false,
+    "model.23.cv2.2.0.conv.weight": false,
+    "model.23.cv2.2.0.bn.weight": false,
+    "model.23.cv2.2.0.bn.bias": false,
+    "model.23.cv2.2.1.conv.weight": false,
+    "model.23.cv2.2.1.bn.weight": false,
+    "model.23.cv2.2.1.bn.bias": false,
+    "model.23.cv2.2.2.weight": false,
+    "model.23.cv2.2.2.bias": false,
+    "model.23.cv3.0.0.0.conv.weight": false,
+    "model.23.cv3.0.0.0.bn.weight": false,
+    "model.23.cv3.0.0.0.bn.bias": false,
+    "model.23.cv3.0.0.1.conv.weight": false,
+    "model.23.cv3.0.0.1.bn.weight": false,
+    "model.23.cv3.0.0.1.bn.bias": false,
+    "model.23.cv3.0.1.0.conv.weight": false,
+    "model.23.cv3.0.1.0.bn.weight": false,
+    "model.23.cv3.0.1.0.bn.bias": false,
+    "model.23.cv3.0.1.1.conv.weight": false,
+    "model.23.cv3.0.1.1.bn.weight": false,
+    "model.23.cv3.0.1.1.bn.bias": false,
+    "model.23.cv3.0.2.weight": false,
+    "model.23.cv3.0.2.bias": false,
+    "model.23.cv3.1.0.0.conv.weight": false,
+    "model.23.cv3.1.0.0.bn.weight": false,
+    "model.23.cv3.1.0.0.bn.bias": false,
+    "model.23.cv3.1.0.1.conv.weight": false,
+    "model.23.cv3.1.0.1.bn.weight": false,
+    "model.23.cv3.1.0.1.bn.bias": false,
+    "model.23.cv3.1.1.0.conv.weight": false,
+    "model.23.cv3.1.1.0.bn.weight": false,
+    "model.23.cv3.1.1.0.bn.bias": false,
+    "model.23.cv3.1.1.1.conv.weight": false,
+    "model.23.cv3.1.1.1.bn.weight": false,
+    "model.23.cv3.1.1.1.bn.bias": false,
+    "model.23.cv3.1.2.weight": false,
+    "model.23.cv3.1.2.bias": false,
+    "model.23.cv3.2.0.0.conv.weight": false,
+    "model.23.cv3.2.0.0.bn.weight": false,
+    "model.23.cv3.2.0.0.bn.bias": false,
+    "model.23.cv3.2.0.1.conv.weight": false,
+    "model.23.cv3.2.0.1.bn.weight": false,
+    "model.23.cv3.2.0.1.bn.bias": false,
+    "model.23.cv3.2.1.0.conv.weight": false,
+    "model.23.cv3.2.1.0.bn.weight": false,
+    "model.23.cv3.2.1.0.bn.bias": false,
+    "model.23.cv3.2.1.1.conv.weight": false,
+    "model.23.cv3.2.1.1.bn.weight": false,
+    "model.23.cv3.2.1.1.bn.bias": false,
+    "model.23.cv3.2.2.weight": false,
+    "model.23.cv3.2.2.bias": false,
+    "model.23.dfl.conv.weight": false
+  },
+  "enabled_parameters": [
+    "model.1.conv.weight",
+    "model.1.bn.weight",
+    "model.1.bn.bias"
+  ],
+  "loss_hyperparameters": {
+    "box": 7.5,
+    "cls": 0.5,
+    "dfl": 1.5
+  },
+  "loss_hyperparameter_source": "checkpoint train_args",
+  "mode": "endpoint weights; unfused training loss route; BN eval; random layers eval; no parameter or BN updates"
+}

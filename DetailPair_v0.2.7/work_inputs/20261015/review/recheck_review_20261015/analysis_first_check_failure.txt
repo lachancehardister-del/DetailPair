@@ -1,0 +1,5 @@
+First offline audit attempt: AssertionError at old == historical_metrics.old.
+Cause identified: the historical metric dictionary additionally contains split='val',
+while the diagnostic metric dictionary contains numeric metric keys only.
+Correction: compare every numerical metric key; keep the split metadata separate.
+No local training, GPU execution, or experimental result was modified.

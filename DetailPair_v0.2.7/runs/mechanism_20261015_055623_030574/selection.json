@@ -1,0 +1,64 @@
+{
+  "seed": 178,
+  "rule": "sort normalized resolved source path (casefold, POSIX separators); independent random.Random(178).shuffle then first64, no re-draw",
+  "train_membership": 6,
+  "selected_images": 4,
+  "selection_identities": [
+    {
+      "variant": "B2",
+      "path": "/tmp/DetailPair mechanism CPU 36zogg4v/selection.json",
+      "sha256": "bc782abe5946e643ce42f665499ab5624044b825cf0f7da17e9c9fc43952871e"
+    },
+    {
+      "variant": "B6",
+      "path": "/tmp/DetailPair mechanism CPU 36zogg4v/selection.json",
+      "sha256": "bc782abe5946e643ce42f665499ab5624044b825cf0f7da17e9c9fc43952871e"
+    }
+  ],
+  "class_box_counts": {
+    "0": {
+      "name": "synthetic_rectangle",
+      "boxes": 4
+    }
+  },
+  "missing_classes": [],
+  "content_verification": "Selected images/labels checked against both historical selections; unselected train membership only. No val/test paths or labels loaded.",
+  "records": [
+    {
+      "image_id": "train_0000",
+      "source_image": "/tmp/DetailPair mechanism CPU 36zogg4v/images/train/1.jpg",
+      "source_label": "/tmp/DetailPair mechanism CPU 36zogg4v/labels/train/1.txt",
+      "image_sha256": "0933971d15d1789e2c1b177f70940eaac5bb1a0ac87c15ad31efafd73fdaa4af",
+      "label_sha256": "e732aa7111600f68739f8bb1a6605ec4016429cdbef1b0ff252308e6ec515458",
+      "width": 80,
+      "height": 60
+    },
+    {
+      "image_id": "train_0001",
+      "source_image": "/tmp/DetailPair mechanism CPU 36zogg4v/images/train/5.jpg",
+      "source_label": "/tmp/DetailPair mechanism CPU 36zogg4v/labels/train/5.txt",
+      "image_sha256": "6e1e3458a683b137d47b203230be6beedfbd212e750b8f7201cd11e869088a32",
+      "label_sha256": "e732aa7111600f68739f8bb1a6605ec4016429cdbef1b0ff252308e6ec515458",
+      "width": 80,
+      "height": 60
+    },
+    {
+      "image_id": "train_0002",
+      "source_image": "/tmp/DetailPair mechanism CPU 36zogg4v/images/train/2.jpg",
+      "source_label": "/tmp/DetailPair mechanism CPU 36zogg4v/labels/train/2.txt",
+      "image_sha256": "72e035b73ba140e7be440f872d800fce99f20bf0de57add5f7b083c8b6e788f4",
+      "label_sha256": "e732aa7111600f68739f8bb1a6605ec4016429cdbef1b0ff252308e6ec515458",
+      "width": 80,
+      "height": 60
+    },
+    {
+      "image_id": "train_0003",
+      "source_image": "/tmp/DetailPair mechanism CPU 36zogg4v/images/train/3.jpg",
+      "source_label": "/tmp/DetailPair mechanism CPU 36zogg4v/labels/train/3.txt",
+      "image_sha256": "1ecb6e184367f9f868c41356017e545a1f55f0adb0890e05a34cebadc057ba49",
+      "label_sha256": "e732aa7111600f68739f8bb1a6605ec4016429cdbef1b0ff252308e6ec515458",
+      "width": 80,
+      "height": 60
+    }
+  ]
+}

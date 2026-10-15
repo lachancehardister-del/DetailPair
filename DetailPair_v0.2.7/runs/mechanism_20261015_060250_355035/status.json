@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "failures": [],
+  "synthetic_check": true,
+  "expected_batches_per_model": 2,
+  "selected_train_images": 4,
+  "no_optimizer": true,
+  "parameter_updates_requested": false,
+  "parameters_and_BN_verified_unchanged": true,
+  "disk_weights_verified_unchanged": true,
+  "test_evaluated": false,
+  "interpretation": "Local endpoint/frozen-BN evidence only; no causal AP attribution, no automatic training or new mechanism"
+}

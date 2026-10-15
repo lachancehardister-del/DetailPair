@@ -1,0 +1,14 @@
+[
+  {
+    "status": "not_run",
+    "batch_index": 0,
+    "variant": "B6",
+    "reason": "Condition setup/state failure"
+  },
+  {
+    "status": "not_run",
+    "batch_index": 1,
+    "variant": "B6",
+    "reason": "Condition setup/state failure"
+  }
+]

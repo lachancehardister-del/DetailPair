@@ -1,0 +1,41 @@
+test_checkpoint_args_restore_without_guessed_coefficients (__main__.MechanismTests.test_checkpoint_args_restore_without_guessed_coefficients) ... Overriding model.yaml nc=80 with nc=1
+ok
+test_frozen_protocol_and_nonindependent_summary (__main__.MechanismTests.test_frozen_protocol_and_nonindependent_summary) ... ok
+test_hook_cleanup_on_exception (__main__.MechanismTests.test_hook_cleanup_on_exception) ... Overriding model.yaml nc=80 with nc=1
+ok
+test_letterbox_targets_train_only_and_seed_selection (__main__.MechanismTests.test_letterbox_targets_train_only_and_seed_selection) ... ok
+test_original_total_gradients_batch_scaling_and_state (__main__.MechanismTests.test_original_total_gradients_batch_scaling_and_state) ... Overriding model.yaml nc=80 with nc=1
+Overriding model.yaml nc=80 with nc=1
+ok
+test_region_empty_and_zero_amplitude (__main__.MechanismTests.test_region_empty_and_zero_amplitude) ... ok
+test_scalar_gate_derivative_and_stop_gradient (__main__.MechanismTests.test_scalar_gate_derivative_and_stop_gradient) ... ok
+test_zero_norm_and_disconnected_are_distinct (__main__.MechanismTests.test_zero_norm_and_disconnected_are_distinct) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.970s
+
+OK
+Overriding model.yaml nc=80 with nc=1
+Overriding model.yaml nc=80 with nc=1
+B2 local diagnostic batch 1 / 2
+B2 local diagnostic batch 2 / 2
+B6 local diagnostic batch 1 / 2
+B6 local diagnostic batch 2 / 2
+Result ZIP: /workspace/DetailPair/DetailPair_v0.2.7/exports/DetailPair_mechanism_results_20261015_060300_394310.zip
+Mechanism directory: /workspace/DetailPair/DetailPair_v0.2.7/runs/mechanism_20261015_060250_355035
+Traceback (most recent call last):
+  File "/workspace/DetailPair/DetailPair_v0.2.7/mechanism_diagnose.py", line 187, in main
+    raw=Path(args.config).read_bytes();(out/'frozen_config.yaml').write_bytes(raw);c=yaml.safe_load(raw)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/DetailPair mechanism CPU 30zswtjp/absent.yaml'
+
+Result ZIP: /workspace/DetailPair/DetailPair_v0.2.7/exports/DetailPair_mechanism_results_20261015_060302_134922.zip
+Mechanism directory: /workspace/DetailPair/DetailPair_v0.2.7/runs/mechanism_20261015_060301_041428
+Result ZIP: /workspace/DetailPair/DetailPair_v0.2.7/exports/DetailPair_mechanism_results_20261015_060302_479134.zip
+{"status": "passed", "scope": "CPU random checkpoint synthetic train-only engineering, not NEU/GPU", "run": "/workspace/DetailPair/DetailPair_v0.2.7/runs/mechanism_20261015_060250_355035", "failure_run": "/workspace/DetailPair/DetailPair_v0.2.7/runs/mechanism_20261015_060301_041428", "images": 4, "batches_per_variant": 2, "original_total_and_gradients": "matched", "parameters_and_BN_unchanged": true, "same_paired_noise": true}

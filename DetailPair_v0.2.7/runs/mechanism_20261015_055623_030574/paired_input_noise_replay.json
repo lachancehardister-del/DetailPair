@@ -1,0 +1,10 @@
+[
+  {
+    "batch_index": 0,
+    "status": "not_verified_due_to_failure"
+  },
+  {
+    "batch_index": 1,
+    "status": "not_verified_due_to_failure"
+  }
+]
