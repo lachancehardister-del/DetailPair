@@ -21,3 +21,7 @@ G1入口提供冻结60轮、seed0、共同初始化全数据、AdamW与弱几何
 
 
 正式交付：releases/BoxRoute_v0.3.0_Code.zip，SHA256=8fa72d88761cf0aab0b1f73b12538be31adc97c3cd75832b67addb8ac9bed726，5755326 bytes。解包/CRC/逐文件SHA/公开权重/候选构建/help/无Torch时pack/无GPU拒绝均通过；保留原任务MD和旧源码输入归档。Windows/GPU实跑仍pending。
+
+## GitHub同步核验
+
+2026-10-16T21:21:18.389660+08:00：完整BoxRoute工程、Code ZIP、Work新交接与旧归档验收材料、实际CPU检查/合成流程/失败记录已推送origin/main，远端commit `5d926a6846ad318fdb72eb7130da3f049624d8f8` 与本地HEAD一致。真实用户图像/标签文件/训练权重未上传；仅代码包明确包含的固定公开初始化随源码同步。v0.2.4/onboarding九项用户已有删除未暂存。后续仅追加本同步记录，不改发布包。
