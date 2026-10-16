@@ -1,0 +1,7 @@
+test_geometry_histograms_quantiles_and_coverage (__main__.ShapeStatisticsChecks.test_geometry_histograms_quantiles_and_coverage) ... ok
+test_no_train_GT_is_blocked_not_a_pilot (__main__.ShapeStatisticsChecks.test_no_train_GT_is_blocked_not_a_pilot) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.040s
+
+OK

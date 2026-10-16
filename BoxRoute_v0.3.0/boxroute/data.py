@@ -112,12 +112,26 @@ def shape_statistics(manifest):
     import torch
     from .geometry import geometry_targets
     boxes=[(row,b) for row in manifest['records']['train'] for b in row['boxes']]
+    if not boxes:
+        return dict(train_images=len(manifest['records']['train']),train_boxes=0,informative_boxes=0,
+            status='blocked_shape_support',threshold=30,horizontal_boxes=0,vertical_boxes=0,
+            aspect_ratio=None,pixel_area=None,mean_q=None,q_distribution=None,
+            class_coverage={name:dict(boxes=0,informative_boxes=0) for name in manifest['names']},
+            scope='No train boxes: no geometry proxy distribution; engineering support screen only')
     wh=torch.tensor([[b[3]*row['width'],b[4]*row['height']] for row,b in boxes],dtype=torch.float64)
-    if len(boxes)==0:raise ValueError('Train has no annotated boxes')
     q=geometry_targets(wh);ratio=wh[:,0]/wh[:,1];area=wh.prod(1)
     summary=lambda x:dict(min=float(x.min()),median=float(x.median()),mean=float(x.mean()),max=float(x.max()))
     informative=int(((q[:,1]-q[:,2]).abs()>=.2).sum())
+    quantiles=torch.tensor([0.,.05,.25,.5,.75,.95,1.],dtype=wh.dtype)
+    distribution=lambda x:dict(quantile_probabilities=quantiles.tolist(),quantiles=torch.quantile(x,quantiles).tolist())
+    q_distribution={name:dict(**distribution(q[:,k]),histogram_edges=[i/10 for i in range(11)],
+        histogram_counts=torch.histc(q[:,k],bins=10,min=0,max=1).long().tolist()) for k,name in enumerate(['I','H','V'])}
+    per_class={name:dict(boxes=sum(int(b[0])==k for _,b in boxes),
+        informative_boxes=sum(int(b[0])==k and bool(abs(q[j,1]-q[j,2])>=.2) for j,(_,b) in enumerate(boxes)))
+        for k,name in enumerate(manifest['names'])}
     return dict(train_images=len(manifest['records']['train']),train_boxes=len(boxes),aspect_ratio=summary(ratio),pixel_area=summary(area),mean_q=q.mean(0).tolist(),
+        aspect_ratio_distribution=distribution(ratio),pixel_area_distribution=distribution(area),q_distribution=q_distribution,
+        class_coverage=per_class,
         horizontal_boxes=int((q[:,1]>0).sum()),vertical_boxes=int((q[:,2]>0).sum()),informative_boxes=informative,
         status='shape_support_passed' if informative>=30 else 'blocked_shape_support',threshold=30,
         scope='Engineering proxy-support screen, not sample-size power or true orientation labels')
