@@ -1,0 +1,44 @@
+{
+  "ultralytics.nn.tasks": {
+    "path": "/workspace/venvs/detailpair/lib/python3.12/site-packages/ultralytics/nn/tasks.py",
+    "sha256": "bd1afa1d3b9c33b120de4c73858b728e010075a719ee0203537c8f6cc9f260c3",
+    "reference": "/workspace/DetailPair/BoxRoute_v0.3.0/sources/ultralytics_v83221_ultralytics_nn_tasks.py",
+    "equal_after_universal_newlines": true
+  },
+  "ultralytics.utils.loss": {
+    "path": "/workspace/venvs/detailpair/lib/python3.12/site-packages/ultralytics/utils/loss.py",
+    "sha256": "c09d05d83a514c8f7e7bd69dc489b68a8d3371745ad114d615339ced6992d7e0",
+    "reference": "/workspace/DetailPair/BoxRoute_v0.3.0/sources/ultralytics_v83221_ultralytics_utils_loss.py",
+    "equal_after_universal_newlines": true
+  },
+  "ultralytics.utils.tal": {
+    "path": "/workspace/venvs/detailpair/lib/python3.12/site-packages/ultralytics/utils/tal.py",
+    "sha256": "eca4183727ad7f1d7c08d73f6ef346ec10dbe380885370c4bb8ab389556f3401",
+    "reference": "/workspace/DetailPair/BoxRoute_v0.3.0/sources/ultralytics_v83221_ultralytics_utils_tal.py",
+    "equal_after_universal_newlines": true
+  },
+  "ultralytics.engine.trainer": {
+    "path": "/workspace/venvs/detailpair/lib/python3.12/site-packages/ultralytics/engine/trainer.py",
+    "sha256": "72b4bb1cbe2c2ce7979ffe75ff698a05f782e637d1e86793fb5a8d81b943edd4",
+    "reference": "/workspace/DetailPair/BoxRoute_v0.3.0/sources/ultralytics_v83221_ultralytics_engine_trainer.py",
+    "equal_after_universal_newlines": true
+  },
+  "ultralytics.models.yolo.detect.train": {
+    "path": "/workspace/venvs/detailpair/lib/python3.12/site-packages/ultralytics/models/yolo/detect/train.py",
+    "sha256": "ae7982b744c6e5b772484d93554b14ab0cb217f2d3cb8759765002a0cd4c85c5",
+    "reference": "/workspace/DetailPair/BoxRoute_v0.3.0/sources/ultralytics_v83221_detect_train.py",
+    "equal_after_universal_newlines": true
+  },
+  "ultralytics.data.build": {
+    "path": "/workspace/venvs/detailpair/lib/python3.12/site-packages/ultralytics/data/build.py",
+    "sha256": "6be1acd896d94bd939f42a4969ac7b91bcbe3ee64e78ad4d615e26ab8291140d",
+    "reference": "/workspace/DetailPair/BoxRoute_v0.3.0/sources/ultralytics_fixed_ultralytics_data_build.py",
+    "equal_after_universal_newlines": true
+  },
+  "ultralytics.models.yolo.detect.val": {
+    "path": "/workspace/venvs/detailpair/lib/python3.12/site-packages/ultralytics/models/yolo/detect/val.py",
+    "sha256": "59c8a753af8a8fb2bd82ace2a84a062cdb734d7b66dce20f387211544d8b7fd5",
+    "reference": "/workspace/DetailPair/BoxRoute_v0.3.0/sources/ultralytics_fixed_ultralytics_models_yolo_detect_val.py",
+    "equal_after_universal_newlines": true
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "status": "not_run_synthetic_fixture",
+  "reason": "No GPU speed claim; separate balanced-statistics checks cover timing bookkeeping"
+}

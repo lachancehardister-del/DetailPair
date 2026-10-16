@@ -1,0 +1,135 @@
+{
+  "status": "passed_archive_and_reporting_review",
+  "archive_sha256": "ea3a1b5b6a9b71b376f29f899e9402d0aa2f753a5da6a79e202ed4d26ce02cd2",
+  "manifest_files_checked": 119,
+  "python_files_ast_checked": 29,
+  "reporting_tests_rerun": 6,
+  "class_rows_checked": 24,
+  "scenario_rows_checked": 4,
+  "comparison_rows_checked": 16,
+  "per_class_comparison_rows_checked": 96,
+  "original_count_AP_values_preserved": true,
+  "macro_precision_support_mismatch_handled": true,
+  "branch_status": {
+    "status": "archived_no_consistent_benefit",
+    "date": "2026-10-15",
+    "timezone": "Asia/Shanghai",
+    "user_local_run_required": false,
+    "new_experiments_authorized": false,
+    "closed_scope": [
+      "current full B6 combination",
+      "direct amplitude-loss deletion B5 route"
+    ],
+    "next_stage": "Work hypothesis and nearest-neighbor formula/objective/cost audit; not yet executed"
+  },
+  "core_files_match_packaged_identity": true,
+  "independent_previous_v028_byte_comparison": false,
+  "deps": {
+    "numpy": true,
+    "yaml": true,
+    "torch": false,
+    "ultralytics": false
+  },
+  "model_execution": false,
+  "windows_cuda_execution": false,
+  "raw_predictions_rematched": false,
+  "official_AP_curve_recomputed": false,
+  "test_dataset_accessed": false,
+  "limitations": [
+    "Aggregate arithmetic only; no new model evidence.",
+    "Old raw results and v0.2.8 bytes were not re-materialized; previous experimental findings remain earlier Work evidence.",
+    "Archive retains runnable historical entries; archival state is documentation, not a runtime prohibition."
+  ],
+  "scenarios": [
+    {
+      "scenario": "clean",
+      "variant": "B5",
+      "TP": 222,
+      "FP": 118,
+      "FN": 207,
+      "GT": 429,
+      "AP50": 0.5682033415440103,
+      "AP50_95": 0.28443241190089985,
+      "precision_support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "macro_precision_available": 0.5709717355678566,
+      "macro_precision_zero": 0.5709717355678566,
+      "micro_precision": 0.6529411764705882,
+      "macro_recall": 0.5218327662304875,
+      "FPPI": 0.6555555555555556
+    },
+    {
+      "scenario": "clean",
+      "variant": "B6",
+      "TP": 234,
+      "FP": 106,
+      "FN": 195,
+      "GT": 429,
+      "AP50": 0.612186094396994,
+      "AP50_95": 0.298228124411472,
+      "precision_support": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "macro_precision_available": 0.7259590823316313,
+      "macro_precision_zero": 0.6049659019430261,
+      "micro_precision": 0.6882352941176471,
+      "macro_recall": 0.545665962544131,
+      "FPPI": 0.5888888888888889
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "variant": "B5",
+      "TP": 216,
+      "FP": 119,
+      "FN": 213,
+      "GT": 429,
+      "AP50": 0.5607508414195971,
+      "AP50_95": 0.2786560559028578,
+      "precision_support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "macro_precision_available": 0.5715236077471993,
+      "macro_precision_zero": 0.5715236077471993,
+      "micro_precision": 0.6447761194029851,
+      "macro_recall": 0.5091385569126436,
+      "FPPI": 0.6611111111111111
+    },
+    {
+      "scenario": "gaussian_0.03",
+      "variant": "B6",
+      "TP": 220,
+      "FP": 96,
+      "FN": 209,
+      "GT": 429,
+      "AP50": 0.6047702698657577,
+      "AP50_95": 0.2915642715169359,
+      "precision_support": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "macro_precision_available": 0.7371322304948292,
+      "macro_precision_zero": 0.614276858745691,
+      "micro_precision": 0.6962025316455697,
+      "macro_recall": 0.5161630128867567,
+      "FPPI": 0.5333333333333333
+    }
+  ]
+}

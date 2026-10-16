@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "scope": "Code ZIP source/hash/resource/entry checks; no Windows/GPU or real experiment",
+  "CRC_path_and_manifest": "passed",
+  "full_required_files": "passed",
+  "only_included_weight": "pinned public official initialization",
+  "commands": [
+    {
+      "command": [
+        "/workspace/venvs/detailpair/bin/python",
+        "run_boxroute.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "command": [
+        "python",
+        "run_boxroute.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "command": [
+        "python",
+        "run_boxroute.py",
+        "pack"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "command": [
+        "/workspace/venvs/detailpair/bin/python",
+        "run_boxroute.py",
+        "env"
+      ],
+      "exit_code": 1,
+      "expected": 1
+    },
+    {
+      "command": "unpacked public initialization and all five candidates",
+      "exit_code": 0
+    }
+  ],
+  "Windows_GPU": "pending"
+}

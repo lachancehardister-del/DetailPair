@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "scope": "Synthetic source images, not NEU audit",
+  "actual_shapes": [
+    [
+      2,
+      3,
+      320,
+      320
+    ],
+    [
+      2,
+      3,
+      320,
+      320
+    ]
+  ],
+  "test_enumerated": false,
+  "original_tree_unchanged": true,
+  "label_caches_private": true,
+  "shape352_rejected": true
+}

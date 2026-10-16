@@ -1,0 +1,166 @@
+{
+  "train": {
+    "records": [
+      {
+        "image_id": "000003",
+        "source_image": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/images/train/3.png",
+        "source_label": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/labels/train/3.txt",
+        "image_sha256": "b0c0d0fdaedc7031595f5eca056e9893c610bfd935c16c60f04c174d5b511a9c",
+        "label_sha256": "06870363d70149758fdcd9f9d3961e4a7c683d241fbb0dfc38f80a0169a25814",
+        "width": 120,
+        "height": 80,
+        "boxes": [
+          [
+            3.0,
+            0.5,
+            0.5,
+            0.6,
+            0.3
+          ]
+        ],
+        "working_image": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/images/train/000003_b0c0d0fdaedc.png",
+        "working_label": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/labels/train/000003_b0c0d0fdaedc.txt"
+      },
+      {
+        "image_id": "000001",
+        "source_image": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/images/train/1.png",
+        "source_label": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/labels/train/1.txt",
+        "image_sha256": "88ee3703d62e9fb21a1796e29c22ecb49899c7903e3637b7d327a19685802143",
+        "label_sha256": "a02baa1923074c3c93fdc1a59b5cd83d6f9c7c9e1aeaafb35622a6180c989e2d",
+        "width": 120,
+        "height": 80,
+        "boxes": [
+          [
+            1.0,
+            0.5,
+            0.5,
+            0.6,
+            0.3
+          ]
+        ],
+        "working_image": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/images/train/000001_88ee3703d62e.png",
+        "working_label": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/labels/train/000001_88ee3703d62e.txt"
+      },
+      {
+        "image_id": "000002",
+        "source_image": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/images/train/2.png",
+        "source_label": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/labels/train/2.txt",
+        "image_sha256": "70c469be285e1390cb166c265a41bf3dd6b5ebdf4a74f519f24fe44c0e5ade3f",
+        "label_sha256": "e57ccd1b0df511b7764013fd365e3a71b4455f33069cac2a9dc7e9b9e6b88bb9",
+        "width": 120,
+        "height": 80,
+        "boxes": [
+          [
+            2.0,
+            0.5,
+            0.5,
+            0.6,
+            0.3
+          ]
+        ],
+        "working_image": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/images/train/000002_70c469be285e.png",
+        "working_label": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/labels/train/000002_70c469be285e.txt"
+      },
+      {
+        "image_id": "000000",
+        "source_image": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/images/train/0.png",
+        "source_label": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/labels/train/0.txt",
+        "image_sha256": "ee1fb514fc377b88c4d53e7560e3f21aed36e4ab0253c0737e2fe5323ecaf6d2",
+        "label_sha256": "d76dba2b40dfa559d1616cf45d0a751feb8b2d21be27d1c4f042690ab7174296",
+        "width": 120,
+        "height": 80,
+        "boxes": [
+          [
+            0.0,
+            0.5,
+            0.5,
+            0.6,
+            0.3
+          ]
+        ],
+        "working_image": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/images/train/000000_ee1fb514fc37.png",
+        "working_label": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/labels/train/000000_ee1fb514fc37.txt"
+      }
+    ],
+    "selection": {
+      "seed": 178,
+      "rule": "canonical resolved source path order, independent Random178 shuffle, no coverage redraw",
+      "count": 4,
+      "class_box_counts": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source_image_sha256": [
+        "b0c0d0fdaedc7031595f5eca056e9893c610bfd935c16c60f04c174d5b511a9c",
+        "88ee3703d62e9fb21a1796e29c22ecb49899c7903e3637b7d327a19685802143",
+        "70c469be285e1390cb166c265a41bf3dd6b5ebdf4a74f519f24fe44c0e5ade3f",
+        "ee1fb514fc377b88c4d53e7560e3f21aed36e4ab0253c0737e2fe5323ecaf6d2"
+      ]
+    }
+  },
+  "val": {
+    "records": [
+      {
+        "image_id": "000001",
+        "source_image": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/images/val/1.png",
+        "source_label": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/labels/val/1.txt",
+        "image_sha256": "405519abacd2272e5ce4f63ae2ed94177116765130a0b46a3090bf49b7aa4227",
+        "label_sha256": "a02baa1923074c3c93fdc1a59b5cd83d6f9c7c9e1aeaafb35622a6180c989e2d",
+        "width": 120,
+        "height": 80,
+        "boxes": [
+          [
+            1.0,
+            0.5,
+            0.5,
+            0.6,
+            0.3
+          ]
+        ],
+        "working_image": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/images/val/000001_405519abacd2.png",
+        "working_label": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/labels/val/000001_405519abacd2.txt"
+      },
+      {
+        "image_id": "000000",
+        "source_image": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/images/val/0.png",
+        "source_label": "/tmp/BoxRoute G0 fixture 1o7kybzs/synthetic_source/labels/val/0.txt",
+        "image_sha256": "bf137442e5d4accc22845415a008905622da0edfecdcee831284bd8c0ce5f19b",
+        "label_sha256": "d76dba2b40dfa559d1616cf45d0a751feb8b2d21be27d1c4f042690ab7174296",
+        "width": 120,
+        "height": 80,
+        "boxes": [
+          [
+            0.0,
+            0.5,
+            0.5,
+            0.6,
+            0.3
+          ]
+        ],
+        "working_image": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/images/val/000000_bf137442e5d4.png",
+        "working_label": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/labels/val/000000_bf137442e5d4.txt"
+      }
+    ],
+    "selection": {
+      "seed": 178,
+      "rule": "canonical resolved source path order, independent Random178 shuffle, no coverage redraw",
+      "count": 2,
+      "class_box_counts": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_image_sha256": [
+        "405519abacd2272e5ce4f63ae2ed94177116765130a0b46a3090bf49b7aa4227",
+        "bf137442e5d4accc22845415a008905622da0edfecdcee831284bd8c0ce5f19b"
+      ]
+    }
+  }
+}

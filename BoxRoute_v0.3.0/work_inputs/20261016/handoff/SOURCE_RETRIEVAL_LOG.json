@@ -1,0 +1,446 @@
+{
+  "scope": "public read-only sources; not external accounts or paid APIs",
+  "records": [
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/nn/tasks.py",
+      "filename": "ultralytics_v83221_ultralytics_nn_tasks.py",
+      "started_utc": "2026-10-16T05:41:26.297735+00:00",
+      "status": 200,
+      "bytes": 70834,
+      "sha256": "bd1afa1d3b9c33b120de4c73858b728e010075a719ee0203537c8f6cc9f260c3",
+      "resolved_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/nn/tasks.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/utils/loss.py",
+      "filename": "ultralytics_v83221_ultralytics_utils_loss.py",
+      "started_utc": "2026-10-16T05:41:26.298867+00:00",
+      "status": 200,
+      "bytes": 39827,
+      "sha256": "c09d05d83a514c8f7e7bd69dc489b68a8d3371745ad114d615339ced6992d7e0",
+      "resolved_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/utils/loss.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/utils/tal.py",
+      "filename": "ultralytics_v83221_ultralytics_utils_tal.py",
+      "started_utc": "2026-10-16T05:41:26.299568+00:00",
+      "status": 200,
+      "bytes": 20869,
+      "sha256": "eca4183727ad7f1d7c08d73f6ef346ec10dbe380885370c4bb8ab389556f3401",
+      "resolved_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/utils/tal.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/engine/trainer.py",
+      "filename": "ultralytics_v83221_ultralytics_engine_trainer.py",
+      "started_utc": "2026-10-16T05:41:26.300115+00:00",
+      "status": 200,
+      "bytes": 44140,
+      "sha256": "72b4bb1cbe2c2ce7979ffe75ff698a05f782e637d1e86793fb5a8d81b943edd4",
+      "resolved_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/engine/trainer.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/cfg/default.yaml",
+      "filename": "ultralytics_v83221_ultralytics_cfg_default.yaml",
+      "started_utc": "2026-10-16T05:41:26.300712+00:00",
+      "status": 200,
+      "bytes": 8912,
+      "sha256": "28a10d487a250d2b68d472551a306f4d7bf3f5a7be5cc7184732ab8d4dd07d97",
+      "resolved_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/cfg/default.yaml"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/cfg/models/11/yolo11.yaml",
+      "filename": "ultralytics_v83221_ultralytics_cfg_models_11_yolo11.yaml",
+      "started_utc": "2026-10-16T05:41:30.011840+00:00",
+      "status": 200,
+      "bytes": 2012,
+      "sha256": "43d8a7c86acc77282ddf4966d6526e091e5b064c140ed4a6e4c0b68ecbc3784c",
+      "resolved_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/cfg/models/11/yolo11.yaml"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/nn/modules/head.py",
+      "filename": "ultralytics_v83221_ultralytics_nn_modules_head.py",
+      "started_utc": "2026-10-16T05:41:30.029136+00:00",
+      "status": 200,
+      "bytes": 53512,
+      "sha256": "1c14a81ce71df618a4a412c5f41760208b5824335620ef0d88d60c70cc3a4e13",
+      "resolved_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/nn/modules/head.py"
+    },
+    {
+      "url": "https://api.github.com/repos/HVision-NKU/Strip-R-CNN/commits/main",
+      "filename": "strip_commit.json",
+      "started_utc": "2026-10-16T05:41:30.041210+00:00",
+      "status": 200,
+      "bytes": 5177,
+      "sha256": "eb0adaccff823687eb318bddce2768ed7f4faab34ece4eb5d8e0b95df4bec9da",
+      "resolved_url": "https://api.github.com/repos/HVision-NKU/Strip-R-CNN/commits/main"
+    },
+    {
+      "url": "https://api.github.com/repos/zcablii/LSKNet/commits/main",
+      "filename": "lsk_commit.json",
+      "started_utc": "2026-10-16T05:41:30.069306+00:00",
+      "status": 200,
+      "bytes": 6006,
+      "sha256": "76ec2e5a17de07a9fcdc2897fcfa69fd2b1441631952b8a1c9d5c7bbe2f1e1d0",
+      "resolved_url": "https://api.github.com/repos/zcablii/LSKNet/commits/main"
+    },
+    {
+      "url": "https://arxiv.org/html/2501.03775v4",
+      "filename": "strip_full.html",
+      "started_utc": "2026-10-16T05:41:30.071757+00:00",
+      "status": 200,
+      "bytes": 733823,
+      "sha256": "bd887f5bbac541ef32f35ac38900c96a8a8cb15a14692832cfcc3a17ca47514d",
+      "resolved_url": "https://arxiv.org/html/2501.03775v4"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.21456v1",
+      "filename": "spdcn_full.html",
+      "started_utc": "2026-10-16T05:41:32.738126+00:00",
+      "status": 200,
+      "bytes": 235848,
+      "sha256": "a958a2a7c164c9b99842369f85672fcf6e1861b6cb3d0d8a7244dddeef6bbd36",
+      "resolved_url": "https://arxiv.org/html/2607.21456v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.00065",
+      "filename": "toolbox_arxiv.html",
+      "started_utc": "2026-10-16T05:41:32.788207+00:00",
+      "status": 200,
+      "bytes": 42282,
+      "sha256": "1e27e730621e53c823a855c5f814e9b95ea69755e294a646bb9aeddefe2a7228",
+      "resolved_url": "https://arxiv.org/abs/2609.00065"
+    },
+    {
+      "url": "https://api.github.com/repos/HVision-NKU/Strip-R-CNN/git/trees/c2d3cf4f9c561f4dea6d6779bcc7aaf3c5ae1b78?recursive=1",
+      "filename": "strip_tree.json",
+      "started_utc": "2026-10-16T05:42:34.524620+00:00",
+      "status": 200,
+      "bytes": 173430,
+      "sha256": "ee4933bf8aaaaab980b120616a7446c694410c85373f329567ad7874ffb389c9"
+    },
+    {
+      "url": "https://api.github.com/repos/zcablii/LSKNet/git/trees/4671650cb38830370d63df81078338c2a3b8eb58?recursive=1",
+      "filename": "lsk_tree.json",
+      "started_utc": "2026-10-16T05:42:34.526089+00:00",
+      "status": 200,
+      "bytes": 128147,
+      "sha256": "40e92315a659ff6d37ada0db652622003f23e521522e106401be1696a1df4a98"
+    },
+    {
+      "url": "https://api.github.com/repos/PKINet/PKINet/commits/main",
+      "filename": "pki_commit.json",
+      "started_utc": "2026-10-16T05:42:34.528828+00:00",
+      "status": 200,
+      "bytes": 5770,
+      "sha256": "547675c9e4768fc91552ba98a0dfdf042a0322764d56e45363ac458c31a92d44"
+    },
+    {
+      "url": "https://arxiv.org/html/2603.16341v1",
+      "filename": "pki_v2_full.html",
+      "started_utc": "2026-10-16T05:42:34.529613+00:00",
+      "status": 200,
+      "bytes": 824363,
+      "sha256": "705b9cab77a272d151306cee94e58ffde5cfa87ffb897a5c164a235ae50337ce"
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection_ICCV_2023_paper.pdf",
+      "filename": "lsk_paper.pdf",
+      "started_utc": "2026-10-16T05:42:34.530914+00:00",
+      "status": 200,
+      "bytes": 1366698,
+      "sha256": "e513421e94f7eadb321d33d6fd79bf7755a693be4293749d3763c76a80bf8baf"
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.pdf",
+      "filename": "guided_anchoring.pdf",
+      "started_utc": "2026-10-16T05:42:37.746394+00:00",
+      "status": 200,
+      "bytes": 1163228,
+      "sha256": "7db63d84dceca5c9e004d44bd4dc85be69c1e8e2ac97f37e9f5a4ed3a7664ad3"
+    },
+    {
+      "url": "https://www.mdpi.com/2072-4292/18/6/873",
+      "filename": "dsef_full.html",
+      "started_utc": "2026-10-16T05:42:38.001939+00:00",
+      "status": 200,
+      "bytes": 862288,
+      "sha256": "fb1881f3dfea699600d5063b77892b6921a666346c18b87445d17faf51e7002a"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s11760-026-05634-6",
+      "filename": "mpsl_preview.html",
+      "started_utc": "2026-10-16T05:42:38.010553+00:00",
+      "status": 200,
+      "bytes": 329604,
+      "sha256": "c13e0e2af817bb3ed7ae54c1d9d1f38aeb243c83979a6bb5933f536e807fb230"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HVision-NKU/Strip-R-CNN/c2d3cf4f9c561f4dea6d6779bcc7aaf3c5ae1b78/mmrotate/models/backbones/stripnet.py",
+      "filename": "stripnet_fixed.py",
+      "started_utc": "2026-10-16T05:44:00.076048+00:00",
+      "status": 200,
+      "bytes": 8805,
+      "sha256": "6a0eaea281bbd7295de8d184eadad5f7e274185de08181165c69d740b2417d6d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HVision-NKU/Strip-R-CNN/c2d3cf4f9c561f4dea6d6779bcc7aaf3c5ae1b78/configs/strip_rcnn/strip_rcnn_t_fpn_1x_dota_le90.py",
+      "filename": "strip_config_fixed.py",
+      "started_utc": "2026-10-16T05:44:00.077305+00:00",
+      "status": 200,
+      "bytes": 5358,
+      "sha256": "516e42618235a149a8c712c90a2971cdce40833e3f6613cca952be1ddc35baba"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zcablii/LSKNet/4671650cb38830370d63df81078338c2a3b8eb58/mmrotate/models/backbones/lsknet.py",
+      "filename": "lsknet_fixed.py",
+      "started_utc": "2026-10-16T05:44:00.078520+00:00",
+      "status": 200,
+      "bytes": 9136,
+      "sha256": "11e8c4cfde260c2ac47930a91d73c593248da2d27a371fe639db567ea0130901"
+    },
+    {
+      "url": "https://api.github.com/repos/PKINet/PKINet/git/trees/a33aa22d188c9946cc83fba60e3bb8ac0ec82ff7?recursive=1",
+      "filename": "pki_tree.json",
+      "started_utc": "2026-10-16T05:44:00.079982+00:00",
+      "status": 200,
+      "bytes": 128755,
+      "sha256": "e13b4b7de30f9d6b0b899913329a493dfb091218264f4f8054fcf69c395679bf"
+    },
+    {
+      "url": "https://api.github.com/repos/taozhetmx/MPSL_Net/commits/main",
+      "filename": "mpsl_commit.json",
+      "started_utc": "2026-10-16T05:44:00.084357+00:00",
+      "error": "<HTTPError 422: 'Unprocessable Entity'>"
+    },
+    {
+      "url": "https://www.mdpi.com/2227-7390/13/20/3285",
+      "filename": "supervised_focus_full.html",
+      "started_utc": "2026-10-16T05:44:03.936637+00:00",
+      "status": 200,
+      "bytes": 750934,
+      "sha256": "17f952edda2893eb9c9645658c43f4d362016796431180504c8b5374f03996f4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/PKINet/PKINet/a33aa22d188c9946cc83fba60e3bb8ac0ec82ff7/mmrotate/models/backbones/pkinet_v2.py",
+      "filename": "pkinet_v2_fixed.py",
+      "started_utc": "2026-10-16T05:44:35.450848+00:00",
+      "status": 200,
+      "bytes": 18696,
+      "sha256": "5b0320fe7916b29a966d0edd2a201e89e15c23690b4e32ac4c538e8e5ef1635e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/PKINet/PKINet/a33aa22d188c9946cc83fba60e3bb8ac0ec82ff7/configs/pkinet-v2/pkinet-v2-t_fpn_o-rcnn_3x_dotav1-ss_le90.py",
+      "filename": "pki_config_fixed.py",
+      "started_utc": "2026-10-16T05:44:35.451844+00:00",
+      "status": 200,
+      "bytes": 5501,
+      "sha256": "108fe5d97699ab2f100a8f920dc736f2984ac65c1f8babc2ec841ab627cc8d50"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/PKINet/PKINet/a33aa22d188c9946cc83fba60e3bb8ac0ec82ff7/README.md",
+      "filename": "pki_readme_fixed.md",
+      "started_utc": "2026-10-16T05:44:35.452515+00:00",
+      "status": 200,
+      "bytes": 9813,
+      "sha256": "51859370560c28085c0b07beadc372cf66c83f488bdb45b469cda8fc77aba141"
+    },
+    {
+      "url": "https://api.github.com/repos/taozhetmx/MPSL_Net",
+      "filename": "mpsl_repo_meta.json",
+      "started_utc": "2026-10-16T05:44:35.453080+00:00",
+      "status": 200,
+      "bytes": 5195,
+      "sha256": "59df02d93c4e2669f74ba5764f61383283bcd246243a79e66abec2989911ac75"
+    },
+    {
+      "url": "https://api.github.com/repos/ultralytics/ultralytics/git/ref/tags/v8.3.221",
+      "filename": "ultra_tag_meta.json",
+      "started_utc": "2026-10-16T05:44:35.453800+00:00",
+      "status": 200,
+      "bytes": 348,
+      "sha256": "02d79a9b7b9b0377bed08d9549053401846b11f0edb288edb0f95893de341a50"
+    },
+    {
+      "url": "https://api.github.com/repos/taozhetmx/MPSL_Net/commits/master",
+      "filename": "mpsl_commit_master.json",
+      "started_utc": "2026-10-16T05:45:32.557669+00:00",
+      "status": 200,
+      "bytes": 4957,
+      "sha256": "a3466928a86c18b65acf78846334353ce32018756875d90a9d755274dbc6790b"
+    },
+    {
+      "url": "https://api.github.com/repos/ultralytics/ultralytics/git/tags/01c32cc214debab7937672b10c73846abe4c5ec9",
+      "filename": "ultra_tag_object.json",
+      "started_utc": "2026-10-16T05:45:32.559772+00:00",
+      "status": 200,
+      "bytes": 941,
+      "sha256": "136f0851247b8da388dbd546b78bdfe58654a4149e0949d4035a7d7a0d2be2f0"
+    },
+    {
+      "url": "https://api.github.com/repos/taozhetmx/MPSL_Net/git/trees/7ab0e585fa595683a5842e9cbea42ab8246f8e40?recursive=1",
+      "filename": "mpsl_tree.json",
+      "started_utc": "2026-10-16T05:45:49.171226+00:00",
+      "status": 200,
+      "bytes": 214427,
+      "sha256": "249f7b9f90c74d0d37f5d0103f633fba121f3e94cddd2731d3b123b7f677977c"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.3390/rs18060873",
+      "filename": "denet_crossref.json",
+      "started_utc": "2026-10-16T05:45:49.172720+00:00",
+      "status": 200,
+      "bytes": 28452,
+      "sha256": "2871050464838b3f4bf60728b6452809750e582c372a8cbd14c6d45af812202e"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.3390/math13203285",
+      "filename": "sff_crossref.json",
+      "started_utc": "2026-10-16T05:45:49.173346+00:00",
+      "status": 200,
+      "bytes": 17294,
+      "sha256": "76ceeffc47e109b9f9e128eba7f5e021079593adde11d7ab9f66efa5522a5b1d"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1007/s11760-026-05634-6",
+      "filename": "mpsl_crossref.json",
+      "started_utc": "2026-10-16T05:45:49.174009+00:00",
+      "status": 200,
+      "bytes": 15076,
+      "sha256": "68e1a5532de55aef470d6f2f5c7b1a7880357c1cd08b5d5dcff81f4ba0ae3110"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taozhetmx/MPSL_Net/7ab0e585fa595683a5842e9cbea42ab8246f8e40/ultralytics/nn/modules/head.py",
+      "filename": "mpsl_head_fixed.py",
+      "started_utc": "2026-10-16T05:47:51.782433+00:00",
+      "status": 200,
+      "bytes": 63511,
+      "sha256": "99d82dd68d6f9c86b319b53c25c1b00650b3fd3fe82bb5804fd9d9f530d93077"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taozhetmx/MPSL_Net/7ab0e585fa595683a5842e9cbea42ab8246f8e40/ultralytics/nn/extra_modules/conv.py",
+      "filename": "mpsl_conv_fixed.py",
+      "started_utc": "2026-10-16T05:47:51.788059+00:00",
+      "status": 200,
+      "bytes": 141374,
+      "sha256": "be618fe7cc72189f2002217d66fb01b419b377a733d912748f82bf59e47a8bf3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taozhetmx/MPSL_Net/7ab0e585fa595683a5842e9cbea42ab8246f8e40/ultralytics/utils/loss.py",
+      "filename": "mpsl_loss_fixed.py",
+      "started_utc": "2026-10-16T05:47:51.789872+00:00",
+      "status": 200,
+      "bytes": 39933,
+      "sha256": "ef27756de0020f69ef43c4139c360592d2de9cb8610a1caea46186956d9a663d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taozhetmx/MPSL_Net/7ab0e585fa595683a5842e9cbea42ab8246f8e40/README.md",
+      "filename": "mpsl_readme_fixed.md",
+      "started_utc": "2026-10-16T05:47:51.794658+00:00",
+      "status": 200,
+      "bytes": 12,
+      "sha256": "c8f6df191890b9a1a4642197d3a839acbb340b4319f5458b41a92412a2e7c46b"
+    },
+    {
+      "url": "https://api.github.com/repos/ultralytics/assets/releases/tags/v8.3.0",
+      "filename": "ultra_assets_v830_meta.json",
+      "started_utc": "2026-10-16T05:47:51.798218+00:00",
+      "status": 200,
+      "bytes": 227893,
+      "sha256": "d18404fec3e9ce3ef8a0a6cbf11a542c5936d99503138a13cb1be6efa7c3f6b9"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taozhetmx/MPSL_Net/7ab0e585fa595683a5842e9cbea42ab8246f8e40/my_model.yaml",
+      "filename": "mpsl_model_fixed.yaml",
+      "started_utc": "2026-10-16T05:49:05.264209+00:00",
+      "status": 200,
+      "bytes": 2707,
+      "sha256": "05c3064f33382932a313c61ada4390b93709baa5fa947cca6681ae9184fde453"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/e544db43838fd058370cad216bf82a7639f29b35/LICENSE",
+      "filename": "LICENSE_ultralytics.txt",
+      "started_utc": "2026-10-16T05:52:30.345146+00:00",
+      "status": 200,
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/PKINet/PKINet/a33aa22d188c9946cc83fba60e3bb8ac0ec82ff7/LICENSE",
+      "filename": "LICENSE_pkinet.txt",
+      "started_utc": "2026-10-16T05:52:30.346020+00:00",
+      "status": 200,
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HVision-NKU/Strip-R-CNN/c2d3cf4f9c561f4dea6d6779bcc7aaf3c5ae1b78/LICENSE",
+      "filename": "LICENSE_striprcnn.txt",
+      "started_utc": "2026-10-16T05:52:30.346975+00:00",
+      "status": 200,
+      "bytes": 17721,
+      "sha256": "fa4b06f7751c68d695eb3dc713616e1dcf09d12aa4a3b6196b8a9e0f4ff903d4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zcablii/LSKNet/4671650cb38830370d63df81078338c2a3b8eb58/LICENSE",
+      "filename": "LICENSE_lsknet.txt",
+      "started_utc": "2026-10-16T05:52:30.347673+00:00",
+      "status": 200,
+      "bytes": 17721,
+      "sha256": "fa4b06f7751c68d695eb3dc713616e1dcf09d12aa4a3b6196b8a9e0f4ff903d4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/e544db43838fd058370cad216bf82a7639f29b35/ultralytics/models/yolo/detect/val.py",
+      "filename": "ultralytics_fixed_ultralytics_models_yolo_detect_val.py",
+      "started_utc": "2026-10-16T05:53:55.955679+00:00",
+      "status": 200,
+      "bytes": 22213,
+      "sha256": "59c8a753af8a8fb2bd82ace2a84a062cdb734d7b66dce20f387211544d8b7fd5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/e544db43838fd058370cad216bf82a7639f29b35/ultralytics/data/build.py",
+      "filename": "ultralytics_fixed_ultralytics_data_build.py",
+      "started_utc": "2026-10-16T05:53:55.956664+00:00",
+      "status": 200,
+      "bytes": 16688,
+      "sha256": "6be1acd896d94bd939f42a4969ac7b91bcbe3ee64e78ad4d615e26ab8291140d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/e544db43838fd058370cad216bf82a7639f29b35/ultralytics/data/dataset.py",
+      "filename": "ultralytics_fixed_ultralytics_data_dataset.py",
+      "started_utc": "2026-10-16T05:53:55.957362+00:00",
+      "status": 200,
+      "bytes": 36772,
+      "sha256": "1d0debe9296ee0b1d23579d10a23a06ecdb30b6136b804246271d9855dc919d1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/e544db43838fd058370cad216bf82a7639f29b35/ultralytics/engine/validator.py",
+      "filename": "ultralytics_fixed_ultralytics_engine_validator.py",
+      "started_utc": "2026-10-16T05:53:55.958085+00:00",
+      "status": 200,
+      "bytes": 17560,
+      "sha256": "1e8044e4b73b468ec84394e57c30bde0be4199d39bf09f327c69442e8cd9e843"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/e544db43838fd058370cad216bf82a7639f29b35/ultralytics/utils/torch_utils.py",
+      "filename": "ultralytics_fixed_ultralytics_utils_torch_utils.py",
+      "started_utc": "2026-10-16T05:53:55.958799+00:00",
+      "status": 200,
+      "bytes": 40377,
+      "sha256": "f68d2fbeaa1143e17af320cff31047c7c45ed39e6ee3e98d2b015207534df9fd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/models/yolo/detect/train.py",
+      "status": 200,
+      "bytes": 10554,
+      "sha256": "ae7982b744c6e5b772484d93554b14ab0cb217f2d3cb8759765002a0cd4c85c5"
+    },
+    {
+      "url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt",
+      "filename": "official_yolo11n_v830.pt",
+      "started_utc": "2026-10-16T05:49:35.940510+00:00",
+      "loaded_or_executed": false,
+      "status": 200,
+      "bytes": 5613764,
+      "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+    }
+  ]
+}

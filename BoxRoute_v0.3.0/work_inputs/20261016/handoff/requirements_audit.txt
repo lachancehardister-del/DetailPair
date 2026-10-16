@@ -1,0 +1,2 @@
+# Only for the included NumPy design audit; not model-training dependencies.
+numpy==2.3.5

@@ -1,0 +1,4 @@
+{"epoch": 0, "optimizer_steps": 1, "accumulation": 1, "lr": [0.1, 0.0, 0.0], "EMA_updates": 1}
+{"epoch": 0, "optimizer_steps": 2, "accumulation": 1, "lr": [0.09901, 1e-05, 1e-05], "EMA_updates": 2}
+{"epoch": 1, "optimizer_steps": 2, "accumulation": 2, "lr": [0.0980101, 1.01e-05, 1.01e-05], "EMA_updates": 2}
+{"epoch": 1, "optimizer_steps": 3, "accumulation": 2, "lr": [0.09701515000000001, 1.5149999999999999e-05, 1.5149999999999999e-05], "EMA_updates": 3}

@@ -1,0 +1,16 @@
+{
+  "variant": "S",
+  "initial": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/initial_models/S.pt",
+  "initial_sha256": "1b17e3fa075e7a8a9bfd4c11080f955622b303210b270103bdcf6e2b25253d9b",
+  "data": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/flow_selection/data.yaml",
+  "output": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/S",
+  "epochs": 2,
+  "names": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+  ]
+}

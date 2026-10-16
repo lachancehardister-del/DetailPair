@@ -1,0 +1,423 @@
+{
+  "status": "passed",
+  "scope": "Synthetic engineering equality only; no real B0/native training result",
+  "device": "cpu",
+  "atol": 1e-06,
+  "rtol": 1e-05,
+  "tolerance_basis": "Task-suggested FP32 tolerances; no relaxation; raw maxima retained",
+  "shared_state_sha256": "e002eb25e2f1434d5c8f229211117eb681a84b316b1ba2da8840526f8be5daf9",
+  "state_keys": 499,
+  "records": [
+    {
+      "size": 64,
+      "batch": 1,
+      "GT": "empty",
+      "eval": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "detection_total": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "box_cls_dfl": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gradients": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 1
+      },
+      "BN_and_other_buffers": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 243,
+        "both_none": 0
+      },
+      "after_one_step": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 0
+      },
+      "criterion": "ultralytics.utils.loss.v8DetectionLoss",
+      "TAL": "ultralytics.utils.tal.TaskAlignedAssigner",
+      "native_loss_vector_shape": [
+        3
+      ],
+      "optimizer": {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0005,
+        "foreach": false
+      },
+      "status": "passed"
+    },
+    {
+      "size": 64,
+      "batch": 1,
+      "GT": "nonempty",
+      "eval": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "detection_total": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "box_cls_dfl": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gradients": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 1
+      },
+      "BN_and_other_buffers": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 243,
+        "both_none": 0
+      },
+      "after_one_step": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 0
+      },
+      "criterion": "ultralytics.utils.loss.v8DetectionLoss",
+      "TAL": "ultralytics.utils.tal.TaskAlignedAssigner",
+      "native_loss_vector_shape": [
+        3
+      ],
+      "optimizer": {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0005,
+        "foreach": false
+      },
+      "status": "passed"
+    },
+    {
+      "size": 64,
+      "batch": 2,
+      "GT": "empty",
+      "eval": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "detection_total": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "box_cls_dfl": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gradients": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 1
+      },
+      "BN_and_other_buffers": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 243,
+        "both_none": 0
+      },
+      "after_one_step": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 0
+      },
+      "criterion": "ultralytics.utils.loss.v8DetectionLoss",
+      "TAL": "ultralytics.utils.tal.TaskAlignedAssigner",
+      "native_loss_vector_shape": [
+        3
+      ],
+      "optimizer": {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0005,
+        "foreach": false
+      },
+      "status": "passed"
+    },
+    {
+      "size": 64,
+      "batch": 2,
+      "GT": "nonempty",
+      "eval": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "detection_total": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "box_cls_dfl": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gradients": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 1
+      },
+      "BN_and_other_buffers": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 243,
+        "both_none": 0
+      },
+      "after_one_step": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 0
+      },
+      "criterion": "ultralytics.utils.loss.v8DetectionLoss",
+      "TAL": "ultralytics.utils.tal.TaskAlignedAssigner",
+      "native_loss_vector_shape": [
+        3
+      ],
+      "optimizer": {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0005,
+        "foreach": false
+      },
+      "status": "passed"
+    },
+    {
+      "size": 320,
+      "batch": 1,
+      "GT": "empty",
+      "eval": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "detection_total": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "box_cls_dfl": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gradients": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 1
+      },
+      "BN_and_other_buffers": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 243,
+        "both_none": 0
+      },
+      "after_one_step": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 0
+      },
+      "criterion": "ultralytics.utils.loss.v8DetectionLoss",
+      "TAL": "ultralytics.utils.tal.TaskAlignedAssigner",
+      "native_loss_vector_shape": [
+        3
+      ],
+      "optimizer": {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0005,
+        "foreach": false
+      },
+      "status": "passed"
+    },
+    {
+      "size": 320,
+      "batch": 1,
+      "GT": "nonempty",
+      "eval": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "detection_total": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "box_cls_dfl": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gradients": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 1
+      },
+      "BN_and_other_buffers": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 243,
+        "both_none": 0
+      },
+      "after_one_step": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 0
+      },
+      "criterion": "ultralytics.utils.loss.v8DetectionLoss",
+      "TAL": "ultralytics.utils.tal.TaskAlignedAssigner",
+      "native_loss_vector_shape": [
+        3
+      ],
+      "optimizer": {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0005,
+        "foreach": false
+      },
+      "status": "passed"
+    },
+    {
+      "size": 320,
+      "batch": 2,
+      "GT": "empty",
+      "eval": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "detection_total": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "box_cls_dfl": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gradients": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 1
+      },
+      "BN_and_other_buffers": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 243,
+        "both_none": 0
+      },
+      "after_one_step": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 0
+      },
+      "criterion": "ultralytics.utils.loss.v8DetectionLoss",
+      "TAL": "ultralytics.utils.tal.TaskAlignedAssigner",
+      "native_loss_vector_shape": [
+        3
+      ],
+      "optimizer": {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0005,
+        "foreach": false
+      },
+      "status": "passed"
+    },
+    {
+      "size": 320,
+      "batch": 2,
+      "GT": "nonempty",
+      "eval": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "detection_total": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "box_cls_dfl": {
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gradients": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 1
+      },
+      "BN_and_other_buffers": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 243,
+        "both_none": 0
+      },
+      "after_one_step": {
+        "max_abs": 0.0,
+        "max_rel": 0.0,
+        "tensors": 256,
+        "both_none": 0
+      },
+      "criterion": "ultralytics.utils.loss.v8DetectionLoss",
+      "TAL": "ultralytics.utils.tal.TaskAlignedAssigner",
+      "native_loss_vector_shape": [
+        3
+      ],
+      "optimizer": {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0005,
+        "foreach": false
+      },
+      "status": "passed"
+    }
+  ],
+  "init_criterion_source": "    def init_criterion(self):\n        \"\"\"Initialize the loss criterion for the DetectionModel.\"\"\"\n        return E2EDetectLoss(self) if getattr(self, \"end2end\", False) else v8DetectionLoss(self)\n",
+  "official_loss_source": "    def loss(self, batch, preds=None):\n        \"\"\"\n        Compute loss.\n\n        Args:\n            batch (dict): Batch to compute loss on.\n            preds (torch.Tensor | list[torch.Tensor], optional): Predictions.\n        \"\"\"\n        if getattr(self, \"criterion\", None) is None:\n            self.criterion = self.init_criterion()\n\n        if preds is None:\n            preds = self.forward(batch[\"img\"])\n        return self.criterion(preds, batch)\n",
+  "scaling": "Both native and B0 use official criterion without auxiliary terms; total is returned native vector.sum()"
+}

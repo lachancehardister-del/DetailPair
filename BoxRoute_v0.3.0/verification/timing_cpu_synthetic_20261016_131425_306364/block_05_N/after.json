@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-16T13:14:27.382326+00:00",
+  "device": "cpu",
+  "CPU": {
+    "processor": "unknown",
+    "machine": "x86_64",
+    "threads": 2
+  },
+  "power_mode": "unknown",
+  "plugged_in": "unknown",
+  "hardware_notes": {
+    "machine": "user machine",
+    "power_mode": "unknown",
+    "plugged_in": "unknown"
+  },
+  "gpu_state": "not applicable: synthetic CPU check"
+}

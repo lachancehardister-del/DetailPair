@@ -21,3 +21,14 @@ DetailPair_v0.2.8/runs/**/datasets/
 DetailPair_v0.2.8/runs/**/*.png
 DetailPair_v0.2.8/runs/**/*.jpg
 DetailPair_v0.2.8/runs/**/*.npy
+
+# BoxRoute runtime data and trained/private initialization remain local. Public fixed sources are explicit.
+BoxRoute_v0.3.0/runs/**/private_data/
+BoxRoute_v0.3.0/runs/**/datasets/
+BoxRoute_v0.3.0/runs/**/*.pt
+BoxRoute_v0.3.0/runs/**/*.pth
+BoxRoute_v0.3.0/runs/**/*.png
+BoxRoute_v0.3.0/runs/**/*.jpg
+BoxRoute_v0.3.0/runs/**/*.jpeg
+BoxRoute_v0.3.0/runs/**/*.npy
+BoxRoute_v0.3.0/runs/**/*.npz

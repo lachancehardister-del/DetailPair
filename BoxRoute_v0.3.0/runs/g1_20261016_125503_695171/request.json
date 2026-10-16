@@ -1,0 +1,8 @@
+{
+  "stage": "g1",
+  "paths": null,
+  "flow_check": false,
+  "Work_review": null,
+  "worker_request": null,
+  "synthetic_check": true
+}

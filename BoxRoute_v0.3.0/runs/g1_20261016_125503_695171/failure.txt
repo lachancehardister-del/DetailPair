@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/DetailPair/BoxRoute_v0.3.0/run_boxroute.py", line 197, in main
+    try:code=run_stage(args,out)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/DetailPair/BoxRoute_v0.3.0/run_boxroute.py", line 119, in run_stage
+    if args.stage=='g1':dump(out/'Work_review.json',approve_G1(args.Work_review))
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/DetailPair/BoxRoute_v0.3.0/run_boxroute.py", line 102, in approve_G1
+    if not path:raise ValueError('G1 requires an explicit Work-reviewed G0 record; default stops after G0')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: G1 requires an explicit Work-reviewed G0 record; default stops after G0

@@ -1,0 +1,15 @@
+{
+  "status": "synthetic_G0_flow_passed_no_real_screen",
+  "stage": "g0",
+  "synthetic_check": true,
+  "automatic_G1": false,
+  "test_evaluated": false,
+  "G0_flow_not_effectiveness_experiment": true,
+  "successful_conditions": [
+    "S",
+    "W",
+    "U",
+    "G",
+    "N"
+  ]
+}

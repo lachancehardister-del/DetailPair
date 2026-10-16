@@ -1,0 +1,11 @@
+test_FP_without_TP_is_defined_zero (__main__.ReportingChecks.test_FP_without_TP_is_defined_zero) ... ok
+test_all_classes_have_predictions_macro_differs_from_micro (__main__.ReportingChecks.test_all_classes_have_predictions_macro_differs_from_micro) ... ok
+test_comparison_preserves_AP_counts_legacy_values_and_inputs (__main__.ReportingChecks.test_comparison_preserves_AP_counts_legacy_values_and_inputs) ... ok
+test_empty_denominators_and_mapping_guard (__main__.ReportingChecks.test_empty_denominators_and_mapping_guard) ... ok
+test_no_predictions_with_GT_keeps_null (__main__.ReportingChecks.test_no_predictions_with_GT_keeps_null) ... ok
+test_same_support_count_different_class_sets_not_comparable (__main__.ReportingChecks.test_same_support_count_different_class_sets_not_comparable) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK

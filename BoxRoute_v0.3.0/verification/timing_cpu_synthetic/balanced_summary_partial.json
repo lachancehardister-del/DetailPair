@@ -1,0 +1,20 @@
+{
+  "blocks": [],
+  "variants": {},
+  "adjacent_pairs": [],
+  "cycles": [],
+  "complete": false,
+  "expected_samples": 48,
+  "actual_samples": 0,
+  "drift_threshold": 1.1,
+  "drift_reasons": [
+    "block0:incomplete",
+    "incomplete_balanced_design"
+  ],
+  "timing_status": "incomplete",
+  "position_ordering_changes": false,
+  "comparison_credible": false,
+  "speed_conclusion": "pending_Work_review",
+  "no_automatic_retries": true,
+  "scope": "All samples retained; window/condition ratios are engineering screens, not statistical significance"
+}

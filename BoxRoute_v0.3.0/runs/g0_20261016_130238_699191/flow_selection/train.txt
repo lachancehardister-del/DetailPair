@@ -1,0 +1,4 @@
+/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/images/train/000003_b0c0d0fdaedc.png
+/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/images/train/000001_88ee3703d62e.png
+/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/images/train/000002_70c469be285e.png
+/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/private_data/images/train/000000_ee1fb514fc37.png

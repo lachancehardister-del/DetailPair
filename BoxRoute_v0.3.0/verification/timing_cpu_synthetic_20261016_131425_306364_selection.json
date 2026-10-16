@@ -1,0 +1,21 @@
+{
+  "seed": 178,
+  "rule": "canonical resolved source path order, independent Random178 shuffle, no coverage redraw",
+  "count": 6,
+  "class_box_counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "source_image_sha256": [
+    "405519abacd2272e5ce4f63ae2ed94177116765130a0b46a3090bf49b7aa4227",
+    "dc0ed60398ec035ee4e5ec29e3d1fd2dd0a22d3eab18563f5c382e3d71239c6d",
+    "e0a71f9fcf93bc9de5dd32c2534a0fdf10a5556b849f31b191bc361572e14292",
+    "b4295c2973152de93c024b0c944279f402faa9d944028e99615343404915baf0",
+    "d0bcb6b233960efa4c46909767c4169c8273008de809da6dbe0740e43ad7ed48",
+    "bf137442e5d4accc22845415a008905622da0edfecdcee831284bd8c0ce5f19b"
+  ]
+}

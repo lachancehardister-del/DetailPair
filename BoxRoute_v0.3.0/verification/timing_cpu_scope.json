@@ -1,0 +1,5 @@
+{
+  "status": "bookkeeping_passed",
+  "scope": "CPU synthetic6images x8blocks, reduced warmup explicitly; not actual GPU speed or G0 384-sample timing",
+  "actual_samples": 48
+}

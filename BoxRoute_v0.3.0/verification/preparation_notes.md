@@ -1,0 +1,1 @@
+辅助环境清单首次误用系统Python，importlib.metadata查询torch时PackageNotFoundError；之前的全部PyTorch测试均使用/workspace/venvs/detailpair/bin/python，不受影响。改用实际测试venv后生成environment_cpu.json，未安装依赖。代码工具复制时一次相对父路径在生成阶段纠正，未运行错误工程。

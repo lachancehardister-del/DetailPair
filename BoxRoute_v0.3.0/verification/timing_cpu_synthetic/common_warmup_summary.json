@@ -1,0 +1,10 @@
+{
+  "target_seconds": 0.02,
+  "actual_seconds": 0.0713326950208284,
+  "counts": {
+    "N": 1,
+    "G": 1
+  },
+  "equal_counts": true,
+  "rule": "paired alternating N,G; includes transport gaps; all warmup excluded from measurement"
+}

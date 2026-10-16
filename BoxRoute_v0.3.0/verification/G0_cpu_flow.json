@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scope": "Explicit CPU procedural4train/2val,2epochs five conditions; not NEU/GPU/results",
+  "G0_run": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191",
+  "G1_blocked_run": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g1_20261016_130345_297760",
+  "train_val_final_eval_actual_shape": "320 square FP32",
+  "unstripped_epoch2_verified": true,
+  "source_bytes_unchanged": true,
+  "no_automatic_G1": true,
+  "timing": "not_run_CPU_fixture_no_speed_claim"
+}

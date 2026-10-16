@@ -1,0 +1,135 @@
+{
+  "review_type": "targeted nearest-method scoping, single assistant reviewer",
+  "methods": [
+    {
+      "id": "M1",
+      "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+      "year": 2025,
+      "identifier": "arXiv:2501.03775v4",
+      "url": "https://arxiv.org/html/2501.03775v4",
+      "scope": "full text §3.2–3.3; StripBlock and selected detector config",
+      "repo": "https://github.com/HVision-NKU/Strip-R-CNN",
+      "commit": "c2d3cf4f9c561f4dea6d6779bcc7aaf3c5ae1b78",
+      "code_files": [
+        "stripnet_fixed.py",
+        "strip_config_fixed.py"
+      ],
+      "formula_locations": "§3.2 sequential depthwise strips and multiplicative output; config CE/SmoothL1",
+      "status": "arXiv report read; author repo labels AAAI2026, proceedings not separately checked",
+      "retrieved_date": "2026-10-16",
+      "date_timezone": "Asia/Shanghai",
+      "claim_scope": "Mechanism/objective extraction only; author numerical results not compared to this project"
+    },
+    {
+      "id": "M2",
+      "title": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote Sensing Object Detection",
+      "year": 2026,
+      "identifier": "arXiv:2603.16341v1",
+      "url": "https://arxiv.org/html/2603.16341v1",
+      "scope": "full text §3.3–3.4 equations2–10; PKSModule and selected OrientedRCNN config",
+      "repo": "https://github.com/PKINet/PKINet",
+      "commit": "a33aa22d188c9946cc83fba60e3bb8ac0ec82ff7",
+      "code_files": [
+        "pkinet_v2_fixed.py",
+        "pki_config_fixed.py"
+      ],
+      "formula_locations": "Eq2–5 heterogeneous kernels/BN sum/attention product; Eq6–10 HKR",
+      "status": "arXiv report read; author repo labels ECCV2026, proceedings not separately checked",
+      "retrieved_date": "2026-10-16",
+      "date_timezone": "Asia/Shanghai",
+      "claim_scope": "Mechanism/objective extraction only; author numerical results not compared to this project"
+    },
+    {
+      "id": "M3",
+      "title": "Large Selective Kernel Network for Remote Sensing Object Detection",
+      "year": 2023,
+      "identifier": "ICCV2023 pp16794–16805; arXiv:2303.09030",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection_ICCV_2023_paper.pdf",
+      "scope": "full PDF §3; LSKblock code",
+      "repo": "https://github.com/zcablii/LSKNet",
+      "commit": "4671650cb38830370d63df81078338c2a3b8eb58",
+      "code_files": [
+        "lsknet_fixed.py"
+      ],
+      "formula_locations": "§3 large-kernel decomposition and spatial selection; exact source LSKblock.forward",
+      "status": "published CVF proceedings record and PDF retrieved",
+      "retrieved_date": "2026-10-16",
+      "date_timezone": "Asia/Shanghai",
+      "claim_scope": "Mechanism/objective extraction only; author numerical results not compared to this project"
+    },
+    {
+      "id": "M4",
+      "title": "Region Proposal by Guided Anchoring",
+      "year": 2019,
+      "identifier": "CVPR2019 pp2965–2974; 10.1109/CVPR.2019.00308",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.pdf",
+      "scope": "full PDF §3.2–3.4 Eq2–6",
+      "formula_locations": "width/height transform Eq2; feature adaptation Eq3; joint objective Eq4; shape loss Eq6",
+      "status": "published CVF proceedings record and PDF retrieved; implementation not run",
+      "retrieved_date": "2026-10-16",
+      "date_timezone": "Asia/Shanghai",
+      "claim_scope": "Mechanism/objective extraction only; author numerical results not compared to this project"
+    },
+    {
+      "id": "M5",
+      "title": "SPDCN: Strip-based Deformable Convolutional Network for Steel Surface Defect Segmentation",
+      "year": 2026,
+      "identifier": "arXiv:2607.21456v1",
+      "url": "https://arxiv.org/html/2607.21456v1",
+      "scope": "full text III-C/III-D Eq7–11",
+      "formula_locations": "horizontal/vertical strip offsets and masks Eq7–10; BCE+Dice Eq11",
+      "status": "preprint; full runnable author code not verified; segmentation not HBB detection",
+      "retrieved_date": "2026-10-16",
+      "date_timezone": "Asia/Shanghai",
+      "claim_scope": "Mechanism/objective extraction only; author numerical results not compared to this project"
+    },
+    {
+      "id": "M6",
+      "title": "From Geometric Alignment to Scale Balance: Directional Strip Convolution and Efficient Scale Fusion for Remote Sensing Ship Detection",
+      "year": 2026,
+      "identifier": "10.3390/rs18060873",
+      "url": "https://www.mdpi.com/2072-4292/18/6/873",
+      "scope": "publisher full text §3 and Crossref identity",
+      "formula_locations": "DSConv §3.2; article states standard RT-DETR training/matching retained",
+      "status": "publisher/Crossref date2026-03-12; author code link observed, not run",
+      "retrieved_date": "2026-10-16",
+      "date_timezone": "Asia/Shanghai",
+      "claim_scope": "Mechanism/objective extraction only; author numerical results not compared to this project"
+    },
+    {
+      "id": "M7",
+      "title": "Supervised Focused Feature Network for Steel Strip Surface Defect Detection",
+      "year": 2025,
+      "identifier": "10.3390/math13203285",
+      "url": "https://www.mdpi.com/2227-7390/13/20/3285",
+      "scope": "publisher full text §3 and Crossref identity",
+      "formula_locations": "supervised region construction; SCN/SDCN and RPN allocation; no complete reproduction",
+      "status": "publisher/Crossref date2025-10-14; inference replication not performed",
+      "retrieved_date": "2026-10-16",
+      "date_timezone": "Asia/Shanghai",
+      "claim_scope": "Mechanism/objective extraction only; author numerical results not compared to this project"
+    },
+    {
+      "id": "M8",
+      "title": "Multi-level perceptual and shape-guided lightweight network for insulator defect detection",
+      "year": 2026,
+      "identifier": "10.1007/s11760-026-05634-6",
+      "url": "https://link.springer.com/article/10.1007/s11760-026-05634-6",
+      "scope": "publisher preview only; my_model.yaml, SDetect/StripConv and selected v8DetectionLoss class",
+      "repo": "https://github.com/taozhetmx/MPSL_Net",
+      "commit": "7ab0e585fa595683a5842e9cbea42ab8246f8e40",
+      "code_files": [
+        "mpsl_model_fixed.yaml",
+        "mpsl_head_fixed.py",
+        "mpsl_conv_fixed.py",
+        "mpsl_loss_fixed.py"
+      ],
+      "formula_locations": "full-paper training objective NOT obtained; selected code cannot establish complete entrypoint equivalence",
+      "status": "publisher/Crossref date2026-08-22; subscription preview; master corrected from initial failed main request",
+      "retrieved_date": "2026-10-16",
+      "date_timezone": "Asia/Shanghai",
+      "claim_scope": "Mechanism/objective extraction only; author numerical results not compared to this project"
+    }
+  ],
+  "withdrawal_checks": "No comprehensive Crossmark/retraction-database assessment"
+}

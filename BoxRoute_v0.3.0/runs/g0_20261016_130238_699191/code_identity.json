@@ -1,0 +1,21 @@
+{
+  "files": {
+    "run_boxroute.py": "a30275b348cd09a3fd7ee7c522a5b7232e1ea7f278c78d5d1dcf7b6764a92269",
+    "legacy_detailpair/model.py": "366e6756f9246ddbfe410530351811f7d728a97d05765110d9e25b460a47ed52",
+    "boxroute/__init__.py": "34177c71b2ca28f1e5f0314bf719c85f067124fa2848d7eba01046755097ce27",
+    "boxroute/benchmark.py": "bfa336be4b11f6951427d85fddb80481ad57fcdfff430a187bfe146960287ea7",
+    "boxroute/checks.py": "1aea93f96423a4407ce7531fede6be6dd927b9d5a55beb8c2b208803ac2afb03",
+    "boxroute/config.py": "0c21009cfb4fe03177486771757e0ed54ab5b9553ffbaa17cb2ffc46e4b971e4",
+    "boxroute/data.py": "0c049c4abcf035a5d1f90b7ac9275969eebe192e6321b2a9c2165c83f4786475",
+    "boxroute/decisions.py": "9ba2170b70cbcb61395cd1f2eb3eb49c54c80f97f3605330478731b56f95cff6",
+    "boxroute/evaluate.py": "a8514e10be5fd6f3461898ec25cae56bdfc455d1ed264607e6b760da78848dfc",
+    "boxroute/geometry.py": "4239f1e89152377f9ffbde8558ef613423d014b64224ff3f9d9d16f2e9dc3642",
+    "boxroute/identity.py": "a602973c5bfe8d6b6ece076427ebba8d9adfa1a5259e5403399b164acb47d87b",
+    "boxroute/model.py": "7186b53e120af1faa6aa0657a353f5fc0c28e1c7b039e7b48aa23470e71e9e5e",
+    "boxroute/native_equivalence.py": "860fadc7ca32ecbf8ec731468101e37900b1e2cdcd53b6984ab285db72e8d77f",
+    "boxroute/pks.py": "a3011f611b4696623e63f3c62323d7ac4ef0a4da885ea8614937efad9ad78d1d",
+    "boxroute/reporting.py": "3ff481b2e100b4da6a82e0dd5da288331a4d5b3faa67d6bafae76457acbb943e",
+    "boxroute/trainer.py": "80b746bf96d48f7c0895a68d1a70c704bba171a2a802e9c79a2cc6e5a2d3399a"
+  },
+  "sha256": "ab7ca466e76b01133e65d1843ed95015a476a6fc628431d0ea572967a0d71894"
+}

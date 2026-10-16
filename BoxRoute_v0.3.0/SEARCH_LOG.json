@@ -1,0 +1,1725 @@
+{
+  "scope": "Targeted scoping and nearest-method audit; not systematic exhaustive review",
+  "calls": [
+    {
+      "call": "design_search_01",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "site:github.com/ultralytics/ultralytics \"v8.3.221\" \"loss.py\""
+          },
+          {
+            "q": "steel surface defect detection 2025 2026 reparameterization strip convolution official code"
+          },
+          {
+            "q": "site:openaccess.thecvf.com Strip R-CNN 2025 strip convolution"
+          },
+          {
+            "q": "surface defect detection boundary localization uncertainty loss 2025 2026 official code"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "Reparameterization-Driven Depthwise Separable Large-Kernel Network for Lightweight Salient Object Detection of Strip Steel Surface Defects.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42019075/",
+          "reference": "turn44search0"
+        },
+        {
+          "title": "GitHub - SvyJ/MISDD-MM: [T-Mech 2025] Resilient Multimodal Industrial Surface Defect Detection with Uncertain Sensors Availability · GitHub",
+          "url": "https://github.com/SvyJ/MISDD-MM",
+          "reference": "turn44search1"
+        },
+        {
+          "title": "SPDCN: Strip-based Deformable Convolutional Network for Steel Surface Defect Segmentation",
+          "url": "https://arxiv.org/abs/2607.21456",
+          "reference": "turn44academia36"
+        },
+        {
+          "title": "HMA-DETR: a real-time hybrid multi-scale adaptive feature learning network for steel surface defect detection | Journal of Real-Time Image Processing | Springer Nature Link",
+          "url": "https://doi.org/10.1007/s11554-026-01951-8",
+          "reference": "turn44search2"
+        },
+        {
+          "title": "Measuring the Impact of Rotation Equivariance on Aerial Object Detection",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wu_Measuring_the_Impact_of_Rotation_Equivariance_on_Aerial_Object_Detection_ICCV_2025_paper.pdf",
+          "reference": "turn44search37"
+        },
+        {
+          "title": "Multi-scale fusion convolution network with progressive dilation for real-time salient object detection of surface defects on strip steel | Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-43386-y",
+          "reference": "turn44search3"
+        },
+        {
+          "title": "S3Det: Strip steel surface defect detector via enhanced deformable convolution and dual cross-layer pyramid - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0167865526000334",
+          "reference": "turn44search4"
+        },
+        {
+          "title": "Triple-attentions based salient object detector for strip steel surface defects | Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-025-86353-9",
+          "reference": "turn44search5"
+        },
+        {
+          "title": "Yolov7-pcbam: enhancing steel surface defect detection via partial convolution and attention mechanism | Machine Vision and Applications | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1007/s00138-025-01784-8",
+          "reference": "turn44search6"
+        },
+        {
+          "title": "Position-Guided Hybrid Convolutional Neural Network and Transformer Network for steel strip surface defect detection - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0952197625027721",
+          "reference": "turn44search7"
+        },
+        {
+          "title": "Steel surface defect detection benchmark with test-set uncertainty quantification: data and code (NEU-DET, GC10-DET; YOLOv8, YOLO11, YOLO12, RT-DETR) | Zenodo",
+          "url": "https://zenodo.org/records/23073155",
+          "reference": "turn44search8"
+        },
+        {
+          "title": "GitHub - 5dawn/industrial-defect-inspection: Reproducible industrial defect detection with PyTorch and YOLO26n · GitHub",
+          "url": "https://github.com/5dawn/industrial-defect-inspection",
+          "reference": "turn44search9"
+        },
+        {
+          "title": "Improved YOLOv8 for Strip Steel Surface Defect Detection",
+          "url": "https://doi.org/10.1109/CAC67268.2025.11486903",
+          "reference": "turn44search10"
+        },
+        {
+          "title": "Triple-attentions based salient object detector for strip steel surface defects - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11747436/",
+          "reference": "turn44search11"
+        },
+        {
+          "title": "GitHub - FisherYuuri/GSDNet: This is the official code of A Lightweight and Robust Detection Network for Diverse Glass Surface Defects via Scale- and Shape-Aware Feature Extraction. · GitHub",
+          "url": "https://github.com/FisherYuuri/GSDNet",
+          "reference": "turn44search12"
+        },
+        {
+          "title": "YOLOv12-VSD: A Transfer-Learning-Assisted Real-Time Detection Algorithm for Vehicle Surface Defects",
+          "url": "https://doi.org/10.3390/s26092905",
+          "reference": "turn44search13"
+        },
+        {
+          "title": "FasterNet-YOLO for real-time detection of steel surface defects algorithm | PLOS One",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0323248",
+          "reference": "turn44search14"
+        },
+        {
+          "title": "GitHub - adipandas/one-shot-steel-surfaces: One-Shot Recognition of Manufacturing Defects in Steel Surfaces · GitHub",
+          "url": "https://github.com/adipandas/one-shot-steel-surfaces",
+          "reference": "turn44search15"
+        },
+        {
+          "title": "A lightweight steel strip defect texture recognition network based on improved learnable Gabor filter convolution - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S016636152600028X",
+          "reference": "turn44search16"
+        },
+        {
+          "title": "A Structure-strategy Defect Detection Network for Metal Workpiece Surface",
+          "url": "https://xbzrb.gdut.edu.cn/en/article/doi/10.12052/gdutxb.250204",
+          "reference": "turn44search17"
+        },
+        {
+          "title": "No label left behind: a unified surface defect detection model for all supervision regimes | Journal of Intelligent Manufacturing | Springer Nature Link",
+          "url": "https://doi.org/10.1007/s10845-025-02680-8",
+          "reference": "turn44search18"
+        },
+        {
+          "title": "EFEN-YOLOv8: Surface defect detection network based on spatial feature capture and multi-level weighted attention | PLOS One",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0339617",
+          "reference": "turn44search19"
+        },
+        {
+          "title": "TRIDENet: A noise-robust and boundary-aware detection framework for industrial surface defects - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0030399226001945",
+          "reference": "turn44search20"
+        },
+        {
+          "title": "A real-time surface defect detection model based on adaptive feature information selection and fusion - ScienceDirect",
+          "url": "https://doi.org/10.1016/j.inffus.2025.104041",
+          "reference": "turn44search21"
+        },
+        {
+          "title": "DSRD-YOLO: A Lightweight and High-Precision Framework for PCB Defect Detection",
+          "url": "https://doi.org/10.1109/access.2026.3711482",
+          "reference": "turn44search23"
+        },
+        {
+          "title": "MINet: Multi-scale Interactive Network for Real-time Salient Object Detection of Strip Steel Surface Defects",
+          "url": "https://arxiv.org/abs/2405.16096",
+          "reference": "turn44academia38"
+        },
+        {
+          "title": "A Steel Surface Defect Detection Method Based on Lightweight Convolution Optimization",
+          "url": "https://arxiv.org/abs/2507.15476",
+          "reference": "turn44academia39"
+        },
+        {
+          "title": "ShiftwiseConv: Small Convolutional Kernel with Large Kernel Effect",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_ShiftwiseConv_Small_Convolutional_Kernel_with_Large_Kernel_Effect_CVPR_2025_paper.pdf",
+          "reference": "turn44search40"
+        },
+        {
+          "title": "NDT&E International 158 (2026) 103586",
+          "url": "https://faculty.uestc.edu.cn/system/resource/tsites/download.jsp?ap=lwyfj&fid=2149&fl=%2F_vsl%2FBD4198E8DA5AD041DED1932ED38BD281%2F6B69B174%2F4740EB&uid=6894",
+          "reference": "turn44search41"
+        },
+        {
+          "title": "SteelDefectX: A Coarse-to-Fine Vision-Language Dataset and Benchmark for Generalizable Steel Surface Defect Detection",
+          "url": "https://arxiv.org/abs/2603.21824",
+          "reference": "turn44academia42"
+        },
+        {
+          "title": "CVPR 2025 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025W/VAND/html/Fahim_No-MambAAD_Revitalizing_Conv-Only_Networks_for_Unsupervised_Anomaly_Detection_CVPRW_2025_paper.html",
+          "reference": "turn44search24"
+        },
+        {
+          "title": "8th ICONST EST 2025 - Engineering Science and Technology",
+          "url": "https://iconst.org/Files/Dokuman/estbookv1draft-12092025.pdf",
+          "reference": "turn44search43"
+        },
+        {
+          "title": "P",
+          "url": "https://file.techscience.com/files/cmc/2025/online/CMC0326/TSP_CMC_59389/TSP_CMC_59389.pdf",
+          "reference": "turn44search44"
+        },
+        {
+          "title": "GaitStrip: Gait Recognition via Effective Strip-based Feature Representations and Multi-Level Framework",
+          "url": "https://openaccess.thecvf.com/content/ACCV2022/papers/Wang_GaitStrip_Gait_Recognition_via_Effective_Strip-based_Feature_Representations_and_Multi-Level_ACCV_2022_paper.pdf",
+          "reference": "turn44search45"
+        },
+        {
+          "title": "CVPR 2025 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Qin_CLIP_is_Almost_All_You_Need_Towards_Parameter-Efficient_Scene_Text_CVPR_2025_paper.html",
+          "reference": "turn44search25"
+        },
+        {
+          "title": "CVPR 2025 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Adaptive_Rectangular_Convolution_for_Remote_Sensing_Pansharpening_CVPR_2025_paper.html",
+          "reference": "turn44search26"
+        },
+        {
+          "title": "CVPR 2020 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Hou_Strip_Pooling_Rethinking_Spatial_Pooling_for_Scene_Parsing_CVPR_2020_paper.html",
+          "reference": "turn44search27"
+        },
+        {
+          "title": "CVPR 2025 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Berdan_ReRAW_RGB-to-RAW_Image_Reconstruction_via_Stratified_Sampling_for_Efficient_Object_CVPR_2025_paper.html",
+          "reference": "turn44search28"
+        },
+        {
+          "title": "CVPR 2025 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Rotation-Equivariant_Self-Supervised_Method_in_Image_Denoising_CVPR_2025_paper.html",
+          "reference": "turn44search29"
+        }
+      ],
+      "returned_record_count": 39,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "cdcf890c13bbc05e64f27ed06e5a3dc40a4efbe3014c44b31a74a48882490ba8",
+      "retrieval_errors": []
+    },
+    {
+      "call": "design_search_02",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "system1_search_query": [
+          {
+            "q": "site:openaccess.thecvf.com \"Strip R-CNN\" 2025"
+          },
+          {
+            "q": "steel surface defect detection structural reparameterization directional convolution 2026 2025 github"
+          },
+          {
+            "q": "site:link.springer.com/article/10.1007/s11554 2026 surface defect detection reparameterization"
+          },
+          {
+            "q": "\"steel\" \"aspect ratio\" \"convolution\" defect detection 2025 2026"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "RoadGIE: Towards A Global-Scale Aerial Benchmark for ...",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Peng_RoadGIE_Towards_A_Global-Scale_Aerial_Benchmark_for_Generalizable_Interactive_Road_CVPR_2026_paper.pdf",
+          "reference": "turn45search0"
+        },
+        {
+          "title": "defect-detection",
+          "url": "https://github.com/topics/defect-detection",
+          "reference": "turn45search1"
+        },
+        {
+          "title": "A steel surface defect detection method based on improved ...",
+          "url": "https://www.nature.com/articles/s41598-025-88527-x",
+          "reference": "turn45search2"
+        },
+        {
+          "title": "Fourier Angle Alignment for Oriented Object Detection in ...",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Gu_Fourier_Angle_Alignment_for_Oriented_Object_Detection_in_Remote_Sensing_CVPR_2026_paper.pdf",
+          "reference": "turn45search3"
+        },
+        {
+          "title": "steel-defect-detection",
+          "url": "https://github.com/topics/steel-defect-detection",
+          "reference": "turn45search4"
+        },
+        {
+          "title": "A Deep-Learning-Based Method for High-Precision Real ...",
+          "url": "https://www.mdpi.com/2227-7390/14/4/621",
+          "reference": "turn45search5"
+        },
+        {
+          "title": "SFS-DETR: Spatial-Frequency Selection for UAV Object ...",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Jia_SFS-DETR_Spatial-Frequency_Selection_for_UAV_Object_Detection_CVPRF_2026_paper.pdf",
+          "reference": "turn45search6"
+        },
+        {
+          "title": "An accurate, generalized, and efficient detection framework ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0952197626009723",
+          "reference": "turn45search7"
+        },
+        {
+          "title": "WTCFNet for industrial defect detection using wavelet ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13421597/",
+          "reference": "turn45search8"
+        },
+        {
+          "title": "Charmve/Surface-Defect-Detection: 📈 目前最大的工业缺陷 ...",
+          "url": "https://github.com/Charmve/Surface-Defect-Detection",
+          "reference": "turn45search9"
+        },
+        {
+          "title": "WECI-YOLO: Multi-Module Enhanced Steel Surface Quality ...",
+          "url": "https://ieeexplore.ieee.org/iel8/6287639/11323511/11321132.pdf",
+          "reference": "turn45search10"
+        },
+        {
+          "title": "Issues · tanjeelmujawar/steel-surface-defect-detection",
+          "url": "https://github.com/tanjeelmujawar/steel-surface-defect-detection/issues/views",
+          "reference": "turn45search11"
+        },
+        {
+          "title": "A Review of Steel Surface Defect Detection for Industrial ...",
+          "url": "https://www.preprints.org/manuscript/202609.0355",
+          "reference": "turn45search12"
+        },
+        {
+          "title": "Automated Steel Surface Defect Detection using CNN ...",
+          "url": "https://github.com/tanjeelmujawar/steel-surface-defect-detection",
+          "reference": "turn45search13"
+        },
+        {
+          "title": "Research on improved YOLOv8 for steel surface defect detection",
+          "url": "https://remotesensing.spiedigitallibrary.org/conference-proceedings-of-spie/14005/140050D/Research-on-improved-YOLOv8-for-steel-surface-defect-detection/10.1117/12.3092835.full",
+          "reference": "turn45search14"
+        },
+        {
+          "title": "Steel Surface Defect Detection using Object Detection",
+          "url": "https://debuggercafe.com/steel-surface-defect-detection/",
+          "reference": "turn45search15"
+        },
+        {
+          "title": "FD-YOLO: An Attention-Augmented Lightweight Network ...",
+          "url": "https://www.techscience.com/cmc/v86n2/64785/html",
+          "reference": "turn45search16"
+        },
+        {
+          "title": "steel-defect-segmentation",
+          "url": "https://github.com/topics/steel-defect-segmentation",
+          "reference": "turn45search17"
+        },
+        {
+          "title": "Advancing Real-Time Metal Surface Defect Detection: An ...",
+          "url": "https://openurl.ebsco.com/fulltext/gcd%3A195912082?crl=f&id=ebsco%3Agcd%3A195912082&jrnl=19767277&sid=ebsco%3Aplink%3Acrawler-gcd",
+          "reference": "turn45search18"
+        },
+        {
+          "title": "SPDCN: Strip-based Deformable Convolutional Network for Steel Surface Defect Segmentation",
+          "url": "https://arxiv.org/abs/2607.21456",
+          "reference": "turn45academia24"
+        },
+        {
+          "title": "A Steel Surface Defect Detection Method Based on Lightweight Convolution Optimization",
+          "url": "https://arxiv.org/abs/2507.15476",
+          "reference": "turn45academia25"
+        },
+        {
+          "title": "High-Accuracy Surface Defect Detection for Metal Strips",
+          "url": "https://www.researchsquare.com/article/rs-10460206/latest.pdf",
+          "reference": "turn45search20"
+        },
+        {
+          "title": "SteelDefectX: A Coarse-to-Fine Vision-Language Dataset and Benchmark for Generalizable Steel Surface Defect Detection",
+          "url": "https://arxiv.org/abs/2603.21824",
+          "reference": "turn45academia26"
+        },
+        {
+          "title": "DIDW-YOLOv11: The Steel Surface Defect Detection ...",
+          "url": "https://www.mdpi.com/2079-9292/15/12/2593",
+          "reference": "turn45search22"
+        },
+        {
+          "title": "MINet: Multi-scale Interactive Network for Real-time Salient Object Detection of Strip Steel Surface Defects",
+          "url": "https://arxiv.org/abs/2405.16096",
+          "reference": "turn45academia27"
+        },
+        {
+          "title": "defect-classification · GitHub Topics",
+          "url": "https://github.com/topics/defect-classification",
+          "reference": "turn45search23"
+        }
+      ],
+      "returned_record_count": 26,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "b83542422302aca02f7af638bcf7af604d30e8452f4f5faa045f6803bec1d1fe",
+      "retrieval_errors": []
+    },
+    {
+      "call": "design_sources_03",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/models/yolo/detect/train.py"
+          },
+          {
+            "ref_id": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/nn/tasks.py"
+          },
+          {
+            "ref_id": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/utils/loss.py"
+          },
+          {
+            "ref_id": "https://arxiv.org/abs/2501.03775"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "[2501.03775] Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+          "url": "https://arxiv.org/abs/2501.03775",
+          "reference": "turn46view3"
+        }
+      ],
+      "returned_record_count": 1,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "d001c7e6b752b6fb738e30d79dd5e708a350ba86d3492c335a3342c45747edc0",
+      "retrieval_errors": [
+        "Internal Error ()\n【turn46view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/models/yolo/detect/train.py\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/models/yolo/detect/train.py: DisabledError\n",
+        "Internal Error ()\n【turn46view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/nn/tasks.py\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/nn/tasks.py: DisabledError\n",
+        "Internal Error ()\n【turn46view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/utils/loss.py\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.221/ultralytics/utils/loss.py: DisabledError\n"
+      ]
+    },
+    {
+      "call": "design_sources_04",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://github.com/ultralytics/ultralytics/blob/v8.3.221/ultralytics/models/yolo/detect/train.py"
+          },
+          {
+            "ref_id": "https://docs.ultralytics.com/reference/utils/loss/"
+          },
+          {
+            "ref_id": "https://arxiv.org/html/2501.03775v4"
+          },
+          {
+            "ref_id": "https://arxiv.org/html/2607.21456v1"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "utils.loss API Reference | Ultralytics",
+          "url": "https://docs.ultralytics.com/reference/utils/loss/",
+          "reference": "turn47view1"
+        },
+        {
+          "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+          "url": "https://arxiv.org/html/2501.03775v4",
+          "reference": "turn47view2"
+        },
+        {
+          "title": "SPDCN: Strip-based Deformable Convolutional Network for Steel Surface Defect Segmentation",
+          "url": "https://arxiv.org/html/2607.21456v1",
+          "reference": "turn47view3"
+        }
+      ],
+      "returned_record_count": 3,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "3ff325b0755f9f6596067eb292fd75abf5ca5e1ac7c48e2f2fc501b0b97e24ba",
+      "retrieval_errors": [
+        "Internal Error ()\n【turn47view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://github.com/ultralytics/ultralytics/blob/v8.3.221/ultralytics/models/yolo/detect/train.py\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://github.com/ultralytics/ultralytics/blob/v8.3.221/ultralytics/models/yolo/detect/train.py: DisabledError\n"
+      ]
+    },
+    {
+      "call": "design_search_05",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"Strip R-CNN\" github stripnet.py"
+          },
+          {
+            "q": "\"ACNet\" asymmetric convolution kernel skeleton official github"
+          },
+          {
+            "q": "\"shape\" \"routing\" \"strip convolution\" detection 2025 2026"
+          },
+          {
+            "q": "\"geometry\" \"supervision\" \"strip\" convolution detection"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "GitHub - DingXiaoH/ACNet: ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks · GitHub",
+          "url": "https://github.com/DingXiaoH/ACNet",
+          "reference": "turn48search0"
+        },
+        {
+          "title": "GitHub - hellloxiaotian/ACNet: Asymmetric CNN for image super-resolution (IEEE Transactions on Systmes, Man, and Cybernetics: Systems 2021) · GitHub",
+          "url": "https://github.com/hellloxiaotian/ACNet",
+          "reference": "turn48search1"
+        },
+        {
+          "title": "GitHub - YXB-NKU/Strip-R-CNN: [AAAI 2026]\"Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection\" · GitHub",
+          "url": "https://github.com/YXB-NKU/Strip-R-CNN",
+          "reference": "turn48search2"
+        },
+        {
+          "title": "GitHub - YXB-NKU/Strip-R-CNN: [AAAI 2026]\"Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection\" · GitHub",
+          "url": "https://github.com/yxb-nku/strip-r-cnn",
+          "reference": "turn48search3"
+        },
+        {
+          "title": "ACNet/README.md at master · DingXiaoH/ACNet · GitHub",
+          "url": "https://github.com/DingXiaoH/ACNet/blob/master/README.md",
+          "reference": "turn48search4"
+        },
+        {
+          "title": "ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks",
+          "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Ding_ACNet_Strengthening_the_Kernel_Skeletons_for_Powerful_CNN_via_Asymmetric_ICCV_2019_paper.pdf",
+          "reference": "turn48search48"
+        },
+        {
+          "title": "GitHub - anheidelonghu/ACNet: ACNet: Attention Complementary Network for RGBD semantic segmentation · GitHub",
+          "url": "https://github.com/anheidelonghu/ACNet",
+          "reference": "turn48search5"
+        },
+        {
+          "title": "ICCV 2019 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Ding_ACNet_Strengthening_the_Kernel_Skeletons_for_Powerful_CNN_via_Asymmetric_ICCV_2019_paper.html",
+          "reference": "turn48search6"
+        },
+        {
+          "title": "Strip-R-CNN/README.md at main · HVision-NKU/Strip-R-CNN · GitHub",
+          "url": "https://github.com/HVision-NKU/Strip-R-CNN/blob/main/README.md",
+          "reference": "turn48search7"
+        },
+        {
+          "title": "GitHub - HVision-NKU/Strip-R-CNN: [AAAI 2026]\"Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection\" · GitHub",
+          "url": "https://github.com/HVision-NKU/Strip-R-CNN",
+          "reference": "turn48search8"
+        },
+        {
+          "title": "复现问题 · Issue #42 · HVision-NKU/Strip-R-CNN · GitHub",
+          "url": "https://github.com/HVision-NKU/Strip-R-CNN/issues/42",
+          "reference": "turn48search9"
+        },
+        {
+          "title": "GitHub - leftthomas/ACNet: A PyTorch implementation of ACNet based on TCSVT 2023 paper \"ACNet: Approaching-and-Centralizing Network for Zero-Shot Sketch-Based Image Retrieval\" · GitHub",
+          "url": "https://github.com/leftthomas/ACNet",
+          "reference": "turn48search10"
+        },
+        {
+          "title": "GitHub - hellloxiaotian/ACNet: Asymmetric CNN for image super-resolution (IEEE Transactions on Systmes, Man, and Cybernetics: Systems 2021) · GitHub",
+          "url": "https://qgithub.com/hellloxiaotian/ACNet",
+          "reference": "turn48search11"
+        },
+        {
+          "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+          "url": "https://arxiv.org/abs/2501.03775",
+          "reference": "turn48academia49"
+        },
+        {
+          "title": "How are the pre-trained weights trained? · Issue #20 · HVision-NKU/Strip-R-CNN · GitHub",
+          "url": "https://github.com/HVision-NKU/Strip-R-CNN/issues/20",
+          "reference": "turn48search12"
+        },
+        {
+          "title": "YXB-NKU/Strip-R-CNN - GitHubHelp",
+          "url": "https://githubhelp.com/YXB-NKU/Strip-R-CNN",
+          "reference": "turn48search13"
+        },
+        {
+          "title": "Full Code of DingXiaoH/ACNet for AI - Complete Repository Source | GitExtract",
+          "url": "https://gitextract.com/DingXiaoH/ACNet",
+          "reference": "turn48search14"
+        },
+        {
+          "title": "LSKNet/README.md at main · zcablii/LSKNet · GitHub",
+          "url": "https://github.com/zcablii/LSKNet/blob/main/README.md?plain=1",
+          "reference": "turn48search15"
+        },
+        {
+          "title": "Learning-Deep-Learning/paper_notes/acnet.md at master · patrick-llgc/Learning-Deep-Learning · GitHub",
+          "url": "https://github.mosekj.com/patrick-llgc/Learning-Deep-Learning/blob/master/paper_notes/acnet.md",
+          "reference": "turn48search16"
+        },
+        {
+          "title": "ACNet - GitLite",
+          "url": "https://gitlite.dev/detail.php?id=OG214cw33uPmdG0ohwnIijOt1FhtzZFGNmA3uovGCBI",
+          "reference": "turn48search17"
+        },
+        {
+          "title": "ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks",
+          "url": "https://arxiv.org/abs/1908.03930",
+          "reference": "turn48academia50"
+        },
+        {
+          "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection | Papers With Code",
+          "url": "https://paperswithcode.com/paper/strip-r-cnn-large-strip-convolution-for",
+          "reference": "turn48search18"
+        },
+        {
+          "title": "README.md · hscoder/ACNet - Gitee",
+          "url": "https://gitee.com/superVanlk/ACNet/blob/master/README.md?skip_mobile=true",
+          "reference": "turn48search19"
+        },
+        {
+          "title": "GitHub - YXB-NKU/Strip-R-CNN: [AAAI 2026]\"Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection\" · GitHub",
+          "url": "https://shoptherite.com/?_=%2FYXB-NKU%2FStrip-R-CNN%23twhA%2FDXBZl%2FXcdax7koclrAR",
+          "reference": "turn48search20"
+        },
+        {
+          "title": "Strip-R-CNN/docs/en/model_zoo.md at main · HVision-NKU/Strip-R-CNN · GitHub",
+          "url": "https://github.com/HVision-NKU/Strip-R-CNN/blob/main/docs/en/model_zoo.md",
+          "reference": "turn48search21"
+        },
+        {
+          "title": "Structure-guided feature fusion and geometric angle supervision for robust lane detection | Discover Computing | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1007/s10791-026-10599-8",
+          "reference": "turn48search22"
+        },
+        {
+          "title": "ICCV 2019 开源访问库 - 计算机视觉基金会开放获取",
+          "url": "https://openaccess.thecvf.com.cn/content_ICCV_2019/html/Ding_ACNet_Strengthening_the_Kernel_Skeletons_for_Powerful_CNN_via_Asymmetric_ICCV_2019_paper.html",
+          "reference": "turn48search23"
+        },
+        {
+          "title": "CN122636609A – Die-cut appearance defect detection method and system based on image processing | Patsnap Eureka",
+          "url": "https://eureka.patsnap.com/patent/CN122636609A",
+          "reference": "turn48search24"
+        },
+        {
+          "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+          "url": "https://www.sota2.com/research/paper/68fa77401e209131cea71ff5",
+          "reference": "turn48search25"
+        },
+        {
+          "title": "Supervised Focused Feature Network for Steel Strip Surface Defect Detection",
+          "url": "https://www.mdpi.com/2227-7390/13/20/3285",
+          "reference": "turn48search26"
+        },
+        {
+          "title": "Asymmetric CNN for image super-resolution",
+          "url": "https://arxiv.org/abs/2103.13634",
+          "reference": "turn48academia51"
+        },
+        {
+          "title": "MDSNet: Multi-directional Strip Network for remote sensing object detection - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0923596526002444",
+          "reference": "turn48search27"
+        },
+        {
+          "title": "From Geometric Alignment to Scale Balance: Directional Strip Convolution and Efficient Scale Fusion for Remote Sensing Ship Detection",
+          "url": "https://www.mdpi.com/2072-4292/18/6/873",
+          "reference": "turn48search28"
+        },
+        {
+          "title": "ACNet: Attention Based Network to Exploit Complementary Features for RGBD Semantic Segmentation",
+          "url": "https://arxiv.org/abs/1905.10089",
+          "reference": "turn48academia52"
+        },
+        {
+          "title": "Frontiers | HPLNet: a hierarchical perception lightweight network for road extraction",
+          "url": "https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2025.1668978/full",
+          "reference": "turn48search29"
+        },
+        {
+          "title": "Real-time monitoring and quality control of printable concrete using an improved YOLOv8-seg network - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S092658052600422X",
+          "reference": "turn48search30"
+        },
+        {
+          "title": "Geometry-adaptive and multi-scale feature perception for intelligent industrial defect detection - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1047320326002488",
+          "reference": "turn48search31"
+        },
+        {
+          "title": "(PDF) SANet: A Pure Vision Strip-Aware Network with PSSCA and Multistage Fusion for Weld Seam Detection",
+          "url": "https://www.researchgate.net/publication/396742938_SANet_A_Pure_Vision_Strip-Aware_Network_with_PSSCA_and_Multistage_Fusion_for_Weld_Seam_Detection",
+          "reference": "turn48search32"
+        },
+        {
+          "title": "Full article: A dual-encoder topology and frequency-aware framework for robust road extraction in high-resolution remote sensing images",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/15481603.2026.2691466",
+          "reference": "turn48search33"
+        },
+        {
+          "title": "Morphology-aware hierarchical mixture of experts for Chest X-ray anatomy segmentation - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0952197626006469",
+          "reference": "turn48search34"
+        },
+        {
+          "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38217/42179",
+          "reference": "turn48search53"
+        },
+        {
+          "title": "BDRNet: Background-Aware Dynamic-Scale Routing Network for UAV Remote Sensing Object Detection",
+          "url": "https://www.mdpi.com/2072-4292/18/12/1987",
+          "reference": "turn48search35"
+        },
+        {
+          "title": "August 2023",
+          "url": "https://www.asprs.org/a/publications/pers/2023journals/23-08_August_FULL.pdf",
+          "reference": "turn48search54"
+        },
+        {
+          "title": "From Generic to Adaptive: Similarity-Adaptive Receptive-Field Cross DETR for Remote-Sensing Object Detection",
+          "url": "https://doi.org/10.3390/rs18101670",
+          "reference": "turn48search36"
+        },
+        {
+          "title": "Multi-Scale Feature Refinement Road Crack Detection Algorithm Based on Improved RT-DETR",
+          "url": "https://www.mdpi.com/2076-3417/16/14/7177",
+          "reference": "turn48search37"
+        },
+        {
+          "title": "Full article: DACF-net: a dynamic attention and context fusion network with geometry-aware multi-scale refinement for sar ship instance segmentation",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/17538947.2026.2696657?af=R",
+          "reference": "turn48search38"
+        },
+        {
+          "title": "MSA-YOLO: A Remote Sensing Object Detection Model Based on Multi-Scale Strip Attention - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10422293/",
+          "reference": "turn48search39"
+        },
+        {
+          "title": "MSA-YOLO: A Remote Sensing Object Detection Model Based on Multi-Scale Strip Attention",
+          "url": "https://www.mdpi.com/1424-8220/23/15/6811",
+          "reference": "turn48search40"
+        },
+        {
+          "title": "Haiti Port Au Prince Gang War",
+          "url": "https://www.catalyzex.com/s/Haiti%20Port%20Au%20Prince%20Gang%20War",
+          "reference": "turn48search41"
+        },
+        {
+          "title": "CN121982072A – Lightweight model-based forklift tray tracking method, system and equipment and medium | Patsnap Eureka",
+          "url": "https://eureka.patsnap.com/patent/CN121982072A",
+          "reference": "turn48search42"
+        }
+      ],
+      "returned_record_count": 50,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "3d33eaeda0da90e414ce0c0c1f342dd97bd961f61e95796997f3fb77e6d519d3",
+      "retrieval_errors": []
+    },
+    {
+      "call": "design_search_06",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "system1_search_query": [
+          {
+            "q": "object detection \"aspect ratio\" \"attention\" \"supervision\" convolution"
+          },
+          {
+            "q": "\"strip convolution\" \"supervision\" \"shape\" detection"
+          },
+          {
+            "q": "\"direction\" \"gating\" \"bounding box\" \"supervision\" detection"
+          },
+          {
+            "q": "\"shape-guided\" \"convolution\" \"defect\" detection 2025 2026"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "MSA-YOLO: A Remote Sensing Object Detection Model ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10422293/",
+          "reference": "turn49search1"
+        },
+        {
+          "title": "Fractional Gradient Stabilization for Semantic-Driven ...",
+          "url": "https://arxiv.org/html/2607.23530v1",
+          "reference": "turn49search2"
+        },
+        {
+          "title": "Multi-level perceptual and shape-guided lightweight network for ...",
+          "url": "https://www.researchgate.net/publication/413528184_Multi-level_perceptual_and_shape-guided_lightweight_network_for_insulator_defect_detection",
+          "reference": "turn49search3"
+        },
+        {
+          "title": "From Geometric Alignment to Scale Balance: Directional ...",
+          "url": "https://www.mdpi.com/2072-4292/18/6/873",
+          "reference": "turn49search5"
+        },
+        {
+          "title": "On Improving Bounding Box Representations for Oriented ...",
+          "url": "https://www.researchgate.net/publication/366488707_On_Improving_Bounding_Box_Representations_for_Oriented_Object_Detection",
+          "reference": "turn49search6"
+        },
+        {
+          "title": "M-3LAB/awesome-industrial-anomaly-detection",
+          "url": "https://github.com/m-3lab/awesome-industrial-anomaly-detection",
+          "reference": "turn49search7"
+        },
+        {
+          "title": "MDSNet: Multi-directional Strip Network for remote sensing ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0923596526002444",
+          "reference": "turn49search8"
+        },
+        {
+          "title": "Learning Object Detection with Weak Supervision",
+          "url": "https://search.proquest.com/openview/1f9a4073e0ff8c5d1308ee0c815fbf67/1?cbl=2026366&diss=y&pq-origsite=gscholar",
+          "reference": "turn49search9"
+        },
+        {
+          "title": "DCRDF-Net: A Dual-Channel Reverse-Distillation Fusion ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12846035/",
+          "reference": "turn49search10"
+        },
+        {
+          "title": "An improved UAV image object detection algorithm ...",
+          "url": "https://www.nature.com/articles/s41598-025-34711-y",
+          "reference": "turn49search11"
+        },
+        {
+          "title": "Large Strip Convolution for Remote Sensing Object Detection",
+          "url": "https://www.researchgate.net/publication/387797786_Strip_R-CNN_Large_Strip_Convolution_for_Remote_Sensing_Object_Detection",
+          "reference": "turn49search12"
+        },
+        {
+          "title": "Front-End and Back-End Adaptations of Oriented R-CNN ...",
+          "url": "https://ieeexplore.ieee.org/iel8/6287639/6514899/11664402.pdf",
+          "reference": "turn49search13"
+        },
+        {
+          "title": "3D vision-based anomaly detection in manufacturing: A survey",
+          "url": "https://link.springer.com/article/10.1007/s42524-025-4189-9",
+          "reference": "turn49search14"
+        },
+        {
+          "title": "[1905.05055] Object Detection in 20 Years: A Survey - ar5iv",
+          "url": "https://ar5iv.labs.arxiv.org/html/1905.05055",
+          "reference": "turn49search15"
+        },
+        {
+          "title": "Multi-scale strip-shaped convolution attention network for ...",
+          "url": "https://www.semanticscholar.org/paper/754bac81a7fb73d740d3d5ca1eba412d79d1d335",
+          "reference": "turn49search16"
+        },
+        {
+          "title": "Weakly Supervised Oriented Object Detection in Remote ...",
+          "url": "https://www.mdpi.com/2072-4292/18/8/1253",
+          "reference": "turn49search17"
+        },
+        {
+          "title": "A context-aware multi-stream attentive convolutional neural ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0020025525006942",
+          "reference": "turn49search18"
+        },
+        {
+          "title": "HVConv: Horizontal and Vertical Convolution for Remote ...",
+          "url": "https://www.mdpi.com/2072-4292/16/11/1880",
+          "reference": "turn49search19"
+        },
+        {
+          "title": "SPDCN: Strip-based Deformable Convolutional Network ...",
+          "url": "https://arxiv.org/html/2607.21456v1",
+          "reference": "turn49search20"
+        },
+        {
+          "title": "HODet:Horizontal-to-Oriented Object Detection with simplified ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13433903/",
+          "reference": "turn49search21"
+        },
+        {
+          "title": "Exploring Point-Language Models for Zero-Shot 3D ...",
+          "url": "https://arxiv.org/html/2603.21511v3",
+          "reference": "turn49search22"
+        },
+        {
+          "title": "[PDF] Deformable ConvNet with Aspect Ratio Constrained NMS ...",
+          "url": "https://www.semanticscholar.org/paper/Deformable-ConvNet-with-Aspect-Ratio-Constrained-in-Xu-Xu/734d12703338174e012f5f41309fe0fc4843db1f",
+          "reference": "turn49search23"
+        },
+        {
+          "title": "Enhancing tunnel crack detection with linear seam using ...",
+          "url": "https://www.nature.com/articles/s41598-024-65909-1",
+          "reference": "turn49search24"
+        },
+        {
+          "title": "Object-aware bounding box regression for online multi- ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925231222013765",
+          "reference": "turn49search25"
+        },
+        {
+          "title": "Resilient Multimodal Industrial Surface Defect Detection ... - Matilda",
+          "url": "https://matilda.science/work/e56d0baf-05bf-44c1-89de-7e5e47fb5e3d",
+          "reference": "turn49search26"
+        },
+        {
+          "title": "Efficient Object Detection with YOLOV8 and KerasCV",
+          "url": "https://keras.io/examples/vision/yolov8/",
+          "reference": "turn49search27"
+        },
+        {
+          "title": "MSCSCNet: Multi-Scale Convolution Selective Context ...",
+          "url": "https://ieeexplore.ieee.org/iel8/4609443/4609444/11175498.pdf",
+          "reference": "turn49search28"
+        },
+        {
+          "title": "Gated3D: Monocular 3D Object Detection From Temporal ...",
+          "url": "https://light.cs.princeton.edu/wp-content/uploads/2021/10/Gated3D.pdf",
+          "reference": "turn49search29"
+        },
+        {
+          "title": "Eighth International Conference on Video and Image ...",
+          "url": "https://spie.org/Publications/Proceedings/Volume/13558",
+          "reference": "turn49search30"
+        },
+        {
+          "title": "Enhanced YOLOv12 Through Sliced Contrastive ...",
+          "url": "https://ieeexplore.ieee.org/iel8/6287639/10820123/11113267.pdf",
+          "reference": "turn49search31"
+        },
+        {
+          "title": "ESA-Det: edge and spatial adaptive network for robust ...",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/17538947.2026.2698185",
+          "reference": "turn49search32"
+        },
+        {
+          "title": "Gated Backbone Fusion with Transformer Encoder for ...",
+          "url": "https://link.springer.com/article/10.1007/s10278-026-01936-w",
+          "reference": "turn49search33"
+        },
+        {
+          "title": "SEAS: FEW-SHOT INDUSTRIAL ANOMALY IMAGE ...",
+          "url": "https://openreview.net/pdf/e747c3939c41911a29b52b1b645251612d6a84c7.pdf",
+          "reference": "turn49search34"
+        },
+        {
+          "title": "An improved algorithm for small object detection based on ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045790622007054",
+          "reference": "turn49search35"
+        },
+        {
+          "title": "LS-MambaNet: Integrating Large Strip Convolution and ...",
+          "url": "https://www.mdpi.com/2072-4292/17/10/1721",
+          "reference": "turn49search36"
+        },
+        {
+          "title": "Introducing Gating and Context Into Temporal Action ...",
+          "url": "https://dl.acm.org/doi/10.1007/978-3-031-91581-9_23",
+          "reference": "turn49search37"
+        },
+        {
+          "title": "CASL: Curvature-Augmented Self-supervised Learning for ...",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38226/42188",
+          "reference": "turn49search38"
+        },
+        {
+          "title": "Fusing Context Features and Spatial Attention to Improve Object ...",
+          "url": "https://repositorio.uchile.cl/bitstream/handle/2250/212700/applsci-13-04250.pdf?isAllowed=y&sequence=-1",
+          "reference": "turn49search39"
+        },
+        {
+          "title": "Mamba Enhanced You Only Look ...",
+          "url": "https://papers.ssrn.com/sol3/Delivery.cfm/b7c7ff72-9bd8-4999-8f66-9ec451696b48-MECA.pdf?abstractid=5059656&mirid=1",
+          "reference": "turn49search40"
+        }
+      ],
+      "returned_record_count": 39,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "33333cb936a3af545ff6e4e636e502fdde860ad472701b29698f8c96bc1fa8f3",
+      "retrieval_errors": []
+    },
+    {
+      "call": "design_sources_07",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn47view2",
+            "pattern": "3.2"
+          },
+          {
+            "ref_id": "turn47view3",
+            "pattern": "ADADC"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://github.com/HVision-NKU/Strip-R-CNN"
+          },
+          {
+            "ref_id": "https://github.com/zcablii/LSKNet"
+          },
+          {
+            "ref_id": "https://openaccess.thecvf.com/content/CVPR2024/html/Cai_Poly_Kernel_Inception_Network_for_Remote_Sensing_Detection_CVPR_2024_paper.html"
+          },
+          {
+            "ref_id": "https://www.mdpi.com/2072-4292/18/6/873"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "GitHub - HVision-NKU/Strip-R-CNN: [AAAI 2026]\"Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection\" · GitHub",
+          "url": "https://github.com/HVision-NKU/Strip-R-CNN",
+          "reference": "turn50view0"
+        },
+        {
+          "title": "GitHub - zcablii/LSKNet: (IJCV2024 & ICCV2023) LSKNet: A Foundation Lightweight Backbone for Remote Sensing · GitHub",
+          "url": "https://github.com/zcablii/LSKNet",
+          "reference": "turn50view1"
+        },
+        {
+          "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+          "url": "https://arxiv.org/html/2501.03775v4",
+          "reference": "turn50view4"
+        },
+        {
+          "title": "SPDCN: Strip-based Deformable Convolutional Network for Steel Surface Defect Segmentation",
+          "url": "https://arxiv.org/html/2607.21456v1",
+          "reference": "turn50view5"
+        }
+      ],
+      "returned_record_count": 4,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "7624fcdaa139378fac3beecf4b8e7309e64d710ad5f21f06dc51bb8148b1fceb",
+      "retrieval_errors": [
+        "Internal Error ()\n【turn50view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://openaccess.thecvf.com/content/CVPR2024/html/Cai_Poly_Kernel_Inception_Network_for_Remote_Sensing_Detection_CVPR_2024_paper.html\",\"lineno\":null}); Total lines: 1\n",
+        "Internal Error ()\n【turn50view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mdpi.com/2072-4292/18/6/873\",\"lineno\":null}); Total lines: 1\n"
+      ]
+    },
+    {
+      "call": "design_sources_08",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn47view2",
+            "lineno": 75
+          },
+          {
+            "ref_id": "turn47view3",
+            "lineno": 140
+          },
+          {
+            "ref_id": "https://arxiv.org/html/2303.09030v3"
+          },
+          {
+            "ref_id": "https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.html"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection",
+          "url": "https://arxiv.org/html/2501.03775v4",
+          "reference": "turn51view0"
+        },
+        {
+          "title": "SPDCN: Strip-based Deformable Convolutional Network for Steel Surface Defect Segmentation",
+          "url": "https://arxiv.org/html/2607.21456v1",
+          "reference": "turn51view1"
+        }
+      ],
+      "returned_record_count": 2,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "714cf14aa9925c144e70d18a655304927a66c10a61c3bfc4cd461a0741225380",
+      "retrieval_errors": [
+        "Internal Error ()\n【turn51view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://arxiv.org/html/2303.09030v3\",\"lineno\":null}); Total lines: 1\n",
+        "Internal Error ()\n【turn51view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.html\",\"lineno\":null}); Total lines: 1\n"
+      ]
+    },
+    {
+      "call": "design_search_09",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"Large Selective Kernel Network\" arxiv 2023"
+          },
+          {
+            "q": "\"Poly Kernel Inception Network\" arxiv github"
+          },
+          {
+            "q": "\"Region Proposal by Guided Anchoring\" CVPR 2019"
+          },
+          {
+            "q": "\"Multi-level perceptual and shape-guided lightweight network\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "CVPR 2019 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.html",
+          "reference": "turn52search0"
+        },
+        {
+          "title": "Region Proposal by Guided Anchoring",
+          "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.pdf",
+          "reference": "turn52search48"
+        },
+        {
+          "title": "dblp: Region Proposal by Guided Anchoring.",
+          "url": "https://dblp.org/rec/conf/cvpr/WangCYLL19",
+          "reference": "turn52search1"
+        },
+        {
+          "title": "Large Selective Kernel Network for Remote Sensing Object Detection",
+          "url": "https://arxiv.org/abs/2303.09030",
+          "reference": "turn52academia49"
+        },
+        {
+          "title": "Region Proposal by Guided Anchoring | ML Anthology",
+          "url": "https://mlanthology.org/cvpr/2019/wang2019cvpr-region/",
+          "reference": "turn52search2"
+        },
+        {
+          "title": "CVPR 2019 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/CVPR2019.py?day=2019-06-18",
+          "reference": "turn52search3"
+        },
+        {
+          "title": "Rankless | Region Proposal by Guided Anchoring",
+          "url": "https://www.rankless.org/hit-papers/10.1109/cvpr.2019.00308",
+          "reference": "turn52search4"
+        },
+        {
+          "title": "Region Proposal by Guided Anchoring | Request PDF",
+          "url": "https://www.researchgate.net/publication/338510048_Region_Proposal_by_Guided_Anchoring",
+          "reference": "turn52search5"
+        },
+        {
+          "title": "CVPR2019",
+          "url": "https://cvpr2019.thecvf.com/program/main_conference",
+          "reference": "turn52search6"
+        },
+        {
+          "title": "Region Proposal by Guided Anchoring",
+          "url": "https://explore.metascienceobservatory.org/papers/W2963179609",
+          "reference": "turn52search7"
+        },
+        {
+          "title": "Region Proposal by Guided Anchoring",
+          "url": "https://arxiv.org/abs/1901.03278",
+          "reference": "turn52academia50"
+        },
+        {
+          "title": "Region Proposal by Guided Anchoring | Papers With Code",
+          "url": "https://paperswithcode.com/paper/region-proposal-by-guided-anchoring",
+          "reference": "turn52search8"
+        },
+        {
+          "title": "Region Proposal by Guided Anchoring — Lacuna",
+          "url": "https://lacuna.tiptreesystems.com/work/region-proposal-by-guided-anchoring/wrk_48f4ac0bea6e78f3615069d5172f6b3e",
+          "reference": "turn52search9"
+        },
+        {
+          "title": "dblp: CVPR 2019",
+          "url": "https://dblp.org/db/conf/cvpr/cvpr2019.html",
+          "reference": "turn52search10"
+        },
+        {
+          "title": "GitHub - PKINet/PKINet: Official implementation of CVPR2024 Paper \"Poly Kernel Inception Network for Remote Sensing Detection\" and ECCV2026 Paper \"PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote Sensing Object Detection\". · GitHub",
+          "url": "https://github.com/PKINet/PKINet",
+          "reference": "turn52search11"
+        },
+        {
+          "title": "(PDF) Region Proposal by Guided Anchoring",
+          "url": "https://www.researchgate.net/publication/330304972_Region_Proposal_by_Guided_Anchoring",
+          "reference": "turn52search12"
+        },
+        {
+          "title": "ICCV 2023 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection_ICCV_2023_paper.html",
+          "reference": "turn52search13"
+        },
+        {
+          "title": "GitHub - NUST-Machine-Intelligence-Laboratory/PKINet · GitHub",
+          "url": "https://github.com/NUST-Machine-Intelligence-Laboratory/PKINet",
+          "reference": "turn52search14"
+        },
+        {
+          "title": "Multi-level perceptual and shape-guided lightweight network for insulator defect detection",
+          "url": "https://eurekamag.com/research/109/868/109868988.php",
+          "reference": "turn52search15"
+        },
+        {
+          "title": "Poly Kernel Inception Network for Remote Sensing Detection",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Cai_Poly_Kernel_Inception_Network_for_Remote_Sensing_Detection_CVPR_2024_paper.pdf",
+          "reference": "turn52search51"
+        },
+        {
+          "title": "The improved YOLO11n Model Structure. | Download Scientific Diagram",
+          "url": "https://www.researchgate.net/figure/The-improved-YOLO11n-Model-Structure_fig3_389247329",
+          "reference": "turn52search16"
+        },
+        {
+          "title": "PKINet · GitHub",
+          "url": "https://github.com/PKINet",
+          "reference": "turn52search17"
+        },
+        {
+          "title": "Poly Kernel Inception Network for Remote Sensing Detection",
+          "url": "https://arxiv.org/abs/2403.06258",
+          "reference": "turn52academia52"
+        },
+        {
+          "title": "Innovative Horizons in Aerial Imagery: LSKNet Meets DiffusionDet for Advanced Object Detection",
+          "url": "https://arxiv.org/abs/2311.12956",
+          "reference": "turn52academia53"
+        },
+        {
+          "title": "PKINet/README.md at main · PKINet/PKINet · GitHub",
+          "url": "https://github.com/PKINet/PKINet/blob/main/README.md",
+          "reference": "turn52search18"
+        },
+        {
+          "title": "Multi-spectral channel attention. | Download Scientific Diagram",
+          "url": "https://www.researchgate.net/figure/Multi-spectral-channel-attention_fig1_389198322",
+          "reference": "turn52search19"
+        },
+        {
+          "title": "CVPR 2024 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Cai_Poly_Kernel_Inception_Network_for_Remote_Sensing_Detection_CVPR_2024_paper.html",
+          "reference": "turn52search20"
+        },
+        {
+          "title": "Rankless | Large Selective Kernel Network for Remote Sensing Object Detection",
+          "url": "https://www.rankless.org/hit-papers/10.1109/iccv51070.2023.01540",
+          "reference": "turn52search21"
+        },
+        {
+          "title": "GitHub - davidbenoot/Large-Selective-Kernel-Network · GitHub",
+          "url": "https://github.com/davidbenoot/Large-Selective-Kernel-Network",
+          "reference": "turn52search22"
+        },
+        {
+          "title": "Large Selective Kernel Network for Remote Sensing Object Detection",
+          "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection_ICCV_2023_paper.pdf",
+          "reference": "turn52search54"
+        },
+        {
+          "title": "Diagram of the structure with residual blocks incorporating an... | Download Scientific Diagram",
+          "url": "https://www.researchgate.net/figure/Diagram-of-the-structure-with-residual-blocks-incorporating-an-attention-mechanism_fig5_388349127",
+          "reference": "turn52search23"
+        },
+        {
+          "title": "GitHub - Susie0909/TDLSKNet: (ICCV 2023) Large Selective Kernel Network for Remote Sensing Object Detection · GitHub",
+          "url": "https://github.com/Susie0909/TDLSKNet",
+          "reference": "turn52search24"
+        },
+        {
+          "title": "Large Selective Kernel Network for Remote Sensing Object Detection | CiNii Research",
+          "url": "https://cir.nii.ac.jp/crid/1360587979310027008",
+          "reference": "turn52search25"
+        },
+        {
+          "title": "GitHub - 1225Sakura/PKinet_ship · GitHub",
+          "url": "https://github.com/1225Sakura/PKinet_ship",
+          "reference": "turn52search26"
+        },
+        {
+          "title": "Large Selective Kernel Network for Remote Sensing Object Detection | alphaXiv",
+          "url": "https://www.alphaxiv.org/abs/2303.09030",
+          "reference": "turn52search27"
+        },
+        {
+          "title": "Paper page - Large Selective Kernel Network for Remote Sensing Object Detection",
+          "url": "https://huggingface.co/papers/2303.09030",
+          "reference": "turn52search28"
+        },
+        {
+          "title": "GitHub - Qunmasj-Vision-Studio/Fallen_leaf218: 路面落叶检测系统源码和数据集：改进yolo11-AggregatedAtt · GitHub",
+          "url": "https://github.com/Qunmasj-Vision-Studio/Fallen_leaf218",
+          "reference": "turn52search29"
+        },
+        {
+          "title": "PKINet/mmrotate/models/backbones/pkinet.py at main · PKINet/PKINet · GitHub",
+          "url": "https://github.com/PKINet/PKINet/blob/main/mmrotate/models/backbones/pkinet.py",
+          "reference": "turn52search30"
+        },
+        {
+          "title": "dblp: Large Selective Kernel Network for Remote Sensing Object Detection.",
+          "url": "https://dblp.dagstuhl.de/rec/conf/iccv/LiHZCYL23.html",
+          "reference": "turn52search31"
+        },
+        {
+          "title": "PKINet/PKINet — GitHub Explorer",
+          "url": "https://ghe.derekchia.com/repo/PKINet/PKINet",
+          "reference": "turn52search32"
+        },
+        {
+          "title": "dblp: Large Selective Kernel Network for Remote Sensing Object Detection.",
+          "url": "https://dblp.org/rec/journals/corr/abs-2303-09030.html",
+          "reference": "turn52search33"
+        },
+        {
+          "title": "dblp: Large Selective Kernel Network for Remote Sensing Object Detection.",
+          "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2303-09030.html",
+          "reference": "turn52search34"
+        },
+        {
+          "title": "Precision–recall curve comparisons: (a) YOLOv8n; (b) YOLOv5n; (c)... | Download Scientific Diagram",
+          "url": "https://www.researchgate.net/figure/Precision-recall-curve-comparisons-a-YOLOv8n-b-YOLOv5n-c-YOLOv7-tiny-d_fig7_389198322",
+          "reference": "turn52search35"
+        },
+        {
+          "title": "GitHub - CV-Det/Large-Selective-Kernel-Network · GitHub",
+          "url": "https://github.com/CV-Det/Large-Selective-Kernel-Network",
+          "reference": "turn52search36"
+        },
+        {
+          "title": "(PDF) Large Selective Kernel Network for Remote Sensing Object Detection",
+          "url": "https://www.researchgate.net/publication/369300448_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection",
+          "reference": "turn52search37"
+        },
+        {
+          "title": "A multi-weather-adapted object detection network for insulator defect detection",
+          "url": "https://eurekamag.com/research/110/063/110063270.php",
+          "reference": "turn52search38"
+        },
+        {
+          "title": "Multi-category insulator defect detection for lightweight improved YOLOv8",
+          "url": "https://eurekamag.com/research/100/543/100543625.php",
+          "reference": "turn52search39"
+        },
+        {
+          "title": "Jian Huang's research works | Chengdu University of Information Technology, Chengdu and other places",
+          "url": "https://www.researchgate.net/scientific-contributions/Jian-Huang-2141767603",
+          "reference": "turn52search40"
+        },
+        {
+          "title": "LAC-NET: robust lightweight adaptive convolutional network for insulator defect detection within complex scenarios",
+          "url": "https://eurekamag.com/research/111/347/111347268.php",
+          "reference": "turn52search41"
+        },
+        {
+          "title": "3D attention-focused pure convolutional target detection algorithm for insulator defect detection",
+          "url": "https://www.researchgate.net/publication/379102985_3D_attention-focused_pure_convolutional_target_detection_algorithm_for_insulator_defect_detection",
+          "reference": "turn52search42"
+        },
+        {
+          "title": "EurekaMag Full Text Articles Chapter 109869",
+          "url": "https://eurekamag.com/research/109/868/",
+          "reference": "turn52search43"
+        },
+        {
+          "title": "Poly Kernel Inception Network for Remote Sensing Detection | ML Anthology",
+          "url": "https://mlanthology.org/cvpr/2024/cai2024cvpr-poly/",
+          "reference": "turn52search44"
+        },
+        {
+          "title": "Full Code of AIFengheshu/Plug-play-modules for AI - Complete Repository Source | GitExtract",
+          "url": "https://gitextract.com/AIFengheshu/Plug-play-modules",
+          "reference": "turn52search45"
+        },
+        {
+          "title": "深度学习 - PKINet论文复现 - 个人文章 - SegmentFault 思否",
+          "url": "https://segmentfault.com/a/1190000045993972",
+          "reference": "turn52search46"
+        },
+        {
+          "title": "TPAMI2024",
+          "url": "https://hongsong-wang.github.io/TPAMI2024/",
+          "reference": "turn52search47"
+        }
+      ],
+      "returned_record_count": 55,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "4e2f6de9aaddd623ee70be0890d27cd0da0aea0e941857a75c637d42e86b9053",
+      "retrieval_errors": []
+    },
+    {
+      "call": "design_sources_10",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "system1_search_query": [
+          {
+            "q": "\"PKINet-v2\" \"2026\"",
+            "recency": 120
+          },
+          {
+            "q": "\"bounding box\" \"supervised\" \"routing\" \"convolution\" detection",
+            "recency": 365
+          },
+          {
+            "q": "\"strip\" \"geometry\" \"supervised\" defect detection",
+            "recency": 365
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://github.com/PKINet/PKINet"
+          },
+          {
+            "ref_id": "https://link.springer.com/article/10.1007/s11760-026-05634-6"
+          },
+          {
+            "ref_id": "https://arxiv.org/abs/2609.00065"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "Poly Kernel Inception Networks for Remote Sensing ...",
+          "url": "https://github.com/PKINet/PKINet",
+          "reference": "turn53search0"
+        },
+        {
+          "title": "Polygonal Instance Segmentation with Box Supervision",
+          "url": "https://arxiv.org/html/2303.11630v3",
+          "reference": "turn53search1"
+        },
+        {
+          "title": "A novel semi-supervised strip steel surface defect ...",
+          "url": "https://www.nature.com/articles/s41598-026-61590-8",
+          "reference": "turn53search2"
+        },
+        {
+          "title": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel ...",
+          "url": "https://arxiv.org/abs/2603.16341",
+          "reference": "turn53search3"
+        },
+        {
+          "title": "Detection of small objects in remote sensing images based ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1051200425000673",
+          "reference": "turn53search4"
+        },
+        {
+          "title": "Supervised Focused Feature Network for Steel Strip ...",
+          "url": "https://www.mdpi.com/2227-7390/13/20/3285",
+          "reference": "turn53search5"
+        },
+        {
+          "title": "An encoder‐decoder framework with dynamic convolution for ...",
+          "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cvi2.12202",
+          "reference": "turn53search7"
+        },
+        {
+          "title": "Defect-aware transformer network for intelligent visual ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1474034623000101",
+          "reference": "turn53search8"
+        },
+        {
+          "title": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote ...",
+          "url": "https://www.alphaxiv.org/abs/2603.16341",
+          "reference": "turn53search9"
+        },
+        {
+          "title": "Detection of Fittings Based on the Dynamic Graph CNN ...",
+          "url": "https://www.mdpi.com/2079-9292/12/22/4611",
+          "reference": "turn53search10"
+        },
+        {
+          "title": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel ...",
+          "url": "https://arxiv.org/html/2603.16341v1",
+          "reference": "turn53search12"
+        },
+        {
+          "title": "knowledge distillation Archives",
+          "url": "https://www.6gflagship.com/publication-keywords/knowledge-distillation/",
+          "reference": "turn53search14"
+        },
+        {
+          "title": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote ...",
+          "url": "https://gptget.net/papers/2603.16341?lang=en",
+          "reference": "turn53search15"
+        },
+        {
+          "title": "Rough Path Signature-Guided Geometry Augmentation for ...",
+          "url": "https://arxiv.org/html/2607.12245v1",
+          "reference": "turn53search17"
+        },
+        {
+          "title": "Other posts",
+          "url": "https://www.facebook.com/groups/DataScienceGroup/posts/3393188784076321/",
+          "reference": "turn53search19"
+        },
+        {
+          "title": "Poly Kernel Inception Network for Remote Sensing Detection",
+          "url": "https://www.semanticscholar.org/paper/Poly-Kernel-Inception-Network-for-Remote-Sensing-Cai-Lai/b57ecdf5b2721724864d36237507db200f6a662a",
+          "reference": "turn53search20"
+        },
+        {
+          "title": "Recursive Context Routing for Object Detection",
+          "url": "https://dl.acm.org/doi/abs/10.1007/s11263-020-01370-7",
+          "reference": "turn53search21"
+        },
+        {
+          "title": "Research Progress of Automated Visual Surface Defect ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7570919/",
+          "reference": "turn53search22"
+        },
+        {
+          "title": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote ...",
+          "url": "https://ribbitribbit.co/paper/arxiv.2603.16341-PKINet-v2-Towards-Powerful-and-Efficient-Poly-Kernel-Remote-Sensing",
+          "reference": "turn53search23"
+        },
+        {
+          "title": "Horizontal Box Supervised Oriented Object Detection ...",
+          "url": "https://www.researchgate.net/publication/394779164_Horizontal_Box_Supervised_Oriented_Object_Detection_Based_on_Edge_Feature_Self-Attention_and_Multitask_Synthetic_Visual_Patterns",
+          "reference": "turn53search24"
+        },
+        {
+          "title": "M-3LAB/awesome-industrial-anomaly-detection",
+          "url": "https://github.com/m-3lab/awesome-industrial-anomaly-detection",
+          "reference": "turn53search25"
+        },
+        {
+          "title": "GitHub - PKINet/PKINet: Official implementation of CVPR2024 Paper \"Poly Kernel Inception Network for Remote Sensing Detection\" and ECCV2026 Paper \"PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote Sensing Object Detection\". · GitHub",
+          "url": "https://github.com/PKINet/PKINet",
+          "reference": "turn53view0"
+        },
+        {
+          "title": "Multi-level perceptual and shape-guided lightweight network for insulator defect detection | Signal, Image and Video Processing | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1007/s11760-026-05634-6",
+          "reference": "turn53view1"
+        },
+        {
+          "title": "[2609.00065] Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+          "url": "https://arxiv.org/abs/2609.00065",
+          "reference": "turn53view2"
+        }
+      ],
+      "returned_record_count": 24,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "adb8a3cfcb06c6228e03e61623dca4a74907e2805b4b7018649fa7ecb251c78a",
+      "retrieval_errors": []
+    },
+    {
+      "call": "design_sources_11",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://arxiv.org/html/2603.16341v1"
+          },
+          {
+            "ref_id": "https://arxiv.org/abs/2303.09030"
+          },
+          {
+            "ref_id": "turn53view1",
+            "lineno": 30
+          },
+          {
+            "ref_id": "turn52search0"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote Sensing Object Detection",
+          "url": "https://arxiv.org/html/2603.16341v1",
+          "reference": "turn54view0"
+        },
+        {
+          "title": "[2303.09030] Large Selective Kernel Network for Remote Sensing Object Detection",
+          "url": "https://arxiv.org/abs/2303.09030",
+          "reference": "turn54view1"
+        },
+        {
+          "title": "Multi-level perceptual and shape-guided lightweight network for insulator defect detection | Signal, Image and Video Processing | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1007/s11760-026-05634-6",
+          "reference": "turn54view2"
+        }
+      ],
+      "returned_record_count": 3,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "b5d013319fa9cccce85fb337efb30cc044844781a04d613d391efb6d29f4a473",
+      "retrieval_errors": [
+        "Internal Error ()\n【turn54view3】 [wordlim: 200] Source: open({\"ref_id\":\"turn52search0\",\"lineno\":null}); Total lines: 1\n"
+      ]
+    },
+    {
+      "call": "design_sources_12",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn54view0",
+            "pattern": "Poly-Kernel Scope"
+          },
+          {
+            "ref_id": "turn54view0",
+            "pattern": "loss"
+          },
+          {
+            "ref_id": "turn53view0",
+            "pattern": "tree"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote Sensing Object Detection",
+          "url": "https://arxiv.org/html/2603.16341v1",
+          "reference": "turn55view0"
+        },
+        {
+          "title": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote Sensing Object Detection",
+          "url": "https://arxiv.org/html/2603.16341v1",
+          "reference": "turn55view1"
+        },
+        {
+          "title": "GitHub - PKINet/PKINet: Official implementation of CVPR2024 Paper \"Poly Kernel Inception Network for Remote Sensing Detection\" and ECCV2026 Paper \"PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote Sensing Object Detection\". · GitHub",
+          "url": "https://github.com/PKINet/PKINet",
+          "reference": "turn55view2"
+        }
+      ],
+      "returned_record_count": 3,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "da9f7689217169c916589ed00558eb94d286c1ffda1eafbc25449eaee4657309",
+      "retrieval_errors": []
+    },
+    {
+      "call": "design_sources_13",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://github.com/taozhetmx/MPSL_Net"
+          },
+          {
+            "ref_id": "https://www.mdpi.com/2227-7390/13/20/3285"
+          },
+          {
+            "ref_id": "https://www.mdpi.com/2072-4292/18/6/873"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "GitHub - taozhetmx/MPSL_Net: MPSL-YOLO · GitHub",
+          "url": "https://github.com/taozhetmx/MPSL_Net",
+          "reference": "turn56view0"
+        }
+      ],
+      "returned_record_count": 1,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "cdc8d2476aa02274d5956c7e91e607853f18a14dd983c7eb24b1e5db2f1a7d92",
+      "retrieval_errors": [
+        "Internal Error ()\n【turn56view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mdpi.com/2227-7390/13/20/3285\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www.mdpi.com/2227-7390/13/20/3285: (429) Too Many Requests\n",
+        "Internal Error ()\n【turn56view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mdpi.com/2072-4292/18/6/873\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www.mdpi.com/2072-4292/18/6/873: (429) Too Many Requests\n"
+      ]
+    },
+    {
+      "call": "design_sources_14",
+      "date": "2026-10-16",
+      "timezone": "Asia/Shanghai",
+      "platform": "web search service; engines and primary-page retrieval as in request",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn56view0",
+            "pattern": "empty"
+          },
+          {
+            "ref_id": "turn54view0",
+            "pattern": "3.3 Poly-Kernel Scope Module"
+          },
+          {
+            "ref_id": "turn47view3",
+            "pattern": "III-D Loss Function"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_records": [
+        {
+          "title": "GitHub - taozhetmx/MPSL_Net: MPSL-YOLO · GitHub",
+          "url": "https://github.com/taozhetmx/MPSL_Net",
+          "reference": "turn57view0"
+        },
+        {
+          "title": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote Sensing Object Detection",
+          "url": "https://arxiv.org/html/2603.16341v1",
+          "reference": "turn57view1"
+        },
+        {
+          "title": "SPDCN: Strip-based Deformable Convolutional Network for Steel Surface Defect Segmentation",
+          "url": "https://arxiv.org/html/2607.21456v1",
+          "reference": "turn57view2"
+        }
+      ],
+      "returned_record_count": 3,
+      "per_query_counts": "not exposed by combined tool response; not inferred",
+      "raw_response_sha256": "c34114a4242e7186c5aac02b19a207ffe344bb8380f2bcb00c34e4b543ec835f",
+      "retrieval_errors": []
+    }
+  ],
+  "summary": {
+    "queries": 23,
+    "tool_calls": 14,
+    "returned_record_blocks_all_commands": 253,
+    "discovery_hit_records": 230,
+    "unique_discovery_URLs": 220,
+    "counts_are": "actual extracted returned record blocks/URLs, not database total hits or distinct studies",
+    "primary_method_records_selected": 8,
+    "full_text_method_records": 7,
+    "preview_plus_selected_code_method_records": 1
+  }
+}

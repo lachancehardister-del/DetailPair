@@ -1,0 +1,15 @@
+test_private_copies_square_train_val_standalone_and_cache (__main__.DataChecks.test_private_copies_square_train_val_standalone_and_cache) ... Overriding model.yaml nc=80 with nc=6
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2186.3±1026.6 MB/s, size: 28.3 KB)
+[K[34m[1mtrain: [0mScanning /tmp/tmpcnxe31ir/private/labels/train... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.7Kit/s 0.0s[K[34m[1mtrain: [0mScanning /tmp/tmpcnxe31ir/private/labels/train... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.6Kit/s 0.0s
+[34m[1mtrain: [0mNew cache created: /tmp/tmpcnxe31ir/private/labels/train.cache
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1950.4±576.7 MB/s, size: 28.3 KB)
+[K[34m[1mval: [0mScanning /tmp/tmpcnxe31ir/private/labels/val... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 1.7Kit/s 0.0s[K[34m[1mval: [0mScanning /tmp/tmpcnxe31ir/private/labels/val... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 1.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/tmpcnxe31ir/private/labels/val.cache
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 3135.8±987.8 MB/s, size: 28.3 KB)
+[K[34m[1mval: [0mScanning /tmp/tmpcnxe31ir/private/labels/val.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 1.2Mit/s 0.0s[K[34m[1mval: [0mScanning /tmp/tmpcnxe31ir/private/labels/val.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 79.9Kit/s 0.0s
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.159s
+
+OK

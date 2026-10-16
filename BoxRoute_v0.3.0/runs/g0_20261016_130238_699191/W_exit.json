@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/workspace/venvs/detailpair/bin/python",
+    "/workspace/DetailPair/BoxRoute_v0.3.0/run_boxroute.py",
+    "worker",
+    "--worker-request",
+    "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/W_request.json",
+    "--synthetic-check"
+  ],
+  "returncode": 0
+}

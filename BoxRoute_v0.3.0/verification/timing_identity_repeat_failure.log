@@ -1,0 +1,31 @@
+test_CPU_initial_balanced_route_execution_bookkeeping (__main__.EvaluationTimingChecks.test_CPU_initial_balanced_route_execution_bookkeeping) ... Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Common paired warmup target seconds: 0.02
+Common warmup complete; counts: {'N': 1, 'G': 1}
+Starting block 1 of 8: N ; excluded warmup 1
+ERROR
+
+======================================================================
+ERROR: test_CPU_initial_balanced_route_execution_bookkeeping (__main__.EvaluationTimingChecks.test_CPU_initial_balanced_route_execution_bookkeeping)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/DetailPair/BoxRoute_v0.3.0/tests/check_evaluation_timing.py", line 56, in test_CPU_initial_balanced_route_execution_bookkeeping
+    result=balanced_timing(models,manifest,6,ROOT/'verification/timing_cpu_synthetic',torch.device('cpu'),synthetic=True,require_equal=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/DetailPair/BoxRoute_v0.3.0/run_boxroute.py", line 104, in balanced_timing
+    result=balanced_measure(pool,images,identities,cfg,out);dump(out/'context.json',dict(synthetic_check=synthetic,initial_gamma_zero=require_equal,final_trained_speed=not require_equal and not synthetic,selection=selection))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/DetailPair/BoxRoute_v0.3.0/boxroute/benchmark.py", line 194, in balanced_measure
+    dest=out/f'block_{block_id:02d}_{variant}';dest.mkdir()
+                                               ^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileExistsError: [Errno 17] File exists: '/workspace/DetailPair/BoxRoute_v0.3.0/verification/timing_cpu_synthetic/block_00_N'
+
+----------------------------------------------------------------------
+Ran 1 test in 3.802s
+
+FAILED (errors=1)

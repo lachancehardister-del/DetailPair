@@ -1,0 +1,2 @@
+/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/images/val/000001_405519abacd2.png
+/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/images/val/000000_bf137442e5d4.png

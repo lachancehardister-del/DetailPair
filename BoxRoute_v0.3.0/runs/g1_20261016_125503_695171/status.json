@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "stage": "g1",
+  "synthetic_check": true,
+  "test_evaluated": false,
+  "automatic_G1": false
+}

@@ -1,0 +1,42 @@
+test_CPU_initial_balanced_route_execution_bookkeeping (__main__.EvaluationTimingChecks.test_CPU_initial_balanced_route_execution_bookkeeping) ... Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Common paired warmup target seconds: 0.02
+Common warmup complete; counts: {'N': 1, 'G': 1}
+Starting block 1 of 8: N ; excluded warmup 1
+Completed block 1 samples 6
+Starting block 2 of 8: G ; excluded warmup 1
+Completed block 2 samples 6
+Starting block 3 of 8: G ; excluded warmup 1
+Completed block 3 samples 6
+Starting block 4 of 8: N ; excluded warmup 1
+Completed block 4 samples 6
+Starting block 5 of 8: G ; excluded warmup 1
+Completed block 5 samples 6
+Starting block 6 of 8: N ; excluded warmup 1
+Completed block 6 samples 6
+Starting block 7 of 8: N ; excluded warmup 1
+Completed block 7 samples 6
+Starting block 8 of 8: G ; excluded warmup 1
+Completed block 8 samples 6
+ok
+test_balanced_screen_and_approval_refusal (__main__.EvaluationTimingChecks.test_balanced_screen_and_approval_refusal) ... ok
+test_standalone_AP_fixed_GT_and_square_no_training (__main__.EvaluationTimingChecks.test_standalone_AP_fixed_GT_and_square_no_training) ... Overriding model.yaml nc=80 with nc=6
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,583,322 parameters, 13,650 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2080.8±660.3 MB/s, size: 28.3 KB)
+[K[34m[1mval: [0mScanning /tmp/tmp4rrjkyvf/derived/labels/val... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 1.8Kit/s 0.0s[K[34m[1mval: [0mScanning /tmp/tmp4rrjkyvf/derived/labels/val... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 1.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/tmp4rrjkyvf/derived/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 25.5it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 25.5it/s 0.1s
+                   all          2          2          0          0          0          0
+                     a          1          1          0          0          0          0
+                     b          1          1          0          0          0          0
+Speed: 0.2ms preprocess, 35.5ms inference, 0.0ms loss, 0.8ms postprocess per image
+ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 7.148s
+
+OK

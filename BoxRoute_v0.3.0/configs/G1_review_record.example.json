@@ -1,0 +1,7 @@
+{
+  "approved_by_Work": false,
+  "stage": "G1",
+  "G0_run": "D:\\ModelImprovement\\BoxRoute_v0.3.0\\runs\\g0_REPLACE_AFTER_REAL_REVIEW",
+  "G0_status_sha256": "REPLACE_WITH_REVIEWED_G0_STATUS_SHA256",
+  "note": "Template only. G1 must not run before Work reviews the real G0. Do not set true merely to bypass the gate."
+}

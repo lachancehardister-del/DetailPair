@@ -1,0 +1,6 @@
+{
+  "old_source": "/workspace/DetailPair/DetailPair_v0.2.9/detailpair/model.py",
+  "sha256": "366e6756f9246ddbfe410530351811f7d728a97d05765110d9e25b460a47ed52",
+  "byte_identical": true,
+  "purpose": "B0 numerical check only, no legacy training"
+}

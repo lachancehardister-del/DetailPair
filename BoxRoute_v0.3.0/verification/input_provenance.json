@@ -1,0 +1,29 @@
+{
+  "inputs": [
+    {
+      "name": "DetailPair_ArchiveAcceptance_20261016.zip",
+      "bytes": 82644,
+      "sha256": "a0db7e7c6a40646aaa40382095449c9b47855d6b53d5c9e57ce28db4b28cd106"
+    },
+    {
+      "name": "CODEX_TASK_BoxRoute_v0.3.0.md",
+      "bytes": 14008,
+      "sha256": "0fd30a41024469814627ef7aa6aa505f028ac21b00ca16f55578d9dc07698388"
+    },
+    {
+      "name": "DetailPair_v0.2.9_Archive_Package.zip",
+      "bytes": 289185,
+      "sha256": "ea3a1b5b6a9b71b376f29f899e9402d0aa2f753a5da6a79e202ed4d26ce02cd2"
+    }
+  ],
+  "acceptance_manifest_files_verified": 6,
+  "missing": [],
+  "handoff": {
+    "name": "BoxRoute_Research_Handoff_20261016.zip",
+    "bytes": 5637739,
+    "sha256": "c334b80b30379cecf88ca118c37c3b7440ddefc3f281aaa6eb277e4429dce83f",
+    "entries": 48,
+    "CRC": "passed",
+    "manifest_files_verified": 47
+  }
+}

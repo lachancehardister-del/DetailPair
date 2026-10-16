@@ -1,0 +1,240 @@
+{
+  "scope": "Research/implementation handoff, not completed model-training engineering package",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1812,
+      "sha256": "2e2c4961533d4389b7aa06e14fe1253132a56ac3985d2c74ee6c644a94ec5acb"
+    },
+    {
+      "path": "NOTICE_SOURCES.md",
+      "bytes": 1619,
+      "sha256": "a531a1a6054d09ebf1440195bef96493ca47739b6a62a0e20376a24aad19baf8"
+    },
+    {
+      "path": "BASELINE_AND_NEAREST_AUDIT.md",
+      "bytes": 9784,
+      "sha256": "3aa510a63b987bef8f3045df7a182754e80814458cbf7f0724ce7e0accb6f13e"
+    },
+    {
+      "path": "MODEL_PROPOSAL.md",
+      "bytes": 10451,
+      "sha256": "cab3c2b8b9abeece85863c6ccc0b4cdaf3ea1124d5d29c95e51e8c57e4072d99"
+    },
+    {
+      "path": "CODEX_TASK_BoxRoute_v0.3.0.md",
+      "bytes": 14008,
+      "sha256": "0fd30a41024469814627ef7aa6aa505f028ac21b00ca16f55578d9dc07698388"
+    },
+    {
+      "path": "protocol.yaml",
+      "bytes": 4130,
+      "sha256": "4382091a5994c6b927e2774951039ebfbe55f73e53b1d36fab386dcc85ad9d17"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 97412,
+      "sha256": "447d88f31c555b9beb1870959af4e3b79aafa12565a817e458a4531ef81ea3aa"
+    },
+    {
+      "path": "SEARCH_LOG.json",
+      "bytes": 79596,
+      "sha256": "5f3fcf1ed1d56d733a5b0cf3a07aa13170a06309066193107ffa64c8783cc102"
+    },
+    {
+      "path": "SOURCE_RECORDS.json",
+      "bytes": 7041,
+      "sha256": "14e6541f1ffc913bcbcea366a9043c29a047ea728e020b241b8d1fda76533743"
+    },
+    {
+      "path": "SOURCE_RETRIEVAL_LOG.json",
+      "bytes": 20167,
+      "sha256": "ae211a831b0f5d9d07aacc544b5bc5b1cedc7df6dbe7f29d99de395615d5af7d"
+    },
+    {
+      "path": "check_design_math.py",
+      "bytes": 6137,
+      "sha256": "9511c08120b6b0a476230d33627867d62a57bbeb8b1589fcf5df5735bd9a29ca"
+    },
+    {
+      "path": "requirements_audit.txt",
+      "bytes": 90,
+      "sha256": "9bdaeae958ebd936cb1ed89507d4b8bdba9783090ba7fcb656ca7d090f8774c6"
+    },
+    {
+      "path": "checks_actual.log",
+      "bytes": 1794,
+      "sha256": "708c63bcdb3525590026be934427ec6875276f740888128111868fccd1c465cf"
+    },
+    {
+      "path": "inputs/DetailPair_v0.2.9_Archive_Package.zip",
+      "bytes": 289185,
+      "sha256": "ea3a1b5b6a9b71b376f29f899e9402d0aa2f753a5da6a79e202ed4d26ce02cd2"
+    },
+    {
+      "path": "checks/PROJECT_STATUS_before_v030.md",
+      "bytes": 91678,
+      "sha256": "32941959207371f021a1f32acef338b19aff1a3e2e32e41bc46ce201b19ceb7b"
+    },
+    {
+      "path": "checks/check_design_math_before_ast_fix.py",
+      "bytes": 4682,
+      "sha256": "e0a4aa40db68fb771c38ebc7f9dd4b0afcc18f098767bd6797177d304e687c3f"
+    },
+    {
+      "path": "checks/design_checks.json",
+      "bytes": 1793,
+      "sha256": "41630229ba9643a2a27b6af70e27375f5ab74ddd2dfc5ed15497fc33dd0f8835"
+    },
+    {
+      "path": "checks/failure_01_ast_literal_eval.log",
+      "bytes": 2005,
+      "sha256": "43688769d80fe184b525c1d4ce8cafb0082ce1108efd4dc2dc114c32cd62e457"
+    },
+    {
+      "path": "sources/ultralytics_fixed_ultralytics_data_dataset.py",
+      "bytes": 36772,
+      "sha256": "1d0debe9296ee0b1d23579d10a23a06ecdb30b6136b804246271d9855dc919d1"
+    },
+    {
+      "path": "sources/ultralytics_fixed_ultralytics_models_yolo_detect_val.py",
+      "bytes": 22213,
+      "sha256": "59c8a753af8a8fb2bd82ace2a84a062cdb734d7b66dce20f387211544d8b7fd5"
+    },
+    {
+      "path": "sources/ultralytics_v83221_ultralytics_nn_modules_head.py",
+      "bytes": 53512,
+      "sha256": "1c14a81ce71df618a4a412c5f41760208b5824335620ef0d88d60c70cc3a4e13"
+    },
+    {
+      "path": "sources/ultralytics_v83221_ultralytics_cfg_default.yaml",
+      "bytes": 8912,
+      "sha256": "28a10d487a250d2b68d472551a306f4d7bf3f5a7be5cc7184732ab8d4dd07d97"
+    },
+    {
+      "path": "sources/ultralytics_v83221_detect_train.py",
+      "bytes": 10554,
+      "sha256": "ae7982b744c6e5b772484d93554b14ab0cb217f2d3cb8759765002a0cd4c85c5"
+    },
+    {
+      "path": "sources/ultralytics_fixed_ultralytics_data_build.py",
+      "bytes": 16688,
+      "sha256": "6be1acd896d94bd939f42a4969ac7b91bcbe3ee64e78ad4d615e26ab8291140d"
+    },
+    {
+      "path": "sources/ultralytics_v83221_ultralytics_nn_tasks.py",
+      "bytes": 70834,
+      "sha256": "bd1afa1d3b9c33b120de4c73858b728e010075a719ee0203537c8f6cc9f260c3"
+    },
+    {
+      "path": "sources/ultralytics_fixed_ultralytics_engine_validator.py",
+      "bytes": 17560,
+      "sha256": "1e8044e4b73b468ec84394e57c30bde0be4199d39bf09f327c69442e8cd9e843"
+    },
+    {
+      "path": "sources/ultralytics_v83221_ultralytics_utils_tal.py",
+      "bytes": 20869,
+      "sha256": "eca4183727ad7f1d7c08d73f6ef346ec10dbe380885370c4bb8ab389556f3401"
+    },
+    {
+      "path": "sources/ultralytics_v83221_ultralytics_engine_trainer.py",
+      "bytes": 44140,
+      "sha256": "72b4bb1cbe2c2ce7979ffe75ff698a05f782e637d1e86793fb5a8d81b943edd4"
+    },
+    {
+      "path": "sources/ultralytics_v83221_ultralytics_cfg_models_11_yolo11.yaml",
+      "bytes": 2012,
+      "sha256": "43d8a7c86acc77282ddf4966d6526e091e5b064c140ed4a6e4c0b68ecbc3784c"
+    },
+    {
+      "path": "sources/ultralytics_fixed_ultralytics_utils_torch_utils.py",
+      "bytes": 40377,
+      "sha256": "f68d2fbeaa1143e17af320cff31047c7c45ed39e6ee3e98d2b015207534df9fd"
+    },
+    {
+      "path": "sources/ultralytics_v83221_ultralytics_utils_loss.py",
+      "bytes": 39827,
+      "sha256": "c09d05d83a514c8f7e7bd69dc489b68a8d3371745ad114d615339ced6992d7e0"
+    },
+    {
+      "path": "sources/pkinet_v2_fixed.py",
+      "bytes": 18696,
+      "sha256": "5b0320fe7916b29a966d0edd2a201e89e15c23690b4e32ac4c538e8e5ef1635e"
+    },
+    {
+      "path": "sources/pki_config_fixed.py",
+      "bytes": 5501,
+      "sha256": "108fe5d97699ab2f100a8f920dc736f2984ac65c1f8babc2ec841ab627cc8d50"
+    },
+    {
+      "path": "sources/pki_readme_fixed.md",
+      "bytes": 9813,
+      "sha256": "51859370560c28085c0b07beadc372cf66c83f488bdb45b469cda8fc77aba141"
+    },
+    {
+      "path": "sources/stripnet_fixed.py",
+      "bytes": 8805,
+      "sha256": "6a0eaea281bbd7295de8d184eadad5f7e274185de08181165c69d740b2417d6d"
+    },
+    {
+      "path": "sources/strip_config_fixed.py",
+      "bytes": 5358,
+      "sha256": "516e42618235a149a8c712c90a2971cdce40833e3f6613cca952be1ddc35baba"
+    },
+    {
+      "path": "sources/lsknet_fixed.py",
+      "bytes": 9136,
+      "sha256": "11e8c4cfde260c2ac47930a91d73c593248da2d27a371fe639db567ea0130901"
+    },
+    {
+      "path": "sources/mpsl_model_fixed.yaml",
+      "bytes": 2707,
+      "sha256": "05c3064f33382932a313c61ada4390b93709baa5fa947cca6681ae9184fde453"
+    },
+    {
+      "path": "sources/mpsl_head_fixed.py",
+      "bytes": 63511,
+      "sha256": "99d82dd68d6f9c86b319b53c25c1b00650b3fd3fe82bb5804fd9d9f530d93077"
+    },
+    {
+      "path": "sources/mpsl_conv_fixed.py",
+      "bytes": 141374,
+      "sha256": "be618fe7cc72189f2002217d66fb01b419b377a733d912748f82bf59e47a8bf3"
+    },
+    {
+      "path": "sources/mpsl_loss_fixed.py",
+      "bytes": 39933,
+      "sha256": "ef27756de0020f69ef43c4139c360592d2de9cb8610a1caea46186956d9a663d"
+    },
+    {
+      "path": "sources/LICENSE_ultralytics.txt",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "sources/LICENSE_pkinet.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "sources/LICENSE_striprcnn.txt",
+      "bytes": 17721,
+      "sha256": "fa4b06f7751c68d695eb3dc713616e1dcf09d12aa4a3b6196b8a9e0f4ff903d4"
+    },
+    {
+      "path": "sources/LICENSE_lsknet.txt",
+      "bytes": 17721,
+      "sha256": "fa4b06f7751c68d695eb3dc713616e1dcf09d12aa4a3b6196b8a9e0f4ff903d4"
+    },
+    {
+      "path": "sources/official_yolo11n_v830.pt",
+      "bytes": 5613764,
+      "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+    },
+    {
+      "path": "checks/portable_audit_actual.log",
+      "bytes": 1794,
+      "sha256": "708c63bcdb3525590026be934427ec6875276f740888128111868fccd1c465cf"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "N": {
+    "variant": "N",
+    "seed": 0,
+    "run_name": "initial_gamma0",
+    "weights_sha256": "d66fb8b89f28ba1d67a1bb644f50f6e55764d45703f2fa29abd613839ccd1830",
+    "weights_identity_kind": "model_state_sha256_synthetic_only",
+    "model_state_sha256": "d66fb8b89f28ba1d67a1bb644f50f6e55764d45703f2fa29abd613839ccd1830"
+  },
+  "G": {
+    "variant": "G",
+    "seed": 0,
+    "run_name": "initial_gamma0",
+    "weights_sha256": "1414c95c34b1ab6992ceb9c84d660dcfcb4ca186520096ef1987f1c98da8585b",
+    "weights_identity_kind": "model_state_sha256_synthetic_only",
+    "model_state_sha256": "1414c95c34b1ab6992ceb9c84d660dcfcb4ca186520096ef1987f1c98da8585b"
+  }
+}

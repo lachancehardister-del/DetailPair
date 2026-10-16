@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "PKS_original_port_output_and_gradients": "passed",
+  "PKS_deploy_max_abs": [
+    9.5367431640625e-07,
+    9.5367431640625e-07
+  ],
+  "all_edges_included": true,
+  "geometry": {
+    "instances": 2,
+    "empty_images": 1,
+    "fallback_instances": 2,
+    "overlap_instances": 2,
+    "overlap_grid_cells": 1,
+    "fallback_ratio": 1.0,
+    "overlap_instance_ratio": 1.0,
+    "mean_q": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "ROI": "grid centres left/top inclusive, right/bottom exclusive; nearest centre fallback, lower-index ties",
+    "swap_HV": false
+  }
+}

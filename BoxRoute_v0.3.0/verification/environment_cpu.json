@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "executable": "/workspace/venvs/detailpair/bin/python",
+  "packages": {
+    "torch": "2.5.1+cpu",
+    "torchvision": "0.20.1+cpu",
+    "ultralytics": "8.3.221",
+    "numpy": "2.5.3",
+    "pillow": "12.3.0",
+    "pyyaml": "6.0.3"
+  },
+  "CUDA": "unavailable, explicit CPU engineering only"
+}

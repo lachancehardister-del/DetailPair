@@ -1,0 +1,204 @@
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+[34m[1mengine/trainer: [0magnostic_nms=False, amp=False, augment=False, auto_augment=randaugment, batch=2, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=0, cls=0.5, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/flow_selection/data.yaml, degrees=0.0, deterministic=True, device=cpu, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=2, erasing=0.4, exist_ok=False, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=320, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.001, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=yolo11n.yaml, momentum=0.937, mosaic=0.0, multi_scale=False, name=training, nbs=64, nms=False, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=0, perspective=0.0, plots=False, pose=12.0, pretrained=True, profile=False, project=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/S, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/S/training, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.1, seed=0, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=0, workspace=None
+[KDownloading https://ultralytics.com/assets/Arial.ttf to '/workspace/DetailPair/BoxRoute_v0.3.0/local_settings/Ultralytics/Arial.ttf': 6% ╸─────────── 48.0/755.1KB 97.0KB/s 0.1s<7.3s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/workspace/DetailPair/BoxRoute_v0.3.0/local_settings/Ultralytics/Arial.ttf': 18% ━━────────── 136.0/755.1KB 300.8KB/s 0.3s<2.1s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/workspace/DetailPair/BoxRoute_v0.3.0/local_settings/Ultralytics/Arial.ttf': 35% ━━━━──────── 264.0/755.1KB 1.1MB/s 0.4s<0.4s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/workspace/DetailPair/BoxRoute_v0.3.0/local_settings/Ultralytics/Arial.ttf': 63% ━━━━━━━╸──── 472.0/755.1KB 2.0MB/s 0.5s<0.1s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/workspace/DetailPair/BoxRoute_v0.3.0/local_settings/Ultralytics/Arial.ttf': 100% ━━━━━━━━━━━━ 755.1KB 1.3MB/s 0.6s[KDownloading https://ultralytics.com/assets/Arial.ttf to '/workspace/DetailPair/BoxRoute_v0.3.0/local_settings/Ultralytics/Arial.ttf': 100% ━━━━━━━━━━━━ 755.1KB 1.3MB/s 0.6s
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2035.7±553.5 MB/s, size: 28.3 KB)
+[K[34m[1mtrain: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.8Kit/s 0.0s[K[34m[1mtrain: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.8Kit/s 0.0s
+[34m[1mtrain: [0mNew cache created: /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train.cache
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2071.7±313.4 MB/s, size: 28.3 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 2.2Kit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 2.0Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val.cache
+[34m[1moptimizer:[0m AdamW(lr=0.001, momentum=0.937) with parameter groups 86 weight(decay=0.0), 97 weight(decay=0.0005), 94 bias(decay=0.0)
+Image sizes 320 train, 320 val
+Using 0 dataloader workers
+Logging results to [1m/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/S/training[0m
+Starting training for 2 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        1/2         0G       4.88       5.59      4.196          2        320: 0% ──────────── 0/2  0.4s[K        1/2         0G      4.627      5.342      4.039          2        320: 50% ━━━━━━────── 1/2 1.2it/s 0.6s<0.8s[K        1/2         0G      4.627      5.342      4.039          2        320: 100% ━━━━━━━━━━━━ 2/2 3.1it/s 0.6s[K        1/2         0G      4.627      5.342      4.039          2        320: 100% ━━━━━━━━━━━━ 2/2 3.1it/s 0.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 16.4it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 16.4it/s 0.1s
+                   all          2          2          0          0          0          0
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        2/2         0G      3.341      4.743      3.049          2        320: 0% ──────────── 0/2  0.2s[K        2/2         0G      3.401      4.973      3.189          2        320: 50% ━━━━━━────── 1/2 1.6it/s 0.4s<0.6s[K        2/2         0G      3.401      4.973      3.189          2        320: 100% ━━━━━━━━━━━━ 2/2 4.7it/s 0.4s[K        2/2         0G      3.401      4.973      3.189          2        320: 100% ━━━━━━━━━━━━ 2/2 4.7it/s 0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 19.5it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 19.5it/s 0.1s
+                   all          2          2          0          0          0          0
+
+2 epochs completed in 0.001 hours.
+Optimizer stripped from /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/S/training/weights/last.pt, 5.5MB
+Optimizer stripped from /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/S/training/weights/best.pt, 5.5MB
+
+Validating /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/S/training/weights/best.pt...
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 113 layers, 2,598,107 parameters, 0 gradients, 6.5 GFLOPs
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 12.8it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 12.8it/s 0.1s
+                   all          2          2          0          0          0          0
+                     a          1          1          0          0          0          0
+                     b          1          1          0          0          0          0
+Speed: 0.2ms preprocess, 36.9ms inference, 0.0ms loss, 0.6ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+[34m[1mengine/trainer: [0magnostic_nms=False, amp=False, augment=False, auto_augment=randaugment, batch=2, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=0, cls=0.5, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/flow_selection/data.yaml, degrees=0.0, deterministic=True, device=cpu, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=2, erasing=0.4, exist_ok=False, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=320, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.001, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=yolo11n.yaml, momentum=0.937, mosaic=0.0, multi_scale=False, name=training, nbs=64, nms=False, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=0, perspective=0.0, plots=False, pose=12.0, pretrained=True, profile=False, project=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/W, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/W/training, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.1, seed=0, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=0, workspace=None
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1964.3±1065.2 MB/s, size: 28.3 KB)
+[K[34m[1mtrain: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 986.9Kit/s 0.0s[K[34m[1mtrain: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 118.1Kit/s 0.0s
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2040.0±507.9 MB/s, size: 28.3 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 1.0Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 87.4Kit/s 0.0s
+[34m[1moptimizer:[0m AdamW(lr=0.001, momentum=0.937) with parameter groups 85 weight(decay=0.0), 94 weight(decay=0.0005), 92 bias(decay=0.0)
+Image sizes 320 train, 320 val
+Using 0 dataloader workers
+Logging results to [1m/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/W/training[0m
+Starting training for 2 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        1/2         0G       4.88       5.59      4.196          2        320: 0% ──────────── 0/2  0.3s[K        1/2         0G      4.627      5.342      4.039          2        320: 50% ━━━━━━────── 1/2 1.3it/s 0.6s<0.8s[K        1/2         0G      4.627      5.342      4.039          2        320: 100% ━━━━━━━━━━━━ 2/2 3.6it/s 0.6s[K        1/2         0G      4.627      5.342      4.039          2        320: 100% ━━━━━━━━━━━━ 2/2 3.6it/s 0.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 17.4it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 17.4it/s 0.1s
+                   all          2          2          0          0          0          0
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        2/2         0G      3.341      4.743      3.049          2        320: 0% ──────────── 0/2  0.2s[K        2/2         0G      3.401      4.973      3.189          2        320: 50% ━━━━━━────── 1/2 1.5it/s 0.4s<0.7s[K        2/2         0G      3.401      4.973      3.189          2        320: 100% ━━━━━━━━━━━━ 2/2 5.2it/s 0.4s[K        2/2         0G      3.401      4.973      3.189          2        320: 100% ━━━━━━━━━━━━ 2/2 5.2it/s 0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 22.1it/s 0.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 22.1it/s 0.0s
+                   all          2          2          0          0          0          0
+
+2 epochs completed in 0.000 hours.
+Optimizer stripped from /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/W/training/weights/last.pt, 5.4MB
+Optimizer stripped from /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/W/training/weights/best.pt, 5.4MB
+
+Validating /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/W/training/weights/best.pt...
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 113 layers, 2,589,598 parameters, 0 gradients, 6.4 GFLOPs
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 19.2it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 19.2it/s 0.1s
+                   all          2          2          0          0          0          0
+                     a          1          1          0          0          0          0
+                     b          1          1          0          0          0          0
+Speed: 0.2ms preprocess, 24.3ms inference, 0.0ms loss, 0.5ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+[34m[1mengine/trainer: [0magnostic_nms=False, amp=False, augment=False, auto_augment=randaugment, batch=2, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=0, cls=0.5, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/flow_selection/data.yaml, degrees=0.0, deterministic=True, device=cpu, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=2, erasing=0.4, exist_ok=False, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=320, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.001, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=yolo11n.yaml, momentum=0.937, mosaic=0.0, multi_scale=False, name=training, nbs=64, nms=False, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=0, perspective=0.0, plots=False, pose=12.0, pretrained=True, profile=False, project=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/U, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/U/training, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.1, seed=0, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=0, workspace=None
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2307.6±449.7 MB/s, size: 28.3 KB)
+[K[34m[1mtrain: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.0Mit/s 0.0s[K[34m[1mtrain: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 117.3Kit/s 0.0s
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2386.5±334.1 MB/s, size: 28.3 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 1.2Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 113.4Kit/s 0.0s
+[34m[1moptimizer:[0m AdamW(lr=0.001, momentum=0.937) with parameter groups 85 weight(decay=0.0), 94 weight(decay=0.0005), 92 bias(decay=0.0)
+Image sizes 320 train, 320 val
+Using 0 dataloader workers
+Logging results to [1m/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/U/training[0m
+Starting training for 2 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        1/2         0G       4.88       5.59      4.196          2        320: 0% ──────────── 0/2  0.3s[K        1/2         0G      4.627      5.342      4.039          2        320: 50% ━━━━━━────── 1/2 1.7it/s 0.5s<0.6s[K        1/2         0G      4.627      5.342      4.039          2        320: 100% ━━━━━━━━━━━━ 2/2 4.4it/s 0.5s[K        1/2         0G      4.627      5.342      4.039          2        320: 100% ━━━━━━━━━━━━ 2/2 4.4it/s 0.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 18.0it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 18.0it/s 0.1s
+                   all          2          2          0          0          0          0
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        2/2         0G      3.341      4.743      3.049          2        320: 0% ──────────── 0/2  0.1s[K        2/2         0G      3.401      4.973      3.189          2        320: 50% ━━━━━━────── 1/2 1.9it/s 0.3s<0.5s[K        2/2         0G      3.401      4.973      3.189          2        320: 100% ━━━━━━━━━━━━ 2/2 6.7it/s 0.3s[K        2/2         0G      3.401      4.973      3.189          2        320: 100% ━━━━━━━━━━━━ 2/2 6.7it/s 0.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 22.0it/s 0.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 21.9it/s 0.0s
+                   all          2          2          0          0          0          0
+
+2 epochs completed in 0.000 hours.
+Optimizer stripped from /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/U/training/weights/last.pt, 5.4MB
+Optimizer stripped from /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/U/training/weights/best.pt, 5.4MB
+
+Validating /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/U/training/weights/best.pt...
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 113 layers, 2,589,598 parameters, 0 gradients, 6.4 GFLOPs
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 17.0it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 17.0it/s 0.1s
+                   all          2          2          0          0          0          0
+                     a          1          1          0          0          0          0
+                     b          1          1          0          0          0          0
+Speed: 1.0ms preprocess, 26.6ms inference, 0.0ms loss, 0.5ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+[34m[1mengine/trainer: [0magnostic_nms=False, amp=False, augment=False, auto_augment=randaugment, batch=2, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=0, cls=0.5, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/flow_selection/data.yaml, degrees=0.0, deterministic=True, device=cpu, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=2, erasing=0.4, exist_ok=False, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=320, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.001, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=yolo11n.yaml, momentum=0.937, mosaic=0.0, multi_scale=False, name=training, nbs=64, nms=False, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=0, perspective=0.0, plots=False, pose=12.0, pretrained=True, profile=False, project=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/G, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/G/training, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.1, seed=0, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=0, workspace=None
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2328.4±386.0 MB/s, size: 28.3 KB)
+[K[34m[1mtrain: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 986.9Kit/s 0.0s[K[34m[1mtrain: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 98.7Kit/s 0.0s
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2359.5±351.7 MB/s, size: 28.3 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 1.4Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 77.7Kit/s 0.0s
+[34m[1moptimizer:[0m AdamW(lr=0.001, momentum=0.937) with parameter groups 85 weight(decay=0.0), 94 weight(decay=0.0005), 92 bias(decay=0.0)
+Image sizes 320 train, 320 val
+Using 0 dataloader workers
+Logging results to [1m/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/G/training[0m
+Starting training for 2 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        1/2         0G       4.88       5.59      4.196          2        320: 0% ──────────── 0/2  0.3s[K        1/2         0G      4.627      5.342      4.039          2        320: 50% ━━━━━━────── 1/2 1.4it/s 0.5s<0.7s[K        1/2         0G      4.627      5.342      4.039          2        320: 100% ━━━━━━━━━━━━ 2/2 3.8it/s 0.5s[K        1/2         0G      4.627      5.342      4.039          2        320: 100% ━━━━━━━━━━━━ 2/2 3.8it/s 0.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 18.4it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 18.4it/s 0.1s
+                   all          2          2          0          0          0          0
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        2/2         0G      3.341      4.743      3.049          2        320: 0% ──────────── 0/2  0.1s[K        2/2         0G      3.401      4.973      3.189          2        320: 50% ━━━━━━────── 1/2 1.9it/s 0.3s<0.5s[K        2/2         0G      3.401      4.973      3.189          2        320: 100% ━━━━━━━━━━━━ 2/2 6.8it/s 0.3s[K        2/2         0G      3.401      4.973      3.189          2        320: 100% ━━━━━━━━━━━━ 2/2 6.8it/s 0.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 23.1it/s 0.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 23.1it/s 0.0s
+                   all          2          2          0          0          0          0
+
+2 epochs completed in 0.000 hours.
+Optimizer stripped from /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/G/training/weights/last.pt, 5.4MB
+Optimizer stripped from /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/G/training/weights/best.pt, 5.4MB
+
+Validating /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/G/training/weights/best.pt...
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 113 layers, 2,589,598 parameters, 0 gradients, 6.4 GFLOPs
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 17.6it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 17.5it/s 0.1s
+                   all          2          2          0          0          0          0
+                     a          1          1          0          0          0          0
+                     b          1          1          0          0          0          0
+Speed: 0.2ms preprocess, 26.6ms inference, 0.0ms loss, 0.6ms postprocess per image
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+[34m[1mengine/trainer: [0magnostic_nms=False, amp=False, augment=False, auto_augment=randaugment, batch=2, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=0, cls=0.5, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/flow_selection/data.yaml, degrees=0.0, deterministic=True, device=cpu, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=2, erasing=0.4, exist_ok=False, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=320, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.001, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=yolo11n.yaml, momentum=0.937, mosaic=0.0, multi_scale=False, name=training, nbs=64, nms=False, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=0, perspective=0.0, plots=False, pose=12.0, pretrained=True, profile=False, project=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/N, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/N/training, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.1, seed=0, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=0, workspace=None
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2356.6±464.6 MB/s, size: 28.3 KB)
+[K[34m[1mtrain: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 762.6Kit/s 0.0s[K[34m[1mtrain: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/train.cache... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 89.2Kit/s 0.0s
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1967.9±323.5 MB/s, size: 28.3 KB)
+[K[34m[1mval: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 1.4Mit/s 0.0s[K[34m[1mval: [0mScanning /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/private_data/labels/val.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 99.9Kit/s 0.0s
+[34m[1moptimizer:[0m AdamW(lr=0.001, momentum=0.937) with parameter groups 81 weight(decay=0.0), 88 weight(decay=0.0005), 87 bias(decay=0.0)
+Image sizes 320 train, 320 val
+Using 0 dataloader workers
+Logging results to [1m/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/N/training[0m
+Starting training for 2 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        1/2         0G       4.88       5.59      4.196          2        320: 0% ──────────── 0/2  0.3s[K        1/2         0G      4.627      5.342      4.039          2        320: 50% ━━━━━━────── 1/2 1.9it/s 0.4s<0.5s[K        1/2         0G      4.627      5.342      4.039          2        320: 100% ━━━━━━━━━━━━ 2/2 4.8it/s 0.4s[K        1/2         0G      4.627      5.342      4.039          2        320: 100% ━━━━━━━━━━━━ 2/2 4.8it/s 0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 20.7it/s 0.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 20.7it/s 0.0s
+                   all          2          2          0          0          0          0
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        2/2         0G      3.341      4.743      3.049          2        320: 0% ──────────── 0/2  0.1s[K        2/2         0G      3.401      4.973      3.189          2        320: 50% ━━━━━━────── 1/2 1.8it/s 0.3s<0.5s[K        2/2         0G      3.401      4.973      3.189          2        320: 100% ━━━━━━━━━━━━ 2/2 6.7it/s 0.3s[K        2/2         0G      3.401      4.973      3.189          2        320: 100% ━━━━━━━━━━━━ 2/2 6.7it/s 0.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 19.0it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 19.0it/s 0.1s
+                   all          2          2          0          0          0          0
+
+2 epochs completed in 0.000 hours.
+Optimizer stripped from /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/N/training/weights/last.pt, 5.4MB
+Optimizer stripped from /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/N/training/weights/best.pt, 5.4MB
+
+Validating /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/N/training/weights/best.pt...
+Ultralytics 8.3.221 🚀 Python-3.12.14 torch-2.5.1+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,583,322 parameters, 0 gradients, 6.3 GFLOPs
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 16.0it/s 0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 15.9it/s 0.1s
+                   all          2          2          0          0          0          0
+                     a          1          1          0          0          0          0
+                     b          1          1          0          0          0          0
+Speed: 0.2ms preprocess, 29.3ms inference, 0.0ms loss, 0.6ms postprocess per image
+Result ZIP: /workspace/DetailPair/BoxRoute_v0.3.0/exports/BoxRoute_results_20261016_125501_846643.zip
+Run directory: /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884
+Exit code: 0
+Traceback (most recent call last):
+  File "/workspace/DetailPair/BoxRoute_v0.3.0/run_boxroute.py", line 197, in main
+    try:code=run_stage(args,out)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/DetailPair/BoxRoute_v0.3.0/run_boxroute.py", line 119, in run_stage
+    if args.stage=='g1':dump(out/'Work_review.json',approve_G1(args.Work_review))
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/DetailPair/BoxRoute_v0.3.0/run_boxroute.py", line 102, in approve_G1
+    if not path:raise ValueError('G1 requires an explicit Work-reviewed G0 record; default stops after G0')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: G1 requires an explicit Work-reviewed G0 record; default stops after G0
+Result ZIP: /workspace/DetailPair/BoxRoute_v0.3.0/exports/BoxRoute_results_20261016_125508_780268.zip
+Run directory: /workspace/DetailPair/BoxRoute_v0.3.0/runs/g1_20261016_125503_695171
+Exit code: 1
+Result ZIP: /workspace/DetailPair/BoxRoute_v0.3.0/exports/BoxRoute_results_20261016_125509_195360.zip
+{"status": "passed", "scope": "Explicit CPU procedural4train/2val,2epochs five conditions; not NEU/GPU/results", "G0_run": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884", "G1_blocked_run": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g1_20261016_125503_695171", "train_val_final_eval_actual_shape": "320 square FP32", "unstripped_epoch2_verified": true, "source_bytes_unchanged": true, "no_automatic_G1": true, "timing": "not_run_CPU_fixture_no_speed_claim"}

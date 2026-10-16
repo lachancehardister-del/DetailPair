@@ -1,0 +1,29 @@
+test_CPU_initial_balanced_route_execution_bookkeeping (__main__.EvaluationTimingChecks.test_CPU_initial_balanced_route_execution_bookkeeping) ... Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Common paired warmup target seconds: 0.02
+Common warmup complete; counts: {'N': 1, 'G': 1}
+Starting block 1 of 8: N ; excluded warmup 1
+Completed block 1 samples 6
+Starting block 2 of 8: G ; excluded warmup 1
+Completed block 2 samples 6
+Starting block 3 of 8: G ; excluded warmup 1
+Completed block 3 samples 6
+Starting block 4 of 8: N ; excluded warmup 1
+Completed block 4 samples 6
+Starting block 5 of 8: G ; excluded warmup 1
+Completed block 5 samples 6
+Starting block 6 of 8: N ; excluded warmup 1
+Completed block 6 samples 6
+Starting block 7 of 8: N ; excluded warmup 1
+Completed block 7 samples 6
+Starting block 8 of 8: G ; excluded warmup 1
+Completed block 8 samples 6
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 5.642s
+
+OK

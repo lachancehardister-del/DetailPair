@@ -1,0 +1,10 @@
+{
+  "completed_epoch": 2,
+  "checkpoint_epoch": 1,
+  "path": "/workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_125351_373884/G/training/weights/matched_epoch2_unstripped.pt",
+  "sha256": "5ceaf3667d308225c8c3147e36ee7311d15d74f437420c2d092cb6a1a1033d36",
+  "source_last_sha256": "5ceaf3667d308225c8c3147e36ee7311d15d74f437420c2d092cb6a1a1033d36",
+  "byte_copy_before_strip": true,
+  "optimizer_steps": 3,
+  "EMA_updates": 3
+}

@@ -1,0 +1,9 @@
+names:
+- a
+- b
+- c
+- d
+- e
+- f
+train: /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/flow_selection/train.txt
+val: /workspace/DetailPair/BoxRoute_v0.3.0/runs/g0_20261016_130238_699191/flow_selection/val.txt

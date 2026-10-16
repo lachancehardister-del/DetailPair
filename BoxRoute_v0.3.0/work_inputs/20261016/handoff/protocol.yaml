@@ -1,0 +1,183 @@
+version: BoxRoute-v0.3.0-proposed-1.0
+status: design_frozen_for_implementation_not_executed
+default_stage: G0
+G1_requires_Work_review_of_G0: true
+paths:
+  project: D:\ModelImprovement\BoxRoute_v0.3.0
+  environment: D:\ModelImprovement\envs\detailpair_cuda_v021
+  data: D:\datasets\NEU-DET_DetailPair_s0_20261011_104211_157196\data.yaml
+versions:
+  torch: 2.5.1+cu121
+  torchvision: 0.20.1+cu121
+  ultralytics: 8.3.221
+  ultralytics_commit: e544db43838fd058370cad216bf82a7639f29b35
+data:
+  train_images: 1438
+  val_images: 180
+  val_GT: 429
+  test_images_historical_only: 180
+  test_files_enumerated: false
+  repartition: false
+  private_byte_identical_train_val_copies: true
+initialization:
+  source: official COCO yolo11n.pt; create nc6 native state once then clone all common
+    tensors
+  weight_sha256: 0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1
+  bytes: 5613764
+  resource: sources/official_yolo11n_v830.pt
+module:
+  position: after original model.16 output; keep original module
+  gamma_initial: 0.0
+  router_initial: all weight and bias0; softmax uniform
+  expert_kernels:
+  - - 3
+    - 3
+  - - 1
+    - 7
+  - - 7
+    - 1
+  depthwise_bias: false
+  expert_norm: BN
+  expert_activation: SiLU
+  projection: 1x1 C-to-C biasFalse + BN, no activation
+  route_target_order:
+  - I
+  - H
+  - V
+  epsilon: 1.0e-06
+  route_loss: per-image average box KL(q || epsilon-renormalized mean gate within
+    box); then batch average
+  lambda_max: 0.05
+  lambda_warmup_epochs: 5
+conditions:
+  N: official DetectionModel and native detection loss, controlled common data loader
+  S: official fixed PKSModule with gamma residual adapter; not full-paper reproduction
+  U: three-expert router lambda0
+  G: identical router + correct box geometry KL
+  W: identical router + H/V-swapped geometry KL
+G0:
+  train_sample: 64
+  val_sample: 16
+  selection_seed: 178
+  epochs: 2
+  pilot_auto_start: false
+  minimum_informative_train_boxes: 30
+  informative_definition: abs(qH-qV)>=0.2
+  timing_images: 48
+  timing_order:
+  - N
+  - G
+  - G
+  - N
+  - G
+  - N
+  - N
+  - G
+  timing_samples: 384
+  common_warmup_seconds: 30
+  per_block_warmup: 200
+  drift_ratio_screen: 1.1
+  gamma_zero_branches_still_execute: true
+G1:
+  seed: 0
+  order_seed: 178
+  order:
+  - S
+  - W
+  - U
+  - G
+  - N
+  epochs: 60
+  patience: 0
+  resume: false
+  primary_checkpoint: completed60 EMA, metadata epoch59 copied byte-for-byte on_model_save
+    before final_eval strip
+  save_period: -1
+  optimizer: AdamW
+  lr0: 0.001
+  lrf: 0.01
+  nbs: 64
+  batch: 2
+  imgsz: 320
+  rect: false
+  force_training_val_loader_rect_false: true
+  amp: false
+  device: '0'
+  workers: 0
+  deterministic: true
+  cache: false
+  compile: false
+  augment:
+    mosaic: 0.0
+    mixup: 0.0
+    copy_paste: 0.0
+    hsv_h: 0.0
+    hsv_s: 0.0
+    hsv_v: 0.0
+    degrees: 0.0
+    translate: 0.1
+    scale: 0.1
+    fliplr: 0.5
+    flipud: 0.0
+    close_mosaic: 0
+  timing:
+    images: 180
+    order:
+    - N
+    - G
+    - G
+    - N
+    - G
+    - N
+    - N
+    - G
+    samples: 1440
+    common_warmup_seconds: 30
+    per_block_warmup: 200
+    drift_ratio_screen: 1.1
+evaluation:
+  split: val
+  images: 180
+  GT: 429
+  imgsz: 320
+  actual_shape:
+  - 1
+  - 3
+  - 320
+  - 320
+  rect: false
+  batch: 1
+  dtype: FP32
+  fuse: true
+  ap_conf: 0.001
+  ap_multi_label: true
+  conf: 0.25
+  fixed_multi_label: false
+  nms_iou: 0.7
+  match_iou: 0.5
+  max_det: 300
+  scenarios:
+  - clean
+  - gaussian_0.03
+  corruption_seed: 178
+  test_evaluated: false
+G1_continuation_gates:
+  clean_AP5095_G_minus_N_pp_min: 1.0
+  G_minus_U_pp_min: 0.3
+  G_minus_W_pp_min: 0.3
+  G_minus_S_pp_min: 0.0
+  AP75_G_not_below_N: true
+  worst_class_AP5095_drop_pp_max: 3.0
+  parameter_increase_ratio_max: 0.05
+  conv_MAC_increase_ratio_max: 0.05
+  end_to_end_mean_ratio_G_to_N_max: 1.05
+  P95_ratio_G_to_N_max: 1.1
+  scope: predefined engineering screening, not statistical significance or journal
+    acceptance thresholds
+logging:
+  native_console: true
+  linewise_stdout_pipe: false
+  preserve_failed_runs: true
+  record_optimizer_steps: true
+  record_augmentation_hashes: true
+  pack_excludes_user_weights_images_labels: true

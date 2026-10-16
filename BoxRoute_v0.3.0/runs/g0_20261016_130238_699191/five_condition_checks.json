@@ -1,0 +1,180 @@
+{
+  "N": {
+    "status": "passed",
+    "cost": {
+      "parameters": 2591010,
+      "conv_MAC": 789491200,
+      "scope": "Conv2d multiply-accumulates at batch1 320; excludes BN/softmax/activation/transport/kernel launch"
+    },
+    "initial_prediction_max_abs": 0.0,
+    "finite_loss_gradients": true,
+    "EMA_deepcopy_reload": true,
+    "fusion_max_abs": 0.00177001953125,
+    "fusion_atol": 0.0001,
+    "fusion_rtol": 0.0001,
+    "scope": "Synthetic engineering, not NEU performance",
+    "diagnostics": {}
+  },
+  "U": {
+    "status": "passed",
+    "cost": {
+      "parameters": 2597286,
+      "conv_MAC": 798707200,
+      "scope": "Conv2d multiply-accumulates at batch1 320; excludes BN/softmax/activation/transport/kernel launch"
+    },
+    "initial_prediction_max_abs": 0.0,
+    "finite_loss_gradients": true,
+    "EMA_deepcopy_reload": true,
+    "fusion_max_abs": 0.00177001953125,
+    "fusion_atol": 0.0001,
+    "fusion_rtol": 0.0001,
+    "scope": "Synthetic engineering, not NEU performance",
+    "diagnostics": {
+      "gamma": 0.0,
+      "alpha_mean": [
+        0.3333333134651184,
+        0.3333333134651184,
+        0.3333333134651184
+      ],
+      "expert_L2": [
+        269.6354064941406,
+        276.7662658691406,
+        276.2384948730469
+      ],
+      "weighted_expert_L2": [
+        89.87850952148438,
+        92.2554931640625,
+        92.0794906616211
+      ],
+      "route_loss": null,
+      "lambda_value": 0.0,
+      "batch": 2,
+      "weighted_aux": 0.0,
+      "native_total": 30.278884887695312
+    }
+  },
+  "G": {
+    "status": "passed",
+    "cost": {
+      "parameters": 2597286,
+      "conv_MAC": 798707200,
+      "scope": "Conv2d multiply-accumulates at batch1 320; excludes BN/softmax/activation/transport/kernel launch"
+    },
+    "initial_prediction_max_abs": 0.0,
+    "finite_loss_gradients": true,
+    "EMA_deepcopy_reload": true,
+    "fusion_max_abs": 0.00177001953125,
+    "fusion_atol": 0.0001,
+    "fusion_rtol": 0.0001,
+    "scope": "Synthetic engineering, not NEU performance",
+    "diagnostics": {
+      "gamma": 0.0,
+      "alpha_mean": [
+        0.3333333134651184,
+        0.3333333134651184,
+        0.3333333134651184
+      ],
+      "expert_L2": [
+        269.6354064941406,
+        276.7662658691406,
+        276.2384948730469
+      ],
+      "weighted_expert_L2": [
+        89.87850952148438,
+        92.2554931640625,
+        92.0794906616211
+      ],
+      "instances": 2,
+      "empty_images": 0,
+      "fallback_instances": 0,
+      "overlap_instances": 0,
+      "overlap_grid_cells": 0,
+      "fallback_ratio": 0.0,
+      "overlap_instance_ratio": 0.0,
+      "mean_q": [
+        0.25,
+        0.375,
+        0.375
+      ],
+      "ROI": "grid centres left/top inclusive, right/bottom exclusive; nearest centre fallback, lower-index ties",
+      "swap_HV": false,
+      "route_loss": 0.5362768769264221,
+      "lambda_value": 0.010000000000000002,
+      "batch": 2,
+      "weighted_aux": 0.010725537315011024,
+      "native_total": 30.278884887695312
+    }
+  },
+  "W": {
+    "status": "passed",
+    "cost": {
+      "parameters": 2597286,
+      "conv_MAC": 798707200,
+      "scope": "Conv2d multiply-accumulates at batch1 320; excludes BN/softmax/activation/transport/kernel launch"
+    },
+    "initial_prediction_max_abs": 0.0,
+    "finite_loss_gradients": true,
+    "EMA_deepcopy_reload": true,
+    "fusion_max_abs": 0.00177001953125,
+    "fusion_atol": 0.0001,
+    "fusion_rtol": 0.0001,
+    "scope": "Synthetic engineering, not NEU performance",
+    "diagnostics": {
+      "gamma": 0.0,
+      "alpha_mean": [
+        0.3333333134651184,
+        0.3333333134651184,
+        0.3333333134651184
+      ],
+      "expert_L2": [
+        269.6354064941406,
+        276.7662658691406,
+        276.2384948730469
+      ],
+      "weighted_expert_L2": [
+        89.87850952148438,
+        92.2554931640625,
+        92.0794906616211
+      ],
+      "instances": 2,
+      "empty_images": 0,
+      "fallback_instances": 0,
+      "overlap_instances": 0,
+      "overlap_grid_cells": 0,
+      "fallback_ratio": 0.0,
+      "overlap_instance_ratio": 0.0,
+      "mean_q": [
+        0.25,
+        0.375,
+        0.375
+      ],
+      "ROI": "grid centres left/top inclusive, right/bottom exclusive; nearest centre fallback, lower-index ties",
+      "swap_HV": true,
+      "route_loss": 0.5362768769264221,
+      "lambda_value": 0.010000000000000002,
+      "batch": 2,
+      "weighted_aux": 0.010725537315011024,
+      "native_total": 30.278884887695312
+    }
+  },
+  "S": {
+    "status": "passed",
+    "cost": {
+      "parameters": 2605795,
+      "conv_MAC": 811916800,
+      "scope": "Conv2d multiply-accumulates at batch1 320; excludes BN/softmax/activation/transport/kernel launch"
+    },
+    "initial_prediction_max_abs": 0.0,
+    "finite_loss_gradients": true,
+    "EMA_deepcopy_reload": true,
+    "fusion_max_abs": 0.00177001953125,
+    "fusion_atol": 0.0001,
+    "fusion_rtol": 0.0001,
+    "scope": "Synthetic engineering, not NEU performance",
+    "diagnostics": {}
+  },
+  "overhead": {
+    "parameter_ratio_G_to_N": 1.0024222214503224,
+    "conv_MAC_ratio_G_to_N": 1.011673341007474
+  }
+}

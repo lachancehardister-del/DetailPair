@@ -1,0 +1,5 @@
+data: 'D:\datasets\NEU-DET_DetailPair_s0_20261011_104211_157196\data.yaml'
+historical_selections:
+  - 'D:\ModelImprovement\DetailPair_v0.2.2\runs\pilot__20261011_112235_644745\subset_s0\selection.json'
+  - 'D:\ModelImprovement\DetailPair_v0.2.4\runs\pilot__20261012_230632_329133\subset_s0\selection.json'
+  - 'D:\ModelImprovement\DetailPair_v0.2.4\runs\pilot__20261012_125741_680519\subset_s0\selection.json'

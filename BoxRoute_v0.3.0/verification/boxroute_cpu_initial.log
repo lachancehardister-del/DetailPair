@@ -1,0 +1,32 @@
+test_KL_ROI_empty_overlap_fallback_and_gradient (__main__.BoxRouteChecks.test_KL_ROI_empty_overlap_fallback_and_gradient) ... ok
+test_PKS_original_port_gradients_deploy_all_edges (__main__.BoxRouteChecks.test_PKS_original_port_gradients_deploy_all_edges) ... ok
+test_common_initialization_full_models_loss_ema_reload_fuse (__main__.BoxRouteChecks.test_common_initialization_full_models_loss_ema_reload_fuse) ... Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+Overriding model.yaml nc=80 with nc=6
+ok
+test_hook_cleanup_injected_failure (__main__.BoxRouteChecks.test_hook_cleanup_injected_failure) ... Overriding model.yaml nc=80 with nc=6
+ok
+test_lambda_and_no_broadcast (__main__.BoxRouteChecks.test_lambda_and_no_broadcast) ... FAIL
+test_q_simplex_scale_swap_and_invalid (__main__.BoxRouteChecks.test_q_simplex_scale_swap_and_invalid) ... ok
+
+======================================================================
+FAIL: test_lambda_and_no_broadcast (__main__.BoxRouteChecks.test_lambda_and_no_broadcast)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/DetailPair/BoxRoute_v0.3.0/tests/check_boxroute.py", line 42, in test_lambda_and_no_broadcast
+    self.assertEqual([lambda_at(x) for x in [0,4,5]],[.01,.05,.05])
+AssertionError: Lists differ: [0.010000000000000002, 0.05, 0.05] != [0.01, 0.05, 0.05]
+
+First differing element 0:
+0.010000000000000002
+0.01
+
+- [0.010000000000000002, 0.05, 0.05]
++ [0.01, 0.05, 0.05]
+
+----------------------------------------------------------------------
+Ran 6 tests in 6.351s
+
+FAILED (failures=1)

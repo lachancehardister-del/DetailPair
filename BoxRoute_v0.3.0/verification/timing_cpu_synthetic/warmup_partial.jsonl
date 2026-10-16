@@ -1,0 +1,4 @@
+{"phase": "bootstrap", "variant": "N", "index": 0, "block_id": null, "duration_ms": 39.470188, "actual_shape": [1, 3, 320, 320], "detections": 0, "timestamp": "2026-10-16T13:04:59.266631+00:00"}
+{"phase": "bootstrap", "variant": "G", "index": 0, "block_id": null, "duration_ms": 40.740056, "actual_shape": [1, 3, 320, 320], "detections": 0, "timestamp": "2026-10-16T13:04:59.311267+00:00"}
+{"phase": "common", "variant": "N", "index": 0, "block_id": null, "duration_ms": 31.918355, "actual_shape": [1, 3, 320, 320], "detections": 0, "timestamp": "2026-10-16T13:04:59.346535+00:00"}
+{"phase": "common", "variant": "G", "index": 0, "block_id": null, "duration_ms": 33.145321, "actual_shape": [1, 3, 320, 320], "detections": 0, "timestamp": "2026-10-16T13:04:59.382682+00:00"}
