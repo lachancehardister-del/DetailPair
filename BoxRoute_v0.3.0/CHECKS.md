@@ -35,3 +35,5 @@ Windows.cmd/CUDA12.1/GPU0、真实1438/180数据与六类形态支持、64/16真
 CPU记账复检首次复用了测试固定目录，触发block目录FileExistsError；未删已有记录，改测试为时间戳输出后重验。原timing_identity_repeat_failure.log及partial保留，真实G0/G1本来每次新时间戳run不受此测试夹具问题影响。辅助环境清单最初误用系统Python（无Torch元数据），改用实际测试venv后生成；见preparation_notes.md。
 
 交付前补全G0全train的q三分支直方图/分位数、宽高比/面积分位及逐类信息性覆盖；2项手算统计检查通过（方形/横/竖三框，及全空GT应blocked_shape_support）。仅统计元数据增强，模型、训练和测速公式未改。
+
+最终核对已将复用评价helper的派生test别名移除：全部本轮私有配置仅train/val，独立AP/AP75/固定指标/实际320复检通过（evaluation_train_val_only.log）。此前别名指向私有val而未访问冻结test；原稿保留于Git历史，最终契约不再包含该别名。

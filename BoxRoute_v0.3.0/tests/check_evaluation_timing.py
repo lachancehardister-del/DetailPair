@@ -2,7 +2,7 @@
 import copy,json,os,sys,tempfile,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));sys.path.insert(0,str(ROOT/'tests'));os.environ.setdefault('YOLO_CONFIG_DIR',str(ROOT/'local_settings'))
-import torch
+import torch,yaml
 from ultralytics import YOLO
 from boxroute.data import prepare_private
 from boxroute.evaluate import native_records,prepare_dataset,official_ap,fixed_evaluate
@@ -19,6 +19,7 @@ class EvaluationTimingChecks(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             d=Path(d);source=fixture(d/'source');private,manifest=prepare_private(source,d/'private',(4,2))
             data,images,records=prepare_dataset(native_records(manifest),manifest['names'],d/'derived','val')
+            self.assertNotIn('test',yaml.safe_load(data.read_text()))
             native,identity=make_common(ROOT/'sources/official_yolo11n_v830.pt',manifest['names']);path=d/'public_initialized_nc6_fixture.pt'
             torch.save(dict(model=native,ema=None,train_args={}),path);dest=d/'evaluation';dest.mkdir()
             cfg=eval_config('cpu');result=official_ap(YOLO(str(path)),data,manifest['names'],cfg,dest)

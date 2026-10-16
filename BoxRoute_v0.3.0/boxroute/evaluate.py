@@ -34,7 +34,7 @@ def prepare_dataset(rows, names, root, split, corruption=None, seed=178):
         item=dict(row,working_image=str(image.resolve()),derived_image_sha256=digest(image),derived_label_sha256=digest(label),snr_db=snr,mse=mse)
         manifest.append(item)
         decoded.append(dict(image_id=row['image_id'],bgr=np.ascontiguousarray(quantized[:,:,::-1]),gt=row['gt']))
-    spec=dict(path=str(root.resolve()),train=f'images/{split}',val=f'images/{split}',test=f'images/{split}',names=names)
+    spec=dict(path=str(root.resolve()),train=f'images/{split}',val=f'images/{split}',names=names)
     data=root/'data.yaml';data.write_text(yaml.safe_dump(spec,allow_unicode=True),encoding='utf-8')
     dump(root/'manifest.json',dict(split=split,seed=seed,rng='numpy.default_rng; reset each severity; Gaussian base samples shared across severities; impulse uses its own uniform fields',
         quantization='RGB float64 [0,1] -> clip -> round(255*x) uint8 PNG; impulse mask shared by RGB channels',
