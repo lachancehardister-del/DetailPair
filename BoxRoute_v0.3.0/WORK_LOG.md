@@ -31,3 +31,5 @@ G1入口提供冻结60轮、seed0、共同初始化全数据、AdamW与弱几何
 最终核对已将复用评价helper的派生test别名移除：全部本轮私有配置仅train/val，独立AP/AP75/固定指标/实际320复检通过（evaluation_train_val_only.log）。此前别名指向私有val而未访问冻结test；原稿保留于Git历史，最终契约不再包含该别名。
 
 正式交付：releases/BoxRoute_v0.3.0_Code.zip；SHA256=08d774e1dd339ae0e52c9e0760c08fdc017a670ba1a1a1dc986436bfb959e1b5；5758083 bytes。最后完整包CRC/清单/解包/入口/公共资源与候选构建校验通过；Windows真实G0待用户运行，G1不自动启动。
+
+最终同步核验 2026-10-16T21:29:29.586665+08:00：含q分布统计与仅train/val派生配置的完整工程及最终Code ZIP已同步origin/main，commit `6f8282956f024de4d55daa62e264788f21c8bc89` 与本地HEAD一致。后续只追加本核验记录；发布包不再改动。
